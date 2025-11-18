@@ -1,0 +1,561 @@
+// Custom styles for Awesome Grants
+
+:root {
+  --ag-page: #f8fafc;
+  --ag-surface: #ffffff;
+  --ag-surface-muted: #fdfefe;
+  --ag-border: #e2e8f0;
+  --ag-border-strong: #cbd5f5;
+  --ag-text: #0f172a;
+  --ag-muted: #475569;
+  --ag-subtle: #94a3b8;
+  --ag-brand: #1d4ed8;
+  --ag-brand-dark: #1e3a8a;
+  --ag-success: #059669;
+  --ag-warning: #b45309;
+  --ag-danger: #dc2626;
+  --ag-shadow-sm: 0 12px 30px rgba(15, 23, 42, 0.06);
+  --ag-shadow-md: 0 25px 65px rgba(15, 23, 42, 0.08);
+}
+
+body {
+  background: var(--ag-page);
+  color: var(--ag-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+}
+
+.page {
+  background: var(--ag-page);
+  min-height: 100vh;
+}
+
+.page .main {
+  background: transparent;
+  padding: 2rem 2.5rem;
+}
+
+@media (max-width: 1024px) {
+  .page .main {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .page .main {
+    padding: 1rem;
+  }
+}
+
+.side-bar {
+  background: var(--ag-surface);
+  border-right: 1px solid var(--ag-border);
+  box-shadow: var(--ag-shadow-sm);
+  z-index: 101;
+
+  .site-header {
+    padding: 1.5rem 1.25rem 0;
+    background: transparent;
+    border-bottom: none;
+  }
+
+  .navigation {
+    padding: 0 1.25rem 2rem;
+  }
+}
+
+// Header - Academic style
+.site-header {
+  background: var(--ag-surface);
+  border-bottom: 1px solid var(--ag-border);
+  box-shadow: var(--ag-shadow-sm);
+}
+
+.site-title {
+  display: none !important;
+}
+
+// Navigation improvements - Academic style
+.nav-list {
+  font-size: 0.95rem;
+  margin: 0;
+
+  .nav-list-item {
+    margin: 0.125rem 0;
+
+    .nav-list-link {
+      border-radius: 10px;
+      padding: 0.5rem 0.75rem;
+      margin: 0;
+      color: var(--ag-muted);
+      font-weight: 500;
+      transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+
+      &:hover {
+        background-color: rgba(29, 78, 216, 0.08);
+        color: var(--ag-brand-dark);
+        text-decoration: none;
+      }
+
+      &.active {
+        background: rgba(29, 78, 216, 0.15);
+        box-shadow: inset 0 0 0 1px rgba(29, 78, 216, 0.25);
+        color: var(--ag-brand-dark);
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+// Search box - Clean academic style
+.search {
+  .search-input-wrap {
+    border-radius: 999px;
+    border: 1px solid var(--ag-border);
+    background: var(--ag-surface-muted);
+    position: relative;
+    transition: border 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+
+    &:hover {
+      border-color: #94a3b8;
+    }
+
+    &:focus-within {
+      border-color: var(--ag-brand);
+      box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.18);
+      background: #ffffff;
+    }
+  }
+
+  .search-input {
+    font-size: 0.95rem;
+    padding: 0.85rem 1rem 0.85rem 3rem;
+    background: transparent;
+    font-weight: 500;
+    color: var(--ag-text);
+  }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    width: 1.1rem;
+    height: 1.1rem;
+    color: #94a3b8;
+    pointer-events: none;
+  }
+}
+
+.search-results {
+  margin-top: 0.75rem;
+  background: var(--ag-surface);
+  border: 1px solid var(--ag-border);
+  border-radius: 16px;
+  box-shadow: var(--ag-shadow-md);
+  padding: 0.5rem;
+
+  .search-result {
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+    transition: background 0.2s ease;
+
+    &:hover {
+      background: rgba(29, 78, 216, 0.08);
+    }
+  }
+}
+
+// Cards for content - Subtle academic style
+.stat-card, .quick-nav-item, .info-box {
+  background: white;
+  border: 1px solid var(--ag-border);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    border-color: #1e40af;
+  }
+}
+
+// Grid layouts
+.stats-grid, .quick-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.stat-card {
+  text-align: center;
+
+  .stat-value {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e40af;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-label {
+    display: block;
+    font-size: 0.875rem;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+  }
+}
+
+.quick-nav-item {
+  text-decoration: none;
+  color: inherit;
+
+  .icon {
+    font-size: 2.5rem;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+    line-height: 1;
+  }
+
+  h3 {
+    margin: 0.5rem 0;
+    color: #111827;
+    font-size: 1.25rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+    color: #6b7280;
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+}
+
+// Info boxes with colored accents - Academic colors
+.info-box {
+  border-left: 4px solid var(--ag-brand-dark);
+
+  &.success {
+    border-left-color: var(--ag-success);
+  }
+
+  &.warning {
+    border-left-color: var(--ag-warning);
+  }
+
+  &.danger {
+    border-left-color: var(--ag-danger);
+  }
+}
+
+// Badges - Academic palette
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 4px;
+
+  &.badge-blue {
+    background-color: #1e40af;
+  }
+
+  &.badge-green {
+    background-color: #059669;
+  }
+
+  &.badge-purple {
+    background-color: #7c3aed;
+  }
+
+  &.badge-yellow {
+    background-color: #d97706;
+    color: #ffffff;
+  }
+}
+
+// Tables - Academic style
+.main-content table {
+  border: 1px solid var(--ag-border);
+  border-radius: 4px;
+  overflow: hidden;
+
+  thead {
+    background: #f5f7f9;
+    border-bottom: 2px solid var(--ag-border);
+
+    th {
+      font-weight: 600;
+      color: #111827;
+      font-family: Georgia, "Times New Roman", serif;
+    }
+  }
+
+  tr:hover {
+    background-color: rgba(30, 64, 175, 0.04);
+  }
+}
+
+// Buttons - Academic style
+.btn, .btn-primary {
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.btn-primary {
+  background: #1e40af;
+  border: 1px solid #1e3a8a;
+  color: white;
+
+  &:hover {
+    background: #1e3a8a;
+  }
+}
+
+// Code blocks - Academic style
+pre, code {
+  border-radius: 4px;
+}
+
+.highlight {
+  border-radius: 4px;
+  border: 1px solid #d0d7de;
+}
+
+// Headings - Serif font for academic style
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  color: #111827;
+  line-height: 1.4;
+
+  .anchor-heading {
+    color: #1e40af;
+  }
+}
+
+h1 {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #d0d7de;
+  margin-top: 1.5rem;
+}
+
+h2 {
+  margin-top: 1.25rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+// Links - Academic blue
+a {
+  color: var(--ag-brand-dark);
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: var(--ag-brand);
+    text-decoration: underline;
+  }
+}
+
+// Main content area - Improved readability
+.main-content {
+  max-width: 1080px;
+  line-height: 1.7;
+  background: var(--ag-surface);
+  border-radius: 24px;
+  padding: 2.5rem;
+  margin: 0 auto 3rem;
+  border: 1px solid var(--ag-border);
+  box-shadow: var(--ag-shadow-md);
+
+  > *:first-child {
+    margin-top: 0;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    color: var(--ag-text);
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-content {
+    padding: 2rem;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .main-content {
+    padding: 1.5rem;
+    border-radius: 14px;
+  }
+}
+
+// Footer - Academic style
+.site-footer {
+  border-top: 2px solid #d0d7de;
+  background-color: #f5f7f9;
+
+  a {
+    color: #1e40af;
+
+    &:hover {
+      color: #1e3a8a;
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .stats-grid, .quick-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card, .quick-nav-item {
+    margin: 1rem 0;
+  }
+}
+
+// Print styles
+@media print {
+  .site-header, .site-footer, .search, .nav-list {
+    display: none;
+  }
+
+  .main-content {
+    max-width: 100%;
+  }
+}
+
+// Custom callouts - Academic colors
+.callout {
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-left: 4px solid;
+
+  &.callout-note {
+    background-color: rgba(30, 64, 175, 0.05);
+    border-color: #1e40af;
+  }
+
+  &.callout-tip {
+    background-color: rgba(5, 150, 105, 0.05);
+    border-color: #059669;
+  }
+
+  &.callout-warning {
+    background-color: rgba(217, 119, 6, 0.05);
+    border-color: #d97706;
+  }
+
+  &.callout-important {
+    background-color: rgba(220, 38, 38, 0.05);
+    border-color: #dc2626;
+  }
+}
+
+// Auxiliary navigation (top right links) - Academic style
+.aux-nav {
+  .aux-nav-list-item {
+    a {
+      color: white;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      background-color: rgba(255, 255, 255, 0.15);
+      transition: all 0.2s ease;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// Fix emoji and icon spacing throughout
+.main-content {
+  // Emoji spacing in headings
+  h1, h2, h3, h4, h5, h6 {
+    img.emoji, .emoji {
+      margin-right: 0.5rem;
+      margin-left: 0.25rem;
+      vertical-align: middle;
+      display: inline-block;
+    }
+  }
+
+  // Emoji in text
+  p, li, strong {
+    img.emoji, .emoji {
+      margin: 0 0.25rem;
+      vertical-align: middle;
+      display: inline-block;
+    }
+  }
+
+  // Info boxes with better spacing
+  .info-box {
+    line-height: 1.8;
+
+    strong {
+      display: inline-block;
+      margin-right: 0.5rem;
+    }
+  }
+
+  // Stats grid improvements
+  .stats-grid {
+    .stat-card {
+      padding: 2rem 1.5rem;
+      min-height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+// Better spacing for list items with emojis
+.main-content ul, .main-content ol {
+  li {
+    padding: 0.25rem 0;
+    line-height: 1.8;
+  }
+}
+
+// Navigation list improvements
+.nav-list {
+  font-size: 14px;
+
+  .nav-list-item {
+    .nav-list-link {
+      padding: 0.5rem 0.75rem;
+      margin: 0.125rem 0;
+    }
+  }
+}

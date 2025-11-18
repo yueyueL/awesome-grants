@@ -1,0 +1,916 @@
+{
+  "scraped_at": "2025-11-16T06:58:46.836799",
+  "total_grants": 70,
+  "grants": [
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "12/15/2025",
+      "description": "",
+      "category": [
+        "81.089"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750529"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "12/15/2025",
+      "description": "",
+      "category": [
+        "81.089"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750544"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "01/14/2026",
+      "description": "",
+      "category": [
+        "14.267"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750551"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "12/03/2025",
+      "description": "",
+      "category": [
+        "84.116"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750553"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "01/15/2026",
+      "description": "",
+      "category": [
+        "20.205"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750556"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "12/05/2025",
+      "description": "",
+      "category": [
+        "97.161"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750558"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "12/05/2025",
+      "description": "",
+      "category": [
+        "97.160"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750561"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750572"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "01/07/2026",
+      "description": "",
+      "category": [
+        "81.089"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750575"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "11/21/2025",
+      "description": "",
+      "category": [
+        "20.337"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750577"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "11/18/2025",
+      "description": "",
+      "category": [
+        "20.315"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750580"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "11/18/2025",
+      "description": "",
+      "category": [
+        "20.315"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750582"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750584"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "11/21/2025",
+      "description": "",
+      "category": [
+        "81.254"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750586"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "12/17/2025",
+      "description": "",
+      "category": [
+        "97.012"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750588"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "06/03/2026",
+      "description": "",
+      "category": [
+        "93.610"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750590"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750592"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750596"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750599"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750601"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750603"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750605"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750607"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750609"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.262"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750611"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.262"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750613"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "12/08/2025",
+      "description": "",
+      "category": [
+        "81.255"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750615"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750620"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750622"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750624"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750626"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750631"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750633"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750637"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750639"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750641"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "12/31/2025",
+      "description": "",
+      "category": [
+        "10.761"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750643"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "12/01/2025",
+      "description": "",
+      "category": [
+        "10.862"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750648"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "09/30/2026",
+      "description": "",
+      "category": [
+        "12.910"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750650"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750652"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.494"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750654"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750661"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "12/31/2025",
+      "description": "",
+      "category": [
+        "10.762"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750663"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750665"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750667"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750669"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750671"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750675"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750677"
+    },
+    {
+      "name": "",
+      "organization": "",
+      "url": "https://www.grants.gov/search-results-detail/",
+      "opportunity_number": "",
+      "amount": "Variable",
+      "deadline": "",
+      "description": "",
+      "category": [
+        "93.067"
+      ],
+      "eligibility": [],
+      "source": "Grants.gov (API)",
+      "scraped_at": "2025-11-16T06:58:42.750679"
+    },
+    {
+      "name": "NSF National Innovation Corps Teams (NSF National I-Corps (TM) Teams) program",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/nsf-national-innovation-corps-teams-nsf-national-i-corps-tm",
+      "description": "Supports NSF-funded researchers with entrepreneurial training, mentoring and funding to accelerate the translation of technologies from foundational research into emerging products, processes and services.Supports NSF-funded researchers with entrepreneurial training, mentoring and funding to accelerate the translation of technologies from foundational research into emerging products, processes and services.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383369"
+    },
+    {
+      "name": "Accelerating Research Translation (ART)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/art-accelerating-research-translation",
+      "description": "Supports institutions of higher education in building capacity, infrastructure and training to accelerate research translation, strengthen technology transfer and create sustained economic and societal impacts across the U.S.Supports institutions of higher education in building capacity, infrastructure and training to accelerate research translation, strengthen technology transfer and create sustained economic and societal impacts across the U.S.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383395"
+    },
+    {
+      "name": "NSF-UKRI/EPSRC Lead Agency Opportunity on Understanding and Exploiting Quantum Information in Chemical Systems",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/dcl-nsf-ukriepsrc-lead-agency-opportunity-understanding-0",
+      "description": "Invites collaborative U.S.-U.K. research proposals focused on advancing quantum information science in chemical systems, promoting transatlantic partnerships by allowing a single submission and merit review through a lead agency opportunity.Invites collaborative U.S.-U.K. research proposals focused on advancing quantum information science in chemical systems, promoting transatlantic partnerships by allowing a single submission and merit review through a lead agency opportunity.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383414"
+    },
+    {
+      "name": "U.S.-UK Center-to-Centre Collaboration Opportunities for Artificial Intelligence and Quantum Information Science and Technology",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/dcl-us-uk-center-centre-collaboration-opportunities-artificial",
+      "description": "Encourages supplemental funding requests from current awardees of large-scale NSF investments in the areas of AI and quantum information science and technology (QIST) to facilitate collaboration with UKRI AI Hubs and UKRI Quantum Technology Research Hubs.Encourages supplemental funding requests from current awardees of large-scale NSF investments in the areas of AI and quantum information science and technology (QIST) to facilitate collaboration with UKRI AI Hubs and UKRI Quantum Technology Research Hubs.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383435"
+    },
+    {
+      "name": "NSF Graduate Research Fellowship Program (GRFP)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program",
+      "description": "Supports fellowships for outstanding graduate students who are pursuing full-time, research-based masters and doctoral degrees in science, technology, engineering or math (STEM), including education.Supports fellowships for outstanding graduate students who are pursuing full-time, research-based masters and doctoral degrees in science, technology, engineering or math (STEM), including education.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383452"
+    },
+    {
+      "name": "Foundations for Operating the National Artificial Intelligence Research Resource: the NAIRR Operations Center (NAIRR-OC)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/nairr-oc-foundations-operating-national-artificial-intelligence",
+      "description": "Supports the creation of an operations center to manage and expand the National AI Research Resource, providing U.S. researchers and educators sustained access to advanced AI tools, data and expertise for innovation, workforce development and competitiveness.Supports the creation of an operations center to manage and expand the National AI Research Resource, providing U.S. researchers and educators sustained access to advanced AI tools, data and expertise for innovation, workforce development and competitiveness.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383485"
+    },
+    {
+      "name": "Supplemental Funding Requests to Support K-12 Artificial Intelligence Teams for the Presidential AI Challenge through Community-based Partnerships",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/dcl-supplemental-funding-requests-support-k-12-artificial",
+      "description": "Invites supplemental funding requests from current awardees in the Directorate for STEM Education to support the Presidential Initiative on Advancing Artificial Intelligence Education for American Youth.Invites supplemental funding requests from current awardees in the Directorate for STEM Education to support the Presidential Initiative on Advancing Artificial Intelligence Education for American Youth.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383510"
+    },
+    {
+      "name": "Expanding K-12 Resources For AI Education",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/dcl-expanding-k-12-resources-ai-education",
+      "description": "Invites supplemental funding requests to current NSF awardees in certain NSF directorates to support the expansion of K-12 resources for AI education.Invites supplemental funding requests to current NSF awardees in certain NSF directorates to support the expansion of K-12 resources for AI education.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383527"
+    },
+    {
+      "name": "ExLENT and ATE Supplement Opportunity “Expanding AI Career and Skilled Technical Workforce Opportunities in Support of High School Students”",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/dcl-exlent-ate-supplement-opportunity-expanding-ai-career",
+      "description": "Invites supplemental funding requests from current ExLENT and ATE awardees for education-industry collaboration supporting AI-focused career and skill building learning opportunities for high school students. Invites supplemental funding requests from current ExLENT and ATE awardees for education-industry collaboration supporting AI-focused career and skill building learning opportunities for high school students.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383551"
+    },
+    {
+      "name": "NSF STEM K-12 (STEM K-12)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/stem-k-12-nsf-stem-k-12",
+      "description": "Supports research and development to advance STEM teaching and learning in K-12 formal and informal settings, leveraging AI and emerging technologies to build knowledge, create tools and strengthen the U.S. STEM education and workforce.Supports research and development to advance STEM teaching and learning in K-12 formal and informal settings, leveraging AI and emerging technologies to build knowledge, create tools and strengthen the U.S. STEM education and workforce.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383568"
+    },
+    {
+      "name": "Integrated Data Systems & Services (IDSS)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/idss-integrated-data-systems-services",
+      "description": "Supports national-scale data infrastructure that powers open, data-intensive and AI-driven research and education by funding the development, expansion and planning of integrated systems and services for the scientific community.Supports national-scale data infrastructure that powers open, data-intensive and AI-driven research and education by funding the development, expansion and planning of integrated systems and services for the scientific community.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383584"
+    },
+    {
+      "name": "Cyber-Physical System Foundations and Connected Communities (CPS)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/cps-cyber-physical-system-foundations-connected-communities",
+      "description": "Supports foundational and community-driven research that integrates computation, physical systems and human interaction to create reliable, resilient cyber-physical systems that enhance quality of life and community well-being.Supports foundational and community-driven research that integrates computation, physical systems and human interaction to create reliable, resilient cyber-physical systems that enhance quality of life and community well-being.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383606"
+    },
+    {
+      "name": "Computing Education Research",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/computing-education-research",
+      "description": "Supports innovative research and community efforts to improve computing and AI education at all levels, strengthen pathways to the future workforce and build sustainable research communities.Supports innovative research and community efforts to improve computing and AI education at all levels, strengthen pathways to the future workforce and build sustainable research communities.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383620"
+    },
+    {
+      "name": "Computer and Information Science and Engineering : Future Computing Research (Future CoRe)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing",
+      "description": "Supports foundational and interdisciplinary research across all aspects of computing, communication and information science and engineering to advance the future of technology, systems and human-centered innovation.Supports foundational and interdisciplinary research across all aspects of computing, communication and information science and engineering to advance the future of technology, systems and human-centered innovation.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383635"
+    },
+    {
+      "name": "Smart Health and Biomedical Research in the Era of Artificial Intelligence and Advanced Data Science (SCH)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/sch-smart-health-biomedical-research-era-artificial-intelligence",
+      "description": "Supports high-risk, high-reward interdisciplinary research that combines computing, engineering, data science and behavioral and cognitive sciences to tackle biomedical and public health challenges and drive transformative health innovations.Supports high-risk, high-reward interdisciplinary research that combines computing, engineering, data science and behavioral and cognitive sciences to tackle biomedical and public health challenges and drive transformative health innovations.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383652"
+    },
+    {
+      "name": "Test Bed: Toward a Network of Programmable Cloud Laboratories (PCL Test Bed)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/pcl-test-bed-test-bed-toward-network-programmable-cloud-laboratories",
+      "description": "Supports the development and operation of a national network of AI-powered, remotely accessible laboratories to accelerate scientific discovery, enhance reproducibility and improve access to advanced research tools in science and engineering.Supports the development and operation of a national network of AI-powered, remotely accessible laboratories to accelerate scientific discovery, enhance reproducibility and improve access to advanced research tools in science and engineering.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383670"
+    },
+    {
+      "name": "National Science Foundation Translation to Practice (NSF TTP)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/nsf-ttp-national-science-foundation-translation-practice",
+      "description": "Supports use-inspired research, translational activities and partnerships that turn scientific discoveries into real-world solutions. Researchers can gain market insights, launch commercial applications and/or facilitate industry adoption.Supports use-inspired research, translational activities and partnerships that turn scientific discoveries into real-world solutions. Researchers can gain market insights, launch commercial applications and/or facilitate industry adoption.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383687"
+    },
+    {
+      "name": "Verticals-enabling Intelligent Network Systems (VINES)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/vines-verticals-enabling-intelligent-network-systems",
+      "description": "Supports research and innovation to enhance wireless communications and intelligent network systems for faster, more reliable user-to-cloud connections, while promoting U.S. leadership in telecommunications and emerging potential NextG vertical industries.Supports research and innovation to enhance wireless communications and intelligent network systems for faster, more reliable user-to-cloud connections, while promoting U.S. leadership in telecommunications and emerging potential NextG vertical industries.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383704"
+    },
+    {
+      "name": "The Research on Research Security Program (RoRS)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/rors-research-research-security-program",
+      "description": "Supports interdisciplinary, evidence-based research to enhance understanding of security risks, practices and policies to safeguard the U.S. research enterprise and foster a strong academic field in research security.Supports interdisciplinary, evidence-based research to enhance understanding of security risks, practices and policies to safeguard the U.S. research enterprise and foster a strong academic field in research security.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383720"
+    },
+    {
+      "name": "Incorporating Human Behavior in Epidemiological Models (IHBEM)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/ihbem-incorporating-human-behavior-epidemiological-models",
+      "description": "Supports interdisciplinary research that integrates human behavior and social processes into mathematical epidemiological models to improve the accuracy and usefulness of public health interventions and policymaking during pandemics and other health crises.Supports interdisciplinary research that integrates human behavior and social processes into mathematical epidemiological models to improve the accuracy and usefulness of public health interventions and policymaking during pandemics and other health crises.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2025-11-16T06:58:44.383738"
+    }
+  ]
+}

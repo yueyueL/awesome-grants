@@ -1,0 +1,82 @@
+// Custom color scheme for Awesome Grants
+// Academic and professional theme with improved readability
+
+$body-background-color: #ffffff;
+$sidebar-color: #f5f7f9;
+$border-color: #d0d7de;
+
+$body-text-color: #1f2937;
+$body-heading-color: #111827;
+$nav-child-link-color: #4b5563;
+$search-result-preview-color: #6b7280;
+
+// Primary colors - Academic navy blue
+$link-color: #1e40af;
+$btn-primary-color: #1e40af;
+$base-button-color: #f3f4f6;
+
+// Accent colors - Muted academic palette
+$purple-000: #f5f3ff;
+$purple-100: #ede9fe;
+$purple-200: #ddd6fe;
+$purple-300: #c4b5fd;
+$purple-400: #a78bfa;
+$purple-500: #7c3aed;
+
+// Code colors
+$code-background-color: #f6f8fa;
+$code-linenumber-color: #6b7280;
+
+// Table colors
+$table-background-color: #ffffff;
+$feedback-color: darken($sidebar-color, 3%);
+
+// Custom additions - Subtle and professional
+$gradient-primary: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+$gradient-secondary: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+
+$card-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+$card-shadow-hover: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+
+// Navigation (in rem units for compatibility)
+$nav-width: 16.5rem;   // 264px
+$nav-width-md: 15.5rem; // 248px
+
+// Spacing (in rem units for compatibility with Just the Docs theme)
+$sp-1: 0.25rem;  // 4px
+$sp-2: 0.5rem;   // 8px
+$sp-3: 0.75rem;  // 12px
+$sp-4: 1rem;     // 16px
+$sp-5: 1.5rem;   // 24px
+$sp-6: 2rem;     // 32px
+$sp-7: 2.5rem;   // 40px
+$sp-8: 3rem;     // 48px
+$sp-9: 4rem;     // 64px
+$sp-10: 5rem;    // 80px
+
+// Typography - Academic style with serif headings
+$body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$mono-font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+$heading-font-family: "Georgia", "Times New Roman", serif;
+
+// Font sizes
+$font-size-1: 9px;
+$font-size-2: 11px;
+$font-size-3: 12px;
+$font-size-4: 14px;
+$font-size-5: 16px;
+$font-size-6: 18px;
+$font-size-7: 24px;
+$font-size-8: 32px;
+$font-size-9: 36px;
+$font-size-10: 42px;
+
+// Responsive (in rem units for compatibility)
+$content-width: 62.5rem; // 1000px
+
+// Custom badge colors - Academic palette
+$badge-blue: #1e40af;
+$badge-green: #059669;
+$badge-yellow: #d97706;
+$badge-red: #dc2626;
+$badge-purple: #7c3aed;

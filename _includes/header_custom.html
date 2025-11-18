@@ -1,0 +1,205 @@
+<!-- Custom header content -->
+<style>
+  /* Hide default site title in main header, keep only in sidebar */
+  .site-header .site-title {
+    display: none !important;
+  }
+
+  .side-bar .site-title {
+    display: block !important;
+  }
+
+  .site-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem 1.5rem;
+    padding: 1rem 1.5rem;
+    background: var(--ag-surface, #ffffff);
+    border-bottom: 1px solid var(--ag-border, #e2e8f0);
+    box-shadow: var(--ag-shadow-sm, 0 15px 40px rgba(15, 23, 42, 0.06));
+    position: sticky;
+    top: 0;
+    z-index: 210;
+  }
+
+  .site-header .search {
+    flex: 1 1 420px;
+    order: 1;
+    margin: 0;
+    max-width: 640px;
+    position: relative;
+  }
+
+  .ag-aux-nav {
+    order: 2;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-left: auto;
+  }
+
+  .ag-aux-nav .github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.65rem 1.1rem;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    background: linear-gradient(120deg, #1e3a8a, #2563eb);
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid rgba(30, 64, 175, 0.2);
+    box-shadow: 0 18px 30px rgba(37, 99, 235, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  }
+
+  .ag-aux-nav .github-link svg {
+    width: 1.05rem;
+    height: 1.05rem;
+    fill: currentColor;
+  }
+
+  .ag-aux-nav .github-link:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 20px 38px rgba(37, 99, 235, 0.32);
+  }
+
+  .ag-aux-nav .github-link:focus-visible {
+    outline: 3px solid rgba(37, 99, 235, 0.35);
+    outline-offset: 3px;
+  }
+
+  .site-header .search,
+  .side-bar .search {
+    width: 100%;
+  }
+
+  .site-header .search-input-wrap,
+  .side-bar .search-input-wrap {
+    position: relative;
+    border-radius: 999px;
+    border: 1px solid var(--ag-border, #d0d7e4);
+    background: var(--ag-surface-muted, #f8fafc);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    transition: border 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  }
+
+  .site-header .search-input-wrap:hover,
+  .side-bar .search-input-wrap:hover {
+    border-color: #94a3b8;
+  }
+
+  .site-header .search-input-wrap:focus-within,
+  .side-bar .search-input-wrap:focus-within {
+    border-color: var(--ag-brand, #2563eb);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+    background: #ffffff;
+  }
+
+  .site-header .search-input,
+  .side-bar .search-input,
+  .side-bar #search-input,
+  #search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--ag-text, #0f172a);
+    padding: 0.85rem 1rem 0.85rem 3rem;
+  }
+
+  .site-header .search-input::placeholder,
+  .side-bar .search-input::placeholder {
+    color: #94a3b8;
+    font-weight: 400;
+  }
+
+  .site-header .search svg,
+  .side-bar .search svg,
+  .site-header .search .search-icon,
+  .side-bar .search .search-icon {
+    position: absolute;
+    left: 1.1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.1rem;
+    height: 1.1rem;
+    color: #94a3b8;
+    pointer-events: none;
+    transition: color 0.2s ease;
+  }
+
+  .site-header .search-input-wrap:focus-within svg,
+  .side-bar .search-input-wrap:focus-within svg {
+    color: var(--ag-brand, #2563eb);
+  }
+
+  .site-header .search-results {
+    position: absolute;
+    top: calc(100% + 0.75rem);
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid var(--ag-border, #e2e8f0);
+    box-shadow: var(--ag-shadow-md, 0 25px 60px rgba(15, 23, 42, 0.12));
+    padding: 0.35rem;
+    max-height: 320px;
+    overflow: auto;
+    z-index: 220;
+  }
+
+  .site-header .search-results:empty {
+    display: none;
+  }
+
+  .site-header .search-result {
+    padding: 0.65rem 0.75rem;
+    border-radius: 10px;
+    transition: background 0.2s ease;
+  }
+
+  .site-header .search-result:hover {
+    background: rgba(37, 99, 235, 0.08);
+  }
+
+  @media (max-width: 960px) {
+    .site-header {
+      position: sticky;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .site-header {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.75rem;
+    }
+
+    .site-header .search,
+    .ag-aux-nav {
+      order: initial;
+      width: 100%;
+    }
+
+    .ag-aux-nav {
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+  }
+</style>
+
+<!-- Brand title removed per user request -->
+
+<div class="aux-nav ag-aux-nav">
+  <a href="{{ site.github.repository_url | default: 'https://github.com/yueyuel/awesome-grants' }}" class="github-link" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+      <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+    </svg>
+    <span>View repo</span>
+  </a>
+</div>

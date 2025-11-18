@@ -1,0 +1,153 @@
+# Awesome Grants - GitHub Pages Configuration
+
+# Site settings
+title: Awesome Grants
+description: A curated list of funding opportunities for researchers, open-source maintainers, and builders
+url: "https://yueyuel.github.io"
+baseurl: "/awesome-grants"
+
+# Theme - Using Just the Docs for professional look and built-in search
+remote_theme: just-the-docs/just-the-docs
+
+# Color scheme
+color_scheme: custom
+
+# Logo
+logo: "/assets/logo.png"
+
+# Search settings
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: true
+
+# Navigation structure
+nav_enabled: true
+nav_sort: case_insensitive
+
+# Aux links disabled - using custom header_custom.html instead
+# aux_links:
+#   "🐙 GitHub":
+#     - "https://github.com/yueyuel/awesome-grants"
+
+aux_links_new_tab: true
+
+# Footer content
+footer_content: "Copyright &copy; 2024 Awesome Grants. Distributed under the <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0 Universal</a> license. • <a href=\"https://github.com/yueyuel/awesome-grants/blob/main/CONTRIBUTING.md\">Contribute</a>"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Heading anchor links
+heading_anchors: true
+
+# Edit page on GitHub
+gh_edit_link: true
+gh_edit_link_text: "✏️ Edit this page"
+gh_edit_repository: "https://github.com/yueyuel/awesome-grants"
+gh_edit_branch: "main"
+gh_edit_source: ""
+gh_edit_view_mode: "edit"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Plugins (GitHub Pages supported only)
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Plugin configuration
+relative_links:
+  enabled: true
+  collections: false
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: false
+
+# Exclude from processing
+exclude:
+  - src/
+  - data/
+  - resources/
+  - .gitignore
+  - README.md
+  - __pycache__/
+  - "*.py"
+  - "*.pyc"
+  - GITHUB_PAGES_SETUP.md
+  - node_modules/
+  - vendor/
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: default
+      nav_exclude: false
+
+# Callouts
+callouts:
+  warning:
+    title: Warning
+    color: red
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Tip
+    color: green
+  important:
+    title: Important
+    color: yellow
+
+# SEO and social
+twitter:
+  username: yueyuel
+  card: summary_large_image
+
+social:
+  name: Awesome Grants
+  links:
+    - https://github.com/yueyuel/awesome-grants
+
+# GitHub metadata
+github:
+  repository_url: https://github.com/yueyuel/awesome-grants
+  repository_name: yueyuel/awesome-grants
+
+# Enable/disable website features
+enable_copy_code_button: true
+enable_dark_mode: true
+
+# Google Analytics (optional - add your tracking ID)
+# google_analytics: UA-XXXXXXXX-X

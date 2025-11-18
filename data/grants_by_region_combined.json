@@ -1,0 +1,2052 @@
+{
+  "US": [
+    {
+      "name": "NSF Graduate Research Fellowship Program (GRFP)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsfgrfp.org/",
+      "amount": "$37,000/year stipend + $12,000 cost of education",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy"
+      ],
+      "deadline": "October (annually)",
+      "description": "Fellowship for graduate students in STEM and social sciences"
+    },
+    {
+      "name": "NSF CAREER Award",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503214",
+      "amount": "$400,000 - $500,000 over 5 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy"
+      ],
+      "deadline": "July (annually)",
+      "description": "Early-career faculty development award"
+    },
+    {
+      "name": "NIH R01 Research Project Grant",
+      "organization": "National Institutes of Health",
+      "url": "https://grants.nih.gov/grants/funding/r01.htm",
+      "amount": "Variable (typically $250,000-$500,000/year)",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Rolling (multiple cycles)",
+      "description": "Major NIH grant for independent research projects"
+    },
+    {
+      "name": "NIH F31 Predoctoral Fellowship",
+      "organization": "National Institutes of Health",
+      "url": "https://researchtraining.nih.gov/programs/fellowships/f31",
+      "amount": "$25,000-$27,000 stipend + tuition",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "April, August, December",
+      "description": "Individual predoctoral fellowship for biomedical research"
+    },
+    {
+      "name": "NIH K99/R00 Pathway to Independence Award",
+      "organization": "National Institutes of Health",
+      "url": "https://grants.nih.gov/grants/guide/pa-files/PA-23-146.html",
+      "amount": "Up to $249,000 (K99) + $249,000/year (R00)",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "February, June, October",
+      "description": "Transition award from postdoc to independent researcher"
+    },
+    {
+      "name": "DOE Early Career Research Program",
+      "organization": "Department of Energy",
+      "url": "https://science.osti.gov/early-career",
+      "amount": "$750,000 over 5 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Engineering & Physical Sciences",
+        "Computer Science & AI",
+        "Environment & Earth"
+      ],
+      "deadline": "Typically May (annually)",
+      "description": "Support for early-career university faculty in energy-related research"
+    },
+    {
+      "name": "NASA Postdoctoral Program",
+      "organization": "NASA",
+      "url": "https://npp.orau.org/",
+      "amount": "$60,000-$80,000/year",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Engineering & Physical Sciences",
+        "Environment & Earth",
+        "Computer Science & AI"
+      ],
+      "deadline": "March, July, November",
+      "description": "Postdoctoral fellowships at NASA centers"
+    },
+    {
+      "name": "DARPA Young Faculty Award (YFA)",
+      "organization": "DARPA",
+      "url": "https://www.darpa.mil/work-with-us/young-faculty-award",
+      "amount": "$500,000 over 2 years (Phase I)",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences"
+      ],
+      "deadline": "Typically August-September",
+      "description": "Support for innovative research by junior faculty"
+    },
+    {
+      "name": "NSF Postdoctoral Research Fellowships",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/education.jsp?fund_type=3",
+      "amount": "$69,000/year salary + $10,000 research",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Social Sciences & Policy"
+      ],
+      "deadline": "Varies by program",
+      "description": "Postdoctoral fellowships across NSF disciplines"
+    },
+    {
+      "name": "NEH Fellowships",
+      "organization": "National Endowment for the Humanities",
+      "url": "https://www.neh.gov/grants/research/fellowships",
+      "amount": "$5,000/month for 6-12 months",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Humanities & Arts",
+        "Social Sciences & Policy"
+      ],
+      "deadline": "April (annually)",
+      "description": "Support for advanced research in the humanities"
+    },
+    {
+      "name": "Sloan Research Fellowships",
+      "organization": "Alfred P. Sloan Foundation",
+      "url": "https://sloan.org/fellowships",
+      "amount": "$75,000 over 2 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "US",
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "September (annually)",
+      "description": "For early-career scholars of exceptional promise"
+    },
+    {
+      "name": "Packard Fellowships for Science and Engineering",
+      "organization": "David and Lucile Packard Foundation",
+      "url": "https://www.packard.org/what-we-fund/science/packard-fellowships-for-science-and-engineering/",
+      "amount": "$875,000 over 5 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth"
+      ],
+      "deadline": "Nomination-based",
+      "description": "For innovative early-career scientists and engineers"
+    },
+    {
+      "name": "Pew Scholars Program in Biomedical Sciences",
+      "organization": "Pew Charitable Trusts",
+      "url": "https://www.pewtrusts.org/en/projects/pew-biomedical-scholars",
+      "amount": "$300,000 over 4 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Nomination-based (October)",
+      "description": "For early-career biomedical researchers"
+    },
+    {
+      "name": "Howard Hughes Medical Institute (HHMI) Investigators",
+      "organization": "HHMI",
+      "url": "https://www.hhmi.org/programs/investigator-program",
+      "amount": "~$9-11 million over 7 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Nomination-based (every ~3 years)",
+      "description": "Major support for outstanding biomedical researchers"
+    },
+    {
+      "name": "Simons Foundation Investigator Awards",
+      "organization": "Simons Foundation",
+      "url": "https://www.simonsfoundation.org/funding-opportunities/",
+      "amount": "$100,000-$200,000/year for 5 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "US",
+        "Global"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Varies by program",
+      "description": "Support for outstanding theoretical scientists"
+    },
+    {
+      "name": "NSF National Innovation Corps Teams (NSF National I-Corps (TM) Teams) program",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/nsf-national-innovation-corps-teams-nsf-national-i-corps-tm",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports NSF-funded researchers with entrepreneurial training, mentoring and funding to accelerate the translation of technologies from foundational research into emerging products, processes and services.Supports NSF-funded researchers with entrepreneurial training, mentoring and funding to acceler...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ]
+    },
+    {
+      "name": "Accelerating Research Translation (ART)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/art-accelerating-research-translation",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports institutions of higher education in building capacity, infrastructure and training to accelerate research translation, strengthen technology transfer and create sustained economic and societal impacts across the U.S.Supports institutions of higher education in building capacity, infrastruct...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Social Sciences & Policy"
+      ]
+    },
+    {
+      "name": "NSF-UKRI/EPSRC Lead Agency Opportunity on Understanding and Exploiting Quantum Information in Chemical Systems",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/dcl-nsf-ukriepsrc-lead-agency-opportunity-understanding-0",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Invites collaborative U.S.-U.K. research proposals focused on advancing quantum information science in chemical systems, promoting transatlantic partnerships by allowing a single submission and merit review through a lead agency opportunity.Invites collaborative U.S.-U.K. research proposals focused ...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ]
+    },
+    {
+      "name": "U.S.-UK Center-to-Centre Collaboration Opportunities for Artificial Intelligence and Quantum Information Science and Technology",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/dcl-us-uk-center-centre-collaboration-opportunities-artificial",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Encourages supplemental funding requests from current awardees of large-scale NSF investments in the areas of AI and quantum information science and technology (QIST) to facilitate collaboration with UKRI AI Hubs and UKRI Quantum Technology Research Hubs.Encourages supplemental funding requests from...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ]
+    },
+    {
+      "name": "Foundations for Operating the National Artificial Intelligence Research Resource: the NAIRR Operations Center (NAIRR-OC)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/nairr-oc-foundations-operating-national-artificial-intelligence",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports the creation of an operations center to manage and expand the National AI Research Resource, providing U.S. researchers and educators sustained access to advanced AI tools, data and expertise for innovation, workforce development and competitiveness.Supports the creation of an operations ce...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ]
+    },
+    {
+      "name": "Supplemental Funding Requests to Support K-12 Artificial Intelligence Teams for the Presidential AI Challenge through Community-based Partnerships",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/dcl-supplemental-funding-requests-support-k-12-artificial",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Invites supplemental funding requests from current awardees in the Directorate for STEM Education to support the Presidential Initiative on Advancing Artificial Intelligence Education for American Youth.Invites supplemental funding requests from current awardees in the Directorate for STEM Education...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Social Sciences & Policy"
+      ]
+    },
+    {
+      "name": "Expanding K-12 Resources For AI Education",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/dcl-expanding-k-12-resources-ai-education",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Invites supplemental funding requests to current NSF awardees in certain NSF directorates to support the expansion of K-12 resources for AI education.Invites supplemental funding requests to current NSF awardees in certain NSF directorates to support the expansion of K-12 resources for AI education.",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Social Sciences & Policy"
+      ]
+    },
+    {
+      "name": "ExLENT and ATE Supplement Opportunity “Expanding AI Career and Skilled Technical Workforce Opportunities in Support of High School Students”",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/dcl-exlent-ate-supplement-opportunity-expanding-ai-career",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Invites supplemental funding requests from current ExLENT and ATE awardees for education-industry collaboration supporting AI-focused career and skill building learning opportunities for high school students. Invites supplemental funding requests from current ExLENT and ATE awardees for education-in...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Social Sciences & Policy"
+      ]
+    },
+    {
+      "name": "NSF STEM K-12 (STEM K-12)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/stem-k-12-nsf-stem-k-12",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports research and development to advance STEM teaching and learning in K-12 formal and informal settings, leveraging AI and emerging technologies to build knowledge, create tools and strengthen the U.S. STEM education and workforce.Supports research and development to advance STEM teaching and l...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Social Sciences & Policy"
+      ]
+    },
+    {
+      "name": "Integrated Data Systems & Services (IDSS)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/idss-integrated-data-systems-services",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports national-scale data infrastructure that powers open, data-intensive and AI-driven research and education by funding the development, expansion and planning of integrated systems and services for the scientific community.Supports national-scale data infrastructure that powers open, data-inte...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Social Sciences & Policy"
+      ]
+    },
+    {
+      "name": "Cyber-Physical System Foundations and Connected Communities (CPS)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/cps-cyber-physical-system-foundations-connected-communities",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports foundational and community-driven research that integrates computation, physical systems and human interaction to create reliable, resilient cyber-physical systems that enhance quality of life and community well-being.Supports foundational and community-driven research that integrates compu...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ]
+    },
+    {
+      "name": "Computing Education Research",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/computing-education-research",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports innovative research and community efforts to improve computing and AI education at all levels, strengthen pathways to the future workforce and build sustainable research communities.Supports innovative research and community efforts to improve computing and AI education at all levels, stren...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Social Sciences & Policy"
+      ]
+    },
+    {
+      "name": "Computer and Information Science and Engineering : Future Computing Research (Future CoRe)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports foundational and interdisciplinary research across all aspects of computing, communication and information science and engineering to advance the future of technology, systems and human-centered innovation.Supports foundational and interdisciplinary research across all aspects of computing,...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences"
+      ]
+    },
+    {
+      "name": "Smart Health and Biomedical Research in the Era of Artificial Intelligence and Advanced Data Science (SCH)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/sch-smart-health-biomedical-research-era-artificial-intelligence",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports high-risk, high-reward interdisciplinary research that combines computing, engineering, data science and behavioral and cognitive sciences to tackle biomedical and public health challenges and drive transformative health innovations.Supports high-risk, high-reward interdisciplinary research...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Data & Math"
+      ]
+    },
+    {
+      "name": "Test Bed: Toward a Network of Programmable Cloud Laboratories (PCL Test Bed)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/pcl-test-bed-test-bed-toward-network-programmable-cloud-laboratories",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports the development and operation of a national network of AI-powered, remotely accessible laboratories to accelerate scientific discovery, enhance reproducibility and improve access to advanced research tools in science and engineering.Supports the development and operation of a national netwo...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences"
+      ]
+    },
+    {
+      "name": "National Science Foundation Translation to Practice (NSF TTP)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/nsf-ttp-national-science-foundation-translation-practice",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports use-inspired research, translational activities and partnerships that turn scientific discoveries into real-world solutions. Researchers can gain market insights, launch commercial applications and/or facilitate industry adoption.Supports use-inspired research, translational activities and ...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ]
+    },
+    {
+      "name": "Verticals-enabling Intelligent Network Systems (VINES)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/vines-verticals-enabling-intelligent-network-systems",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports research and innovation to enhance wireless communications and intelligent network systems for faster, more reliable user-to-cloud connections, while promoting U.S. leadership in telecommunications and emerging potential NextG vertical industries.Supports research and innovation to enhance ...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ]
+    },
+    {
+      "name": "The Research on Research Security Program (RoRS)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/rors-research-research-security-program",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports interdisciplinary, evidence-based research to enhance understanding of security risks, practices and policies to safeguard the U.S. research enterprise and foster a strong academic field in research security.Supports interdisciplinary, evidence-based research to enhance understanding of sec...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ]
+    },
+    {
+      "name": "Incorporating Human Behavior in Epidemiological Models (IHBEM)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/ihbem-incorporating-human-behavior-epidemiological-models",
+      "amount": "Variable",
+      "deadline": "See website",
+      "description": "Supports interdisciplinary research that integrates human behavior and social processes into mathematical epidemiological models to improve the accuracy and usefulness of public health interventions and policymaking during pandemics and other health crises.Supports interdisciplinary research that in...",
+      "source": "NSF RSS",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine",
+        "Data & Math",
+        "Social Sciences & Policy"
+      ]
+    }
+  ],
+  "EU / Horizon": [
+    {
+      "name": "ERC Starting Grant",
+      "organization": "European Research Council",
+      "url": "https://erc.europa.eu/funding/starting-grants",
+      "amount": "€1.5 million over 5 years",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "EU / Horizon"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "Typically October",
+      "description": "For researchers 2-7 years post-PhD with promising scientific track record"
+    },
+    {
+      "name": "ERC Consolidator Grant",
+      "organization": "European Research Council",
+      "url": "https://erc.europa.eu/funding/consolidator-grants",
+      "amount": "€2 million over 5 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "EU / Horizon"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "Typically January",
+      "description": "For researchers 7-12 years post-PhD to consolidate their teams"
+    },
+    {
+      "name": "ERC Advanced Grant",
+      "organization": "European Research Council",
+      "url": "https://erc.europa.eu/funding/advanced-grants",
+      "amount": "€2.5 million over 5 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "EU / Horizon"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "Typically May",
+      "description": "For established research leaders with significant track record"
+    },
+    {
+      "name": "Marie Skłodowska-Curie Individual Fellowships",
+      "organization": "European Commission",
+      "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
+      "amount": "€5,000/month + mobility allowance",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "EU / Horizon",
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "September (annually)",
+      "description": "Postdoctoral fellowships for researchers of any nationality"
+    },
+    {
+      "name": "Horizon Europe Research and Innovation Actions",
+      "organization": "European Commission",
+      "url": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en",
+      "amount": "Variable (€3-10 million typical)",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "EU / Horizon"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy"
+      ],
+      "deadline": "Multiple calls throughout year",
+      "description": "Large collaborative research projects"
+    },
+    {
+      "name": "EMBO Long-Term Fellowships",
+      "organization": "EMBO",
+      "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/",
+      "amount": "~€5,000/month + travel/family allowances",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "EU / Horizon",
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "February, August",
+      "description": "Postdoctoral fellowships in life sciences"
+    },
+    {
+      "name": "Alexander von Humboldt Fellowship",
+      "organization": "Alexander von Humboldt Foundation",
+      "url": "https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship",
+      "amount": "€2,670-€3,170/month",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "EU / Horizon"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "Rolling applications",
+      "description": "Research stays in Germany for experienced researchers"
+    },
+    {
+      "name": "European Molecular Biology Laboratory (EMBL) Interdisciplinary Postdocs",
+      "organization": "EMBL",
+      "url": "https://www.embl.org/about/info/postdoctoral-programme/",
+      "amount": "Competitive salary + benefits",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "EU / Horizon"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine",
+        "Computer Science & AI"
+      ],
+      "deadline": "Spring and Fall",
+      "description": "Interdisciplinary postdoctoral positions at EMBL"
+    },
+    {
+      "name": "Prototype Fund (Germany)",
+      "organization": "German Federal Ministry of Education and Research",
+      "url": "https://prototypefund.de/en/",
+      "amount": "€47,500 over 6 months",
+      "audience": [
+        "OSS maintainers",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "EU / Horizon"
+      ],
+      "type": [
+        "OSS grants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet",
+        "Computer Science & AI"
+      ],
+      "deadline": "Twice yearly",
+      "description": "Funding for public interest technology projects"
+    }
+  ],
+  "Global": [
+    {
+      "name": "Marie Skłodowska-Curie Individual Fellowships",
+      "organization": "European Commission",
+      "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships",
+      "amount": "€5,000/month + mobility allowance",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "EU / Horizon",
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "September (annually)",
+      "description": "Postdoctoral fellowships for researchers of any nationality"
+    },
+    {
+      "name": "EMBO Long-Term Fellowships",
+      "organization": "EMBO",
+      "url": "https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/",
+      "amount": "~€5,000/month + travel/family allowances",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "EU / Horizon",
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "February, August",
+      "description": "Postdoctoral fellowships in life sciences"
+    },
+    {
+      "name": "Sloan Research Fellowships",
+      "organization": "Alfred P. Sloan Foundation",
+      "url": "https://sloan.org/fellowships",
+      "amount": "$75,000 over 2 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "US",
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "September (annually)",
+      "description": "For early-career scholars of exceptional promise"
+    },
+    {
+      "name": "Schmidt Science Fellows",
+      "organization": "Schmidt Sciences",
+      "url": "https://schmidtsciencefellows.org/",
+      "amount": "$100,000/year for 2 years",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth"
+      ],
+      "deadline": "Typically February",
+      "description": "Postdoctoral program for STEM PhDs to pivot to new fields"
+    },
+    {
+      "name": "L'Oréal-UNESCO For Women in Science",
+      "organization": "L'Oréal Foundation & UNESCO",
+      "url": "https://www.forwomeninscience.com/",
+      "amount": "€15,000 (International Rising Talents)",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth"
+      ],
+      "deadline": "Varies by country",
+      "description": "Recognition and support for women scientists"
+    },
+    {
+      "name": "Chan Zuckerberg Initiative - Science",
+      "organization": "Chan Zuckerberg Initiative",
+      "url": "https://chanzuckerberg.com/science/",
+      "amount": "Variable (typically millions)",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine",
+        "Computer Science & AI"
+      ],
+      "deadline": "Varies by program",
+      "description": "Various programs supporting biomedical research and AI"
+    },
+    {
+      "name": "Simons Foundation Investigator Awards",
+      "organization": "Simons Foundation",
+      "url": "https://www.simonsfoundation.org/funding-opportunities/",
+      "amount": "$100,000-$200,000/year for 5 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "US",
+        "Global"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Varies by program",
+      "description": "Support for outstanding theoretical scientists"
+    },
+    {
+      "name": "GitHub Sponsors",
+      "organization": "GitHub",
+      "url": "https://github.com/sponsors",
+      "amount": "Variable (community-funded)",
+      "audience": [
+        "OSS maintainers",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "OSS grants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet",
+        "Computer Science & AI"
+      ],
+      "deadline": "Rolling applications",
+      "description": "Community funding platform for open source developers"
+    },
+    {
+      "name": "Sovereign Tech Fund",
+      "organization": "German Federal Government",
+      "url": "https://www.sovereigntechfund.de/",
+      "amount": "Variable (€50,000-€300,000 typical)",
+      "audience": [
+        "OSS maintainers"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "OSS grants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet",
+        "Computer Science & AI"
+      ],
+      "deadline": "Rolling applications",
+      "description": "Funding for critical open source infrastructure and technologies"
+    },
+    {
+      "name": "Mozilla Grants",
+      "organization": "Mozilla Foundation",
+      "url": "https://foundation.mozilla.org/en/what-we-fund/",
+      "amount": "$10,000-$50,000 (Common Awards)",
+      "audience": [
+        "OSS maintainers",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "OSS grants",
+        "Microgrants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet",
+        "Computer Science & AI"
+      ],
+      "deadline": "Varies by program",
+      "description": "Support for open internet and privacy projects"
+    },
+    {
+      "name": "Open Source Security Foundation (OpenSSF)",
+      "organization": "Linux Foundation",
+      "url": "https://openssf.org/",
+      "amount": "Variable",
+      "audience": [
+        "OSS maintainers"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "OSS grants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet",
+        "Computer Science & AI"
+      ],
+      "deadline": "Varies by initiative",
+      "description": "Improving security of open source software"
+    },
+    {
+      "name": "NLnet Foundation Grants",
+      "organization": "NLnet Foundation",
+      "url": "https://nlnet.nl/propose/",
+      "amount": "€5,000-€50,000",
+      "audience": [
+        "OSS maintainers",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "OSS grants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Rolling (8 calls per year)",
+      "description": "Supporting open source projects contributing to open internet"
+    },
+    {
+      "name": "Google Summer of Code",
+      "organization": "Google",
+      "url": "https://summerofcode.withgoogle.com/",
+      "amount": "$1,500-$3,000 (stipends)",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Microgrants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet",
+        "Computer Science & AI"
+      ],
+      "deadline": "March-April (annually)",
+      "description": "Summer program for students contributing to open source"
+    },
+    {
+      "name": "Google Season of Docs",
+      "organization": "Google",
+      "url": "https://developers.google.com/season-of-docs",
+      "amount": "Variable (project-based)",
+      "audience": [
+        "OSS maintainers"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "OSS grants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Varies annually",
+      "description": "Supporting technical writers and documentation for open source"
+    },
+    {
+      "name": "Outreachy Internships",
+      "organization": "Software Freedom Conservancy",
+      "url": "https://www.outreachy.org/",
+      "amount": "$7,000 stipend",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet",
+        "Computer Science & AI"
+      ],
+      "deadline": "February and August",
+      "description": "Diversity initiative for open source internships"
+    },
+    {
+      "name": "NumFOCUS Small Development Grants",
+      "organization": "NumFOCUS",
+      "url": "https://numfocus.org/programs/small-development-grants",
+      "amount": "$2,000-$10,000",
+      "audience": [
+        "OSS maintainers"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Microgrants",
+        "OSS grants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet",
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Twice yearly",
+      "description": "For scientific computing open source projects"
+    },
+    {
+      "name": "Open Technology Fund",
+      "organization": "OTF",
+      "url": "https://www.opentech.fund/",
+      "amount": "Variable (typically $10,000-$900,000)",
+      "audience": [
+        "OSS maintainers",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "OSS grants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Rolling applications",
+      "description": "Supporting open technologies for global internet freedom"
+    },
+    {
+      "name": "Python Software Foundation Grants",
+      "organization": "Python Software Foundation",
+      "url": "https://www.python.org/psf/grants/",
+      "amount": "Typically $500-$5,000",
+      "audience": [
+        "OSS maintainers"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Microgrants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet",
+        "Computer Science & AI"
+      ],
+      "deadline": "Rolling applications",
+      "description": "Support for Python community projects and events"
+    },
+    {
+      "name": "Rust Foundation Grants",
+      "organization": "Rust Foundation",
+      "url": "https://foundation.rust-lang.org/grants/",
+      "amount": "Variable",
+      "audience": [
+        "OSS maintainers"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "OSS grants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet",
+        "Computer Science & AI"
+      ],
+      "deadline": "Varies",
+      "description": "Supporting the Rust programming language ecosystem"
+    },
+    {
+      "name": "Core Infrastructure Initiative",
+      "organization": "Linux Foundation",
+      "url": "https://www.coreinfrastructure.org/",
+      "amount": "Variable",
+      "audience": [
+        "OSS maintainers"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "OSS grants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet",
+        "Computer Science & AI"
+      ],
+      "deadline": "Rolling",
+      "description": "Funding critical open source infrastructure projects"
+    },
+    {
+      "name": "Fast Grants",
+      "organization": "Fast Grants",
+      "url": "https://fastgrants.org/",
+      "amount": "$10,000-$500,000",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Microgrants",
+        "Research project grants"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Rolling (rapid decisions)",
+      "description": "Rapid funding for COVID and science projects (varies by availability)"
+    },
+    {
+      "name": "Emergent Ventures",
+      "organization": "Mercatus Center",
+      "url": "https://www.mercatus.org/emergent-ventures",
+      "amount": "$1,000-$100,000",
+      "audience": [
+        "Indie builders / microgrants",
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Microgrants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Social Sciences & Policy",
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Rolling applications",
+      "description": "Supporting innovative ideas and moonshot projects"
+    },
+    {
+      "name": "1517 Fund",
+      "organization": "1517 Fund",
+      "url": "https://www.1517fund.com/",
+      "amount": "Variable (equity investment)",
+      "audience": [
+        "Students / PhD",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Microgrants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences",
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Rolling applications",
+      "description": "Supporting young founders dropping out to build companies"
+    },
+    {
+      "name": "Thiel Fellowship",
+      "organization": "Thiel Foundation",
+      "url": "https://thielfellowship.org/",
+      "amount": "$100,000 over 2 years",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Typically summer",
+      "description": "For young people to pursue ideas outside traditional education"
+    },
+    {
+      "name": "O'Shaughnessy Fellowships",
+      "organization": "O'Shaughnessy Ventures",
+      "url": "https://www.osv.llc/fellowships",
+      "amount": "$100,000",
+      "audience": [
+        "Indie builders / microgrants",
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Rolling applications",
+      "description": "For ambitious individuals working on breakthrough ideas"
+    },
+    {
+      "name": "AI Grant",
+      "organization": "AI Grant",
+      "url": "https://aigrant.org/",
+      "amount": "$2,500-$5,000",
+      "audience": [
+        "Indie builders / microgrants",
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Microgrants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Varies",
+      "description": "Supporting AI researchers and builders"
+    },
+    {
+      "name": "ACM SIGCHI Development Fund",
+      "organization": "ACM SIGCHI",
+      "url": "https://sigchi.org/grants/development-fund/",
+      "amount": "Up to $5,000",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Travel grants / conference grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Rolling applications",
+      "description": "Travel and development grants for HCI researchers"
+    },
+    {
+      "name": "ACM SIGPLAN Professional Activities Committee (PAC) Grants",
+      "organization": "ACM SIGPLAN",
+      "url": "https://www.sigplan.org/PAC/",
+      "amount": "Typically $1,000-$2,500",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Travel grants / conference grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Rolling applications",
+      "description": "Travel support for programming languages conferences"
+    },
+    {
+      "name": "Unitary Fund Microgrants",
+      "organization": "Unitary Fund",
+      "url": "https://unitary.fund/",
+      "amount": "$4,000",
+      "audience": [
+        "OSS maintainers",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Microgrants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences"
+      ],
+      "deadline": "Rolling applications",
+      "description": "For quantum technology open source projects"
+    },
+    {
+      "name": "Awesome Foundation Microgrants",
+      "organization": "Awesome Foundation",
+      "url": "http://www.awesomefoundation.org/",
+      "amount": "$1,000",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Microgrants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Humanities & Arts",
+        "Social Sciences & Policy",
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Monthly (by chapter)",
+      "description": "Monthly microgrants for awesome projects"
+    },
+    {
+      "name": "Internet Archive Scholar Program",
+      "organization": "Internet Archive",
+      "url": "https://blog.archive.org/category/books-archive/internet-archive-scholar/",
+      "amount": "Free access to resources",
+      "audience": [
+        "Students / PhD",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Microgrants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Humanities & Arts",
+        "Social Sciences & Policy"
+      ],
+      "deadline": "Rolling applications",
+      "description": "Free access to books and resources for scholars"
+    },
+    {
+      "name": "FUTO Grants",
+      "organization": "FUTO",
+      "url": "https://futo.org/",
+      "amount": "Variable",
+      "audience": [
+        "OSS maintainers",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "OSS grants"
+      ],
+      "domains": [
+        "Open Tech / OSS / Internet",
+        "Computer Science & AI"
+      ],
+      "deadline": "Rolling",
+      "description": "Supporting people-controlled technology"
+    },
+    {
+      "name": "SIGGRAPH Conference Grants",
+      "organization": "ACM SIGGRAPH",
+      "url": "https://www.siggraph.org/grants/",
+      "amount": "Variable",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Travel grants / conference grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Before conference",
+      "description": "Travel support for graphics and interactive techniques conference"
+    }
+  ],
+  "UK (UKRI, Wellcome, etc.)": [
+    {
+      "name": "UKRI Future Leaders Fellowships",
+      "organization": "UK Research and Innovation",
+      "url": "https://www.ukri.org/opportunity/future-leaders-fellowships/",
+      "amount": "£1-1.5 million over 4-7 years",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "UK (UKRI, Wellcome, etc.)"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "Varies (typically biannual)",
+      "description": "Support for early career researchers and innovators"
+    },
+    {
+      "name": "Wellcome Trust Career Development Awards",
+      "organization": "Wellcome Trust",
+      "url": "https://wellcome.org/grant-funding/schemes/career-development-awards",
+      "amount": "£1-2 million over 5 years",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "UK (UKRI, Wellcome, etc.)"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Rolling",
+      "description": "For postdocs and early career researchers in biomedical science"
+    },
+    {
+      "name": "Wellcome Trust Senior Research Fellowships",
+      "organization": "Wellcome Trust",
+      "url": "https://wellcome.org/grant-funding/schemes/senior-research-fellowships",
+      "amount": "Up to £3 million over 5-8 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "UK (UKRI, Wellcome, etc.)"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Rolling",
+      "description": "For exceptional researchers with independent track record"
+    },
+    {
+      "name": "Royal Society University Research Fellowships",
+      "organization": "Royal Society",
+      "url": "https://royalsociety.org/grants-schemes-awards/grants/university-research/",
+      "amount": "Up to 8 years of salary + research costs",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "UK (UKRI, Wellcome, etc.)"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "September (annually)",
+      "description": "For outstanding early career scientists"
+    },
+    {
+      "name": "British Academy Postdoctoral Fellowships",
+      "organization": "British Academy",
+      "url": "https://www.thebritishacademy.ac.uk/funding/postdoctoral-fellowships/",
+      "amount": "3 years salary + research costs (£350k total)",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "UK (UKRI, Wellcome, etc.)"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Humanities & Arts",
+        "Social Sciences & Policy"
+      ],
+      "deadline": "October (annually)",
+      "description": "For early career researchers in humanities and social sciences"
+    },
+    {
+      "name": "Leverhulme Trust Research Fellowships",
+      "organization": "Leverhulme Trust",
+      "url": "https://www.leverhulme.ac.uk/research-fellowships",
+      "amount": "Salary + £6,000 research expenses",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "UK (UKRI, Wellcome, etc.)"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "January (annually)",
+      "description": "For experienced researchers to undertake significant research"
+    },
+    {
+      "name": "EPSRC New Investigator Awards",
+      "organization": "EPSRC",
+      "url": "https://www.ukri.org/councils/epsrc/guidance-for-applicants/types-of-funding-we-offer/",
+      "amount": "Up to £250,000",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "UK (UKRI, Wellcome, etc.)"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences"
+      ],
+      "deadline": "Rolling",
+      "description": "For early career principal investigators in engineering and physical sciences"
+    }
+  ],
+  "Asia-Pacific (Singapore, Australia, etc.)": [
+    {
+      "name": "NRF Fellowship (Singapore)",
+      "organization": "National Research Foundation Singapore",
+      "url": "https://www.nrf.gov.sg/programmes/nrf-fellowship",
+      "amount": "Up to S$3.5 million over 5 years",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Asia-Pacific (Singapore, Australia, etc.)"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Typically June",
+      "description": "For outstanding early-career researchers to start independent careers in Singapore"
+    },
+    {
+      "name": "ARC DECRA (Australia)",
+      "organization": "Australian Research Council",
+      "url": "https://www.arc.gov.au/funding-research/funding-schemes/discovery-program/discovery-early-career-researcher-award-decra",
+      "amount": "A$465,000 over 3 years",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Asia-Pacific (Singapore, Australia, etc.)"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "March (annually)",
+      "description": "Discovery Early Career Researcher Award"
+    },
+    {
+      "name": "ARC Future Fellowship",
+      "organization": "Australian Research Council",
+      "url": "https://www.arc.gov.au/funding-research/funding-schemes/discovery-program/arc-future-fellowships",
+      "amount": "A$1.1 million over 4 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "Asia-Pacific (Singapore, Australia, etc.)"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "Varies",
+      "description": "For mid-career researchers to undertake research in Australia"
+    },
+    {
+      "name": "JSPS Postdoctoral Fellowship (Japan)",
+      "organization": "Japan Society for the Promotion of Science",
+      "url": "https://www.jsps.go.jp/english/e-fellow/",
+      "amount": "¥362,000/month + research allowance",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Asia-Pacific (Singapore, Australia, etc.)"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "Varies by country",
+      "description": "Postdoctoral fellowships for research in Japan"
+    },
+    {
+      "name": "A*STAR Investigatorship (Singapore)",
+      "organization": "Agency for Science, Technology and Research",
+      "url": "https://www.a-star.edu.sg/Scholarships/for-graduate-studies/a-star-investigatorship",
+      "amount": "Up to S$3 million over 5 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "Asia-Pacific (Singapore, Australia, etc.)"
+      ],
+      "type": [
+        "Research project grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Typically twice a year",
+      "description": "For outstanding scientists to establish independent research programs"
+    },
+    {
+      "name": "NHMRC Investigator Grants (Australia)",
+      "organization": "National Health and Medical Research Council",
+      "url": "https://www.nhmrc.gov.au/funding/find-funding/investigator-grants",
+      "amount": "Variable (5 years)",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Asia-Pacific (Singapore, Australia, etc.)"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "March (annually)",
+      "description": "Support for health and medical researchers at different career stages"
+    }
+  ]
+}
