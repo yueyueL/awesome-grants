@@ -25,16 +25,14 @@ This comprehensive list helps you discover grants, fellowships, awards, and comp
 
 | Page | Description | Link |
 |------|-------------|------|
-| **🏠 Home** | Main wiki homepage with quick navigation | [View](https://yueyuel.github.io/awesome-grants/docs/Home.md) |
-| **👥 By Audience** | Browse by career stage (students, postdocs, faculty, OSS, indie) | [View](./docs/audience/README.md) |
-| **🌍 By Region** | Browse by location (US, EU, UK, Asia-Pacific, Global) | [View](./docs/regions/README.md) |
-| **🌈 Diversity & Inclusion** | Grants for women, LGBTQ+, disability, first-gen scholars | [View](./docs/diversity-inclusion/README.md) |
-| **📋 By Type** | Browse by grant type (fellowships, research, microgrants, travel) | [View](./docs/types/README.md) |
-| **🔬 By Domain** | Browse by research area (CS, life sciences, engineering, etc.) | [View](./docs/domains/README.md) |
-| **🏢 By Organization** | Browse by funding agency (NSF, NIH, foundations, etc.) | [View](./docs/organizations/README.md) |
-| **🔴 Live Dashboard** | Curated opportunities from multiple sources | [View](./docs/reference/live-dashboard.md) |
-| **📚 Grant Resources** | Tools, guides, communities, and learning resources | [View](./docs/reference/resources.md) |
-| **📅 Deadline Calendar** | Upcoming grant deadlines organized by month | [View](./docs/reference/deadline-calendar.md) |
+| **🏠 Home** | Main wiki homepage with quick navigation | [View](https://yueyuel.github.io/awesome-grants/docs/Home) |
+| **👥 By Audience** | Browse by career stage (students, postdocs, faculty, OSS, indie) | [View](https://yueyuel.github.io/awesome-grants/docs/audience/README) |
+| **🌍 By Region** | Browse by location (US, EU, UK, Asia-Pacific, Global) | [View](https://yueyuel.github.io/awesome-grants/docs/regions/README) |
+| **🌈 Diversity & Inclusion** | Grants for women, LGBTQ+, disability, first-gen scholars | [View](https://yueyuel.github.io/awesome-grants/docs/diversity-inclusion/README) |
+| **📋 By Type** | Browse by grant type (fellowships, research, microgrants, travel) | [View](https://yueyuel.github.io/awesome-grants/docs/types/README) |
+| **🔬 By Domain** | Browse by research area (CS, life sciences, engineering, etc.) | [View](https://yueyuel.github.io/awesome-grants/docs/domains/README) |
+| **🏢 By Organization** | Browse by funding agency (NSF, NIH, foundations, etc.) | [View](https://yueyuel.github.io/awesome-grants/docs/organizations/README) |
+| **📚 Grant Resources** | Tools, guides, communities, and learning resources | [View](https://yueyuel.github.io/awesome-grants/docs/reference/resources) |
 | **⚡ Quick Reference** | Compare popular grants side-by-side | [View](./docs/reference/quick-reference.md) |
 | **🔍 Search Guide** | Tips for finding the perfect grant | [View](./docs/reference/search-guide.md) |
 | **❓ FAQ** | Frequently asked questions | [View](./docs/reference/FAQ.md) |
