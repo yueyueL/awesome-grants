@@ -19,13 +19,13 @@ This comprehensive list helps you discover grants, fellowships, awards, and comp
 
 ## Quick Start
 
-**🏠 [Start at the Wiki Home](./docs/Home.md)** - User-friendly guide with everything you need
+**🏠 [Start at the Wiki Home](https://yueyuel.github.io/awesome-grants/)** - User-friendly guide with everything you need
 
 ### 📖 Complete Wiki Navigation
 
 | Page | Description | Link |
 |------|-------------|------|
-| **🏠 Home** | Main wiki homepage with quick navigation | [View](./docs/Home.md) |
+| **🏠 Home** | Main wiki homepage with quick navigation | [View](https://yueyuel.github.io/awesome-grants/docs/Home.md) |
 | **👥 By Audience** | Browse by career stage (students, postdocs, faculty, OSS, indie) | [View](./docs/audience/README.md) |
 | **🌍 By Region** | Browse by location (US, EU, UK, Asia-Pacific, Global) | [View](./docs/regions/README.md) |
 | **🌈 Diversity & Inclusion** | Grants for women, LGBTQ+, disability, first-gen scholars | [View](./docs/diversity-inclusion/README.md) |
