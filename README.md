@@ -1,6 +1,6 @@
 # Awesome Grants [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of funding opportunities for researchers, open-source maintainers, and builders.
+> A curated list of funding opportunities for researchers, open-source maintainers, and builders. The wiki link is [link](https://yueyuel.github.io/awesome-grants/).
 
 This comprehensive list helps you discover grants, fellowships, awards, and computational resources for your research, open source projects, or indie ventures. If you’re keen to add information from your own background or region, you’re more than welcome. Please contribute!
 
