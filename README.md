@@ -718,6 +718,7 @@ Comprehensive resources for researchers, open-source maintainers, and builders t
 |----------|------|----------|------|
 | Instrumentl | $179-449/month | Nonprofits & small orgs (410,000+ funders) | [Visit](https://www.instrumentl.com/) |
 | Foundation Directory Online | $35.54-126.58/month | All organizations (140,000+ U.S. grantmakers) | [Visit](https://fconline.foundationcenter.org/) |
+| Grant Match | Free | Startups & small teams (live Grants.gov federal opportunities, no signup) | [Visit](https://autogranthunter.com/grant-match/?ref=awesome-grants) |
 | Pivot-RP | Institutional | Academic researchers (13,000+ sponsors, $70B+) | Institutional |
 | GrantForward | Institutional | Academic researchers (63,000+ grants) | [Visit](https://www.grantforward.com/) |
 
