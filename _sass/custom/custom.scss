@@ -1,21 +1,34 @@
 // Custom styles for Awesome Grants
+// Design spec v1 — "Calm, friendly, task-first"
 
 :root {
-  --ag-page: #f8fafc;
+  --ag-page: #f7f8fa;
   --ag-surface: #ffffff;
-  --ag-surface-muted: #fdfefe;
-  --ag-border: #e2e8f0;
-  --ag-border-strong: #cbd5f5;
-  --ag-text: #0f172a;
-  --ag-muted: #475569;
-  --ag-subtle: #94a3b8;
-  --ag-brand: #1d4ed8;
-  --ag-brand-dark: #1e3a8a;
-  --ag-success: #059669;
+  --ag-surface-muted: #f1f4f9;
+  --ag-border: #e3e8ef;
+  --ag-text: #1a2233;
+  --ag-muted: #4b5565;
+  --ag-subtle: #8a94a6;
+  --ag-brand: #2563eb;
+  --ag-brand-dark: #1e40af;
+  --ag-brand-soft: #eef3fe;
+  --ag-success: #0e9f6e;
   --ag-warning: #b45309;
   --ag-danger: #dc2626;
-  --ag-shadow-sm: 0 12px 30px rgba(15, 23, 42, 0.06);
-  --ag-shadow-md: 0 25px 65px rgba(15, 23, 42, 0.08);
+  --ag-accent-purple: #7c3aed;
+  --ag-accent-teal: #0d9488;
+  --ag-accent-rose: #e11d48;
+  --ag-accent-amber: #d97706;
+  --ag-shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --ag-shadow-md: 0 4px 16px rgba(16, 24, 40, 0.08);
+  --ag-radius: 12px;
+  --ag-radius-sm: 8px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
@@ -23,7 +36,31 @@ body {
   color: var(--ag-text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  line-height: 1.65;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+// Global accessible focus indicator
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--ag-brand);
+  outline-offset: 2px;
+}
+
+// Respect reduced-motion preferences: no animated transforms/transitions
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 .page {
@@ -65,7 +102,7 @@ body {
   }
 }
 
-// Header - Academic style (single canonical .site-header definition)
+// Header (single canonical .site-header definition)
 .site-header {
   display: flex;
   flex-wrap: wrap;
@@ -74,7 +111,7 @@ body {
   padding: 1rem 1.5rem;
   background: var(--ag-surface);
   border-bottom: 1px solid var(--ag-border);
-  box-shadow: var(--ag-shadow-sm);
+  box-shadow: none;
   position: sticky;
   top: 0;
   z-index: 210;
@@ -124,15 +161,15 @@ body {
     align-items: center;
     gap: 0.45rem;
     padding: 0.65rem 1.1rem;
-    border-radius: 12px;
+    border-radius: var(--ag-radius-sm);
     font-weight: 600;
     font-size: 0.95rem;
-    background: linear-gradient(120deg, var(--ag-brand-dark), var(--ag-brand));
-    color: #ffffff;
+    background: var(--ag-brand);
+    color: white;
     text-decoration: none;
-    border: 1px solid rgba(30, 64, 175, 0.2);
-    box-shadow: 0 18px 30px rgba(29, 78, 216, 0.25);
-    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    border: none;
+    box-shadow: var(--ag-shadow-sm);
+    transition: background 0.2s ease;
 
     svg {
       width: 1.05rem;
@@ -141,18 +178,19 @@ body {
     }
 
     &:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 20px 38px rgba(29, 78, 216, 0.32);
+      background: var(--ag-brand-dark);
+      color: white;
+      text-decoration: none;
     }
 
     &:focus-visible {
-      outline: 3px solid rgba(29, 78, 216, 0.35);
-      outline-offset: 3px;
+      outline: 2px solid var(--ag-brand);
+      outline-offset: 2px;
     }
   }
 }
 
-// Navigation improvements - Academic style
+// Navigation
 .nav-list {
   font-size: 0.95rem;
   margin: 0;
@@ -169,14 +207,14 @@ body {
       transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
 
       &:hover {
-        background-color: rgba(29, 78, 216, 0.08);
+        background-color: rgba(37, 99, 235, 0.08);
         color: var(--ag-brand-dark);
         text-decoration: none;
       }
 
       &.active {
-        background: rgba(29, 78, 216, 0.15);
-        box-shadow: inset 0 0 0 1px rgba(29, 78, 216, 0.25);
+        background: rgba(37, 99, 235, 0.15);
+        box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.25);
         color: var(--ag-brand-dark);
         font-weight: 600;
       }
@@ -184,7 +222,7 @@ body {
   }
 }
 
-// Search box - Clean academic style (single canonical .search definition)
+// Search box (single canonical .search definition)
 .search {
   width: 100%;
 
@@ -202,7 +240,7 @@ body {
 
     &:focus-within {
       border-color: var(--ag-brand);
-      box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.18);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
       background: var(--ag-surface);
 
       svg {
@@ -245,7 +283,7 @@ body {
   margin-top: 0.75rem;
   background: var(--ag-surface);
   border: 1px solid var(--ag-border);
-  border-radius: 16px;
+  border-radius: var(--ag-radius);
   box-shadow: var(--ag-shadow-md);
   padding: 0.5rem;
 
@@ -255,11 +293,11 @@ body {
 
   .search-result {
     padding: 0.5rem 0.75rem;
-    border-radius: 10px;
+    border-radius: var(--ag-radius-sm);
     transition: background 0.2s ease;
 
     &:hover {
-      background: rgba(29, 78, 216, 0.08);
+      background: rgba(37, 99, 235, 0.08);
     }
   }
 
@@ -276,20 +314,19 @@ body {
   }
 }
 
-// Cards for content - Subtle academic style
+// Cards for content — calm surfaces, no hover lift
 .stat-card, .quick-nav-item, .info-box {
-  background: white;
+  background: var(--ag-surface);
   border: 1px solid var(--ag-border);
-  border-radius: 6px;
+  border-radius: var(--ag-radius-sm);
   padding: 1.5rem;
   margin: 1rem 0;
-  transition: all 0.2s ease;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: var(--ag-shadow-sm);
 
   &:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
-    border-color: #1e40af;
+    box-shadow: var(--ag-shadow-sm);
+    border-color: var(--ag-brand);
   }
 }
 
@@ -308,14 +345,14 @@ body {
     display: block;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #1e40af;
+    color: var(--ag-brand);
     margin-bottom: 0.5rem;
   }
 
   .stat-label {
     display: block;
     font-size: 0.875rem;
-    color: #6b7280;
+    color: var(--ag-muted);
     text-transform: uppercase;
     letter-spacing: 0.8px;
     font-weight: 500;
@@ -337,21 +374,20 @@ body {
 
   h3 {
     margin: 0.5rem 0;
-    color: #111827;
+    color: var(--ag-text);
     font-size: 1.25rem;
-    font-family: Georgia, "Times New Roman", serif;
-    font-weight: 600;
+    font-weight: 700;
   }
 
   p {
     margin: 0;
-    color: #6b7280;
+    color: var(--ag-muted);
     font-size: 0.875rem;
     line-height: 1.6;
   }
 }
 
-// Info boxes with colored accents - Academic colors
+// Info boxes with colored accents
 .info-box {
   border-left: 4px solid var(--ag-brand-dark);
 
@@ -368,56 +404,55 @@ body {
   }
 }
 
-// Badges - Academic palette
+// Badges
 .badge {
   display: inline-block;
   padding: 0.25em 0.6em;
   font-size: 0.75rem;
   font-weight: 600;
   line-height: 1;
-  color: #fff;
+  color: white;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 4px;
 
   &.badge-blue {
-    background-color: #1e40af;
+    background-color: var(--ag-brand-dark);
   }
 
   &.badge-green {
-    background-color: #059669;
+    background-color: var(--ag-success);
   }
 
   &.badge-purple {
-    background-color: #7c3aed;
+    background-color: var(--ag-accent-purple);
   }
 
   &.badge-yellow {
-    background-color: #d97706;
-    color: #ffffff;
+    background-color: var(--ag-accent-amber);
+    color: white;
   }
 }
 
-// Tables - Academic style
+// Tables
 .main-content table {
   border: 1px solid var(--ag-border);
-  border-radius: 4px;
+  border-radius: var(--ag-radius-sm);
   overflow: hidden;
 
   thead {
-    background: #f5f7f9;
+    background: var(--ag-surface-muted);
     border-bottom: 2px solid var(--ag-border);
 
     th {
-      font-weight: 600;
-      color: #111827;
-      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 700;
+      color: var(--ag-text);
     }
   }
 
   tr:hover {
-    background-color: rgba(30, 64, 175, 0.04);
+    background-color: rgba(37, 99, 235, 0.04);
   }
 
   th, td {
@@ -431,67 +466,67 @@ body {
   }
 }
 
-// Buttons - Academic style
+// Theme buttons — calm hover, no lift
 .btn, .btn-primary {
-  border-radius: 4px;
+  border-radius: var(--ag-radius-sm);
   font-weight: 600;
-  transition: all 0.2s ease;
+  transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 
   &:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--ag-shadow-sm);
   }
 }
 
 .btn-primary {
-  background: #1e40af;
-  border: 1px solid #1e3a8a;
+  background: var(--ag-brand);
+  border: 1px solid var(--ag-brand-dark);
   color: white;
 
   &:hover {
-    background: #1e3a8a;
+    background: var(--ag-brand-dark);
   }
 }
 
-// Code blocks - Academic style
+// Code blocks
 pre, code {
   border-radius: 4px;
 }
 
 .highlight {
   border-radius: 4px;
-  border: 1px solid #d0d7de;
+  border: 1px solid var(--ag-border);
 }
 
-// Headings - Serif font for academic style
+// Headings — friendly system sans
 h1, h2, h3, h4, h5, h6 {
-  font-family: Georgia, "Times New Roman", serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji";
-  font-weight: 600;
-  color: #111827;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  color: var(--ag-text);
   line-height: 1.4;
 
   .anchor-heading {
-    color: #1e40af;
+    color: var(--ag-brand);
   }
 }
 
 h1 {
+  font-size: clamp(1.75rem, 4vw, 2.4rem);
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #d0d7de;
+  border-bottom: 2px solid var(--ag-border);
   margin-top: 1.5rem;
 }
 
 h2 {
   margin-top: 1.25rem;
   padding-bottom: 0.25rem;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid var(--ag-border);
 }
 
-// Links - Academic blue
+// Links
 a {
   color: var(--ag-brand-dark);
-  transition: all 0.2s ease;
+  transition: color 0.2s ease;
 
   &:hover {
     color: var(--ag-brand);
@@ -499,16 +534,16 @@ a {
   }
 }
 
-// Main content area - Improved readability
+// Main content area
 .main-content {
   max-width: 1080px;
   line-height: 1.7;
   background: var(--ag-surface);
-  border-radius: 24px;
+  border-radius: var(--ag-radius);
   padding: 2.5rem;
   margin: 0 auto 3rem;
   border: 1px solid var(--ag-border);
-  box-shadow: var(--ag-shadow-md);
+  box-shadow: var(--ag-shadow-sm);
 
   > *:first-child {
     margin-top: 0;
@@ -523,16 +558,12 @@ a {
 @media (max-width: 1024px) {
   .main-content {
     padding: 2rem;
-    border-radius: 20px;
 
+    // Scroll wide tables sideways; row groups stay in one table box so
+    // header and body columns remain aligned.
     table {
       display: block;
       overflow-x: auto;
-
-      thead, tbody, tr {
-        display: table;
-        width: 100%;
-      }
     }
   }
 }
@@ -540,20 +571,19 @@ a {
 @media (max-width: 640px) {
   .main-content {
     padding: 1.5rem;
-    border-radius: 14px;
   }
 }
 
-// Footer - Academic style
+// Footer
 .site-footer {
-  border-top: 2px solid #d0d7de;
-  background-color: #f5f7f9;
+  border-top: 2px solid var(--ag-border);
+  background-color: var(--ag-surface-muted);
 
   a {
-    color: #1e40af;
+    color: var(--ag-brand-dark);
 
     &:hover {
-      color: #1e3a8a;
+      color: var(--ag-brand);
     }
   }
 }
@@ -570,8 +600,8 @@ a {
 
   .search {
     .search-input {
-      padding: 0.4rem 0.6rem 0.4rem 2.5rem;
-      font-size: 13px;
+      padding: 0.6rem 0.75rem 0.6rem 2.5rem;
+      font-size: 16px; // prevents iOS auto-zoom
     }
 
     svg {
@@ -582,10 +612,10 @@ a {
   }
 
   .main-content table {
-    font-size: 13px;
+    font-size: 0.85rem;
 
     th, td {
-      padding: 0.35rem;
+      padding: 0.45rem;
     }
   }
 }
@@ -603,16 +633,15 @@ a {
 
 // Contribution call-to-action (markup in _includes/footer_custom.html)
 .contribution-box {
-  background-color: #f5f7f9;
-  border-left: 4px solid #1e40af;
+  background-color: var(--ag-surface-muted);
+  border-left: 4px solid var(--ag-brand-dark);
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
-  border-radius: 4px;
+  border-radius: var(--ag-radius-sm);
 
   h4 {
     margin-top: 0;
-    color: #1e40af;
-    font-family: Georgia, "Times New Roman", serif;
+    color: var(--ag-brand-dark);
   }
 
   p:last-child {
@@ -630,32 +659,31 @@ a {
   display: inline-block;
   padding: 0.5rem 1rem;
   margin: 1rem 0;
-  background-color: #6b7280;
-  color: #ffffff;
+  background-color: var(--ag-muted);
+  color: white;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: var(--ag-radius-sm);
   font-size: 14px;
   font-weight: 500;
-  transition: all 0.2s ease;
+  transition: background 0.2s ease;
 
   &:hover {
-    background-color: #1e40af;
-    color: #ffffff;
+    background-color: var(--ag-brand-dark);
+    color: white;
     text-decoration: none;
-    transform: translateY(-1px);
   }
 }
 
-// Auxiliary navigation (top right links) - Academic style
+// Auxiliary navigation (top right links)
 .aux-nav {
   .aux-nav-list-item {
     a {
       color: white;
       font-weight: 500;
       padding: 0.5rem 1rem;
-      border-radius: 4px;
+      border-radius: var(--ag-radius-sm);
       background-color: rgba(255, 255, 255, 0.15);
-      transition: all 0.2s ease;
+      transition: background 0.2s ease;
 
       &:hover {
         background-color: rgba(255, 255, 255, 0.25);
@@ -715,4 +743,201 @@ a {
     padding: 0.25rem 0;
     line-height: 1.8;
   }
+}
+
+// ============================================================
+// Component contract (design spec v1)
+// ============================================================
+
+// Buttons / link-buttons
+.ag-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.65rem 1.25rem;
+  border-radius: var(--ag-radius-sm);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--ag-brand);
+    outline-offset: 2px;
+  }
+}
+
+.ag-btn-primary {
+  background: var(--ag-brand);
+  color: white;
+
+  &:hover {
+    background: var(--ag-brand-dark);
+    color: white;
+  }
+}
+
+.ag-btn-ghost {
+  background: transparent;
+  border: 1px solid var(--ag-border);
+  color: var(--ag-brand);
+
+  &:hover {
+    border-color: var(--ag-brand);
+    background: var(--ag-brand-soft);
+    color: var(--ag-brand-dark);
+  }
+}
+
+// Hero intro block
+.ag-hero {
+  text-align: center;
+  margin: 0 auto 2rem;
+  max-width: 48rem;
+
+  h1 {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+.main-content .ag-hero-lede,
+.ag-hero-lede {
+  font-size: 1.15rem;
+  color: var(--ag-muted);
+  max-width: 42rem;
+  margin: 0.75rem auto 1.25rem;
+}
+
+.ag-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+}
+
+// Card grid
+.ag-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+// Link card — works as <a class="ag-card">
+.ag-card {
+  display: block;
+  background: var(--ag-surface);
+  border: 1px solid var(--ag-border);
+  border-radius: var(--ag-radius);
+  padding: 1.25rem;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    border-color: var(--ag-brand);
+    box-shadow: var(--ag-shadow-sm);
+    color: inherit;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+    margin: 0.25rem 0;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: var(--ag-muted);
+    margin: 0;
+  }
+}
+
+a.ag-card:hover {
+  text-decoration: none;
+}
+
+.ag-card-icon {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.ag-card-go {
+  display: block;
+  margin-top: 0.6rem;
+  color: var(--ag-brand);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+// Card accent variants — 3px top border
+.ag-card--blue {
+  border-top: 3px solid var(--ag-brand);
+}
+
+.ag-card--green {
+  border-top: 3px solid var(--ag-success);
+}
+
+.ag-card--purple {
+  border-top: 3px solid var(--ag-accent-purple);
+}
+
+.ag-card--amber {
+  border-top: 3px solid var(--ag-accent-amber);
+}
+
+.ag-card--teal {
+  border-top: 3px solid var(--ag-accent-teal);
+}
+
+.ag-card--rose {
+  border-top: 3px solid var(--ag-accent-rose);
+}
+
+// Inline chip
+.ag-pill {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: var(--ag-brand-soft);
+  color: var(--ag-brand-dark);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  white-space: nowrap;
+}
+
+// Friendly closing panel
+.ag-cta {
+  background: var(--ag-brand-soft);
+  border: 1px solid var(--ag-border);
+  border-radius: var(--ag-radius);
+  padding: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+
+  h2 {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+// Muted paragraph directly under an h2
+.main-content .ag-section-intro,
+.ag-section-intro {
+  color: var(--ag-muted);
+  margin-top: 0.25rem;
 }

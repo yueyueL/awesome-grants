@@ -15,6 +15,7 @@ This comprehensive list helps you discover grants, fellowships, awards, and comp
 - [Complete Grants Directory](#-complete-grants-directory)
 - [Grant Writing Resources](#-grant-writing-resources)
 - [Compute & Cloud Resources](#compute--cloud-resources)
+- [AI & ML Funding](#ai--ml-funding)
 - [Resources](#resources)
 - [Contributing](#contributing)
 - [Disclaimer](#disclaimer)
@@ -235,7 +236,7 @@ This comprehensive list helps you discover grants, fellowships, awards, and comp
 
 **Microgrants (6 programs)**
 - [Emergent Ventures](https://www.mercatus.org/emergent-ventures) - $1,000-$50,000 (median $15-20K) for moonshot ideas (Global, rolling)
-- [Awesome Foundation](http://www.awesomefoundation.org/) - $1,000 monthly microgrants (Global, by chapter)
+- [Awesome Foundation](https://www.awesomefoundation.org/) - $1,000 monthly microgrants (Global, by chapter)
 - [AI Grant](https://aigrant.org/) - $2,500-$5,000 for AI projects (Global)
 - [Unitary Fund](https://unitary.fund/) - $4,000 for quantum tech OSS (Global)
 - [OpenAI Researcher Access Program](https://openai.smapply.org/prog/openai_researcher_access_program/) - Up to $1,000 API credits (Quarterly reviews)
@@ -531,44 +532,61 @@ History, philosophy, languages, arts, digital humanities
 
 ## 📋 Complete Grants Directory
 
-All 66 curated grants organized by funding organization. Each grant links directly to the official application page.
+A hand-picked directory from our 182-grant curated dataset, organized by funding organization. Each grant links directly to the official application page.
 
 ### 🇺🇸 US Federal Agencies
 
 | Grant Name | Amount | Audience |
 |------------|--------|----------|
 | [DARPA Young Faculty Award (YFA)](https://www.darpa.mil/work-with-us/communities/academia/young-faculty-award) | $500,000 over 2 years (Phase I) | Faculty / PI |
+| [DOE Computational Science Graduate Fellowship (DOE CSGF)](https://www.krellinst.org/csgf/) | $45,000/year stipend + full tuition & fees, up to 4 years | Students / PhD |
 | [DOE Early Career Research Program](https://science.osti.gov/early-career) | $750,000 over 5 years | Faculty / PI |
+| [Fulbright U.S. Student Program](https://us.fulbrightonline.org/fulbright-us-student-program) | Full funding: living + travel stipend, health benefits (varies by country) | Students / PhD |
 | [NASA Postdoctoral Program](https://npp.orau.org/) | $60,000-$80,000/year | Postdocs / ECRs |
 | [NEH Fellowships](https://www.neh.gov/grants/research/fellowships) | $5,000/month for 6-12 months | Faculty / PI, Postdocs / ECRs |
 | [NIH F31 Predoctoral Fellowship](https://researchtraining.nih.gov/programs/fellowships/f31) | $25,000-$27,000 stipend + tuition | Students / PhD |
 | [NIH K99/R00 Pathway to Independence Award](https://www.niddk.nih.gov/research-funding/process/apply/funding-mechanisms/k-awards/k99-r00) | Up to $249,000 (K99) + $249,000/year (R00) | Postdocs / ECRs |
 | [NIH R01 Research Project Grant](https://grants.nih.gov/grants/funding/r01.htm) | Variable (typically $250,000-$500,000/year) | Faculty / PI, Postdocs / ECRs |
 | [NSF CAREER Award](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503214) | $400,000 - $500,000 over 5 years | Faculty / PI |
+| [NSF CISE Research Initiation Initiative (CRII)](https://www.nsf.gov/funding/opportunities/crii-computer-information-science-engineering-research-initiation/504952/nsf23-576) | Up to $175,000 over 24 months | Faculty / PI, Postdocs / ECRs |
 | [NSF Graduate Research Fellowship Program (GRFP)](https://www.nsfgrfp.org/) | $37,000/year stipend + $12,000 cost of education | Students / PhD |
 | [NSF Postdoctoral Research Fellowships](https://www.nsf.gov/funding/education.jsp?fund_type=3) | $69,000/year salary + $10,000 research | Postdocs / ECRs |
+| [Vannevar Bush Faculty Fellowship (VBFF)](https://basicresearch.defense.gov/Programs/Vannevar-Bush-Faculty-Fellowship/) | Up to $3M over 5 years | Faculty / PI |
 
 ### 🇪🇺 European Programs
 
 | Grant Name | Amount | Audience |
 |------------|--------|----------|
 | [Alexander von Humboldt Fellowship](https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship) | €2,670-€3,170/month | Postdocs / ECRs, Faculty / PI |
-| [European Molecular Biology Laboratory (EMBL) Interdisciplinary Postdocs](https://www.embl.org/about/info/postdoctoral-programme/) | Competitive salary + benefits | Postdocs / ECRs |
+| [ANR Young Researchers Programme (JCJC)](https://anr.fr/en/call-for-proposals-details/call/programme-jeunes-chercheuses-et-jeunes-chercheurs-jcjc/) | €200K–400K over ~48 months (+€75K ERC prep option) | Postdocs / ECRs, Faculty / PI |
+| [DFG Emmy Noether Programme](https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/emmy-noether) | Salary + research costs, ~€1-1.5M over 6 years | Postdocs / ECRs |
+| [DFG Heisenberg Programme](https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/heisenberg) | Full salary + project costs (or fellowship), up to 5 years | Postdocs / ECRs, Faculty / PI |
+| [EIC Accelerator](https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en) | Grant up to €2.5M + equity €1–10M (blended finance) | Indie builders / microgrants, Faculty / PI |
+| [EIC Pathfinder](https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder_en) | Up to €4M per project | Faculty / PI, Postdocs / ECRs |
 | [EMBO Long-Term Fellowships](https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/) | ~€5,000/month + travel/family allowances | Postdocs / ECRs |
-| [Horizon Europe Research and Innovation Actions](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en) | Variable (€3-10 million typical) | Faculty / PI |
-| [Marie Skłodowska-Curie Individual Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) | €5,000/month + mobility allowance | Postdocs / ECRs |
 | [ERC Advanced Grant](https://erc.europa.eu/funding/advanced-grants) | €2.5 million over 5 years | Faculty / PI |
 | [ERC Consolidator Grant](https://erc.europa.eu/funding/consolidator-grants) | €2 million over 5 years | Faculty / PI |
 | [ERC Starting Grant](https://erc.europa.eu/funding/starting-grants) | €1.5 million over 5 years | Faculty / PI, Postdocs / ECRs |
-| [Sovereign Tech Fund](https://www.sovereigntechfund.de/) | Variable (€50,000-€300,000 typical) | OSS maintainers |
+| [European Molecular Biology Laboratory (EMBL) Interdisciplinary Postdocs](https://www.embl.org/about/info/postdoctoral-programme/) | Competitive salary + benefits | Postdocs / ECRs |
+| [Horizon Europe Research and Innovation Actions](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en) | Variable (€3-10 million typical) | Faculty / PI |
+| [Marie Skłodowska-Curie Individual Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) | €5,000/month + mobility allowance | Postdocs / ECRs |
+| [MSCA Doctoral Networks](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-networks) | ~€3-4M per network; €593M total for 2026 call | Students / PhD, Faculty / PI |
+| [NWO Talent Programme (Veni, Vidi, Vici)](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme) | Veni up to €320K (3 yrs); Vidi up to €850K (5 yrs); Vici up to €1.5M (5 yrs) | Postdocs / ECRs, Faculty / PI |
 | [Prototype Fund (Germany)](https://prototypefund.de/en/) | €47,500 over 6 months | OSS maintainers, Indie builders / microgrants |
+| [SNSF Ambizione](https://www.snf.ch/en/N18L3oGWomTSSGkF/funding/careers/ambizione) | Salary + up to CHF 250,000 project funds over 4 years | Postdocs / ECRs |
+| [SNSF Starting Grants](https://www.snf.ch/en/w728UqT1Yw256Mz2/funding/careers/snsf-starting-grants) | Up to CHF 1M project funds + salary over 5 years | Postdocs / ECRs, Faculty / PI |
+| [Sovereign Tech Fund](https://www.sovereigntechfund.de/) | Variable (€50,000-€300,000 typical) | OSS maintainers |
+| [Wallenberg Academy Fellows](https://kaw.wallenberg.org/en/wallenberg-academy-fellows) | SEK 5-15.6M over 5 years | Postdocs / ECRs, Faculty / PI |
 
 ### 🇬🇧 UK Programs
 
 | Grant Name | Amount | Audience |
 |------------|--------|----------|
+| [AHRC Research Grants & Fellowships (UKRI)](https://www.ukri.org/councils/ahrc/guidance-for-applicants/) | £300K–£1.5M FEC (80% funded) | Faculty / PI, Postdocs / ECRs |
 | [British Academy Postdoctoral Fellowships](https://www.thebritishacademy.ac.uk/funding/postdoctoral-fellowships/) | 3 years salary + research costs (£350k total) | Postdocs / ECRs |
 | [EPSRC New Investigator Awards](https://www.ukri.org/councils/epsrc/guidance-for-applicants/types-of-funding-we-offer/) | Up to £250,000 | Faculty / PI |
+| [ESRC New Investigator Grant](https://www.ukri.org/opportunity/esrc-new-investigator-grant/) | £100,000-£350,000 (80% FEC), up to 5 years | Postdocs / ECRs, Faculty / PI |
+| [ESRC Postdoctoral Fellowships](https://www.ukri.org/opportunity/esrc-postdoctoral-fellowships/) | Salary + research/training costs; up to 9 months full-time (or 18 months part-time) | Postdocs / ECRs |
 | [Leverhulme Trust Research Fellowships](https://www.leverhulme.ac.uk/research-fellowships) | Salary + £6,000 research expenses | Faculty / PI, Postdocs / ECRs |
 | [Royal Society University Research Fellowships](https://royalsociety.org/grants-schemes-awards/grants/university-research/) | Up to 8 years of salary + research costs | Postdocs / ECRs |
 | [UKRI Future Leaders Fellowships](https://www.ukri.org/what-we-do/developing-people-and-skills/future-leaders-fellowships/) | £1-1.5 million over 4-7 years | Postdocs / ECRs, Faculty / PI |
@@ -582,40 +600,55 @@ All 66 curated grants organized by funding organization. Each grant links direct
 | [A*STAR Investigatorship (Singapore)](https://www.a-star.edu.sg/aei) | Up to S$3 million over 5 years | Faculty / PI |
 | [ARC DECRA (Australia)](https://www.arc.gov.au/funding-research/funding-schemes/discovery-program/discovery-early-career-researcher-award-decra) | A$465,000 over 3 years | Postdocs / ECRs |
 | [ARC Future Fellowship](https://www.arc.gov.au/funding-research/funding-schemes) | A$1.1 million over 4 years | Faculty / PI |
+| [Hong Kong PhD Fellowship Scheme (HKPFS)](https://www.ugc.edu.hk/eng/rgc/funding_opport/hkpfs/) | HK$340,800/year stipend + HK$14,200 travel allowance, for 3 years | Students / PhD |
 | [JSPS Postdoctoral Fellowship (Japan)](https://www.jsps.go.jp/english/e-fellow/) | ¥362,000/month + research allowance | Postdocs / ECRs |
+| [JST CREST (Strategic Basic Research Programs)](https://www.jst.go.jp/kisoken/crest/en/) | ¥200M–500M over ~5.5 years (~$1.5M–3.5M) | Faculty / PI |
+| [JST PRESTO (Sakigake)](https://www.jst.go.jp/kisoken/presto/en/) | ~¥30-40M (~$250K) over 3.5 years | Postdocs / ECRs, Faculty / PI |
+| [Marsden Fund](https://www.royalsociety.org.nz/what-we-do/funds-and-opportunities/marsden) | Fast-Start: NZ$120,000/year for 3 years; Standard: flexible, 3 years | Students / PhD, Postdocs / ECRs, Faculty / PI |
 | [NHMRC Investigator Grants (Australia)](https://www.nhmrc.gov.au/funding/find-funding/investigator-grants) | Variable (5 years) | Faculty / PI, Postdocs / ECRs |
 | [NRF Fellowship (Singapore)](https://www.nrf.gov.sg/grants/nrff/) | Up to S$3.5 million over 5 years | Faculty / PI, Postdocs / ECRs |
+| [NSFC Research Fund for International Scientists (RFIS-I, Young Scientists)](https://www.nsfc.gov.cn/english/site_1/international/D5/index.html) | Up to ¥200,000/year for 1–2 years | Postdocs / ECRs |
 
 ### 🏛️ Major Foundations
 
 | Grant Name | Amount | Audience |
 |------------|--------|----------|
-| [Sloan Research Fellowships](https://sloan.org/fellowships) | $75,000 over 2 years | Faculty / PI |
+| [AACR Research Grants](https://www.aacr.org/professionals/research-funding/) | $50,000–$450,000 (varies by program; fellowships ~$130K over 2 years) | Postdocs / ECRs, Faculty / PI, Students / PhD |
+| [AGU Student Travel Grant](https://www.agu.org/honors/fmstg) | $1,000 (in-person) / $500 (virtual) | Students / PhD |
+| [APS Innovation Fund Grants](https://www.aps.org/funding-recognition/grant/innovation-fund) | Up to $50,000 each (up to 5 grants); 18 months | Students / PhD, Postdocs / ECRs, Faculty / PI |
+| [APSA Doctoral Dissertation Research Improvement Grants (DDRIG)](https://apsanet.org/programs/doctoral-dissertation-research-improvement-grants/) | $10,000–$20,000 (20–25 grants/year, +$1,000 travel) | Students / PhD |
+| [ASA Doctoral Dissertation Research Improvement Grants (DDRIG)](https://www.asanet.org/academic-professional-resources/asa-grants-and-fellowships/asa-doctoral-dissertation-research-improvement-grants-asa-ddrig/) | Up to $16,000 (up to 25 awards/year) | Students / PhD |
 | [Chan Zuckerberg Initiative - Science](https://chanzuckerberg.com/science/) | Variable (typically millions) | Faculty / PI, Postdocs / ECRs |
-| [Packard Fellowships for Science and Engineering](https://www.packard.org/what-we-fund/science/packard-fellowships-for-science-and-engineering/) | $875,000 over 5 years | Faculty / PI |
+| [Coefficient Giving — Science and Global Health R&D Fund (formerly Open Philanthropy Scientific Research)](https://coefficientgiving.org/funds/science-and-global-health-rd/) | Varies widely (project-based; high-impact biomedical R&D) | Faculty / PI, Postdocs / ECRs |
+| [Gordon and Betty Moore Foundation — Science Program](https://www.moore.org/programs/science) | $250K–$5M (e.g. Experimental Physics Investigators ~$1.35M/5 yrs) | Faculty / PI, Postdocs / ECRs |
+| [Grace Hopper Celebration Scholarships](https://ghc.anitab.org/awards-programs/scholarships) | Full GHC registration + travel/lodging + membership | Students / PhD, Postdocs / ECRs |
 | [Howard Hughes Medical Institute (HHMI) Investigators](https://www.hhmi.org/programs/investigators) | ~$9-11 million over 7 years | Faculty / PI |
+| [John Templeton Foundation Grants](https://www.templeton.org/funding-areas) | $250K–$2M+ over 2–3 years | Faculty / PI, Postdocs / ECRs |
 | [L'Oréal-UNESCO For Women in Science](https://www.forwomeninscience.com/) | €15,000 (International Rising Talents) | Postdocs / ECRs, Faculty / PI |
+| [Packard Fellowships for Science and Engineering](https://www.packard.org/what-we-fund/science/packard-fellowships-for-science-and-engineering/) | $875,000 over 5 years | Faculty / PI |
 | [Pew Scholars Program in Biomedical Sciences](https://www.pewtrusts.org/en/projects/pew-biomedical-scholars) | $300,000 over 4 years | Faculty / PI |
 | [Schmidt Science Fellows](https://schmidtsciencefellows.org/) | $100,000/year for 2 years | Postdocs / ECRs |
 | [Simons Foundation Investigator Awards](https://www.simonsfoundation.org/funding-opportunities/) | $100,000-$200,000/year for 5 years | Faculty / PI |
+| [Sloan Research Fellowships](https://sloan.org/fellowships) | $75,000 over 2 years | Faculty / PI |
 
 ### 💻 Open Source & Tech
 
 | Grant Name | Amount | Audience |
 |------------|--------|----------|
+| [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) | Variable | OSS maintainers |
 | [FUTO Grants](https://futo.org/) | Variable | OSS maintainers, Indie builders / microgrants |
 | [GitHub Sponsors](https://github.com/sponsors) | Variable (community-funded) | OSS maintainers, Indie builders / microgrants |
+| [Google DeepMind Academic Fellowship Programme](https://deepmind.google/education/) | Salary + research funding via host university (undisclosed) | Postdocs / ECRs |
 | [Google Season of Docs](https://developers.google.com/season-of-docs) | Variable (project-based) | OSS maintainers |
 | [Google Summer of Code](https://summerofcode.withgoogle.com/) | $1,500-$3,000 (stipends) | Students / PhD |
-| [Core Infrastructure Initiative](https://www.coreinfrastructure.org/) | Variable | OSS maintainers |
-| [Open Source Security Foundation (OpenSSF)](https://openssf.org/) | Variable | OSS maintainers |
 | [Mozilla Grants](https://foundation.mozilla.org/en/what-we-fund/) | $10,000-$50,000 (Common Awards) | OSS maintainers, Indie builders / microgrants |
 | [NLnet Foundation Grants](https://nlnet.nl/propose/) | €5,000-€50,000 | OSS maintainers, Indie builders / microgrants |
 | [NumFOCUS Small Development Grants](https://numfocus.org/programs/small-development-grants) | $2,000-$10,000 | OSS maintainers |
+| [Open Source Security Foundation (OpenSSF)](https://openssf.org/) | Variable | OSS maintainers |
 | [Open Technology Fund](https://www.opentech.fund/) | Variable (typically $10,000-$900,000) | OSS maintainers, Indie builders / microgrants |
+| [Outreachy Internships](https://www.outreachy.org/) | $7,000 stipend | Students / PhD |
 | [Python Software Foundation Grants](https://www.python.org/psf/grants/) | Typically $500-$5,000 | OSS maintainers |
 | [Rust Foundation Grants](https://foundation.rust-lang.org/grants/) | Variable | OSS maintainers |
-| [Outreachy Internships](https://www.outreachy.org/) | $7,000 stipend | Students / PhD |
 
 ### 🚀 Microgrants & Indie
 
@@ -623,7 +656,7 @@ All 66 curated grants organized by funding organization. Each grant links direct
 |------------|--------|----------|
 | [1517 Fund](https://www.1517fund.com/) | Variable (equity investment) | Students / PhD, Indie builders / microgrants |
 | [AI Grant](https://aigrant.org/) | $2,500-$5,000 | Indie builders / microgrants, Students / PhD |
-| [Awesome Foundation Microgrants](http://www.awesomefoundation.org/) | $1,000 | Indie builders / microgrants |
+| [Awesome Foundation Microgrants](https://www.awesomefoundation.org/) | $1,000 | Indie builders / microgrants |
 | [Fast Grants](https://fastgrants.org/) | $10,000-$500,000 | Faculty / PI, Postdocs / ECRs, Indie builders / microgrants |
 | [Emergent Ventures](https://www.mercatus.org/emergent-ventures) | $1,000-$100,000 | Indie builders / microgrants, Students / PhD |
 | [O'Shaughnessy Fellowships](https://www.osv.llc/fellowships) | $100,000 | Indie builders / microgrants, Students / PhD |
@@ -634,7 +667,13 @@ All 66 curated grants organized by funding organization. Each grant links direct
 
 | Grant Name | Amount | Audience |
 |------------|--------|----------|
+| [AEA Summer Training Program](https://www.aeaweb.org/about-aea/committees/aeasp) | $3,250 stipend + 12 college credits; tuition, housing & travel covered | Students / PhD |
+| [FAPESP Young Investigator Grant](https://fapesp.br/en/yia) | Up to 48 months of project funding + fellowships | Postdocs / ECRs, Faculty / PI |
+| [IGEN Travel Grants](https://igenetwork.org/travel-grants) | Up to $1,000 (registration + travel) | Students / PhD, Postdocs / ECRs |
 | [Internet Archive Scholar Program](https://blog.archive.org/category/books-archive/internet-archive-scholar/) | Free access to resources | Students / PhD, Faculty / PI |
+| [Israel Science Foundation (ISF) Research Grants](https://www.isf.org.il/) | ~ILS 180,000–198,000/year per grant (field-dependent) | Faculty / PI, Postdocs / ECRs |
+| [MLA Humanities Innovation Grants](https://www.mla.org/Resources/Career/MLA-Grants-and-Awards/Humanities-Innovation-Grants) | $3,000 grant (up to $1,500 team stipend) | Faculty / PI, Students / PhD |
+| [SACNAS NDiSTEM Conference Travel Scholarships](https://www.sacnas.org/conference/travel-scholarships) | Travel + shared lodging + registration | Students / PhD |
 
 ---
 
@@ -859,6 +898,33 @@ Beyond traditional grants, researchers can access substantial computational reso
 - [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/) - $300 for 30 days + Always Free resources (unlimited time)
 - [Google Cloud Free Trial](https://cloud.google.com/free) - $300 for 90 days across all GCP services
 - [DigitalOcean Free Trial](https://www.digitalocean.com/landing/do-for-higher-education) - $100 for 60 days (higher education) or $200 for students via GitHub Pack
+
+### AI & ML Funding
+
+A fast-growing set of fellowships, research awards, and free compute/API credits from AI labs. See the **[full AI & ML Funding page →](./docs/ai/README.md)** for all providers.
+
+| Program | Provider | What you get |
+| --- | --- | --- |
+| [Google.org Impact Challenge: AI for Science](https://www.google.org/impact-challenges/ai-science/) | Google.org | $500K–$3M per grant + Cloud credits |
+| [OpenAI Foundation People-First AI Fund](https://openaifoundation.org/news/2026-people-first-ai-fund) | OpenAI Foundation | Unrestricted grants up to ~$500K ($50M fund) |
+| [OpenAI Cybersecurity Grant Program](https://openai.com/index/openai-cybersecurity-grant-program/) | OpenAI | $10K increments in API credits / funding |
+| [Anthropic Economic Futures Research Awards](https://www.anthropic.com/economic-futures/program) | Anthropic | $10K–$50K grant + $5K Claude API credits |
+| [AI Safety Fund](https://www.frontiermodelforum.org/ai-safety-fund/) | Frontier Model Forum | $10M+ fund; grants vary by RFP |
+| [Amazon AI PhD Fellowship](https://www.amazon.science/news/amazon-launches-68-million-ai-phd-fellowship-program) | Amazon / AWS | 2 yrs funding + AWS credits ($68M program) |
+| [Meta Research Awards / RFPs](https://research.facebook.com/research-awards/) | Meta | ~$25K–$200K per award |
+| [Microsoft AI for Accessibility Grant](https://www.microsoft.com/en-us/accessibility/innovation) | Microsoft | $10K–$20K Azure credits + support |
+| [NVIDIA Applied Research Accelerator](https://www.nvidia.com/en-us/industries/higher-education-research/applied-research-program/) | NVIDIA | Up to $160K in hardware, cloud, and/or cash |
+| [Technical AI Safety Research RFP](https://coefficientgiving.org/funds/navigating-transformative-ai/request-for-proposals-technical-ai-safety-research/) | Coefficient Giving | Often $50K–$1M+ (large pool) |
+| [AI2050 Fellowship](https://ai2050.schmidtsciences.org/) | Schmidt Sciences | $300K–$500K over 3 years |
+| [Safeguarded AI](https://aria.org.uk/opportunity-spaces/mathematics-for-safe-ai/safeguarded-ai/funding) | ARIA (UK) | Up to £3.5M per team |
+| [MATS (ML Alignment & Theory Scholars)](https://www.matsprogram.org/) | MATS Research | ~$12.5K stipend + housing / compute |
+| [Survival and Flourishing Fund](https://survivalandflourishing.fund/2026/application) | SFF | $20M–$40M distributed across 2026 rounds |
+| [Long-Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) | EA Funds | Typically $5K–$200K |
+| [OpenAI Safety Fellowship](https://openai.com/index/introducing-openai-safety-fellowship/) | OpenAI | Monthly stipend + compute + mentorship |
+| [Bloomberg Data Science Ph.D. Fellowship](https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/) | Bloomberg | Full tuition + $45K stipend |
+| [Sony Research Award Program](https://www.sony.com/en/SonyInfo/research-award-program/) | Sony | Up to $100K–$150K per award |
+
+*...and more on the [AI & ML Funding page](./docs/ai/README.md).*
 
 ---
 

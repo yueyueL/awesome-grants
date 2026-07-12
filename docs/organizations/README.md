@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Grants by Organization
-nav_order: 9
+nav_order: 10
 permalink: /docs/by-organization
 ---
 

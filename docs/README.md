@@ -118,5 +118,5 @@ The grant data is collected using automated tools (see `/src`) and curated by th
 
 ---
 
-*Generated from 66 grants*
+*Generated from 182 grants*
 *For questions or contributions, see the main repository*

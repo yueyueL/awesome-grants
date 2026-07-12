@@ -1,6 +1,6 @@
 {
   "generated_at": "2025-11-16T06:20:40.115705",
-  "total_grants": 66,
+  "total_grants": 182,
   "grants": [
     {
       "name": "NSF Graduate Research Fellowship Program (GRFP)",
@@ -1408,7 +1408,7 @@
     {
       "name": "Awesome Foundation Microgrants",
       "organization": "Awesome Foundation",
-      "url": "http://www.awesomefoundation.org/",
+      "url": "https://www.awesomefoundation.org/",
       "amount": "$1,000",
       "audience": [
         "Indie builders / microgrants"
@@ -1492,6 +1492,2604 @@
       ],
       "deadline": "Before conference",
       "description": "Travel support for graphics and interactive techniques conference"
+    },
+    {
+      "name": "Hong Kong PhD Fellowship Scheme (HKPFS)",
+      "organization": "Research Grants Council of Hong Kong (RGC)",
+      "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/hkpfs/",
+      "amount": "HK$340,800/year stipend + HK$14,200 travel allowance, for 3 years",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "Asia-Pacific"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "December 1 (annually)",
+      "description": "RGC fellowship attracting top international students to pursue full-time PhD study at Hong Kong's universities across all disciplines"
+    },
+    {
+      "name": "JST CREST (Strategic Basic Research Programs)",
+      "organization": "Japan Science and Technology Agency (JST)",
+      "url": "https://www.jst.go.jp/kisoken/crest/en/",
+      "amount": "¥200M–500M over ~5.5 years (~$1.5M–3.5M)",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "Asia-Pacific"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Data & Math"
+      ],
+      "deadline": "June (annually)",
+      "description": "Team-oriented strategic basic research at Japanese institutions tackling major national challenges within designated priority research areas"
+    },
+    {
+      "name": "JST PRESTO (Sakigake)",
+      "organization": "Japan Science and Technology Agency (JST)",
+      "url": "https://www.jst.go.jp/kisoken/presto/en/",
+      "amount": "~¥30-40M (~$250K) over 3.5 years",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Asia-Pacific"
+      ],
+      "type": [
+        "Research Project Grants",
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Data & Math",
+        "Environment & Earth"
+      ],
+      "deadline": "May (annually)",
+      "description": "Individual PI-driven grants for early-to-mid-career researchers pursuing creative basic research in strategic areas at Japanese institutions"
+    },
+    {
+      "name": "Marsden Fund",
+      "organization": "Royal Society Te Apārangi (funded by MBIE / Research Funding New Zealand)",
+      "url": "https://www.royalsociety.org.nz/what-we-do/funds-and-opportunities/marsden",
+      "amount": "Fast-Start: NZ$120,000/year for 3 years; Standard: flexible, 3 years",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Other"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Data & Math",
+        "Social Sciences & Policy",
+        "Environment & Earth"
+      ],
+      "deadline": "Annual round (EOIs typically early year); 2026 is the final round",
+      "description": "New Zealand's flagship fund for investigator-led fundamental research, offering Fast-Start grants for emerging researchers (within 7 years of PhD) and Standard grants for established investigators"
+    },
+    {
+      "name": "NSFC Research Fund for International Scientists (RFIS-I, Young Scientists)",
+      "organization": "National Natural Science Foundation of China (NSFC)",
+      "url": "https://www.nsfc.gov.cn/english/site_1/international/D5/index.html",
+      "amount": "Up to ¥200,000/year for 1–2 years",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Asia-Pacific"
+      ],
+      "type": [
+        "Fellowships",
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Data & Math"
+      ],
+      "deadline": "March (annually)",
+      "description": "Funds early-career foreign scientists (PhD within 6 years) to conduct basic research at a host institution in mainland China"
+    },
+    {
+      "name": "ANR Young Researchers Programme (JCJC)",
+      "organization": "Agence Nationale de la Recherche (ANR)",
+      "url": "https://anr.fr/en/call-for-proposals-details/call/programme-jeunes-chercheuses-et-jeunes-chercheurs-jcjc/",
+      "amount": "€200K–400K over ~48 months (+€75K ERC prep option)",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "EU"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Data & Math",
+        "Social Sciences & Policy",
+        "Environment & Earth",
+        "Humanities & Arts"
+      ],
+      "deadline": "October (pre-proposals, annually)",
+      "description": "Funds individual research projects led by early-career researchers at French institutions to build scientific autonomy and their own team"
+    },
+    {
+      "name": "DFG Emmy Noether Programme",
+      "organization": "Deutsche Forschungsgemeinschaft (DFG)",
+      "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/emmy-noether",
+      "amount": "Salary + research costs, ~€1-1.5M over 6 years",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "EU"
+      ],
+      "type": [
+        "Fellowships",
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "Rolling",
+      "description": "Funds exceptional early career researchers to lead an independent junior research group in Germany for six years and qualify for a professorship"
+    },
+    {
+      "name": "DFG Heisenberg Programme",
+      "organization": "Deutsche Forschungsgemeinschaft (German Research Foundation)",
+      "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/heisenberg",
+      "amount": "Full salary + project costs (or fellowship), up to 5 years",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "EU"
+      ],
+      "type": [
+        "Fellowships",
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Data & Math",
+        "Social Sciences & Policy",
+        "Environment & Earth",
+        "Humanities & Arts"
+      ],
+      "deadline": "Rolling",
+      "description": "Enables outstanding researchers qualified for professorship to prepare for scientific leadership while conducting top-class research in Germany"
+    },
+    {
+      "name": "EIC Accelerator",
+      "organization": "European Innovation Council (EIC), European Commission",
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+      "amount": "Grant up to €2.5M + equity €1–10M (blended finance)",
+      "audience": [
+        "Indie builders / microgrants",
+        "Faculty / PI"
+      ],
+      "region": [
+        "EU"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Bimonthly cut-offs (Jan, Mar, May, Jul, Sep, Nov)",
+      "description": "Blended grant-plus-equity funding for EU start-ups and SMEs scaling high-risk, market-creating deep-tech innovations"
+    },
+    {
+      "name": "EIC Pathfinder",
+      "organization": "European Innovation Council (European Commission)",
+      "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder_en",
+      "amount": "Up to €4M per project",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "EU"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Environment & Earth"
+      ],
+      "deadline": "Open: 12 May 2026; Challenges: 28 October 2026 (annual)",
+      "description": "Horizon Europe funding for high-risk, early-stage breakthrough research via Pathfinder Open (any field) and thematic Pathfinder Challenges"
+    },
+    {
+      "name": "MSCA Doctoral Networks",
+      "organization": "European Commission (Horizon Europe / European Research Executive Agency)",
+      "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-networks",
+      "amount": "~€3-4M per network; €593M total for 2026 call",
+      "audience": [
+        "Students / PhD",
+        "Faculty / PI"
+      ],
+      "region": [
+        "EU"
+      ],
+      "type": [
+        "Fellowships",
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Data & Math",
+        "Social Sciences & Policy",
+        "Environment & Earth",
+        "Humanities & Arts"
+      ],
+      "deadline": "November (annually)",
+      "description": "Consortium-based doctoral training networks funding PhD candidates across universities, research institutions, and industry in all scientific fields"
+    },
+    {
+      "name": "NWO Talent Programme (Veni, Vidi, Vici)",
+      "organization": "Dutch Research Council (NWO)",
+      "url": "https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme",
+      "amount": "Veni up to €320K (3 yrs); Vidi up to €850K (5 yrs); Vici up to €1.5M (5 yrs)",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "EU"
+      ],
+      "type": [
+        "Fellowships",
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "Varies by instrument (annual rounds)",
+      "description": "Three-tier personal grants for talented researchers in the Netherlands across career stages, from recently graduated (Veni) to established (Vici) scientists"
+    },
+    {
+      "name": "SNSF Ambizione",
+      "organization": "Swiss National Science Foundation (SNSF)",
+      "url": "https://www.snf.ch/en/N18L3oGWomTSSGkF/funding/careers/ambizione",
+      "amount": "Salary + up to CHF 250,000 project funds over 4 years",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Other"
+      ],
+      "type": [
+        "Fellowships",
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Data & Math",
+        "Social Sciences & Policy",
+        "Environment & Earth",
+        "Humanities & Arts"
+      ],
+      "deadline": "November (annually)",
+      "description": "Funds early-career postdocs to lead their first independent research project at a Swiss institution, covering salary plus project costs"
+    },
+    {
+      "name": "SNSF Starting Grants",
+      "organization": "Swiss National Science Foundation (SNSF)",
+      "url": "https://www.snf.ch/en/w728UqT1Yw256Mz2/funding/careers/snsf-starting-grants",
+      "amount": "Up to CHF 1M project funds + salary over 5 years",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "EU"
+      ],
+      "type": [
+        "Fellowships",
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Data & Math",
+        "Social Sciences & Policy",
+        "Environment & Earth",
+        "Humanities & Arts"
+      ],
+      "deadline": "May (annually)",
+      "description": "Swiss career grant for early-career researchers to lead an independent group toward a professorship, the successor to the discontinued Eccellenza scheme"
+    },
+    {
+      "name": "Wallenberg Academy Fellows",
+      "organization": "Knut and Alice Wallenberg Foundation",
+      "url": "https://kaw.wallenberg.org/en/wallenberg-academy-fellows",
+      "amount": "SEK 5-15.6M over 5 years",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "EU"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "Biennial (nomination by Swedish universities)",
+      "description": "Long-term five-year funding for early-career researchers at Swedish universities, Sweden's largest private investment in young talent"
+    },
+    {
+      "name": "AACR Research Grants",
+      "organization": "American Association for Cancer Research (AACR)",
+      "url": "https://www.aacr.org/professionals/research-funding/",
+      "amount": "$50,000–$450,000 (varies by program; fellowships ~$130K over 2 years)",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships",
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Varies by program (rolling throughout the year)",
+      "description": "Cancer research fellowships, career development awards, and independent research grants across all stages of investigator careers"
+    },
+    {
+      "name": "AGU Student Travel Grant",
+      "organization": "American Geophysical Union (AGU)",
+      "url": "https://www.agu.org/honors/fmstg",
+      "amount": "$1,000 (in-person) / $500 (virtual)",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Travel & Conference Grants"
+      ],
+      "domains": [
+        "Environment & Earth"
+      ],
+      "deadline": "July-August (for December meeting)",
+      "description": "Travel funding to help students who submitted an abstract attend the AGU Annual Meeting in Earth and space sciences"
+    },
+    {
+      "name": "APS Innovation Fund Grants",
+      "organization": "American Physical Society",
+      "url": "https://www.aps.org/funding-recognition/grant/innovation-fund",
+      "amount": "Up to $50,000 each (up to 5 grants); 18 months",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Engineering & Physical Sciences"
+      ],
+      "deadline": "Annual theme-based call",
+      "description": "Pilot and supplemental grants for APS members to launch innovative projects addressing challenges in the physics community, open to any career stage"
+    },
+    {
+      "name": "APSA Doctoral Dissertation Research Improvement Grants (DDRIG)",
+      "organization": "American Political Science Association (NSF-funded)",
+      "url": "https://apsanet.org/programs/doctoral-dissertation-research-improvement-grants/",
+      "amount": "$10,000–$20,000 (20–25 grants/year, +$1,000 travel)",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Social Sciences & Policy"
+      ],
+      "deadline": "June 1 (annually)",
+      "description": "NSF-funded grants administered by APSA for US-based political science PhD students to enhance theoretically derived, empirically oriented dissertation research"
+    },
+    {
+      "name": "ASA Doctoral Dissertation Research Improvement Grants (DDRIG)",
+      "organization": "American Sociological Association (NSF-funded)",
+      "url": "https://www.asanet.org/academic-professional-resources/asa-grants-and-fellowships/asa-doctoral-dissertation-research-improvement-grants-asa-ddrig/",
+      "amount": "Up to $16,000 (up to 25 awards/year)",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Social Sciences & Policy"
+      ],
+      "deadline": "November (annually)",
+      "description": "NSF-funded grants supporting empirical dissertation research by sociology doctoral students at US institutions"
+    },
+    {
+      "name": "Coefficient Giving — Science and Global Health R&D Fund (formerly Open Philanthropy Scientific Research)",
+      "organization": "Coefficient Giving (formerly Open Philanthropy)",
+      "url": "https://coefficientgiving.org/funds/science-and-global-health-rd/",
+      "amount": "Varies widely (project-based; high-impact biomedical R&D)",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine"
+      ],
+      "deadline": "Rolling",
+      "description": "Funds important, neglected, high-impact biomedical and global health R&D overlooked by other funders, accepting brief unsolicited pre-proposals by email"
+    },
+    {
+      "name": "Gordon and Betty Moore Foundation — Science Program",
+      "organization": "Gordon and Betty Moore Foundation",
+      "url": "https://www.moore.org/programs/science",
+      "amount": "$250K–$5M (e.g. Experimental Physics Investigators ~$1.35M/5 yrs)",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research Project Grants",
+        "Fellowships"
+      ],
+      "domains": [
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Data & Math",
+        "Environment & Earth"
+      ],
+      "deadline": "Varies (many by invitation)",
+      "description": "Private-foundation funding for high-risk, curiosity-driven basic science across physics, quantum systems, chemistry, aquatic ecosystems and inventor fellowships"
+    },
+    {
+      "name": "Grace Hopper Celebration Scholarships",
+      "organization": "AnitaB.org",
+      "url": "https://ghc.anitab.org/awards-programs/scholarships",
+      "amount": "Full GHC registration + travel/lodging + membership",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Travel & Conference Grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Spring (annually)",
+      "description": "Scholarships for women and non-binary students in computing to attend the Grace Hopper Celebration, the world's largest gathering of women technologists"
+    },
+    {
+      "name": "John Templeton Foundation Grants",
+      "organization": "John Templeton Foundation",
+      "url": "https://www.templeton.org/funding-areas",
+      "amount": "$250K–$2M+ over 2–3 years",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Data & Math",
+        "Social Sciences & Policy",
+        "Humanities & Arts",
+        "Computer Science & AI"
+      ],
+      "deadline": "August (Online Funding Inquiry, annually)",
+      "description": "Funds interdisciplinary research on the big questions of science, philosophy, religion, and human flourishing across six core funding areas"
+    },
+    {
+      "name": "Google DeepMind Academic Fellowship Programme",
+      "organization": "Google DeepMind",
+      "url": "https://deepmind.google/education/",
+      "amount": "Salary + research funding via host university (undisclosed)",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "UK"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Varies (by host university)",
+      "description": "Postdoctoral fellowships funding early-career AI researchers at seven UK universities, with mentorship from senior Google DeepMind researchers and full freedom of research direction"
+    },
+    {
+      "name": "AEA Summer Training Program",
+      "organization": "American Economic Association",
+      "url": "https://www.aeaweb.org/about-aea/committees/aeasp",
+      "amount": "$3,250 stipend + 12 college credits; tuition, housing & travel covered",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Social Sciences & Policy"
+      ],
+      "deadline": "January 31 (annually)",
+      "description": "Fully funded 8-week intensive economics training program (hosted at American University 2026-2028) preparing students for doctoral study in economics"
+    },
+    {
+      "name": "FAPESP Young Investigator Grant",
+      "organization": "São Paulo Research Foundation (FAPESP)",
+      "url": "https://fapesp.br/en/yia",
+      "amount": "Up to 48 months of project funding + fellowships",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Other"
+      ],
+      "type": [
+        "Fellowships",
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Social Sciences & Policy",
+        "Environment & Earth"
+      ],
+      "deadline": "Rolling (continuous calls); International call periodic",
+      "description": "Establishes early-career researchers with international experience as independent group leaders at institutions in São Paulo, Brazil, across all fields"
+    },
+    {
+      "name": "IGEN Travel Grants",
+      "organization": "Inclusive Graduate Education Network (NSF INCLUDES Alliance)",
+      "url": "https://igenetwork.org/travel-grants",
+      "amount": "Up to $1,000 (registration + travel)",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Travel & Conference Grants",
+        "Microgrants"
+      ],
+      "domains": [
+        "Engineering & Physical Sciences",
+        "Environment & Earth"
+      ],
+      "deadline": "Rolling (quarterly review: Oct 1, Dec 1, Mar 1, Jun 1)",
+      "description": "Travel grants of up to $1,000 helping Black, Latinx, and Indigenous graduate students and postdocs attend physical-science society meetings and professional development events"
+    },
+    {
+      "name": "Israel Science Foundation (ISF) Research Grants",
+      "organization": "Israel Science Foundation (administered by the Israel Academy of Sciences and Humanities)",
+      "url": "https://www.isf.org.il/",
+      "amount": "~ILS 180,000–198,000/year per grant (field-dependent)",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Other"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Computer Science & AI",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "November (annual competition, pre-registration ~Nov)",
+      "description": "Israel's predominant source of competitive basic-research grants across all disciplines for investigators at Israeli institutions"
+    },
+    {
+      "name": "MLA Humanities Innovation Grants",
+      "organization": "Modern Language Association (MLA)",
+      "url": "https://www.mla.org/Resources/Career/MLA-Grants-and-Awards/Humanities-Innovation-Grants",
+      "amount": "$3,000 grant (up to $1,500 team stipend)",
+      "audience": [
+        "Faculty / PI",
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Microgrants"
+      ],
+      "domains": [
+        "Humanities & Arts"
+      ],
+      "deadline": "Annual",
+      "description": "Supports faculty and graduate-instructor development of innovative, interdisciplinary humanities courses that build enrollments and revitalize student interest"
+    },
+    {
+      "name": "SACNAS NDiSTEM Conference Travel Scholarships",
+      "organization": "SACNAS (Society for Advancement of Chicanos/Hispanics and Native Americans in Science)",
+      "url": "https://www.sacnas.org/conference/travel-scholarships",
+      "amount": "Travel + shared lodging + registration",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Travel & Conference Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Data & Math"
+      ],
+      "deadline": "March (annually)",
+      "description": "Funds travel, lodging, and registration for undergraduate and graduate SACNAS student members to attend the National Diversity in STEM (NDiSTEM) Conference"
+    },
+    {
+      "name": "AHRC Research Grants & Fellowships (UKRI)",
+      "organization": "Arts and Humanities Research Council (UKRI)",
+      "url": "https://www.ukri.org/councils/ahrc/guidance-for-applicants/",
+      "amount": "£300K–£1.5M FEC (80% funded)",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "UK"
+      ],
+      "type": [
+        "Research Project Grants",
+        "Fellowships"
+      ],
+      "domains": [
+        "Humanities & Arts"
+      ],
+      "deadline": "Rolling (responsive mode)",
+      "description": "UK arts and humanities research funding via AHRC responsive-mode grants and fellowship routes for researchers at UK institutions"
+    },
+    {
+      "name": "ESRC New Investigator Grant",
+      "organization": "Economic and Social Research Council (UKRI)",
+      "url": "https://www.ukri.org/opportunity/esrc-new-investigator-grant/",
+      "amount": "£100,000-£350,000 (80% FEC), up to 5 years",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "UK"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Social Sciences & Policy"
+      ],
+      "deadline": "Rolling (responsive mode)",
+      "description": "Supports early-career social science researchers making the transition to independent research leaders by funding their first major project"
+    },
+    {
+      "name": "ESRC Postdoctoral Fellowships",
+      "organization": "Economic and Social Research Council (UKRI)",
+      "url": "https://www.ukri.org/opportunity/esrc-postdoctoral-fellowships/",
+      "amount": "Salary + research/training costs; up to 9 months full-time (or 18 months part-time)",
+      "audience": [
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "UK"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Social Sciences & Policy"
+      ],
+      "deadline": "June (annually)",
+      "description": "Early-career fellowships to consolidate a UK social science PhD through publications, networks, and skills, held via ESRC Doctoral Training Partnerships"
+    },
+    {
+      "name": "DOE Computational Science Graduate Fellowship (DOE CSGF)",
+      "organization": "U.S. Department of Energy (administered by the Krell Institute)",
+      "url": "https://www.krellinst.org/csgf/",
+      "amount": "$45,000/year stipend + full tuition & fees, up to 4 years",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Engineering & Physical Sciences"
+      ],
+      "deadline": "Mid-January (annually)",
+      "description": "Four-year PhD fellowship for students using high-performance computing in science and engineering research, including a national-lab practicum"
+    },
+    {
+      "name": "Fulbright U.S. Student Program",
+      "organization": "U.S. Department of State (Bureau of Educational and Cultural Affairs)",
+      "url": "https://us.fulbrightonline.org/fulbright-us-student-program",
+      "amount": "Full funding: living + travel stipend, health benefits (varies by country)",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships",
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Life Sciences & Biomedicine",
+        "Engineering & Physical Sciences",
+        "Social Sciences & Policy",
+        "Humanities & Arts"
+      ],
+      "deadline": "October (annually)",
+      "description": "Fully funded grants for U.S. graduating seniors, graduate students, and young professionals to study, research, or teach English in 140+ countries"
+    },
+    {
+      "name": "NSF CISE Research Initiation Initiative (CRII)",
+      "organization": "U.S. National Science Foundation (CISE Directorate)",
+      "url": "https://www.nsf.gov/funding/opportunities/crii-computer-information-science-engineering-research-initiation/504952/nsf23-576",
+      "amount": "Up to $175,000 over 24 months",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "September (annually)",
+      "description": "Builds research independence for early-career CISE faculty at non-R1 institutions who lack access to adequate organizational resources"
+    },
+    {
+      "name": "Vannevar Bush Faculty Fellowship (VBFF)",
+      "organization": "U.S. Department of Defense, Basic Research Office (managed by Office of Naval Research)",
+      "url": "https://basicresearch.defense.gov/Programs/Vannevar-Bush-Faculty-Fellowship/",
+      "amount": "Up to $3M over 5 years",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships",
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Engineering & Physical Sciences",
+        "Life Sciences & Biomedicine",
+        "Data & Math"
+      ],
+      "deadline": "Annual (white paper stage typically fall)",
+      "description": "DoD's most prestigious single-investigator award supporting bold, transformative basic research by senior faculty at U.S. institutions"
+    },
+    {
+      "name": "Gemini for Research (Gemini API credits)",
+      "organization": "Google (Google AI for Developers)",
+      "url": "https://ai.google.dev/gemini-api/docs/gemini-for-research",
+      "amount": "Gemini API credits + higher rate limits (amount unspecified)",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling (reviewed monthly)",
+      "description": "Qualified academic researchers can apply for Gemini API credits and elevated rate limits to run higher-throughput scientific experiments"
+    },
+    {
+      "name": "Google for Startups Accelerator: AI / Cloud AI Program",
+      "organization": "Google Cloud / Google for Startups",
+      "url": "https://cloud.google.com/startup/ai",
+      "amount": "Up to $350,000 in Google Cloud + Firebase credits (AI-first startups)",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling / cohort-based",
+      "description": "Equity-free accelerator giving AI startups substantial Google Cloud credits, technical mentorship, TPU access, and early access to Google AI products"
+    },
+    {
+      "name": "Google.org Impact Challenge: AI for Science (AI Breakthrough Fund)",
+      "organization": "Google.org",
+      "url": "https://www.google.org/impact-challenges/ai-science/",
+      "amount": "$500,000 to $3 million per grant (from a $30M fund) + Cloud credits",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual open call (2026 round closed April 17, 2026)",
+      "description": "Global open call funding nonprofits and research organizations using AI to accelerate breakthroughs in health, life sciences, climate and environmental science, with a six-month accelerator"
+    },
+    {
+      "name": "Google.org AI Opportunity Fund",
+      "organization": "Google.org",
+      "url": "https://aiopportunityfund.withgoogle.com/",
+      "amount": "$75M fund (grants to workforce/education organizations)",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Varies (partner-based)",
+      "description": "Funds workforce development and education organizations to help over one million Americans build essential AI skills"
+    },
+    {
+      "name": "Google.org Digital Futures Fund",
+      "organization": "Google.org",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/digital-futures-fund-2026/",
+      "amount": "$35M+ globally (grants to think tanks and academic institutions)",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Rolling / partner-based",
+      "description": "Supports think tanks and academic institutions researching responsible AI policy and governance"
+    },
+    {
+      "name": "OpenAI Cybersecurity Grant Program (Trusted Access for Cyber)",
+      "organization": "OpenAI",
+      "url": "https://openai.com/index/openai-cybersecurity-grant-program/",
+      "amount": "$10,000 increments (API credits / direct funding); $10M+ committed in API credits",
+      "audience": [
+        "Faculty / PI",
+        "OSS maintainers",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Rolling",
+      "description": "Grants in API credits and funding for practical defensive-cybersecurity projects using AI, now expanded into the Trusted Access for Cyber program with specialized GPT-5.x-Cyber model access"
+    },
+    {
+      "name": "OpenAI Foundation People-First AI Fund",
+      "organization": "OpenAI Foundation",
+      "url": "https://openaifoundation.org/news/2026-people-first-ai-fund",
+      "amount": "$50M total; unrestricted grants up to 10% of org annual budget (up to ~$500K)",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Annual (2026 round closed Jul 15, 2026)",
+      "description": "Unrestricted grants for US nonprofits and community organizations using AI to advance economic opportunity, education, healthcare and community resilience"
+    },
+    {
+      "name": "OpenAI Startup Fund",
+      "organization": "OpenAI",
+      "url": "https://www.openai.fund/",
+      "amount": "Equity investment (VC), not a grant",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Venture capital fund making equity investments in early-stage AI companies, with portfolio startups also receiving early model access and API credits"
+    },
+    {
+      "name": "Anthropic External Researcher Access Program",
+      "organization": "Anthropic",
+      "url": "https://support.claude.com/en/articles/9125743-what-is-the-external-researcher-access-program",
+      "amount": "Free Claude API credits (volume varies)",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling (monthly evaluation)",
+      "description": "Free Claude API credits for researchers working on AI safety and alignment topics that Anthropic considers high priority"
+    },
+    {
+      "name": "Anthropic AI for Science Program",
+      "organization": "Anthropic",
+      "url": "https://www.anthropic.com/news/ai-for-science-program",
+      "amount": "Up to $20,000 in Claude API credits (6 months)",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Free Claude API credits for academic and nonprofit researchers working on high-impact scientific projects, with a focus on biology and life sciences"
+    },
+    {
+      "name": "Anthropic Economic Futures Research Awards",
+      "organization": "Anthropic",
+      "url": "https://www.anthropic.com/economic-futures/program",
+      "amount": "$10,000-$50,000 grant + $5,000 Claude API credits",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling (periodic RFP rounds)",
+      "description": "Rapid research grants plus API credits for empirical research on AI's economic impacts on labor, productivity, and the economy"
+    },
+    {
+      "name": "AI Safety Fund (Frontier Model Forum)",
+      "organization": "Frontier Model Forum (Anthropic-supported)",
+      "url": "https://www.frontiermodelforum.org/ai-safety-fund/",
+      "amount": "$10M+ fund; recent cohort awarded $5M+ across 11 grantees",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI",
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Periodic RFPs (varies by topic)",
+      "description": "Independent AI safety and security research grants funded by Frontier Model Forum members including Anthropic, covering biosecurity, cybersecurity, agent evaluation, and synthetic content"
+    },
+    {
+      "name": "Claude for Startups (Anthropic Startup Program)",
+      "organization": "Anthropic",
+      "url": "https://claude.com/programs/startups",
+      "amount": "Up to $100,000+ in Claude API credits (12-month validity)",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Claude API credits and support for early-stage startups building with Claude, with larger tiers available via partner VC and accelerator nominations"
+    },
+    {
+      "name": "Amazon AI PhD Fellowship",
+      "organization": "Amazon Science",
+      "url": "https://www.amazon.science/news/amazon-launches-68-million-ai-phd-fellowship-program",
+      "amount": "2 years of student funding + AWS credits (part of $68M program)",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual (varies by partner university)",
+      "description": "Two years of funding plus AWS cloud credits and Amazon mentorship for 100+ PhD students at partner universities (CMU, USC, Berkeley and others) in core AI disciplines"
+    },
+    {
+      "name": "AWS Activate",
+      "organization": "Amazon Web Services",
+      "url": "https://aws.amazon.com/startups/credits/",
+      "amount": "$1,000 to $300,000 AWS credits",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Tiered AWS credits (Founders, Portfolio, and up to $300K Generative AI) plus technical support for early-stage startups building on AWS, Bedrock, SageMaker and Trainium"
+    },
+    {
+      "name": "AWS Imagine Grant for Nonprofits",
+      "organization": "Amazon Web Services",
+      "url": "https://aws.amazon.com/government-education/nonprofits/aws-imagine-grant-program/",
+      "amount": "Cash grants + AWS credits + technical support (varies by award tier)",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Annual (Round One closes ~June)",
+      "description": "Unrestricted cash grants, AWS credits and technical support for US 501(c) nonprofits using cloud, AI and ML to advance social impact"
+    },
+    {
+      "name": "Amazon Nova AI Challenge",
+      "organization": "Amazon Science",
+      "url": "https://www.amazon.science/nova-ai-challenge",
+      "amount": "$250K sponsorship + AWS credits per team; up to $700K in prizes",
+      "audience": [
+        "Students / PhD",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual (applications ~Nov-Dec)",
+      "description": "University competition giving 10 selected teams $250K sponsorship plus monthly AWS credits to advance trusted AI, with the 2026 track focused on trusted software agents"
+    },
+    {
+      "name": "AWS Public Sector Generative AI Impact Initiative",
+      "organization": "Amazon Web Services",
+      "url": "https://aws.amazon.com/blogs/publicsector/aws-announces-50-million-generative-ai-impact-initiative-for-public-sector-organizations/",
+      "amount": "Part of $50M in AWS credits and expert support",
+      "audience": [
+        "Faculty / PI",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Applications open through June 30, 2026",
+      "description": "A $50M initiative providing AWS credits and Generative AI Innovation Center expertise to public sector and education organizations building generative AI solutions"
+    },
+    {
+      "name": "Meta Research Awards / Requests for Proposals",
+      "organization": "Meta (Meta Research / FAIR)",
+      "url": "https://research.facebook.com/research-awards/",
+      "amount": "Varies by RFP (typically $25K-$200K per award)",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling (per-RFP deadlines)",
+      "description": "Ongoing unrestricted research awards issued through topic-specific open Requests for Proposals (e.g. Diplomacy human-AI cooperation) for full-time faculty at accredited institutions"
+    },
+    {
+      "name": "Llama Impact Grants",
+      "organization": "Meta (Llama)",
+      "url": "https://www.llama.com/llama-impact-grants/",
+      "amount": "Up to $500,000 per recipient",
+      "audience": [
+        "Indie builders / microgrants",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Annual (varies)",
+      "description": "Global grants for companies, startups, nonprofits and universities using open-source Llama models to drive social and economic impact"
+    },
+    {
+      "name": "Llama Impact Innovation Awards",
+      "organization": "Meta (Llama)",
+      "url": "https://www.llama.com/impact-innovation-awards/",
+      "amount": "Up to $35,000 per award + in-kind ad credits (up to $100K/region)",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Other"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Annual (varies)",
+      "description": "Regional awards recognizing organizations in Africa/Middle East/Turkey, Asia-Pacific and Latin America already using Llama to solve local challenges"
+    },
+    {
+      "name": "Llama Impact Accelerator",
+      "organization": "Meta (Llama)",
+      "url": "https://about.fb.com/news/2025/06/accelerating-open-source-innovation-across-sub-saharan-africa-introducing-the-llama-impact-accelerator-program/",
+      "amount": "Up to $25,000 equity-free per startup",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Other"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Annual cohort (varies)",
+      "description": "Six-week accelerator in Nigeria, Kenya, Senegal and South Africa offering equity-free funding, mentorship and technical training for startups building on Llama"
+    },
+    {
+      "name": "Llama Startup Program",
+      "organization": "Meta (Llama)",
+      "url": "https://www.llama.com/programs/startups/",
+      "amount": "Up to $6,000/month API reimbursement for up to 6 months",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Program reimbursing hosted Llama API/inference costs plus technical support for early-stage US startups (incorporated, under $10M raised) building generative AI applications"
+    },
+    {
+      "name": "Llama LLM Evaluation Research Grant",
+      "organization": "Meta (Llama)",
+      "url": "https://www.llama.com/llm-evaluation-research-grant/",
+      "amount": "Up to 4 awards of $200,000 each",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual (varies)",
+      "description": "Research grant for academic teams building novel benchmarks and evaluations for LLMs across complex reasoning, emotional/social intelligence and agentic behaviors"
+    },
+    {
+      "name": "Agentic AI Research and Innovation (AARI)",
+      "organization": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/academic-program/agentic-ai-research-and-innovation/",
+      "amount": "Azure credits + advanced AI tools + MSR collaboration",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual (varies)",
+      "description": "Successor to AFMR that gives selected academic research groups Azure credits and AI tooling to advance safe, robust agentic AI systems"
+    },
+    {
+      "name": "Microsoft AI for Good Lab Open Call",
+      "organization": "Microsoft AI for Good Lab",
+      "url": "https://www.microsoft.com/en-us/research/academic-program/ai-for-good-lab-open-call/",
+      "amount": "Up to $5M Azure credits (two-year collaboration)",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Annual (varies)",
+      "description": "Open call offering two-year scientific collaboration with the AI for Good Lab plus Azure service credits for climate, health, accessibility, and humanitarian projects"
+    },
+    {
+      "name": "Microsoft AI for Accessibility Grant",
+      "organization": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/accessibility/innovation",
+      "amount": "$10K / $15K / $20K Azure compute credits + support",
+      "audience": [
+        "Faculty / PI",
+        "OSS maintainers",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Rolling (rounds; Jan 13, 2026)",
+      "description": "Grants of Azure compute credits and developer support for projects using generative AI to help people with disabilities"
+    },
+    {
+      "name": "Microsoft for Startups Founders Hub",
+      "organization": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/startups",
+      "amount": "Up to $150K Azure credits + Azure OpenAI access",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Self-serve non-equity startup program granting up to $150K in Azure credits plus Azure OpenAI, GitHub, and Microsoft 365 benefits"
+    },
+    {
+      "name": "Microsoft Climate Research Initiative (MCRI)",
+      "organization": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/collaboration/microsoft-climate-research-initiative/",
+      "amount": "MSR collaboration + compute capacity",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Annual (varies)",
+      "description": "Multi-disciplinary collaboration bringing Microsoft research skills and compute to academic scientists on decarbonization, carbon accounting, and climate risk"
+    },
+    {
+      "name": "NVIDIA Applied Research Accelerator Program",
+      "organization": "NVIDIA",
+      "url": "https://www.nvidia.com/en-us/industries/higher-education-research/applied-research-program/",
+      "amount": "Up to $60K in hardware/cloud, or up to $160K in hardware, cloud, and/or cash",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Supports academic PIs turning GPU-accelerated research into deployable applications with technical guidance, hardware, cloud compute, and funding tied to real-world adoption"
+    },
+    {
+      "name": "NVIDIA Inception",
+      "organization": "NVIDIA",
+      "url": "https://www.nvidia.com/en-us/startups/",
+      "amount": "Up to $100,000 in DGX Cloud credits, plus AWS/partner credits, hardware discounts, and free NIM API access",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Free, no-equity accelerator for AI startups offering DGX Cloud credits, preferred GPU pricing, partner cloud credits, training, and go-to-market support"
+    },
+    {
+      "name": "NVIDIA Developer Program (NVIDIA Build free inference credits)",
+      "organization": "NVIDIA",
+      "url": "https://build.nvidia.com/",
+      "amount": "1,000 free inference credits at signup, up to ~5,000 total on request; free API access to 100+ hosted models",
+      "audience": [
+        "Indie builders / microgrants",
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Free membership granting inference credits and OpenAI-compatible API access to 100+ AI models hosted on NVIDIA DGX Cloud for prototyping via build.nvidia.com"
+    },
+    {
+      "name": "Cohere Labs Catalyst Grants (Research Grant Program)",
+      "organization": "Cohere Labs (formerly Cohere For AI)",
+      "url": "https://cohere.com/research/grants",
+      "amount": "Free Cohere API access / compute credits",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs",
+        "Faculty / PI",
+        "OSS maintainers"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Rolling",
+      "description": "Provides academic partners, civic institutions, and impact-focused organizations with free access to Cohere's API and models (including Aya) to pursue public-benefit and open-science ML/NLP research"
+    },
+    {
+      "name": "Cohere Labs Open Science Community",
+      "organization": "Cohere Labs (formerly Cohere For AI)",
+      "url": "https://cohere.com/research/open-science",
+      "amount": "Free membership (no cash); access to talks, collaborations, and program resources",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs",
+        "Faculty / PI",
+        "OSS maintainers",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Rolling",
+      "description": "A free open collaborative research community of 4,500+ members across 150 countries focused on multilingual AI, safety, and open science, offering mentorship, talks, and collaboration rather than direct cash funding"
+    },
+    {
+      "name": "Cohere for Startups Program",
+      "organization": "Cohere",
+      "url": "https://cohere.com/startup-program",
+      "amount": "Up to ~25% discount on enterprise LLM/embedding usage (not fixed credits)",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Offers early-stage startups discounted enterprise pricing on Cohere's language and embedding models plus technical support, rather than fixed dollar credits or equity investment"
+    },
+    {
+      "name": "Hugging Face Community GPU Grants",
+      "organization": "Hugging Face",
+      "url": "https://huggingface.co/docs/hub/spaces-gpus",
+      "amount": "Free GPU hardware upgrade (T4/L4/L40S/A10G/A100), value varies",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs",
+        "Faculty / PI",
+        "OSS maintainers",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Rolling",
+      "description": "Free temporary GPU hardware upgrades for innovative or research Hugging Face Spaces, applied for directly in the Space's hardware settings"
+    },
+    {
+      "name": "Hugging Face ZeroGPU",
+      "organization": "Hugging Face",
+      "url": "https://huggingface.co/docs/hub/spaces-zerogpu",
+      "amount": "Free dynamic GPU access (part of $10M compute initiative); PRO gets 8x quota",
+      "audience": [
+        "Students / PhD",
+        "OSS maintainers",
+        "Indie builders / microgrants",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Rolling",
+      "description": "Shared infrastructure providing free, dynamically allocated NVIDIA GPUs to run Gradio Spaces, with community grants available for dedicated ZeroGPU allocation"
+    },
+    {
+      "name": "Hugging Face for Classrooms",
+      "organization": "Hugging Face",
+      "url": "https://huggingface.co/classrooms",
+      "amount": "Free hosting, training, fine-tuning and deployment for class workspaces",
+      "audience": [
+        "Students / PhD",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Free classroom workspaces with hosting for datasets, models and demos plus tools to train, fine-tune and deploy for students and teachers"
+    },
+    {
+      "name": "Hugging Face Academia Hub",
+      "organization": "Hugging Face",
+      "url": "https://huggingface.co/docs/hub/en/academia-hub",
+      "amount": "$2/month/seat Inference credits + 2TB storage + higher ZeroGPU priority; from $10/seat/mo (paid)",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Institutional subscription giving universities storage, inference credits and daily higher ZeroGPU priority for students, researchers and staff"
+    },
+    {
+      "name": "Hugging Face Fellowship Program",
+      "organization": "Hugging Face",
+      "url": "https://huggingface.co/blog/fellowship",
+      "amount": "Compute power, technical resources, merch and recognition (varies per fellow)",
+      "audience": [
+        "OSS maintainers",
+        "Students / PhD",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Rolling (nomination-based)",
+      "description": "A recognition network for key open-source ML contributors offering computing power, resources and support though it is not a paid employment role"
+    },
+    {
+      "name": "Together AI Research Credits Program",
+      "organization": "Together AI",
+      "url": "https://www.together.ai/research-credits-program-request",
+      "amount": "A few hundred $ in API/compute credits",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling (invite/application-based)",
+      "description": "Small credit grants for students and researchers running open-model research projects outside formal coursework on the Together AI platform"
+    },
+    {
+      "name": "Together AI Startup Accelerator",
+      "organization": "Together AI",
+      "url": "https://www.together.ai/startup-accelerator",
+      "amount": "Up to $50,000 in platform credits",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Non-dilutive credits for AI-native startups building on open-source models, plus engineering support and go-to-market perks"
+    },
+    {
+      "name": "Modal Startups",
+      "organization": "Modal Labs",
+      "url": "https://modal.com/startups",
+      "amount": "Up to $50,000 in serverless GPU credits",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Serverless GPU credits for pre-seed through Series A AI/ML startups with a live product or strong technical team"
+    },
+    {
+      "name": "Modal for Academics",
+      "organization": "Modal Labs",
+      "url": "https://modal.com/academics",
+      "amount": "Up to $25,000 in serverless GPU credits",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Serverless GPU credits for university faculty, postdocs, PhD students and course instructors at accredited institutions"
+    },
+    {
+      "name": "Baseten for Startups",
+      "organization": "Baseten",
+      "url": "https://www.baseten.co/startup-program/",
+      "amount": "Up to $25K dedicated/training credits + $2.5K Model API credits",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Non-dilutive inference and training credits for net-new AI-native startups deploying open-source, fine-tuned or custom models"
+    },
+    {
+      "name": "CoreWeave Startup Accelerator Program",
+      "organization": "CoreWeave",
+      "url": "https://www.coreweave.com/blog/coreweave-launches-startup-accelerator-program-democratizing-access-to-gpu-compute-in-the-cloud",
+      "amount": "GPU cloud credits + compute discounts (undisclosed)",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling (open-ended)",
+      "description": "GPU cloud credits, compute discounts, engineering support and VC introductions for AI and compute-intensive startups"
+    },
+    {
+      "name": "Groq for Startups",
+      "organization": "Groq",
+      "url": "https://groq.com/groq-for-startups",
+      "amount": "Up to $10,000 in GroqCloud inference credits",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Inference API credits (expiring 90 days after award) for eligible startups building on Groq's LPU-accelerated GroqCloud"
+    },
+    {
+      "name": "GroqCloud Free Tier",
+      "organization": "Groq",
+      "url": "https://console.groq.com/",
+      "amount": "Free (rate-limited, ~14,400 requests/day)",
+      "audience": [
+        "Students / PhD",
+        "Indie builders / microgrants",
+        "OSS maintainers"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math",
+        "Open Tech / OSS / Internet"
+      ],
+      "deadline": "Always open (no application)",
+      "description": "Genuinely free, no-credit-card developer tier giving rate-limited access to open models on Groq's fast LPU inference hardware"
+    },
+    {
+      "name": "Fireworks for Startups",
+      "organization": "Fireworks AI",
+      "url": "https://fireworks.ai/startup-program",
+      "amount": "Up to $10,000 in credits",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Non-dilutive inference credits, higher rate limits and applied-engineer access for early-stage AI-native startups"
+    },
+    {
+      "name": "Vast.ai Startup Program",
+      "organization": "Vast.ai",
+      "url": "https://vast.ai/startup",
+      "amount": "$2,500 in GPU credits + dollar-for-dollar spend matching",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Free GPU marketplace credits plus credit-matching for startups migrating compute workloads to Vast.ai's global GPU network"
+    },
+    {
+      "name": "SambaNova Cloud Free Tier & Developer Early Access",
+      "organization": "SambaNova Systems",
+      "url": "https://cloud.sambanova.ai/plans",
+      "amount": "Forever-free rate-limited tier + $5 starter credits",
+      "audience": [
+        "Students / PhD",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Compute Credits"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Always open",
+      "description": "Free rate-limited API access to all SambaNova Cloud models plus a Developer Early Access track for builders needing fast inference"
+    },
+    {
+      "name": "DigitalOcean Hatch (Paperspace/Gradient)",
+      "organization": "DigitalOcean",
+      "url": "https://www.digitalocean.com/hatch",
+      "amount": "Up to $100,000 in cloud credits (incl. GPU/Gradient)",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Startup credits usable across DigitalOcean including Paperspace/Gradient GPU compute, with free Gradient community notebooks for individuals"
+    },
+    {
+      "name": "Coefficient Giving (formerly Open Philanthropy) — Technical AI Safety RFP",
+      "organization": "Coefficient Giving / Open Philanthropy",
+      "url": "https://coefficientgiving.org/funds/navigating-transformative-ai/request-for-proposals-technical-ai-safety-research/",
+      "amount": "~$40M-$140M pool; grants vary (often $50K-$1M+)",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling (RFP-based)",
+      "description": "Open RFP funding technical AI safety research across interpretability, adversarial robustness, dangerous-capability evaluations and misbehavior detection from the largest private AI-safety funder"
+    },
+    {
+      "name": "Long-Term Future Fund (EA Funds)",
+      "organization": "Effective Altruism Funds",
+      "url": "https://funds.effectivealtruism.org/funds/far-future",
+      "amount": "Typically $5K-$200K (range $1K to $500K+)",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Rolling grants for individuals and small teams reducing existential risk from AI, including independent research, upskilling and organizational seed funding"
+    },
+    {
+      "name": "Survival and Flourishing Fund (SFF) — S-Process Grant Round",
+      "organization": "Survival and Flourishing Fund",
+      "url": "https://survivalandflourishing.fund/2026/application",
+      "amount": "$20M-$40M distributed across all 2026 rounds",
+      "audience": [
+        "Faculty / PI",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Main round due Apr 22, 2026; Speculation Grants rolling",
+      "description": "Recommender-driven S-Process grant rounds funding organizations working on AI safety, existential risk and long-term flourishing, with rolling Speculation Grants as an on-ramp"
+    },
+    {
+      "name": "MATS (ML Alignment & Theory Scholars)",
+      "organization": "MATS Research",
+      "url": "https://www.matsprogram.org/",
+      "amount": "~$12,500 stipend (~$1,250/week) plus housing, travel and compute (support ~$35K/scholar)",
+      "audience": [
+        "Students / PhD",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Cohort-based (Summer 2026 closed; Autumn 2026 closed)",
+      "description": "Full-time mentored research fellowship in Berkeley pairing scholars with AI-safety mentors from Anthropic, UK AISI, Redwood and others"
+    },
+    {
+      "name": "Constellation Astra Fellowship",
+      "organization": "Constellation Institute",
+      "url": "https://constellation.org/programs/astra",
+      "amount": "$8,400/month stipend; empirical fellows get ~$15K/month compute",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Cohort-based (Jan 2026 closed; expression of interest open)",
+      "description": "Five-month fully funded in-person AI-safety research fellowship in Berkeley mentored by leading researchers"
+    },
+    {
+      "name": "Constellation Visiting Fellowship",
+      "organization": "Constellation Institute",
+      "url": "https://constellation.org/programs/visiting-fellowship",
+      "amount": "No stipend; housing, travel and meals covered",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Cohort-based (Fall 2026 closed)",
+      "description": "Short in-person residency in Berkeley for established researchers to collaborate on AI safety with the Constellation community"
+    },
+    {
+      "name": "FAR.AI Grantmaking",
+      "organization": "FAR.AI",
+      "url": "https://www.far.ai/programs/grantmaking",
+      "amount": "Backed by a $12M grant from Coefficient Giving; grant sizes vary",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Nomination-only now; public RFPs planned",
+      "description": "Targeted grants supporting academics and independent researchers on frontier AI risks such as robustness, data poisoning and adversarial alignment"
+    },
+    {
+      "name": "AI Safety Camp",
+      "organization": "AI Safety Camp",
+      "url": "https://www.aisafety.camp/",
+      "amount": "Typical stipends ~$1K/team member, ~$1.5K/research lead (funding-dependent)",
+      "audience": [
+        "Students / PhD",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Cohort-based (virtual edition Aug 15-30, 2026)",
+      "description": "Volunteer-led virtual research incubator where newcomers join mentored teams working on concrete AI safety projects"
+    },
+    {
+      "name": "Cooperative AI Foundation — Research Grants",
+      "organization": "Cooperative AI Foundation (CAIF)",
+      "url": "https://www.cooperativeai.com/foundation",
+      "amount": "Minimum £10K, no upper limit (median ~£150K)",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs",
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "2026 research grants ~Aug 8, 2026",
+      "description": "Grants advancing research on cooperative intelligence, cooperation-relevant capabilities, benchmarks and multi-agent AI safety"
+    },
+    {
+      "name": "Cooperative AI PhD Fellowship",
+      "organization": "Cooperative AI Foundation (CAIF)",
+      "url": "https://www.cooperativeai.com/phd-fellowship/2026",
+      "amount": "Fellowship funding for PhD students (multi-year)",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "2026 round closed Jun 29, 2026 (annual)",
+      "description": "Fellowship supporting PhD students conducting research relevant to cooperative AI"
+    },
+    {
+      "name": "Schmidt Sciences AI2050 Fellowship",
+      "organization": "Schmidt Sciences",
+      "url": "https://ai2050.schmidtsciences.org/",
+      "amount": "Early Career $300K-$500K over 3 years; Senior Fellows 3-year award",
+      "audience": [
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual, closed nomination (no open application)",
+      "description": "Fellowships for early-career and senior researchers pursuing ambitious work on ensuring AI benefits society and mitigating its risks"
+    },
+    {
+      "name": "ARIA Safeguarded AI (Mathematics for Safe AI)",
+      "organization": "Advanced Research and Invention Agency (ARIA)",
+      "url": "https://aria.org.uk/opportunity-spaces/mathematics-for-safe-ai/safeguarded-ai/funding",
+      "amount": "Grants up to £3.5M per team (programme backed by £59M; £20M cybersecurity call)",
+      "audience": [
+        "Faculty / PI",
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "UK"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Cybersecurity call deadline Jul 1, 2026",
+      "description": "UK government R&D programme funding mathematical and formal-methods approaches to provably safe AI and high-assurance verified systems"
+    },
+    {
+      "name": "Foresight Institute — AI for Safety & Science Nodes",
+      "organization": "Foresight Institute",
+      "url": "https://foresight.org/grants/grants-ai-for-science-safety/",
+      "amount": "~$3M/year total; grants typically $10K-$100K",
+      "audience": [
+        "Indie builders / microgrants",
+        "Postdocs / ECRs",
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Quarterly (last day of each quarter; next Sep 30)",
+      "description": "Grants using AI to advance safety and science across security, epistemics, cooperation and existential-risk reduction"
+    },
+    {
+      "name": "Manifund AI Safety Regranting",
+      "organization": "Manifund",
+      "url": "https://manifund.org/about/regranting",
+      "amount": "Typically $5K-$50K per regrantor-initiated grant",
+      "audience": [
+        "Indie builders / microgrants",
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling",
+      "description": "Regranting platform where expert regrantors with independent budgets fund AI safety projects and individuals within days"
+    },
+    {
+      "name": "OpenAI Safety Fellowship",
+      "organization": "OpenAI",
+      "url": "https://openai.com/index/introducing-openai-safety-fellowship/",
+      "amount": "Monthly stipend plus compute support and mentorship",
+      "audience": [
+        "Students / PhD",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Cohort-based (Sep 14, 2026 - Feb 5, 2027 cohort)",
+      "description": "External AI safety research fellowship offering mentorship, compute and workspace alongside Constellation fellows in Berkeley"
+    },
+    {
+      "name": "Snap Research Fellowship",
+      "organization": "Snap Inc.",
+      "url": "https://research.snap.com/",
+      "amount": "$10,000 academic award",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Annual (varies)",
+      "description": "Supports PhD and MS students doing exceptional computer science research relevant to Snap with a cash award and researcher connections"
+    },
+    {
+      "name": "Sony Research Award Program (Faculty Innovation & Focused Research Awards)",
+      "organization": "Sony",
+      "url": "https://www.sony.com/en/SonyInfo/research-award-program/",
+      "amount": "Up to $100K (Faculty Innovation) / up to $150K (Focused Research)",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Annual (opens mid-July)",
+      "description": "Open-innovation sponsored-research funding for faculty in the US, Canada, Europe, and India on AI and other technologies aligned with Sony's interests"
+    },
+    {
+      "name": "Bloomberg Data Science Ph.D. Fellowship",
+      "organization": "Bloomberg",
+      "url": "https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/",
+      "amount": "Full tuition + $45,000 stipend",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual (mid-December)",
+      "description": "Funds full-time PhD students in ML, NLP, and data science with a stipend, tuition, and a paid summer research internship at Bloomberg"
+    },
+    {
+      "name": "Two Sigma PhD Fellowship",
+      "organization": "Two Sigma",
+      "url": "https://www.twosigma.com/graduate-students/phd-fellowships/",
+      "amount": "Up to $75K/yr for 2 yrs + $10K to recipient",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "US"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual (Aug–Sep)",
+      "description": "Supports US-based PhD students in CS, statistics, applied math, physics, and related STEM fields expanding frontiers relevant to Two Sigma"
+    },
+    {
+      "name": "Tencent AI Lab Rhino-Bird Focused Research Program",
+      "organization": "Tencent AI Lab",
+      "url": "https://ur.tencent.com/",
+      "amount": "Research gift funding (amount varies)",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual (varies)",
+      "description": "Competitive program funding leading faculty worldwide on challenging AI problems in ML, CV, NLP, speech, and robotics in collaboration with Tencent"
+    },
+    {
+      "name": "Alibaba Innovative Research (AIR) Program",
+      "organization": "Alibaba DAMO Academy",
+      "url": "https://damo.alibaba.com/air/",
+      "amount": "Research funding + data/platform access (amount varies)",
+      "audience": [
+        "Faculty / PI"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual (varies)",
+      "description": "Bridges Alibaba and academia by funding faculty research in AI and computer science with real-world industry scenarios and resources"
+    },
+    {
+      "name": "ByteDance Scholarship Program",
+      "organization": "ByteDance",
+      "url": "https://bytedance-scholarship.myimis.com/scholarship",
+      "amount": "Research grant + mentorship (amount varies)",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual (~June)",
+      "description": "Globally-open program giving PhD and research students in AI, CS, and basic sciences research grants, mentorship, and fast-track hiring"
+    },
+    {
+      "name": "Intel Rising Star Faculty Award",
+      "organization": "Intel Labs",
+      "url": "https://www.intel.com/content/www/us/en/research/academic-collaborations.html",
+      "amount": "$50,000",
+      "audience": [
+        "Faculty / PI",
+        "Postdocs / ECRs"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI"
+      ],
+      "deadline": "Annual (varies)",
+      "description": "Recognizes early-career faculty in AI, computer architecture, quantum, and security with funding and long-term collaboration with Intel researchers"
+    },
+    {
+      "name": "Baidu Scholarship",
+      "organization": "Baidu",
+      "url": "https://scholarship.baidu.com/",
+      "amount": "RMB 200,000 research funding (~$28K)",
+      "audience": [
+        "Students / PhD"
+      ],
+      "region": [
+        "Asia-Pacific"
+      ],
+      "type": [
+        "Fellowships"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual (varies)",
+      "description": "Awards Chinese Master's and PhD students worldwide doing AI research in NLP, deep learning, autonomous driving, and related areas"
+    },
+    {
+      "name": "Salesforce AI Research Academic Grant Program",
+      "organization": "Salesforce",
+      "url": "https://www.salesforce.com/blog/ai-research-academic-grants/",
+      "amount": "Research grant funding (amount varies)",
+      "audience": [
+        "Faculty / PI",
+        "Students / PhD"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Research Project Grants"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Annual (varies)",
+      "description": "Funds university faculty and researchers tackling hard problems in trusted AI, agentic systems, and deep learning in partnership with Salesforce AI Research"
+    },
+    {
+      "name": "Mistral AI Startup Program (Mistralship)",
+      "organization": "Mistral AI",
+      "url": "https://mistral.ai/",
+      "amount": "Up to ~$30K / €30K in La Plateforme credits (no equity)",
+      "audience": [
+        "Indie builders / microgrants"
+      ],
+      "region": [
+        "Global"
+      ],
+      "type": [
+        "Startup Program"
+      ],
+      "domains": [
+        "Computer Science & AI",
+        "Data & Math"
+      ],
+      "deadline": "Rolling (cohorts)",
+      "description": "Six-month cohort program giving early-stage AI startups (pre-seed to Series A) platform credits and mentorship with no equity taken"
     }
   ]
 }

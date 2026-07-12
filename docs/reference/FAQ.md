@@ -17,9 +17,9 @@ Common questions about finding and applying for grants.
 ### What is this repository?
 
 Awesome Grants is a curated and automatically updated database of funding opportunities for researchers, open-source maintainers, and builders. It includes:
-- **136+ grants** from government agencies, foundations, and organizations
+- **252+ grants** from government agencies, foundations, and organizations
 - **70+ live-scraped** opportunities updated automatically from Grants.gov and NSF
-- **66 curated grants** with detailed information about major programs
+- **182 curated grants** with detailed information about major programs
 
 ### How current is the data?
 
