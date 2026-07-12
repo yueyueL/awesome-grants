@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Grants by Organization
-nav_order: 5
+nav_order: 9
+permalink: /docs/by-organization
 ---
 
 # 🏛️ Browse by Organization

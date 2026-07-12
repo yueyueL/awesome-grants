@@ -18,16 +18,16 @@ Select your career stage to find relevant funding opportunities:
 
 | Audience | Grants | Description |
 |----------|--------|-------------|
-| [Faculty / PI](faculty/) | 30 | For research leaders and principal investigators establishing independent research programs |
-| [Postdocs / ECRs](postdocs/) | 27 | For postdoctoral researchers and early career researchers building independent careers |
-| [Students / PhD](students/) | 24 | For PhD students, undergraduate researchers, and young scholars |
-| [OSS maintainers](oss/) | 14 | For open source software maintainers and infrastructure projects |
-| [Indie builders / microgrants](indie/) | 13 | For individual builders, founders, and small-scale projects |
+| [Faculty / PI](faculty/README.md) | 30 | For research leaders and principal investigators establishing independent research programs |
+| [Postdocs / ECRs](postdocs/README.md) | 27 | For postdoctoral researchers and early career researchers building independent careers |
+| [Students / PhD](students/README.md) | 31 | For PhD students, undergraduate researchers, and young scholars |
+| [OSS maintainers](oss/README.md) | 14 | For open source software maintainers and infrastructure projects |
+| [Indie builders / microgrants](indie/README.md) | 13 | For individual builders, founders, and small-scale projects |
 
 ---
 
 ## Quick Links
 
-- [All grants by category](/docs/by-domain)
-- [Grants by region](/docs/by-region)
-- [Grant writing resources](/)
+- [All grants by domain](../domains/README.md)
+- [Grants by region](../regions/README.md)
+- [Grant writing resources](../reference/resources.md)

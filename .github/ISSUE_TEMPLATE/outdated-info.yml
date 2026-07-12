@@ -1,0 +1,35 @@
+name: Report outdated information
+description: Report a grant entry whose deadline, amount, or eligibility is out of date.
+title: "[Outdated] "
+labels: [outdated-info]
+body:
+  - type: input
+    id: grant-name
+    attributes:
+      label: Grant name
+      description: The name of the grant entry that is outdated.
+      placeholder: e.g. NSF Graduate Research Fellowship Program
+    validations:
+      required: true
+  - type: dropdown
+    id: what-is-outdated
+    attributes:
+      label: What is outdated?
+      options:
+        - Deadline
+        - Amount
+        - Eligibility
+        - Program discontinued
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: correct-information
+    attributes:
+      label: Correct information and source URL
+      description: What should the entry say instead? Please include a link to the official page confirming it.
+      placeholder: |
+        The deadline is now March 15, 2027.
+        Source: https://...
+    validations:
+      required: true

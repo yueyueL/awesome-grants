@@ -168,4 +168,4 @@ Microgrants are small, flexible funding opportunities designed for quick experim
 
 ---
 
-[← Back to Grants by Type](/docs/types)
+[← Back to Grants by Type](../README.md)

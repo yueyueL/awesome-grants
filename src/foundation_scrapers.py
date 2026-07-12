@@ -4,11 +4,26 @@ Foundation Grant Scrapers - Scrape funding opportunities from major foundations
 """
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 import json
+import logging
 import re
 from datetime import datetime
+from pathlib import Path
 from typing import List, Dict, Any
+
+logger = logging.getLogger(__name__)
+
+# Repository root (this file lives in src/), so output paths work from any CWD
+ROOT = Path(__file__).resolve().parent.parent
+
+# NOTE: These amounts are static defaults, NOT scraped from the sites.
+# They reflect the programs' typical/published ranges and may drift out of date.
+NLNET_TYPICAL_AMOUNT = "€5,000-€50,000"
+PROTOTYPE_FUND_TYPICAL_AMOUNT = "€47,500 over 6 months"
+AMOUNT_NOTE = "typical range — verify on site"
 
 
 class FoundationScraper:
@@ -19,9 +34,17 @@ class FoundationScraper:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         })
+        retry = Retry(
+            total=3,
+            backoff_factor=1,
+            status_forcelist=[429, 500, 502, 503, 504]
+        )
+        adapter = HTTPAdapter(max_retries=retry)
+        self.session.mount('https://', adapter)
+        self.session.mount('http://', adapter)
         self.grants = []
 
-    def scrape(self) -> List[Dict[str, Any]]:
+    def scrape(self, max_grants: int = 50) -> List[Dict[str, Any]]:
         """Scrape grants"""
         raise NotImplementedError
 
@@ -39,7 +62,7 @@ class SloanFoundationScraper(FoundationScraper):
         super().__init__()
         self.url = "https://sloan.org/grants/apply"
 
-    def scrape(self) -> List[Dict[str, Any]]:
+    def scrape(self, max_grants: int = 50) -> List[Dict[str, Any]]:
         """Scrape Sloan opportunities"""
         print(f"\n🔍 Scraping Sloan Foundation...")
         grants = []
@@ -57,11 +80,14 @@ class SloanFoundationScraper(FoundationScraper):
                     if grant:
                         grants.append(grant)
 
+                if not grants:
+                    logging.warning(f"parsed 0 items from {self.url} — selectors may be outdated")
+
         except Exception as e:
             print(f"  ✗ Error: {e}")
 
         print(f"  ✓ Scraped {len(grants)} grants from Sloan Foundation")
-        return grants
+        return grants[:max_grants]
 
     def _parse_program(self, element) -> Dict[str, Any]:
         """Parse program from HTML"""
@@ -88,7 +114,8 @@ class SloanFoundationScraper(FoundationScraper):
                 "source": "Sloan Foundation (Web)",
                 "scraped_at": datetime.now().isoformat()
             }
-        except:
+        except Exception as e:
+            logging.warning(f"Failed to parse Sloan program element: {e}")
             return None
 
 
@@ -99,7 +126,7 @@ class MozillaGrantsScraper(FoundationScraper):
         super().__init__()
         self.url = "https://foundation.mozilla.org/en/what-we-fund/"
 
-    def scrape(self) -> List[Dict[str, Any]]:
+    def scrape(self, max_grants: int = 50) -> List[Dict[str, Any]]:
         """Scrape Mozilla grants"""
         print(f"\n🔍 Scraping Mozilla Foundation...")
         grants = []
@@ -117,11 +144,14 @@ class MozillaGrantsScraper(FoundationScraper):
                     if grant:
                         grants.append(grant)
 
+                if not grants:
+                    logging.warning(f"parsed 0 items from {self.url} — selectors may be outdated")
+
         except Exception as e:
             print(f"  ✗ Error: {e}")
 
         print(f"  ✓ Scraped {len(grants)} grants from Mozilla")
-        return grants
+        return grants[:max_grants]
 
     def _parse_program(self, element) -> Dict[str, Any]:
         """Parse program"""
@@ -144,7 +174,8 @@ class MozillaGrantsScraper(FoundationScraper):
                 "source": "Mozilla (Web)",
                 "scraped_at": datetime.now().isoformat()
             }
-        except:
+        except Exception as e:
+            logging.warning(f"Failed to parse Mozilla program element: {e}")
             return None
 
 
@@ -155,7 +186,7 @@ class NLnetScraper(FoundationScraper):
         super().__init__()
         self.url = "https://nlnet.nl/propose/"
 
-    def scrape(self) -> List[Dict[str, Any]]:
+    def scrape(self, max_grants: int = 50) -> List[Dict[str, Any]]:
         """Scrape NLnet calls"""
         print(f"\n🔍 Scraping NLnet Foundation...")
         grants = []
@@ -173,11 +204,14 @@ class NLnetScraper(FoundationScraper):
                     if grant:
                         grants.append(grant)
 
+                if not grants:
+                    logging.warning(f"parsed 0 items from {self.url} — selectors may be outdated")
+
         except Exception as e:
             print(f"  ✗ Error: {e}")
 
         print(f"  ✓ Scraped {len(grants)} grants from NLnet")
-        return grants
+        return grants[:max_grants]
 
     def _parse_call(self, element) -> Dict[str, Any]:
         """Parse call"""
@@ -197,11 +231,13 @@ class NLnetScraper(FoundationScraper):
                 "name": f"NLnet - {title}",
                 "organization": "NLnet Foundation",
                 "url": url,
-                "amount": "€5,000-€50,000",
+                "amount": NLNET_TYPICAL_AMOUNT,
+                "amount_note": AMOUNT_NOTE,
                 "source": "NLnet (Web)",
                 "scraped_at": datetime.now().isoformat()
             }
-        except:
+        except Exception as e:
+            logging.warning(f"Failed to parse NLnet call element: {e}")
             return None
 
 
@@ -212,7 +248,7 @@ class PrototypeFundScraper(FoundationScraper):
         super().__init__()
         self.url = "https://prototypefund.de/en/"
 
-    def scrape(self) -> List[Dict[str, Any]]:
+    def scrape(self, max_grants: int = 50) -> List[Dict[str, Any]]:
         """Scrape Prototype Fund"""
         print(f"\n🔍 Scraping Prototype Fund...")
         grants = []
@@ -233,17 +269,21 @@ class PrototypeFundScraper(FoundationScraper):
                         "name": f"Prototype Fund - {title}",
                         "organization": "German Federal Ministry of Education and Research",
                         "url": self.url,
-                        "amount": "€47,500 over 6 months",
+                        "amount": PROTOTYPE_FUND_TYPICAL_AMOUNT,
+                        "amount_note": AMOUNT_NOTE,
                         "description": "Funding for public interest technology projects",
                         "source": "Prototype Fund (Web)",
                         "scraped_at": datetime.now().isoformat()
                     })
 
+                if not grants:
+                    logging.warning(f"parsed 0 items from {self.url} — selectors may be outdated")
+
         except Exception as e:
             print(f"  ✗ Error: {e}")
 
         print(f"  ✓ Scraped {len(grants)} grants from Prototype Fund")
-        return grants
+        return grants[:max_grants]
 
 
 class WellcomeTrustScraper(FoundationScraper):
@@ -253,7 +293,7 @@ class WellcomeTrustScraper(FoundationScraper):
         super().__init__()
         self.url = "https://wellcome.org/grant-funding"
 
-    def scrape(self) -> List[Dict[str, Any]]:
+    def scrape(self, max_grants: int = 50) -> List[Dict[str, Any]]:
         """Scrape Wellcome funding schemes"""
         print(f"\n🔍 Scraping Wellcome Trust...")
         grants = []
@@ -271,11 +311,14 @@ class WellcomeTrustScraper(FoundationScraper):
                     if grant:
                         grants.append(grant)
 
+                if not grants:
+                    logging.warning(f"parsed 0 items from {self.url} — selectors may be outdated")
+
         except Exception as e:
             print(f"  ✗ Error: {e}")
 
         print(f"  ✓ Scraped {len(grants)} grants from Wellcome")
-        return grants
+        return grants[:max_grants]
 
     def _parse_scheme(self, element) -> Dict[str, Any]:
         """Parse funding scheme"""
@@ -298,7 +341,8 @@ class WellcomeTrustScraper(FoundationScraper):
                 "source": "Wellcome (Web)",
                 "scraped_at": datetime.now().isoformat()
             }
-        except:
+        except Exception as e:
+            logging.warning(f"Failed to parse Wellcome scheme element: {e}")
             return None
 
 
@@ -338,18 +382,34 @@ class FoundationCollector:
 
         return results
 
-    def save_to_json(self, filename: str):
+    def save_to_json(self, filename):
         """Save to JSON"""
+        target = Path(filename)
+
+        # Guard: don't clobber an existing non-empty output file with an empty result
+        if len(self.all_grants) == 0 and target.exists():
+            try:
+                with open(target, 'r', encoding='utf-8') as f:
+                    existing = json.load(f)
+                if existing.get('total_grants', 0) > 0:
+                    logging.warning(
+                        f"Scrape returned 0 grants but {target} already contains "
+                        f"{existing.get('total_grants')} grants — skipping write to avoid data loss"
+                    )
+                    return
+            except Exception as e:
+                logging.warning(f"Could not inspect existing output file {target}: {e}")
+
         data = {
             "scraped_at": datetime.now().isoformat(),
             "total_grants": len(self.all_grants),
             "grants": self.all_grants
         }
 
-        with open(filename, 'w', encoding='utf-8') as f:
+        with open(target, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
-        print(f"✓ Saved {len(self.all_grants)} foundation grants to {filename}")
+        print(f"✓ Saved {len(self.all_grants)} foundation grants to {target}")
 
 
 def main():
@@ -357,7 +417,7 @@ def main():
     collector = FoundationCollector()
     results = collector.collect_all()
 
-    collector.save_to_json('../data/grants_foundations.json')
+    collector.save_to_json(ROOT / 'data' / 'grants_foundations.json')
 
     # Print summary
     print("\n=== FOUNDATION SCRAPING SUMMARY ===")

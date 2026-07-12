@@ -328,4 +328,4 @@ See the [main README](../README.md#contributing) for full contribution guideline
 
 ---
 
-**Last updated**: November 16, 2025
+**Last updated**: July 2026

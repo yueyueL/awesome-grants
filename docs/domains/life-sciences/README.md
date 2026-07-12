@@ -54,4 +54,4 @@ HHMI, ERC Advanced, Wellcome Senior Research
 
 ---
 
-[← Back to Grants by Domain](/docs/domains)
+[← Back to Grants by Domain](../README.md)

@@ -93,19 +93,19 @@ Modern grants increasingly recognize multiple identities:
 - [Disability Scholarships](./disability/README.md#direct-scholarships)
 
 ### Graduate Students
-- [AAUW Dissertation Fellowships](./women-in-stem/README.md#graduate-postdoctoral) - $20,000
-- [Out to Innovate Career Development](./lgbtq/README.md#stem-specific) - $2,000-$5,000
-- [NIH Diversity Supplements](./disability/README.md#federal-supplements)
+- [AAUW Dissertation Fellowships](./women-in-stem/README.md#graduate--postdoctoral-fellowships) - $20,000
+- [Out to Innovate Career Development](./lgbtq/README.md#stem-specific-support) - $2,000-$5,000
+- [NIH Diversity Supplements](./disability/README.md#federal-supplements--accommodations)
 
 ### Postdocs
-- [L'Oréal USA FWIS](./women-in-stem/README.md#graduate-postdoctoral) - $60,000
-- [GWIS Fellowships](./women-in-stem/README.md#graduate-postdoctoral) - $10,000
-- [Ford Foundation Fellowships](./first-gen/README.md#intersectional-funding)
+- [L'Oréal USA FWIS](./women-in-stem/README.md#graduate--postdoctoral-fellowships) - $60,000
+- [GWIS Fellowships](./women-in-stem/README.md#graduate--postdoctoral-fellowships) - $10,000
+- [Ford Foundation Fellowships](./first-gen/README.md#intersectional-funding-fgli-as-component)
 
 ### Faculty
-- [AAUW Publication Grants](./women-in-stem/README.md#faculty-career-transition)
-- [RWJF New Connections](./first-gen/README.md#intersectional-funding) - $50,000
-- [NSF FASED](./disability/README.md#federal-supplements)
+- [AAUW Publication Grants](./women-in-stem/README.md#faculty--career-transition-grants)
+- [RWJF New Connections](./first-gen/README.md#intersectional-funding-fgli-as-component) - $50,000
+- [NSF FASED](./disability/README.md#federal-supplements--accommodations)
 
 ---
 

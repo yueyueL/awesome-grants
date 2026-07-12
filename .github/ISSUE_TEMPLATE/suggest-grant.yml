@@ -1,0 +1,93 @@
+name: Suggest a grant
+description: Suggest a new grant or funding program to add to the list.
+title: "[Grant] "
+labels: [grant-suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a grant! Please fill in as much as you can.
+        All information should come from the grant's **official page**, not news articles.
+  - type: input
+    id: grant-name
+    attributes:
+      label: Grant name
+      description: The official name of the grant or funding program.
+      placeholder: e.g. NSF Graduate Research Fellowship Program
+    validations:
+      required: true
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+      description: The organization that funds or administers the grant.
+      placeholder: e.g. National Science Foundation
+    validations:
+      required: true
+  - type: input
+    id: official-url
+    attributes:
+      label: Official URL
+      description: Link to the official grant page (not a news article or blog post).
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: amount
+    attributes:
+      label: Amount
+      description: Funding amount or a short description of the funding.
+      placeholder: e.g. $37,000/year for 3 years
+    validations:
+      required: false
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      description: Application deadline, e.g. a specific date, "October (annually)", or "Rolling".
+      placeholder: e.g. October (annually)
+    validations:
+      required: false
+  - type: textarea
+    id: eligibility
+    attributes:
+      label: Eligibility
+      description: Who can apply? (career stage, citizenship/residency, field, etc.)
+      placeholder: e.g. US citizens or permanent residents enrolled in a PhD program
+    validations:
+      required: false
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Audience
+      description: Who is this grant primarily for?
+      options:
+        - Students/PhD
+        - Postdocs/ECRs
+        - Faculty/PI
+        - OSS maintainers
+        - Indie builders
+        - Multiple
+    validations:
+      required: false
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      description: Where is this grant available?
+      options:
+        - US
+        - EU
+        - UK
+        - Asia-Pacific
+        - Global
+        - Other
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: The URL above is the official grant page (not a news article or third-party summary).
+          required: true

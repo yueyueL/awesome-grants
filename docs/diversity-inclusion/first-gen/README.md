@@ -374,7 +374,7 @@ McNair is part of the larger TRIO suite of federal programs for FGLI students:
 **Also see:**
 - [By Audience > Students](../../audience/students/README.md) - Additional student grants
 - [By Audience > Postdocs](../../audience/postdocs/README.md) - Postdoc opportunities
-- [Federal Funding](../../funders/federal/README.md) - TRIO Programs, NSF GRFP
+- [Federal Funding](../../regions/us/README.md) - TRIO Programs, NSF GRFP
 - [LGBTQ+ Researchers](../lgbtq/README.md) - Point Access Scholarship
 
 **Cross-listed opportunities:**

@@ -79,5 +79,4 @@ Welcome to **Awesome Grants** - your comprehensive guide to finding funding oppo
 
 ---
 
-**Last Updated:** November 17, 2025
-**Data Status:** 🟢 Fresh
+**Last Updated:** July 2026

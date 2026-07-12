@@ -10,6 +10,8 @@ permalink: /docs/live-dashboard
 
 **Real-time grant opportunities** collected automatically from APIs and web scraping.
 
+> **Note:** Data was last collected on November 16, 2025. Some listed deadlines may have passed — always verify on the official grant page.
+
 <div class="stats-grid">
   <div class="stat-card">
     <span class="stat-value">70</span>
@@ -20,8 +22,8 @@ permalink: /docs/live-dashboard
     <span class="stat-label">Active Sources</span>
   </div>
   <div class="stat-card">
-    <span class="stat-value">🟢</span>
-    <span class="stat-label">Fresh (Today)</span>
+    <span class="stat-value">November 16, 2025</span>
+    <span class="stat-label">Last Collected</span>
   </div>
   <div class="stat-card">
     <span class="stat-value">Auto</span>

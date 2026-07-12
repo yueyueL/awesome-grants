@@ -2,6 +2,8 @@
 
 Thank you for your interest in improving Awesome Grants! This repository helps thousands of researchers, developers, and builders find funding opportunities.
 
+By participating in this project, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## 🎯 Quick Start
 
 The easiest way to contribute is to:
@@ -136,7 +138,8 @@ We typically exclude:
 2. **Create a branch** for your changes (e.g., `add-nsf-grfp`)
 3. **Make your changes** following the format guidelines
 4. **Test links** to ensure they work
-5. **Submit a pull request** with:
+5. Use descriptive commit messages, e.g. "Add NLnet grant to OSS section", not "update".
+6. **Submit a pull request** with:
    - Clear title (e.g., "Add NSF GRFP to students section")
    - Brief description of what you changed
    - Why the change is helpful
@@ -147,7 +150,7 @@ We typically review PRs within 2-3 days.
 
 Found a problem but don't want to fix it yourself?
 
-[Open an issue](https://github.com/yueyuel/awesome-grants/issues/new) with:
+[Open an issue](https://github.com/yueyueL/awesome-grants/issues/new/choose) with:
 
 - Page/section affected
 - What's wrong
@@ -155,7 +158,7 @@ Found a problem but don't want to fix it yourself?
 
 ## 💬 Questions?
 
-- **General questions**: [Open a discussion](https://github.com/yueyuel/awesome-grants/discussions)
+- **General questions**: [Open an issue](https://github.com/yueyueL/awesome-grants/issues/new/choose)
 - **Bug reports**: [Open an issue](https://github.com/yueyuel/awesome-grants/issues)
 - **Quick edits**: Just click "✏️ Edit this page" on any wiki page!
 

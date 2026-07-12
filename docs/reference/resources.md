@@ -219,4 +219,4 @@ A comprehensive collection of resources for grant seekers including researchers,
 
 ---
 
-**Need specific grants?** Check out our [Live Dashboard](./live-dashboard) for 70+ real-time opportunities or browse by [Audience](./by-audience), [Organization](./by-organization), or [Domain](./by-domain).
+**Need specific grants?** Check out our [Live Dashboard](./live-dashboard.md) for 70+ real-time opportunities or browse by [Audience](../audience/README.md), [Organization](../organizations/README.md), or [Domain](../domains/README.md).

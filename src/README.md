@@ -31,21 +31,24 @@ Legacy curated JSON files are still present in `../data/` for reference, but the
 
 ## Usage
 
+> **Note:** Run the scripts from the repository root (paths are anchored via `Path(__file__)`, so this works from anywhere, but the repo root is the recommended working directory).
+
 ### 1) Collect live data
 
 ```bash
-python3 master_scraper.py
+python3 src/master_scraper.py
 ```
 
 Outputs:
-- `../data/grants_live_master.json` – merged dataset + metadata
-- `../data/grants_scraped_live.json` – raw dump (optional)
+- `data/grants_live_master.json` – merged dataset + metadata
 - Stats in the terminal for each source
+
+(`data/grants_scraped_live.json` is written only by running `live_scrapers.py` directly, not by `master_scraper.py`.)
 
 ### 2) Regenerate the wiki
 
 ```bash
-python3 enhanced_wiki_generator.py
+python3 src/enhanced_wiki_generator.py
 ```
 
 Outputs:
@@ -99,18 +102,15 @@ Every scraper returns dictionaries that at minimum contain:
 }
 ```
 
-Optional helpers in `master_scraper.py` will infer domains/audience when possible.
-
 ## Dependencies
 
 - Python 3.8+
-- `requests`
-- `beautifulsoup4`
+- Dependencies are listed in `requirements.txt` at the repo root
 
-Install once:
+Install once (from the repo root):
 
 ```bash
-pip3 install requests beautifulsoup4
+pip3 install -r requirements.txt
 ```
 
 ## Troubleshooting

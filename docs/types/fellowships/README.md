@@ -261,4 +261,4 @@ Fellowships are prestigious awards that provide comprehensive support for indivi
 
 ---
 
-[← Back to Grants by Type](/docs/types)
+[← Back to Grants by Type](../README.md)

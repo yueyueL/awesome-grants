@@ -16,12 +16,12 @@ Browse grants by funding mechanism and grant type.
 
 | Type | Count | Description |
 |------|-------|-------------|
-| **[Fellowships](./fellowships/)** | 29+ | Individual awards providing salary and research support |
-| **[Industry PhD Fellowships](./industry-phd-fellowships/)** | 60+ | Industry-sponsored PhD fellowships across tech, finance, pharma, energy, defense |
-| **[Research Project Grants](./research-project-grants/)** | 14+ | Funding for specific research projects and teams |
-| **[OSS Grants](./oss-grants/)** | 12+ | Support for open source software development |
-| **[Microgrants](./microgrants/)** | 11+ | Smaller awards (<$50,000) for early-stage projects |
-| **[Travel & Conference Grants](./travel-conference-grants/)** | 11+ | Support for attending conferences and research visits |
+| **[Fellowships](./fellowships/README.md)** | 29+ | Individual awards providing salary and research support |
+| **[Industry PhD Fellowships](./industry-phd-fellowships/README.md)** | 60+ | Industry-sponsored PhD fellowships across tech, finance, pharma, energy, defense |
+| **[Research Project Grants](./research-project-grants/README.md)** | 14+ | Funding for specific research projects and teams |
+| **[OSS Grants](./oss-grants/README.md)** | 12+ | Support for open source software development |
+| **[Microgrants](./microgrants/README.md)** | 11+ | Smaller awards (<$50,000) for early-stage projects |
+| **[Travel & Conference Grants](./travel-conference-grants/README.md)** | 11+ | Support for attending conferences and research visits |
 
 ---
 
@@ -59,6 +59,11 @@ Quick, small funding for experiments and pilots. Best for:
 - Testing ideas (Emergent Ventures, AI Grant)
 - Side projects (Awesome Foundation)
 - Indie builders (Unitary Fund)
+
+### Travel Grants & Conference Grants
+11+ programs supporting conference attendance and research visits, typically $500-$3,000 per award. Ideal for students and early-career researchers who need to present work, network, or collaborate abroad without a full grant of their own.
+
+[View all travel grants →](./travel-conference-grants/README.md)
 
 ---
 

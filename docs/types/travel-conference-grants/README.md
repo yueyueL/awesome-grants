@@ -239,4 +239,4 @@ Travel grants help researchers attend conferences, present work, network with co
 
 ---
 
-[← Back to Grants by Type](/docs/types)
+[← Back to Grants by Type](../README.md)

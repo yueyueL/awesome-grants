@@ -1,0 +1,29 @@
+name: Report a broken link
+description: Report a link on the site that is broken or redirects to the wrong place.
+title: "[Broken link] "
+labels: [broken-link]
+body:
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL
+      description: The URL of the page where the broken link appears.
+      placeholder: https://yueyuel.github.io/awesome-grants/...
+    validations:
+      required: true
+  - type: input
+    id: broken-link
+    attributes:
+      label: Broken link
+      description: The link that is broken.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: suggested-replacement
+    attributes:
+      label: Suggested replacement (optional)
+      description: If you know the correct URL, paste it here.
+      placeholder: https://...
+    validations:
+      required: false

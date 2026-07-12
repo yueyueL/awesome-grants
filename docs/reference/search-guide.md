@@ -3,6 +3,7 @@ layout: default
 title: Search Guide
 nav_order: 4
 parent: Resources
+permalink: /docs/search-guide
 ---
 
 # 🔎 Search & Filter Guide

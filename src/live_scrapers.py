@@ -3,14 +3,26 @@
 Live Grant Scrapers - Actually scrape and fetch real grant data from websites and APIs
 """
 
-import requests
-from bs4 import BeautifulSoup
+import html
 import json
+import logging
 import re
 import time
 from datetime import datetime
+from pathlib import Path
 from typing import List, Dict, Any
 import xml.etree.ElementTree as ET
+
+import requests
+from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+logger = logging.getLogger(__name__)
+
+# Repository root (this file lives in <root>/src/), so output paths work
+# regardless of the current working directory.
+ROOT = Path(__file__).resolve().parent.parent
 
 
 class GrantScraper:
@@ -21,17 +33,25 @@ class GrantScraper:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
-        self.grants = []
+        adapter = HTTPAdapter(
+            max_retries=Retry(
+                total=3,
+                backoff_factor=1,
+                status_forcelist=[429, 500, 502, 503, 504]
+            )
+        )
+        self.session.mount('https://', adapter)
+        self.session.mount('http://', adapter)
 
-    def scrape(self) -> List[Dict[str, Any]]:
+    def scrape(self, max_grants: int = 50) -> List[Dict[str, Any]]:
         """Scrape grants - to be implemented by subclasses"""
         raise NotImplementedError
 
     def clean_text(self, text: str) -> str:
-        """Clean scraped text"""
+        """Clean scraped text (unescape HTML entities, collapse whitespace)"""
         if not text:
             return ""
-        return re.sub(r'\s+', ' ', text).strip()
+        return re.sub(r'\s+', ' ', html.unescape(text)).strip()
 
 
 class GrantsGovScraper(GrantScraper):
@@ -71,69 +91,77 @@ class GrantsGovScraper(GrantScraper):
                 opps = data.get('oppHits', [])
                 print(f"  ✓ Found {len(opps)} opportunities")
 
+                skipped = 0
                 for opp in opps[:max_grants]:
                     grant = self._parse_opportunity(opp)
                     if grant:
                         grants.append(grant)
+                    else:
+                        skipped += 1
+                if skipped:
+                    logger.warning(
+                        "Grants.gov: skipped %d invalid/unparseable opportunities",
+                        skipped
+                    )
 
             else:
-                print(f"  ✗ API returned status {response.status_code}")
+                logger.warning(
+                    "Grants.gov API returned HTTP %d", response.status_code
+                )
                 # Fallback: Try scraping the website
                 grants = self._scrape_website(max_grants)
 
         except Exception as e:
-            print(f"  ✗ Error: {e}")
+            logger.warning("Grants.gov API error: %s", e)
             # Try scraping as fallback
             try:
                 grants = self._scrape_website(max_grants)
-            except:
-                pass
+            except Exception as e:
+                logger.warning("Grants.gov website fallback failed: %s", e)
 
         print(f"  ✓ Scraped {len(grants)} grants from Grants.gov")
         return grants
 
     def _parse_opportunity(self, opp: Dict) -> Dict[str, Any]:
-        """Parse opportunity from API response"""
+        """Parse opportunity from the search API response.
+
+        Note: the search API's oppHits only contain id, number, title,
+        agencyCode, agency, openDate, closeDate, oppStatus, docType and
+        cfdaList. Richer fields (description, award floor/ceiling,
+        eligibility) require a per-opportunity detail fetch and are NOT
+        available here, so we use honest placeholder values instead.
+
+        Detail-page URLs on grants.gov are keyed by the numeric
+        opportunity id, not the FOA number.
+        """
         try:
-            # Extract opportunity details
-            title = opp.get('title', 'Unknown')
+            title = self.clean_text(opp.get('title') or '')
+            opp_id = opp.get('id')
+            if not title or not opp_id:
+                # Records without a title or id produce empty names and
+                # broken URLs downstream; skip them.
+                return None
+
             number = opp.get('number', '')
-            agency = opp.get('agency', 'Federal Government')
+            agency = self.clean_text(opp.get('agency') or 'Federal Government')
 
             return {
                 "name": title,
                 "organization": agency,
-                "url": f"https://www.grants.gov/search-results-detail/{number}" if number else "https://www.grants.gov/",
+                "url": f"https://www.grants.gov/search-results-detail/{opp_id}",
                 "opportunity_number": number,
-                "amount": self._format_amount(
-                    opp.get('awardFloor'),
-                    opp.get('awardCeiling')
-                ),
-                "deadline": opp.get('closeDate', 'See website'),
-                "description": self.clean_text(opp.get('description', ''))[:300],
+                "amount": "See grant page",
+                "deadline": opp.get('closeDate') or 'See website',
+                "description": "See grant page",
                 "category": opp.get('cfdaList', []),
-                "eligibility": opp.get('eligibleApplicants', []),
                 "agency_code": opp.get('agencyCode', ''),
                 "posted_date": opp.get('openDate', ''),
                 "source": "Grants.gov (API)",
                 "scraped_at": datetime.now().isoformat()
             }
         except Exception as e:
-            print(f"    ⚠ Error parsing opportunity: {e}")
+            logger.warning("Grants.gov: error parsing opportunity: %s", e)
             return None
-
-    def _format_amount(self, floor, ceiling):
-        """Format grant amount"""
-        try:
-            if ceiling and floor:
-                return f"${int(floor):,} - ${int(ceiling):,}"
-            elif ceiling:
-                return f"Up to ${int(ceiling):,}"
-            elif floor:
-                return f"From ${int(floor):,}"
-        except:
-            pass
-        return "Variable"
 
     def _scrape_website(self, max_grants: int) -> List[Dict[str, Any]]:
         """Fallback: Scrape the website directly"""
@@ -153,13 +181,21 @@ class GrantsGovScraper(GrantScraper):
                 # Find grant listings
                 grant_items = soup.find_all('div', class_=re.compile(r'opportunity|grant'))
 
+                skipped = 0
                 for item in grant_items[:max_grants]:
                     grant = self._parse_html_grant(item)
                     if grant:
                         grants.append(grant)
+                    else:
+                        skipped += 1
+                if skipped:
+                    logger.warning(
+                        "Grants.gov (Web): skipped %d unparseable listings",
+                        skipped
+                    )
 
         except Exception as e:
-            print(f"  ✗ Website scraping failed: {e}")
+            logger.warning("Grants.gov website scraping failed: %s", e)
 
         return grants
 
@@ -181,7 +217,8 @@ class GrantsGovScraper(GrantScraper):
                 "source": "Grants.gov (Web)",
                 "scraped_at": datetime.now().isoformat()
             }
-        except:
+        except Exception as e:
+            logger.warning("Grants.gov: error parsing HTML grant: %s", e)
             return None
 
 
@@ -227,14 +264,21 @@ class NSFScraper(GrantScraper):
             if response.status_code == 200:
                 root = ET.fromstring(response.content)
 
+                skipped = 0
                 for item in root.findall('.//item'):
                     grant = self._parse_rss_item(item)
                     if grant:
                         grants.append(grant)
+                    else:
+                        skipped += 1
+                if skipped:
+                    logger.warning("NSF (RSS): skipped %d unparseable items", skipped)
 
                 print(f"  ✓ Parsed {len(grants)} from RSS")
+            else:
+                logger.warning("NSF RSS feed returned HTTP %d", response.status_code)
         except Exception as e:
-            print(f"  ⚠ RSS scraping error: {e}")
+            logger.warning("NSF RSS scraping error: %s", e)
 
         return grants
 
@@ -254,8 +298,8 @@ class NSFScraper(GrantScraper):
                     "source": "NSF (RSS)",
                     "scraped_at": datetime.now().isoformat()
                 }
-        except:
-            pass
+        except Exception as e:
+            logger.warning("NSF: error parsing RSS item: %s", e)
         return None
 
     def _scrape_website(self) -> List[Dict[str, Any]]:
@@ -270,14 +314,19 @@ class NSFScraper(GrantScraper):
                 # Find funding opportunities
                 opps = soup.find_all(['div', 'article'], class_=re.compile(r'funding|opportunity|program'))
 
+                skipped = 0
                 for opp in opps:
                     grant = self._parse_html_opportunity(opp)
                     if grant:
                         grants.append(grant)
+                    else:
+                        skipped += 1
+                if skipped:
+                    logger.warning("NSF (Web): skipped %d unparseable listings", skipped)
 
                 print(f"  ✓ Scraped {len(grants)} from website")
         except Exception as e:
-            print(f"  ⚠ Website scraping error: {e}")
+            logger.warning("NSF website scraping error: %s", e)
 
         return grants
 
@@ -306,7 +355,8 @@ class NSFScraper(GrantScraper):
                 "source": "NSF (Web)",
                 "scraped_at": datetime.now().isoformat()
             }
-        except:
+        except Exception as e:
+            logger.warning("NSF: error parsing HTML opportunity: %s", e)
             return None
 
 
@@ -331,16 +381,21 @@ class EUFundingScraper(GrantScraper):
                 # Find call listings
                 calls = soup.find_all(['div', 'article'], class_=re.compile(r'call|opportunity'))
 
+                skipped = 0
                 for call in calls[:max_grants]:
                     grant = self._parse_call(call)
                     if grant:
                         grants.append(grant)
+                    else:
+                        skipped += 1
+                if skipped:
+                    logger.warning("EU Portal: skipped %d unparseable calls", skipped)
 
             else:
-                print(f"  ✗ HTTP {response.status_code}")
+                logger.warning("EU Portal returned HTTP %d", response.status_code)
 
         except Exception as e:
-            print(f"  ✗ Error: {e}")
+            logger.warning("EU Portal scraping error: %s", e)
 
         print(f"  ✓ Scraped {len(grants)} grants from EU Portal")
         return grants
@@ -366,7 +421,8 @@ class EUFundingScraper(GrantScraper):
                 "source": "EU Portal (Web)",
                 "scraped_at": datetime.now().isoformat()
             }
-        except:
+        except Exception as e:
+            logger.warning("EU Portal: error parsing call: %s", e)
             return None
 
 
@@ -376,7 +432,9 @@ class NIHScraper(GrantScraper):
     def __init__(self):
         super().__init__()
         self.funding_url = "https://grants.nih.gov/funding/searchguide/index.html"
-        self.guide_url = "https://grants.nih.gov/funding/searchguide/nih-guide-to-grants-and-contracts.xml"
+        # The old searchguide XML URL returns HTTP 403; use the NIH Guide
+        # funding-opportunities newsfeed instead.
+        self.guide_url = "https://grants.nih.gov/grants/guide/newsfeed/fundingopps.xml"
 
     def scrape(self, max_grants: int = 50) -> List[Dict[str, Any]]:
         """Scrape NIH opportunities"""
@@ -385,18 +443,37 @@ class NIHScraper(GrantScraper):
 
         # Try XML feed
         try:
-            response = self.session.get(self.guide_url, timeout=30)
+            response = self.session.get(
+                self.guide_url,
+                headers={
+                    'User-Agent': (
+                        'awesome-grants scraper '
+                        '(+https://yueyuel.github.io/awesome-grants/)'
+                    )
+                },
+                timeout=30
+            )
             if response.status_code == 200:
                 root = ET.fromstring(response.content)
 
+                skipped = 0
                 for item in root.findall('.//item')[:max_grants]:
                     grant = self._parse_xml_item(item)
                     if grant:
                         grants.append(grant)
+                    else:
+                        skipped += 1
+                if skipped:
+                    logger.warning("NIH: skipped %d unparseable feed items", skipped)
 
                 print(f"  ✓ Parsed {len(grants)} from XML feed")
+            else:
+                logger.warning(
+                    "NIH funding-opportunities feed returned HTTP %d",
+                    response.status_code
+                )
         except Exception as e:
-            print(f"  ⚠ XML parsing error: {e}")
+            logger.warning("NIH feed error: %s", e)
 
         print(f"  ✓ Scraped {len(grants)} grants from NIH")
         return grants
@@ -417,8 +494,8 @@ class NIHScraper(GrantScraper):
                     "source": "NIH (XML)",
                     "scraped_at": datetime.now().isoformat()
                 }
-        except:
-            pass
+        except Exception as e:
+            logger.warning("NIH: error parsing XML item: %s", e)
         return None
 
 
@@ -443,13 +520,21 @@ class UKRIScraper(GrantScraper):
                 # Find opportunity listings
                 opps = soup.find_all(['div', 'article'], class_=re.compile(r'opportunity|funding'))
 
+                skipped = 0
                 for opp in opps[:max_grants]:
                     grant = self._parse_opportunity(opp)
                     if grant:
                         grants.append(grant)
+                    else:
+                        skipped += 1
+                if skipped:
+                    logger.warning("UKRI: skipped %d unparseable listings", skipped)
+
+            else:
+                logger.warning("UKRI returned HTTP %d", response.status_code)
 
         except Exception as e:
-            print(f"  ✗ Error: {e}")
+            logger.warning("UKRI scraping error: %s", e)
 
         print(f"  ✓ Scraped {len(grants)} grants from UKRI")
         return grants
@@ -475,7 +560,8 @@ class UKRIScraper(GrantScraper):
                 "source": "UKRI (Web)",
                 "scraped_at": datetime.now().isoformat()
             }
-        except:
+        except Exception as e:
+            logger.warning("UKRI: error parsing opportunity: %s", e)
             return None
 
 
@@ -520,22 +606,30 @@ class LiveGrantCollector:
 
         return results
 
-    def save_to_json(self, filename: str):
+    def save_to_json(self, filename):
         """Save scraped grants to JSON"""
+        path = Path(filename)
+        path.parent.mkdir(parents=True, exist_ok=True)
+
         data = {
             "scraped_at": datetime.now().isoformat(),
             "total_grants": len(self.all_grants),
             "grants": self.all_grants
         }
 
-        with open(filename, 'w', encoding='utf-8') as f:
+        with open(path, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
-        print(f"✓ Saved {len(self.all_grants)} scraped grants to {filename}")
+        print(f"✓ Saved {len(self.all_grants)} scraped grants to {path}")
 
 
 def main():
     """Main function"""
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s %(levelname)s %(name)s: %(message)s'
+    )
+
     collector = LiveGrantCollector()
 
     # Scrape from all sources
@@ -544,8 +638,8 @@ def main():
         max_per_source=50
     )
 
-    # Save to file
-    collector.save_to_json('../data/grants_scraped_live.json')
+    # Save to file (anchored to the repository root, independent of CWD)
+    collector.save_to_json(ROOT / 'data' / 'grants_scraped_live.json')
 
     # Print summary
     print("\n=== SCRAPING SUMMARY ===")

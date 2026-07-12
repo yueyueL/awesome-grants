@@ -245,4 +245,4 @@ Research project grants support specific research questions and programs. Unlike
 
 ---
 
-[← Back to Grants by Type](/docs/types)
+[← Back to Grants by Type](../README.md)

@@ -3,6 +3,7 @@ layout: default
 title: How to Use
 nav_order: 5
 parent: Resources
+permalink: /docs/how-to-use
 ---
 
 # 📖 How to Use This Wiki
@@ -35,7 +36,7 @@ If you have geographic restrictions:
 Know which agency you want to apply to?
 
 - [National Science Foundation](../organizations/README.md#national-science-foundation)
-- [National Institutes of Health](../organizations/README.md#national-institutes-of-health)
+- [National Institutes of Health](../regions/us/README.md)
 - [All Organizations](../organizations/README.md)
 
 ## Understanding Grant Entries
@@ -136,8 +137,8 @@ A: Report it as an issue on GitHub or run the scraper to get fresh data.
 
 - 📖 [Search Guide](./search-guide.md) - How to find specific grants
 - 📊 [Live Dashboard](./live-dashboard.md) - See latest opportunities
-- 🏠 [Wiki Home](./Home.md) - Back to main page
-- 🐛 [Report Issues](https://github.com/YOUR_USERNAME/awesome-grants/issues)
+- 🏠 [Wiki Home](../Home.md) - Back to main page
+- 🐛 [Report Issues](https://github.com/yueyueL/awesome-grants/issues)
 
 ---
 

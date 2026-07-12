@@ -139,4 +139,4 @@ Supporting people-controlled technology
 
 ---
 
-[← Back to Grants by Audience](/docs/audience)
+[← Back to Grants by Audience](../README.md)

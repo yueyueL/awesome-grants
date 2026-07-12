@@ -14,13 +14,13 @@ Welcome to the Awesome Grants wiki! This resource helps researchers, builders, a
 | **📋 By Type** | Explore different funding mechanisms | [View](./types/README.md) |
 | **🔬 By Domain** | Discover grants in your research area | [View](./domains/README.md) |
 | **🏢 By Organization** | Browse by funding agency | [View](./organizations/README.md) |
-| **🔴 Live Dashboard** | Auto-updated live grants | [View](./live-dashboard.md) |
-| **📚 Grant Resources** | Tools, guides, and communities | [View](./resources.md) |
-| **📅 Deadline Calendar** | Upcoming deadlines | [View](./deadline-calendar.md) |
-| **⚡ Quick Reference** | Compare popular grants | [View](./quick-reference.md) |
-| **🔍 Search Guide** | Find the perfect grant | [View](./search-guide.md) |
-| **❓ FAQ** | Common questions | [View](./FAQ.md) |
-| **📖 How to Use** | Complete walkthrough | [View](./how-to-use.md) |
+| **🔴 Live Dashboard** | Auto-updated live grants | [View](./reference/live-dashboard.md) |
+| **📚 Grant Resources** | Tools, guides, and communities | [View](./reference/resources.md) |
+| **📅 Deadline Calendar** | Upcoming deadlines | [View](./reference/deadline-calendar.md) |
+| **⚡ Quick Reference** | Compare popular grants | [View](./reference/quick-reference.md) |
+| **🔍 Search Guide** | Find the perfect grant | [View](./reference/search-guide.md) |
+| **❓ FAQ** | Common questions | [View](./reference/FAQ.md) |
+| **📖 How to Use** | Complete walkthrough | [View](./reference/how-to-use.md) |
 
 ### Quick Links by Career Stage
 
@@ -69,24 +69,22 @@ See the [Indie builders section](./audience/indie/README.md) for:
 ### Browse by Domain
 
 - **[Computer Science & AI](./domains/README.md#computer-science--ai)**
-- **[Data & Math](./domains/README.md#data--math)**
+- **[Data & Math](./domains/data-math/README.md)**
 - **[Engineering & Physical Sciences](./domains/README.md#engineering--physical-sciences)**
 - **[Life Sciences & Biomedicine](./domains/README.md#life-sciences--biomedicine)**
-- **[Environment & Earth](./domains/README.md#environment--earth)**
-- **[Social Sciences & Policy](./domains/README.md#social-sciences--policy)**
-- **[Humanities & Arts](./domains/README.md#humanities--arts)**
-- **[Open Tech / OSS / Internet](./domains/README.md#open-tech--oss--internet)**
+- **[Environment & Earth](./domains/environment-earth/README.md)**
+- **[Social Sciences & Policy](./domains/social-sciences/README.md)**
+- **[Humanities & Arts](./domains/humanities-arts/README.md)**
+- **[Open Tech / OSS / Internet](./domains/open-tech-oss/README.md)**
 
 ## Data Files
 
 The underlying data is available in the `/data` directory:
 
-- `grants.json` - Complete database of all grants
-- `grants_by_audience.json` - Organized by career stage
-- `grants_by_region.json` - Organized by geography
-- `grants_by_type.json` - Organized by funding mechanism
-- `grants_by_domain.json` - Organized by research area
-- `grant_statistics.json` - Summary statistics
+- `grants.json` - Curated grants database
+- `grants_live_master.json` - Latest live-scraped opportunities
+
+These files are viewable in the GitHub repository (the /data directory is not published on this site).
 
 ## How to Search
 
@@ -94,7 +92,7 @@ The underlying data is available in the `/data` directory:
 2. **Region-restricted?** → Check [By Region](./regions/README.md)
 3. **Looking for specific funding type?** → Browse [By Type](./types/README.md)
 4. **Research area specific?** → Explore [By Domain](./domains/README.md)
-5. **Need resources & guidance?** → Check [Grant Resources](./resources.md)
+5. **Need resources & guidance?** → Check [Grant Resources](./reference/resources.md)
 6. **Just browsing?** → Start with [Home](./Home.md)
 
 ## Tips for Grant Applications

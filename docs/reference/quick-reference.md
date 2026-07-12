@@ -3,6 +3,7 @@ layout: default
 title: Quick Reference
 nav_order: 1
 parent: Resources
+permalink: /docs/quick-reference
 ---
 
 # 📋 Quick Reference Guide
@@ -278,4 +279,4 @@ Year 2:
   <strong>💡 Pro Tip:</strong> Don't just chase the biggest grants. A strategic mix of high-success and reach applications maximizes your funding chances while building your track record.
 </div>
 
-**Last updated**: November 16, 2025
+**Last updated**: July 2026

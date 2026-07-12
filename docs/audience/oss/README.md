@@ -147,4 +147,4 @@ Community funding platform for open source developers
 
 ---
 
-[← Back to Grants by Audience](/docs/audience)
+[← Back to Grants by Audience](../README.md)

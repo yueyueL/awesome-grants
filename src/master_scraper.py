@@ -3,11 +3,12 @@
 Master Grant Scraper - Production-ready scraper combining all sources
 """
 
+import argparse
 import json
-import re
-from datetime import datetime
-from typing import List, Dict, Any
+import sys
 import time
+from datetime import datetime
+from pathlib import Path
 
 # Import individual scrapers
 from live_scrapers import NSFScraper, GrantsGovScraper, NIHScraper
@@ -15,6 +16,12 @@ from foundation_scrapers import (
     SloanFoundationScraper, MozillaGrantsScraper, NLnetScraper,
     PrototypeFundScraper, WellcomeTrustScraper
 )
+
+# Anchor all default paths to the repository root so the scraper works
+# regardless of the current working directory.
+ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_OUTPUT = ROOT / 'data' / 'grants_live_master.json'
+RUN_REPORT_PATH = ROOT / 'data' / 'last_run_report.json'
 
 
 class MasterGrantScraper:
@@ -26,7 +33,8 @@ class MasterGrantScraper:
             'total': 0,
             'by_source': {},
             'successful_scrapers': [],
-            'failed_scrapers': []
+            'failed_scrapers': [],
+            'errors': {}
         }
 
     def scrape_all(self, max_per_source: int = 50):
@@ -73,7 +81,8 @@ class MasterGrantScraper:
             except Exception as e:
                 self.stats['failed_scrapers'].append(name)
                 self.stats['by_source'][name] = 0
-                print(f"    ✗ ERROR: {str(e)[:80]}\n")
+                self.stats['errors'][name] = f"{type(e).__name__}: {e}"
+                print(f"    ✗ ERROR ({type(e).__name__}): {e}\n")
 
         self.stats['total'] = len(self.all_grants)
 
@@ -101,7 +110,7 @@ class MasterGrantScraper:
 
         print("\n" + "=" * 70 + "\n")
 
-    def save_to_json(self, filename: str):
+    def save_to_json(self, filename):
         """Save all grants to JSON"""
         data = {
             "collection_info": {
@@ -114,11 +123,44 @@ class MasterGrantScraper:
             "grants": self.all_grants
         }
 
+        filename = Path(filename)
+        filename.parent.mkdir(parents=True, exist_ok=True)
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
         print(f"💾 Saved to: {filename}")
         print(f"   {self.stats['total']} grants in JSON format\n")
+
+    def save_run_report(self, filename=RUN_REPORT_PATH):
+        """Write a machine-readable per-source run report (for CI)"""
+        sources = {}
+        for name, count in self.stats['by_source'].items():
+            if name in self.stats['failed_scrapers']:
+                status = 'error'
+            elif name in self.stats['successful_scrapers']:
+                status = 'success'
+            else:
+                status = 'empty'
+            sources[name] = {
+                'status': status,
+                'count': count,
+                'error': self.stats['errors'].get(name)
+            }
+
+        report = {
+            'scraped_at': datetime.now().isoformat(),
+            'total_grants': self.stats['total'],
+            'successful_sources': len(self.stats['successful_scrapers']),
+            'failed_sources': len(self.stats['failed_scrapers']),
+            'sources': sources
+        }
+
+        filename = Path(filename)
+        filename.parent.mkdir(parents=True, exist_ok=True)
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(report, f, indent=2, ensure_ascii=False)
+
+        print(f"📋 Run report saved to: {filename}\n")
 
     def export_examples(self, count: int = 5):
         """Print example grants"""
@@ -141,19 +183,42 @@ class MasterGrantScraper:
 
 def main():
     """Main entry point"""
+    parser = argparse.ArgumentParser(
+        description="Scrape research/OSS grants from all configured sources"
+    )
+    parser.add_argument(
+        '--output', type=Path, default=DEFAULT_OUTPUT,
+        help=f"Output JSON file (default: {DEFAULT_OUTPUT})"
+    )
+    parser.add_argument(
+        '--max-per-source', type=int, default=50,
+        help="Maximum grants to collect per source (default: 50)"
+    )
+    args = parser.parse_args()
+
     scraper = MasterGrantScraper()
 
     # Scrape from all sources
-    grants = scraper.scrape_all(max_per_source=50)
+    scraper.scrape_all(max_per_source=args.max_per_source)
+
+    # Always write the machine-readable run report (used by CI)
+    scraper.save_run_report(RUN_REPORT_PATH)
+
+    # Fail loudly if every source came back empty/failed, so CI does not
+    # commit an empty dataset.
+    if not scraper.stats['successful_scrapers']:
+        print("✗ ERROR: All scrapers failed or returned no grants. "
+              "Not writing output; exiting with status 1.", file=sys.stderr)
+        sys.exit(1)
 
     # Save results
-    scraper.save_to_json('../data/grants_live_master.json')
+    scraper.save_to_json(args.output)
 
     # Show examples
     scraper.export_examples(count=10)
 
     print("✨ Scraping complete!")
-    print(f"📁 Check '../data/grants_live_master.json' for full dataset")
+    print(f"📁 Check '{args.output}' for full dataset")
 
 
 if __name__ == "__main__":

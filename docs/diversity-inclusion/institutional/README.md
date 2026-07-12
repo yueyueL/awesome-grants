@@ -287,8 +287,8 @@ Since 1989, the Clare Boothe Luce Program has:
 - [By Audience](../../audience/README.md)
 
 **For Faculty:**
-- [NIH Diversity Supplements](../disability/README.md#federal-supplements) - How PIs apply for supplements
-- [NSF FASED](../disability/README.md#federal-supplements) - Accommodation awards
+- [NIH Diversity Supplements](../disability/README.md#federal-supplements--accommodations) - How PIs apply for supplements
+- [NSF FASED](../disability/README.md#federal-supplements--accommodations) - Accommodation awards
 
 ---
 

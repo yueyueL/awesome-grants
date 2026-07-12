@@ -369,7 +369,7 @@ Dedicated to supporting scientists and students with disabilities in STEM fields
 - [By Domain > Computer Science](../../domains/README.md) - Additional CS opportunities
 - [By Audience > Students](../../audience/students/README.md) - Student grants
 - [By Audience > Postdocs](../../audience/postdocs/README.md) - Postdoc opportunities
-- [Federal Funding](../../funders/federal/README.md) - NIH & NSF programs
+- [Federal Funding](../../regions/us/README.md) - NIH & NSF programs
 
 **Cross-listed:**
 - [Microsoft Research Dissertation Grant](../lgbtq/README.md) - Also supports LGBTQI+ students

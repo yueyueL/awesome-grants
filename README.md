@@ -6,6 +6,7 @@ This comprehensive list helps you discover grants, fellowships, awards, and comp
 
 ## Contents
 
+- [Quick Start](#quick-start)
 - [By Audience](#by-audience)
 - [Diversity & Inclusion](#diversity--inclusion)
 - [By Region](#by-region)
@@ -16,6 +17,7 @@ This comprehensive list helps you discover grants, fellowships, awards, and comp
 - [Compute & Cloud Resources](#compute--cloud-resources)
 - [Resources](#resources)
 - [Contributing](#contributing)
+- [Disclaimer](#disclaimer)
 
 ## Quick Start
 
@@ -139,7 +141,7 @@ This comprehensive list helps you discover grants, fellowships, awards, and comp
 - [Thiel Fellowship](https://thielfellowship.org/) - $100,000 over 2 years to pursue ideas outside traditional education
 - [1517 Fund](https://www.1517fund.com/) - Equity investment for young founders
 
-[📚 See all 24 grants for Students/PhD in our wiki →](./docs/audience/students/README.md)
+[📚 See all 31 grants for Students/PhD in our wiki →](./docs/audience/students/README.md)
 
 ---
 
@@ -225,7 +227,7 @@ This comprehensive list helps you discover grants, fellowships, awards, and comp
 - [Rust Foundation Grants](https://foundation.rust-lang.org/grants/) - Support for Rust ecosystem (Global)
 - [Google Season of Docs](https://developers.google.com/season-of-docs) - Project-based funding for documentation (Global)
 
-[📚 See all 16 grants for OSS Maintainers in our wiki →](./docs/audience/oss/README.md)
+[📚 See all 14 grants for OSS Maintainers in our wiki →](./docs/audience/oss/README.md)
 
 ---
 
@@ -458,7 +460,7 @@ Support for attending conferences and research visits
 - NBHM Travel Grant
 - IEEE WIE Travel Grants
 
-[📚 View all travel grants →](./docs/types/README.md#travel-grants--conference-grants)
+[📚 View all travel grants →](./docs/types/travel-conference-grants/README.md)
 
 ---
 
@@ -492,7 +494,7 @@ Statistics, data science, applied math
 - Major programs: NSF, ERC, Simons Foundation
 - Postdocs: Schmidt Sciences, Marie Curie
 
-[📚 View all data & math grants →](./docs/domains/README.md#data--math)
+[📚 View all data & math grants →](./docs/domains/data-math/README.md)
 
 ### Open Tech / OSS / Internet (19 grants)
 Open source, web, digital rights, infrastructure
@@ -500,7 +502,7 @@ Open source, web, digital rights, infrastructure
 - Development: NLnet, Prototype Fund, Mozilla
 - Community: GitHub Sponsors, NumFOCUS
 
-[📚 View all open tech grants →](./docs/domains/README.md#open-tech--oss--internet)
+[📚 View all open tech grants →](./docs/domains/open-tech-oss/README.md)
 
 ### Social Sciences & Policy (19 grants)
 Economics, sociology, political science, law, policy
@@ -508,14 +510,14 @@ Economics, sociology, political science, law, policy
 - EU: ERC, Marie Curie, Horizon Europe
 - UK: British Academy, Leverhulme
 
-[📚 View all social sciences grants →](./docs/domains/README.md#social-sciences--policy)
+[📚 View all social sciences grants →](./docs/domains/social-sciences/README.md)
 
 ### Environment & Earth (18 grants)
 Climate, ecology, earth/planetary science
 - Major programs: NSF, DOE, ERC
 - International: Marie Curie, Schmidt Sciences
 
-[📚 View all environment grants →](./docs/domains/README.md#environment--earth)
+[📚 View all environment grants →](./docs/domains/environment-earth/README.md)
 
 ### Humanities & Arts (14 grants)
 History, philosophy, languages, arts, digital humanities
@@ -523,7 +525,7 @@ History, philosophy, languages, arts, digital humanities
 - UK: British Academy, Leverhulme
 - EU: ERC, Marie Curie
 
-[📚 View all humanities grants →](./docs/domains/README.md#humanities--arts)
+[📚 View all humanities grants →](./docs/domains/humanities-arts/README.md)
 
 ---
 
@@ -871,41 +873,9 @@ Beyond traditional grants, researchers can access substantial computational reso
 - [🔬 Browse by Domain](./docs/domains/README.md) - CS, life sciences, engineering, humanities
 - [📚 Resources](./docs/reference/README.md) - FAQ, guides, calendar, search tips
 
-<!-- ### Data
-All grant data is available in structured JSON format in the `/data` directory:
+### Data
 
-**Curated Knowledge Base** (66 high-quality grants):
-- `grants.json` - Complete curated database
-- `grants_by_audience.json` - Organized by career stage
-- `grants_by_region.json` - Organized by geography
-- `grants_by_type.json` - Organized by funding type
-- `grants_by_domain.json` - Organized by research area
-- `grant_statistics.json` - Summary statistics
-
-**Grant Data Files**:
-- `grants_live_master.json` - Grant data from various sources
-  - Federal opportunities (Grants.gov, NSF)
-  - Foundation and private funding
-- `grants_scraped_live.json` - Additional grant data
-- `grants_foundations.json` - Foundation data
-
-**Combined Data**:
-- `grants_combined.json` - Combined grant data from all sources
-- `grants_by_*_combined.json` - Categorized combined data
-
-### Code & Data Tools
-
-The `/src` directory contains tools for managing grant data:
-
-**Data Collection Tools**:
-- `master_scraper.py` - Grant data collection from various sources
-- `live_scrapers.py` - Government and API data tools (Grants.gov, NSF, NIH, EU, UKRI)
-- `foundation_scrapers.py` - Foundation data tools (Sloan, Mozilla, NLnet, Wellcome)
-
-**Documentation Generator**:
-- `enhanced_wiki_generator.py` - Builds the docs/ wiki from grant data
-
-See [src/README.md](./src/README.md) for detailed documentation. -->
+Structured JSON versions of this list live in the [`/data`](./data/README.md) directory: `grants.json` holds the curated knowledge base, and `grants_live_master.json` holds live-scraped opportunities from sources such as Grants.gov, NSF, and foundations. The scrapers and wiki generator that produce these files live in [`/src`](./src/README.md) — see [src/README.md](./src/README.md) for details.
 
 ---
 
@@ -913,15 +883,9 @@ See [src/README.md](./src/README.md) for detailed documentation. -->
 
 Contributions are welcome! Here's how you can help:
 
-<!-- ### Adding New Grants
+### Adding New Grants
 
-1. Fork this repository
-2. Decide how you want to contribute:
-   - **Add a new scraper/source**: extend `live_scrapers.py` (gov/APIs) or `foundation_scrapers.py`
-   - **Add a one-off grant**: update the relevant `docs/*.md` file (e.g., `docs/by-audience.md`)
-3. If you changed scrapers, run `python3 src/master_scraper.py` to regenerate `data/grants_live_master.json`
-4. Regenerate the wiki: `python3 src/enhanced_wiki_generator.py`
-5. Commit the updated `data/` + `docs/` files and submit a pull request -->
+To add a grant, edit this README and the relevant page under `docs/` (audience, region, type, or domain). Include the grant name, organization, amount, deadline, and a link to the official page. See [CONTRIBUTING.md](./CONTRIBUTING.md) for full guidelines.
 
 ### Updating Existing Grants
 

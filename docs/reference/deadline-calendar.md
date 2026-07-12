@@ -3,6 +3,7 @@ layout: default
 title: Deadline Calendar
 nav_order: 2
 parent: Resources
+permalink: /docs/deadline-calendar
 ---
 
 # 📅 Deadline Calendar
@@ -15,24 +16,9 @@ parent: Resources
 
 ---
 
-## 🔴 Immediate Deadlines (Next 60 Days)
+## 🔴 Immediate Deadlines
 
-### November 2025
-
-| Deadline | Grant | Organization | Amount | Audience |
-|----------|-------|--------------|--------|----------|
-| 11/18/2025 | [FY26 Northeast Corridor IIJA Supplemental](https://www.grants.gov/search-results-detail/FR-AMT-26-001) | DOT Federal Railroad Admin | Variable | Organizations |
-| 11/21/2025 | [FY24 Port of Rosedale Multimodal Expansion](https://www.grants.gov/search-results-detail/FR-CCD-24-010) | DOT Federal Railroad Admin | Variable | Organizations |
-
-### December 2025
-
-| Deadline | Grant | Organization | Amount | Audience |
-|----------|-------|--------------|--------|----------|
-| 12/03/2025 | [Fund for Improvement of Postsecondary Education (FIPSE)](https://www.grants.gov/search-results-detail/ED-GRANTS-111225-001) | Dept of Education | Variable | Institutions |
-| 12/05/2025 | [Counter-Unmanned Aircraft Systems (C-UAS) Grant](https://www.grants.gov/search-results-detail/DHS-FEMA-C-UAS-161) | DHS-FEMA | Variable | State/Local Govt |
-| 12/05/2025 | [FIFA World Cup Grant Program](https://www.grants.gov/search-results-detail/DHS-FEMA-FWCGP-160) | DHS-FEMA | Variable | State/Local Govt |
-| 12/15/2025 | [Mine of the Future - Proving Ground Initiative](https://www.grants.gov/search-results-detail/DE-FOA-0003390) | National Energy Technology Lab | Variable | R&D Organizations |
-| 12/15/2025 | [Mines & Metals Critical Minerals Recovery](https://www.grants.gov/search-results-detail/DE-FOA-0003583) | National Energy Technology Lab | Variable | R&D Organizations |
+For current deadlines, see the [Live Dashboard](./live-dashboard.md) — regenerated from the latest scrape.
 
 ---
 
@@ -305,7 +291,7 @@ If rejected:
   <strong>💡 Pro Tip:</strong> Subscribe to funding agency newsletters and set calendar reminders for annual deadlines. Most major grants follow the same schedule year after year!
 </div>
 
-**Last updated**: November 16, 2025
+**Last updated**: July 2026
 
 ---
 

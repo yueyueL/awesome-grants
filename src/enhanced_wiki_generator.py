@@ -5,15 +5,20 @@ Enhanced Wiki Generator - Creates user-friendly documentation from live scraped 
 
 import json
 import os
-from datetime import datetime
-from typing import Dict, List, Any
+import re
+from datetime import datetime, date
+from pathlib import Path
+from typing import Dict, List, Any, Optional, Tuple
 from collections import defaultdict
+
+REPO_URL = 'https://github.com/yueyueL/awesome-grants'
+ROOT = Path(__file__).resolve().parent.parent
 
 
 class EnhancedWikiGenerator:
     """Generates beautiful, user-friendly wiki from grant data"""
 
-    def __init__(self, data_dir: str = "../data", docs_dir: str = "../docs"):
+    def __init__(self, data_dir: Path = ROOT / "data", docs_dir: Path = ROOT / "docs"):
         self.data_dir = data_dir
         self.docs_dir = docs_dir
         self.grants = []
@@ -25,10 +30,22 @@ class EnhancedWikiGenerator:
 
         print(f"📖 Loading grants from {filename}...")
 
-        with open(filepath, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            self.grants = data.get('grants', [])
-            self.metadata = data.get('collection_info', {})
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+        except FileNotFoundError:
+            raise SystemExit(
+                f"❌ Data file not found: {filepath}\n"
+                "Run: python3 src/master_scraper.py first"
+            )
+        except json.JSONDecodeError as e:
+            raise SystemExit(
+                f"❌ Data file is not valid JSON ({filepath}): {e}\n"
+                "Run: python3 src/master_scraper.py first"
+            )
+
+        self.grants = data.get('grants', [])
+        self.metadata = data.get('collection_info', {})
 
         print(f"✓ Loaded {len(self.grants)} grants")
         print(f"  Scraped at: {self.metadata.get('scraped_at', 'Unknown')}")
@@ -38,7 +55,7 @@ class EnhancedWikiGenerator:
         """Generate all wiki pages"""
         print("\n🎨 Generating user-friendly wiki pages...\n")
 
-        # Main index/home
+        # docs/Home.md is hand-authored; the generator intentionally skips it.
         self.generate_home()
 
         # Browse by organization
@@ -59,86 +76,18 @@ class EnhancedWikiGenerator:
         print("\n✨ Wiki generation complete!")
 
     def generate_home(self):
-        """Generate main wiki home page"""
-        content = f"""# Awesome Grants Wiki - Home
-
-Welcome to the **Awesome Grants** wiki! This is your comprehensive guide to finding funding opportunities for research, open source projects, and innovative ideas.
-
-## 📊 Quick Stats
-
-- **Total Grants**: {len(self.grants)} live opportunities
-- **Last Updated**: {self._format_date(self.metadata.get('scraped_at', ''))}
-- **Data Sources**: {', '.join(self.metadata.get('successful_sources', []))}
-- **Auto-Updated**: Yes! Run `python3 src/master_scraper.py` to refresh
-
-## 🚀 Quick Start
-
-### I want to...
-
-**Find grants for my career stage:**
-- [Students & PhD Candidates](./by-audience.md#students--phd) - Fellowships, travel grants, summer programs
-- [Postdocs & Early Career](./by-audience.md#postdocs--ecrs) - Postdoc fellowships, transition awards
-- [Faculty & PIs](./by-audience.md#faculty--pi) - Research grants, CAREER awards
-- [Open Source Developers](./by-audience.md#oss-maintainers) - Infrastructure funding, development grants
-
-**Browse by my location:**
-- [US Federal Grants](./by-region.md#us) - NSF, NIH, DOE, NASA
-- [European Grants](./by-region.md#eu--horizon) - ERC, Horizon Europe
-- [UK Grants](./by-region.md#uk-ukri-wellcome-etc) - UKRI, Wellcome Trust
-- [Global/International](./by-region.md#global) - Open to all countries
-
-**Search by organization:**
-- [Browse by Funding Organization](./by-organization.md) - NSF, NIH, foundations, etc.
-
-**See what's new:**
-- [Live Grants Dashboard](./live-dashboard.md) - Latest opportunities from live scraping
-
-## 📚 Browse Options
-
-### By Category
-- [By Audience](./by-audience.md) - Career stage (students, postdocs, faculty, OSS, indie)
-- [By Region](./by-region.md) - Geographic location
-- [By Type](./by-type.md) - Grant mechanism (fellowships, research, microgrants)
-- [By Domain](./by-domain.md) - Research area
-- [By Organization](./by-organization.md) - Funding agency/foundation
-
-### Special Collections
-- [Live Scraped Grants](./live-dashboard.md) - {len(self.grants)} opportunities auto-collected
-- [Federal Opportunities](./by-organization.md#federal-agencies) - US government grants
-- [Private Foundations](./by-organization.md#foundations) - Non-profit funding
-
-## 🔍 How to Use
-
-1. **[Start Here](./how-to-use.md)** - Complete guide to using this wiki
-2. **[Search Tips](./search-guide.md)** - How to find the perfect grant
-3. **[Update Data](./how-to-use.md#updating-data)** - Get latest opportunities
-
-## 💡 Features
-
-- ✅ **Live Data** - Auto-scraped from Grants.gov, NSF, and other sources
-- ✅ **Always Fresh** - Run scraper anytime to update
-- ✅ **Easy to Browse** - Organized multiple ways
-- ✅ **Direct Links** - Click through to apply
-- ✅ **Rich Metadata** - Amounts, deadlines, descriptions
-
-## 🆘 Need Help?
-
-- [How to Use This Wiki](./how-to-use.md)
-- [Search and Filter Guide](./search-guide.md)
-- [Report Issues](https://github.com/YOUR_USERNAME/awesome-grants/issues)
-
----
-
-**Last Updated**: {self._format_date(self.metadata.get('scraped_at', ''))}
-**Data Freshness**: {self._get_freshness_indicator()}
-"""
-
-        self._write_file("Home.md", content)
-        print("  ✓ Generated Home.md")
+        """No-op: docs/Home.md is hand-authored and must not be overwritten."""
+        print("  ⏭ Skipped Home.md (hand-authored page, not generated)")
 
     def generate_by_organization(self):
         """Generate grants organized by funding organization"""
-        content = """# Browse by Organization
+        content = self._front_matter(
+            layout="default",
+            title="Grants by Organization",
+            nav_order=9,
+            permalink="/docs/by-organization",
+        )
+        content += """# Browse by Organization
 
 Find grants from specific funding agencies and foundations.
 
@@ -152,9 +101,11 @@ Find grants from specific funding agencies and foundations.
 
 """
 
+        active_grants, expired_grants = self._split_expired(self.grants)
+
         # Group by organization
         by_org = defaultdict(list)
-        for grant in self.grants:
+        for grant in active_grants:
             org = grant.get('organization', 'Unknown')
             by_org[org].append(grant)
 
@@ -216,12 +167,21 @@ Find grants from specific funding agencies and foundations.
 
             content += "\n"
 
-        self._write_file("by-organization.md", content)
-        print("  ✓ Generated by-organization.md")
+        content += self._closed_note(expired_grants)
+
+        self._write_file(os.path.join("organizations", "README.md"), content)
+        print("  ✓ Generated organizations/README.md")
 
     def generate_by_source(self):
         """Generate grants organized by data source"""
-        content = f"""# Browse by Data Source
+        content = self._front_matter(
+            layout="default",
+            title="Data Sources",
+            parent="Resources",
+            nav_order=8,
+            permalink="/docs/data-sources",
+        )
+        content += f"""# Browse by Data Source
 
 Grants organized by where the data was collected from.
 
@@ -232,15 +192,17 @@ Grants organized by where the data was collected from.
 
 """
 
+        active_grants, expired_grants = self._split_expired(self.grants)
+
         # Group by source
         by_source = defaultdict(list)
-        for grant in self.grants:
+        for grant in active_grants:
             source = grant.get('source', 'Unknown')
             by_source[source].append(grant)
 
         # Add TOC
         for source in sorted(by_source.keys()):
-            anchor = source.lower().replace(' ', '-').replace('(', '').replace(')', '')
+            anchor = self._anchor(source)
             content += f"- [{source}](#{anchor}) ({len(by_source[source])} grants)\n"
 
         content += "\n---\n\n"
@@ -249,7 +211,7 @@ Grants organized by where the data was collected from.
         for source in sorted(by_source.keys()):
             grants = by_source[source]
             content += f"## {source}\n\n"
-            content += f"**{len(grants)} grants** collected from this source\n\n"
+            content += f"**{len(grants)} open grants** collected from this source\n\n"
 
             # Show source metadata
             if source in self.metadata.get('grants_by_source', {}):
@@ -262,21 +224,31 @@ Grants organized by where the data was collected from.
 
             content += "\n---\n\n"
 
-        self._write_file("by-source.md", content)
-        print("  ✓ Generated by-source.md")
+        content += self._closed_note(expired_grants)
+
+        self._write_file(os.path.join("reference", "data-sources.md"), content)
+        print("  ✓ Generated reference/data-sources.md")
 
     def generate_live_dashboard(self):
         """Generate live grants dashboard"""
-        content = f"""# Live Grants Dashboard
+        active_grants, expired_grants = self._split_expired(self.grants)
+
+        content = self._front_matter(
+            layout="default",
+            title="Live Dashboard",
+            nav_order=6,
+            parent="Resources",
+            permalink="/docs/live-dashboard",
+        )
+        content += f"""# Live Grants Dashboard
 
 **Real-time grant opportunities** collected automatically from APIs and web scraping.
 
 ## Overview
 
-- **Total Live Grants**: {len(self.grants)}
-- **Last Updated**: {self._format_date(self.metadata.get('scraped_at', ''))}
+- **Open Grants Listed**: {len(active_grants)}
+- **Data Collected**: {self._get_freshness_indicator()}
 - **Successful Sources**: {len(self.metadata.get('successful_sources', []))}
-- **Freshness**: {self._get_freshness_indicator()}
 
 ## Data Sources
 
@@ -293,11 +265,11 @@ Grants organized by where the data was collected from.
                 content += f"- ⚙️ {source}\n"
 
         content += "\n## Latest Opportunities\n\n"
-        content += f"Showing all {len(self.grants)} grants scraped from live sources:\n\n"
+        content += f"Showing {len(active_grants)} open grants scraped from live sources:\n\n"
 
         # Group by source for display
         by_source = defaultdict(list)
-        for grant in self.grants:
+        for grant in active_grants:
             source = grant.get('source', 'Unknown')
             by_source[source].append(grant)
 
@@ -310,6 +282,8 @@ Grants organized by where the data was collected from.
                 content += self._format_grant_entry(grant, show_source=False)
 
             content += "\n"
+
+        content += self._closed_note(expired_grants)
 
         content += """
 ---
@@ -334,12 +308,19 @@ This will:
 **Pro Tip**: Set up a cron job to run the scraper weekly for always-fresh data!
 """
 
-        self._write_file("live-dashboard.md", content)
-        print("  ✓ Generated live-dashboard.md")
+        self._write_file(os.path.join("reference", "live-dashboard.md"), content)
+        print("  ✓ Generated reference/live-dashboard.md")
 
     def generate_how_to_use(self):
         """Generate how-to-use guide"""
-        content = """# How to Use This Wiki
+        content = self._front_matter(
+            layout="default",
+            title="How to Use",
+            nav_order=5,
+            parent="Resources",
+            permalink="/docs/how-to-use",
+        )
+        content += f"""# How to Use This Wiki
 
 Welcome! This guide will help you make the most of the Awesome Grants wiki.
 
@@ -347,30 +328,24 @@ Welcome! This guide will help you make the most of the Awesome Grants wiki.
 
 ### 1. Find Grants for Your Profile
 
-**Choose your path:**
-
-- **Student/PhD?** → [Students & PhD Guide](./by-audience.md#students--phd)
-- **Postdoc?** → [Postdocs & ECRs Guide](./by-audience.md#postdocs--ecrs)
-- **Faculty/PI?** → [Faculty & PI Guide](./by-audience.md#faculty--pi)
-- **OSS Developer?** → [OSS Maintainers Guide](./by-audience.md#oss-maintainers)
-- **Indie Builder?** → [Indie Builders Guide](./by-audience.md#indie-builders--microgrants)
+The listings cover every career stage — students and PhD candidates, postdocs
+and early-career researchers, faculty and PIs, open source maintainers, and
+indie builders. Use your browser's search (Ctrl+F / Cmd+F) on the listing
+pages to find grants matching your stage.
 
 ### 2. Filter by Location
 
-If you have geographic restrictions:
-
-- [US Only](./by-region.md#us)
-- [Europe](./by-region.md#eu--horizon)
-- [UK](./by-region.md#uk-ukri-wellcome-etc)
-- [Global/International](./by-region.md#global)
+If you have geographic restrictions, check each grant's eligibility details —
+the collection includes US federal, European, UK, and global/international
+opportunities.
 
 ### 3. Browse by Organization
 
 Know which agency you want to apply to?
 
-- [National Science Foundation](./by-organization.md#national-science-foundation)
-- [National Institutes of Health](./by-organization.md#national-institutes-of-health)
-- [All Organizations](./by-organization.md)
+- [National Science Foundation](../organizations/README.md#national-science-foundation)
+- [National Institutes of Health](../organizations/README.md)
+- [All Organizations](../organizations/README.md)
 
 ## Understanding Grant Entries
 
@@ -414,9 +389,9 @@ python3 src/enhanced_wiki_generator.py
 ### 1. Check Multiple Categories
 
 Don't limit yourself to one category! A grant might appear in:
-- By audience (e.g., "Faculty")
 - By organization (e.g., "NSF")
-- By region (e.g., "US")
+- By data source (e.g., "Grants.gov")
+- The live dashboard
 
 ### 2. Look at Similar Grants
 
@@ -461,7 +436,7 @@ A: Whenever the scraper runs. Check [Live Dashboard](./live-dashboard.md) for la
 A: We show what's scraped from live sources. Always verify deadlines on official sites.
 
 **Q: Can I add a grant?**
-A: Yes! See the [Contributing Guide](../README.md#contributing) in the main README.
+A: Yes! See the [Contributing Guide](../../README.md#contributing) in the main README.
 
 **Q: What if a link is broken?**
 A: Report it as an issue on GitHub or run the scraper to get fresh data.
@@ -470,20 +445,27 @@ A: Report it as an issue on GitHub or run the scraper to get fresh data.
 
 - 📖 [Search Guide](./search-guide.md) - How to find specific grants
 - 📊 [Live Dashboard](./live-dashboard.md) - See latest opportunities
-- 🏠 [Wiki Home](./Home.md) - Back to main page
-- 🐛 [Report Issues](https://github.com/YOUR_USERNAME/awesome-grants/issues)
+- 🏠 [Wiki Home](../Home.md) - Back to main page
+- 🐛 [Report Issues]({REPO_URL}/issues)
 
 ---
 
 Happy grant hunting! 🎯
 """
 
-        self._write_file("how-to-use.md", content)
-        print("  ✓ Generated how-to-use.md")
+        self._write_file(os.path.join("reference", "how-to-use.md"), content)
+        print("  ✓ Generated reference/how-to-use.md")
 
     def generate_search_guide(self):
         """Generate search and filter guide"""
-        content = """# Search & Filter Guide
+        content = self._front_matter(
+            layout="default",
+            title="Search Guide",
+            nav_order=4,
+            parent="Resources",
+            permalink="/docs/search-guide",
+        )
+        content += """# Search & Filter Guide
 
 Learn how to find exactly the grants you need.
 
@@ -491,35 +473,31 @@ Learn how to find exactly the grants you need.
 
 ### 1. By Career Stage
 
-**I'm a graduate student**
-→ Go to [Students & PhD](./by-audience.md#students--phd)
-
-**I'm a postdoc**
-→ Go to [Postdocs & ECRs](./by-audience.md#postdocs--ecrs)
-
-**I'm faculty**
-→ Go to [Faculty & PI](./by-audience.md#faculty--pi)
+Grants for every career stage — graduate students, postdocs, faculty, OSS
+maintainers — appear throughout the listings. Use your browser's search
+(Ctrl+F / Cmd+F) with terms like "fellowship", "postdoc", or "CAREER" to
+narrow down.
 
 ### 2. By Organization
 
 **I want NSF funding**
-→ Go to [By Organization](./by-organization.md) → National Science Foundation
+→ Go to [By Organization](../organizations/README.md) → National Science Foundation
 
 **I want NIH funding**
-→ Go to [By Organization](./by-organization.md) → National Institutes of Health
+→ Go to [By Organization](../organizations/README.md) → National Institutes of Health
 
 **I want foundation grants**
-→ Go to [By Organization](./by-organization.md#foundations)
+→ Go to [By Organization](../organizations/README.md#foundations)
 
 ### 3. By Amount
 
 **Looking for small grants (<$10k)**
-- Browse [Microgrants](./by-type.md#microgrants)
+- Search the listings for "microgrant"
 - Check foundation grants
 
 **Looking for large grants (>$100k)**
-- Browse [Research Project Grants](./by-type.md#research-project-grants)
 - Check federal agencies (NSF, NIH)
+- Search for "research project"
 
 ### 4. By Keyword
 
@@ -532,29 +510,29 @@ Use your browser's search function (Ctrl+F / Cmd+F) and search for:
 
 ### Example 1: Postdoc + US + Biology
 
-1. Start at [Postdocs & ECRs](./by-audience.md#postdocs--ecrs)
+1. Open [By Organization](../organizations/README.md)
 2. Use Ctrl+F to search for "biology" or "life sciences"
 3. Check grant location/eligibility
 
 ### Example 2: OSS + Small Grants + Open Internet
 
-1. Go to [OSS Maintainers](./by-audience.md#oss-maintainers)
-2. Look in [Microgrants](./by-type.md#microgrants) section
-3. Search for "internet", "open source", "web"
+1. Open the [Live Dashboard](./live-dashboard.md)
+2. Search for "internet", "open source", "web"
+3. Check foundation sources for microgrants
 
 ### Example 3: Faculty + Europe + Engineering
 
-1. Start at [Faculty & PI](./by-audience.md#faculty--pi)
-2. Filter by [EU / Horizon](./by-region.md#eu--horizon)
-3. Search for "engineering" or specific field
+1. Open [By Organization](../organizations/README.md)
+2. Search for "engineering" or your specific field
+3. Check each grant's regional eligibility
 
 ## Advanced Tips
 
 ### Multi-Tab Strategy
 
 Open multiple views:
-1. Tab 1: [By Organization](./by-organization.md) - Browse all NSF
-2. Tab 2: [By Audience](./by-audience.md) - Your career stage
+1. Tab 1: [By Organization](../organizations/README.md) - Browse all NSF
+2. Tab 2: [Data Sources](./data-sources.md) - Browse by origin
 3. Tab 3: [Live Dashboard](./live-dashboard.md) - Latest opportunities
 
 Compare across tabs to find matches.
@@ -583,11 +561,8 @@ If viewing on GitHub or using a capable editor, use regex search:
 ### By Category
 | Category | Best For | Link |
 |----------|----------|------|
-| **Audience** | Career stage | [View](./by-audience.md) |
-| **Region** | Geographic location | [View](./by-region.md) |
-| **Organization** | Specific funder | [View](./by-organization.md) |
-| **Type** | Grant mechanism | [View](./by-type.md) |
-| **Source** | Data origin | [View](./by-source.md) |
+| **Organization** | Specific funder | [View](../organizations/README.md) |
+| **Source** | Data origin | [View](./data-sources.md) |
 | **Live Dashboard** | Latest grants | [View](./live-dashboard.md) |
 
 ### By Grant Type
@@ -600,25 +575,25 @@ If viewing on GitHub or using a capable editor, use regex search:
 ## Common Searches
 
 **"I need money for my PhD"**
-→ [Students & PhD](./by-audience.md#students--phd) → Fellowships
+→ Search the listings for "fellowship" and "graduate"
 
 **"I need postdoc funding"**
-→ [Postdocs & ECRs](./by-audience.md#postdocs--ecrs) → Look for "fellowship"
+→ Search the listings for "postdoc" and "fellowship"
 
 **"I need project funding for my lab"**
-→ [Faculty & PI](./by-audience.md#faculty--pi) → Research grants
+→ Browse [By Organization](../organizations/README.md) → federal agencies
 
 **"I need money for my open source project"**
-→ [OSS Maintainers](./by-audience.md#oss-maintainers)
+→ Search the listings for "open source"
 
 **"I need travel money for a conference"**
-→ [By Type](./by-type.md#travel-grants--conference-grants)
+→ Search the listings for "travel"
 
 ## Still Can't Find It?
 
 1. Check the [Live Dashboard](./live-dashboard.md) for newest grants
 2. Run the scraper for fresh data: `python3 src/master_scraper.py`
-3. Browse [All Organizations](./by-organization.md) alphabetically
+3. Browse [All Organizations](../organizations/README.md) alphabetically
 4. Search the JSON files directly
 
 ---
@@ -626,8 +601,58 @@ If viewing on GitHub or using a capable editor, use regex search:
 Need more help? Check the [How to Use Guide](./how-to-use.md)
 """
 
-        self._write_file("search-guide.md", content)
-        print("  ✓ Generated search-guide.md")
+        self._write_file(os.path.join("reference", "search-guide.md"), content)
+        print("  ✓ Generated reference/search-guide.md")
+
+    def _front_matter(self, **fields) -> str:
+        """Build a Jekyll front matter block from ordered keyword fields."""
+        lines = ["---"]
+        for key, value in fields.items():
+            lines.append(f"{key}: {value}")
+        lines.append("---")
+        return "\n".join(lines) + "\n\n"
+
+    def _anchor(self, heading: str) -> str:
+        """Slugify a heading the way kramdown does (GFM-style anchors)."""
+        return re.sub(r'[^a-z0-9 -]', '', heading.lower()).replace(' ', '-')
+
+    def _parse_deadline(self, deadline: Any) -> Optional[date]:
+        """Parse a deadline string; return None when unparseable."""
+        if not deadline or not isinstance(deadline, str):
+            return None
+        for fmt in ('%m/%d/%Y', '%Y-%m-%d'):
+            try:
+                return datetime.strptime(deadline.strip(), fmt).date()
+            except ValueError:
+                continue
+        return None
+
+    def _split_expired(self, grants: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+        """Split grants into (active, expired) using parseable deadlines.
+
+        Grants with unparseable or missing deadlines pass through as active.
+        """
+        today = date.today()
+        active, expired = [], []
+        for grant in grants:
+            parsed = self._parse_deadline(grant.get('deadline'))
+            if parsed is not None and parsed < today:
+                expired.append(grant)
+            else:
+                active.append(grant)
+        return active, expired
+
+    def _closed_note(self, expired: List[Dict[str, Any]]) -> str:
+        """Render a collapsed note listing recently closed (expired) grants."""
+        if not expired:
+            return ""
+        note = "<details markdown=\"1\">\n"
+        note += f"<summary>Recently closed ({len(expired)})</summary>\n\n"
+        note += "These opportunities have deadlines in the past and are excluded from the main listing:\n\n"
+        for grant in sorted(expired, key=lambda x: x.get('name', '')):
+            note += self._format_grant_entry(grant)
+        note += "</details>\n\n"
+        return note
 
     def _format_grant_entry(self, grant: Dict[str, Any], show_source: bool = True) -> str:
         """Format a grant entry for display"""
@@ -663,32 +688,36 @@ Need more help? Check the [How to Use Guide](./how-to-use.md)
         try:
             dt = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
             return dt.strftime("%B %d, %Y at %H:%M UTC")
-        except:
+        except Exception as e:
+            print(f"  ⚠️ Could not parse date '{date_str}': {e}")
             return date_str
 
     def _get_freshness_indicator(self) -> str:
-        """Get freshness indicator"""
+        """Report the actual collection date, warning when data is stale."""
         scraped_at = self.metadata.get('scraped_at', '')
         if not scraped_at:
             return "Unknown"
 
+        formatted = self._format_date(scraped_at)
         try:
             dt = datetime.fromisoformat(scraped_at.replace('Z', '+00:00'))
             now = datetime.now(dt.tzinfo)
             delta = now - dt
+            if delta.days > 30:
+                return (
+                    f"{formatted} — ⚠️ this data is {delta.days} days old; "
+                    "run `python3 src/master_scraper.py` to refresh"
+                )
+        except Exception as e:
+            print(f"  ⚠️ Could not compute data age from '{scraped_at}': {e}")
+        return formatted
 
-            if delta.days == 0:
-                return "🟢 Fresh (today)"
-            elif delta.days <= 7:
-                return f"🟡 Recent ({delta.days} days ago)"
-            else:
-                return f"🔴 Needs update ({delta.days} days ago)"
-        except:
-            return "Unknown"
-
-    def _write_file(self, filename: str, content: str):
-        """Write content to file"""
-        filepath = os.path.join(self.docs_dir, filename)
+    def _write_file(self, relpath: str, content: str):
+        """Write content to a path relative to the docs directory."""
+        filepath = os.path.join(self.docs_dir, relpath)
+        dirname = os.path.dirname(filepath)
+        if dirname:
+            os.makedirs(dirname, exist_ok=True)
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(content)
 
@@ -710,7 +739,7 @@ def main():
 
     print(f"\n✅ Wiki generated successfully!")
     print(f"📂 Location: docs/")
-    print(f"🏠 Start at: docs/Home.md")
+    print(f"🏠 Hand-authored home page: docs/Home.md (not regenerated)")
 
 
 if __name__ == "__main__":

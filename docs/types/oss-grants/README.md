@@ -222,4 +222,4 @@ Open source grants fund the development, maintenance, and security of open sourc
 
 ---
 
-[← Back to Grants by Type](/docs/types)
+[← Back to Grants by Type](../README.md)

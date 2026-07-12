@@ -83,4 +83,4 @@ Microsoft Research India, Google Travel Scholarships, ACM India-IARCS, IEEE WIE,
 
 ---
 
-[← Back to Grants by Domain](/docs/domains)
+[← Back to Grants by Domain](../README.md)

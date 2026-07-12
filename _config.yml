@@ -7,13 +7,10 @@ url: "https://yueyuel.github.io"
 baseurl: "/awesome-grants"
 
 # Theme - Using Just the Docs for professional look and built-in search
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.10.1
 
 # Color scheme
 color_scheme: custom
-
-# Logo
-logo: "/assets/logo.png"
 
 # Search settings
 search_enabled: true
@@ -35,10 +32,8 @@ nav_sort: case_insensitive
 #   "🐙 GitHub":
 #     - "https://github.com/yueyuel/awesome-grants"
 
-aux_links_new_tab: true
-
 # Footer content
-footer_content: "Copyright &copy; 2024 Awesome Grants. Distributed under the <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0 Universal</a> license. • <a href=\"https://github.com/yueyuel/awesome-grants/blob/main/CONTRIBUTING.md\">Contribute</a>"
+footer_content: "Copyright &copy; 2024 Awesome Grants. Distributed under the <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0 Universal</a> license. • <a href=\"https://github.com/yueyueL/awesome-grants/blob/main/CONTRIBUTING.md\">Contribute</a>"
 
 # Back to top link
 back_to_top: true
@@ -50,7 +45,7 @@ heading_anchors: true
 # Edit page on GitHub
 gh_edit_link: true
 gh_edit_link_text: "✏️ Edit this page"
-gh_edit_repository: "https://github.com/yueyuel/awesome-grants"
+gh_edit_repository: "https://github.com/yueyueL/awesome-grants"
 gh_edit_branch: "main"
 gh_edit_source: ""
 gh_edit_view_mode: "edit"
@@ -92,15 +87,8 @@ exclude:
   - __pycache__/
   - "*.py"
   - "*.pyc"
-  - GITHUB_PAGES_SETUP.md
   - node_modules/
   - vendor/
-
-# Collections
-collections:
-  docs:
-    output: true
-    permalink: /docs/:path/
 
 # Defaults
 defaults:
@@ -138,16 +126,11 @@ twitter:
 social:
   name: Awesome Grants
   links:
-    - https://github.com/yueyuel/awesome-grants
-
-# GitHub metadata
-github:
-  repository_url: https://github.com/yueyuel/awesome-grants
-  repository_name: yueyuel/awesome-grants
+    - https://github.com/yueyueL/awesome-grants
 
 # Enable/disable website features
 enable_copy_code_button: true
-enable_dark_mode: true
 
 # Google Analytics (optional - add your tracking ID)
-# google_analytics: UA-XXXXXXXX-X
+# ga_tracking: G-XXXXXXXXXX
+# ga_tracking_anonymize_ip: true
