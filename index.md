@@ -49,38 +49,38 @@ Pick the door that sounds like you — each path shows only the grants you can a
 <div class="ag-cards">
   <a class="ag-card ag-card--blue" href="{{ '/docs/audience/students' | relative_url }}">
     <span class="ag-card-icon">🎓</span>
-    <h3>PhD &amp; grad students</h3>
-    <p>Fellowships, thesis funding, and travel support while you study.</p>
+    <span class="ag-card-title">PhD &amp; grad students</span>
+    <span class="ag-card-desc">Fellowships, thesis funding, and travel support while you study.</span>
     <span class="ag-card-go">See your grants →</span>
   </a>
   <a class="ag-card ag-card--green" href="{{ '/docs/audience/postdocs' | relative_url }}">
     <span class="ag-card-icon">🔬</span>
-    <h3>Postdocs &amp; early career</h3>
-    <p>Bridge fellowships and career development awards for your next step.</p>
+    <span class="ag-card-title">Postdocs &amp; early career</span>
+    <span class="ag-card-desc">Bridge fellowships and career development awards for your next step.</span>
     <span class="ag-card-go">See your grants →</span>
   </a>
   <a class="ag-card ag-card--purple" href="{{ '/docs/audience/faculty' | relative_url }}">
     <span class="ag-card-icon">🧑‍🏫</span>
-    <h3>Faculty &amp; PIs</h3>
-    <p>Project grants and lab funding from $10K to $2M+.</p>
+    <span class="ag-card-title">Faculty &amp; PIs</span>
+    <span class="ag-card-desc">Project grants and lab funding from $10K to $2M+.</span>
     <span class="ag-card-go">See your grants →</span>
   </a>
   <a class="ag-card ag-card--amber" href="{{ '/docs/audience/oss' | relative_url }}">
     <span class="ag-card-icon">💻</span>
-    <h3>Open-source maintainers</h3>
-    <p>Funds like Sovereign Tech Fund and NLnet that pay you to maintain.</p>
+    <span class="ag-card-title">Open-source maintainers</span>
+    <span class="ag-card-desc">Funds like Sovereign Tech Fund and NLnet that pay you to maintain.</span>
     <span class="ag-card-go">See your grants →</span>
   </a>
   <a class="ag-card ag-card--teal" href="{{ '/docs/audience/indie' | relative_url }}">
     <span class="ag-card-icon">🚀</span>
-    <h3>Indie builders</h3>
-    <p>Microgrants and prototype funding — no institution required.</p>
+    <span class="ag-card-title">Indie builders</span>
+    <span class="ag-card-desc">Microgrants and prototype funding — no institution required.</span>
     <span class="ag-card-go">See your grants →</span>
   </a>
   <a class="ag-card ag-card--rose" href="{{ '/docs/ai' | relative_url }}">
     <span class="ag-card-icon">🤖</span>
-    <h3>AI researchers</h3>
-    <p>Grants, fellowships &amp; compute credits from Google, OpenAI, Anthropic, Meta &amp; more.</p>
+    <span class="ag-card-title">AI researchers</span>
+    <span class="ag-card-desc">Grants, fellowships &amp; compute credits from Google, OpenAI, Anthropic, Meta &amp; more.</span>
     <span class="ag-card-go">See your grants →</span>
   </a>
 </div>
@@ -90,38 +90,38 @@ Pick the door that sounds like you — each path shows only the grants you can a
 <div class="ag-cards">
   <a class="ag-card ag-card--blue" href="{{ '/docs/regions' | relative_url }}">
     <span class="ag-card-icon">🌍</span>
-    <h3>By region</h3>
-    <p>US, EU, UK, Asia-Pacific, and grants open worldwide.</p>
+    <span class="ag-card-title">By region</span>
+    <span class="ag-card-desc">US, EU, UK, Asia-Pacific, and grants open worldwide.</span>
     <span class="ag-card-go">Browse →</span>
   </a>
   <a class="ag-card ag-card--green" href="{{ '/docs/types' | relative_url }}">
     <span class="ag-card-icon">📋</span>
-    <h3>By grant type</h3>
-    <p>Fellowships, research grants, microgrants, travel support.</p>
+    <span class="ag-card-title">By grant type</span>
+    <span class="ag-card-desc">Fellowships, research grants, microgrants, travel support.</span>
     <span class="ag-card-go">Browse →</span>
   </a>
   <a class="ag-card ag-card--purple" href="{{ '/docs/domains' | relative_url }}">
     <span class="ag-card-icon">🔬</span>
-    <h3>By research field</h3>
-    <p>CS &amp; AI, life sciences, engineering, social sciences, humanities.</p>
+    <span class="ag-card-title">By research field</span>
+    <span class="ag-card-desc">CS &amp; AI, life sciences, engineering, social sciences, humanities.</span>
     <span class="ag-card-go">Browse →</span>
   </a>
   <a class="ag-card ag-card--amber" href="{{ '/docs/by-organization' | relative_url }}">
     <span class="ag-card-icon">🏢</span>
-    <h3>By organization</h3>
-    <p>NSF, NIH, ERC, Wellcome, foundations, and 50+ more funders.</p>
+    <span class="ag-card-title">By organization</span>
+    <span class="ag-card-desc">NSF, NIH, ERC, Wellcome, foundations, and 50+ more funders.</span>
     <span class="ag-card-go">Browse →</span>
   </a>
   <a class="ag-card ag-card--rose" href="{{ '/docs/diversity-inclusion' | relative_url }}">
     <span class="ag-card-icon">🌈</span>
-    <h3>Diversity &amp; inclusion</h3>
-    <p>Programs supporting underrepresented researchers and builders.</p>
+    <span class="ag-card-title">Diversity &amp; inclusion</span>
+    <span class="ag-card-desc">Programs supporting underrepresented researchers and builders.</span>
     <span class="ag-card-go">Browse →</span>
   </a>
   <a class="ag-card ag-card--teal" href="{{ '/docs/deadline-calendar' | relative_url }}">
     <span class="ag-card-icon">📅</span>
-    <h3>Deadline calendar</h3>
-    <p>Upcoming deadlines organized month by month.</p>
+    <span class="ag-card-title">Deadline calendar</span>
+    <span class="ag-card-desc">Upcoming deadlines organized month by month.</span>
     <span class="ag-card-go">Browse →</span>
   </a>
 </div>
@@ -142,26 +142,26 @@ Prefer a classic wiki index? Try the [Wiki Home](./docs/Home.md) — and the [Se
 <div class="ag-cards">
   <a class="ag-card ag-card--blue" href="{{ '/docs/FAQ' | relative_url }}">
     <span class="ag-card-icon">❓</span>
-    <h3>FAQ</h3>
-    <p>Quick answers to the questions everyone asks first.</p>
+    <span class="ag-card-title">FAQ</span>
+    <span class="ag-card-desc">Quick answers to the questions everyone asks first.</span>
     <span class="ag-card-go">Read →</span>
   </a>
   <a class="ag-card ag-card--green" href="{{ '/docs/quick-reference' | relative_url }}">
     <span class="ag-card-icon">⚡</span>
-    <h3>Quick reference</h3>
-    <p>Compare major grants side-by-side and plan your applications.</p>
+    <span class="ag-card-title">Quick reference</span>
+    <span class="ag-card-desc">Compare major grants side-by-side and plan your applications.</span>
     <span class="ag-card-go">Read →</span>
   </a>
   <a class="ag-card ag-card--purple" href="{{ '/docs/resources' | relative_url }}">
     <span class="ag-card-icon">✍️</span>
-    <h3>Grant-writing resources</h3>
-    <p>Writing guides, tools, and communities to sharpen your proposal.</p>
+    <span class="ag-card-title">Grant-writing resources</span>
+    <span class="ag-card-desc">Writing guides, tools, and communities to sharpen your proposal.</span>
     <span class="ag-card-go">Read →</span>
   </a>
   <a class="ag-card ag-card--amber" href="{{ '/docs/how-to-use' | relative_url }}">
     <span class="ag-card-icon">🧭</span>
-    <h3>How to use this site</h3>
-    <p>Search strategies and tips to find your grants faster.</p>
+    <span class="ag-card-title">How to use this site</span>
+    <span class="ag-card-desc">Search strategies and tips to find your grants faster.</span>
     <span class="ag-card-go">Read →</span>
   </a>
 </div>

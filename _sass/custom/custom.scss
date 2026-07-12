@@ -833,49 +833,63 @@ a {
   margin: 1.5rem 0;
 }
 
-// Link card — works as <a class="ag-card">
+// Link card — works as <a class="ag-card"> containing span-level children
+// (kramdown treats <a> as span-level, so cards MUST use spans, not <h3>/<p>)
 .ag-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background: var(--ag-surface);
   border: 1px solid var(--ag-border);
   border-radius: var(--ag-radius);
   padding: 1.25rem;
   color: inherit;
   text-decoration: none;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  height: 100%;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
 
-  &:hover {
+  &:hover,
+  &:focus-visible {
     border-color: var(--ag-brand);
-    box-shadow: var(--ag-shadow-sm);
+    box-shadow: var(--ag-shadow-md);
     color: inherit;
-  }
-
-  h3 {
-    font-size: 1.05rem;
-    margin: 0.25rem 0;
-  }
-
-  p {
-    font-size: 0.9rem;
-    color: var(--ag-muted);
-    margin: 0;
+    transform: translateY(-2px);
+    text-decoration: none;
   }
 }
 
-a.ag-card:hover {
+a.ag-card:hover,
+a.ag-card:focus-visible {
   text-decoration: none;
 }
 
 .ag-card-icon {
-  font-size: 1.6rem;
+  font-size: 1.75rem;
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
   line-height: 1;
+}
+
+.ag-card-title {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ag-text);
+  margin: 0 0 0.3rem;
+  line-height: 1.3;
+}
+
+.ag-card-desc {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--ag-muted);
+  margin: 0;
+  line-height: 1.5;
+  flex: 1 1 auto;
 }
 
 .ag-card-go {
   display: block;
-  margin-top: 0.6rem;
+  margin-top: 0.75rem;
   color: var(--ag-brand);
   font-weight: 600;
   font-size: 0.9rem;
