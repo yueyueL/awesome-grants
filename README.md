@@ -725,6 +725,7 @@ Comprehensive resources for researchers, open-source maintainers, and builders t
 
 | Platform | Cost | Best For | Link |
 |----------|------|----------|------|
+| [AutoGrantHunter](https://autogranthunter.com/grant-match/) | Free | Company-to-grant matching on live Grants.gov data — no signup, runs in-browser. Matches are heuristic; verify eligibility & deadlines yourself (not an official Grants.gov determination or endorsement) | [Visit](https://autogranthunter.com/grant-match/) |
 | Grant Gopher | $9/month | Budget-conscious nonprofits (U.S.-based) | [Visit](https://www.grantgopher.com/) |
 | GrantStation | $699/year | Diverse funding needs (7,000+ funders) | [Visit](https://grantstation.com/) |
 | GrantWatch | $200/year | Small nonprofits (8,000+ grants) | [Visit](https://www.grantwatch.com/) |
