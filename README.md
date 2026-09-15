@@ -775,6 +775,7 @@ Comprehensive resources for researchers, open-source maintainers, and builders t
 | Grant Writing Simplified | Teresa Huff | Nonprofit consulting (20+ years) | [Visit](https://teresahuff.com/) |
 | Seliger + Associates | Isaac & Jake Seliger | NIH/NSF expertise | [Visit](https://www.seliger.com/) |
 | GrantWriterTeam Blog | GrantWriterTeam | AI in grant writing | [Visit](https://www.grantwriterteam.com/blog/) |
+| Grants & Funding briefing | Briefing Service | Daily ranked digest of newly posted US federal grants (grants.gov, NIH, NSF, Federal Register) with deadline, amount and eligibility per item; free web, EPUB, PDF, Atom | [Visit](https://wholemind.tech/x4/grants/) |
 
 ### Podcasts
 
