@@ -1,22 +1,17 @@
 {
   "collection_info": {
-    "scraped_at": "2025-11-16T07:18:37.799492",
-    "total_grants": 70,
+    "scraped_at": "2026-10-19T12:38:00.543608",
+    "total_grants": 71,
     "successful_sources": [
       "NSF RSS Feed",
-      "Grants.gov API"
+      "Grants.gov API",
+      "NIH"
     ],
-    "failed_sources": [
-      "Sloan Foundation",
-      "Mozilla Foundation",
-      "NLnet",
-      "Prototype Fund",
-      "Wellcome Trust"
-    ],
+    "failed_sources": [],
     "grants_by_source": {
       "NSF RSS Feed": 20,
       "Grants.gov API": 50,
-      "NIH": 0,
+      "NIH": 1,
       "Sloan Foundation": 0,
       "Mozilla Foundation": 0,
       "NLnet": 0,
@@ -26,1014 +21,1046 @@
   },
   "grants": [
     {
-      "name": "NSF National Innovation Corps Teams (NSF National I-Corps (TM) Teams) program",
+      "name": "Astronomical Sciences Innovations (Astro-Innovations)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/nsf-national-innovation-corps-teams-nsf-national-i-corps-tm",
-      "description": "Supports NSF-funded researchers with entrepreneurial training, mentoring and funding to accelerate the translation of technologies from foundational research into emerging products, processes and services.Supports NSF-funded researchers with entrepreneurial training, mentoring and funding to accelerate the translation of technologies from foundational research into emerging products, processes and services.",
+      "url": "https://www.nsf.gov/funding/opportunities/astro-innovations-astronomical-sciences-innovations",
+      "description": "The Astronomical Sciences Innovations program (Astro-Innovations) supports a small number of larger astronomical activities. This program is formally divided into four subcategories: 1) limited-term, self-contained science projects; 2) longer-term mid-scale facilities; 3) development investments for future mid-scale and large-scale projects; and 4) community open access capabilities. Astro-Innovations will emphasize both strong scientific merit and a well-developed plan for student training and involvement of a comprehensive workforce in instrumentation, facility development, or data management. Suitable proposal topics include all areas of research supported by MPS Astronomical Sciences. Proposals focused on studying the Sun’s effects on Earth’s atmosphere and near-Earth space environment, including impacts on telecommunications and other human activity, may be more suitable for the Atmospheric and Geospace Sciences Program (AGS). Prospective Principal Investigators (PIs) are strongly encouraged to contact the cognizant Program Officer(s) for this program prior to developing a proposal, in order to determine suitability for the program and to determine whether current fiscal year budgets will allow for the program. Important Considerations: We encourage submissions from NSF Federally Funded Research and Development Centers (FFRDCs) as well as collaborative groups. We expect a single organization to accept overall management responsibility. Collaborative proposals are allowed via sub-awards or separately submitted linked proposals. The Astro-Innovations program is anticipated to be especially competitive in Fiscal Year 2027. For this reason, please note that multiple submissions from any given lead institution are strongly discouraged. Program Design: The Astro-Innovations program is intended to complement the NSF-wide Major Research Instrumentation (MRI) program and bridge the gap to the Mid-Scale Research Infrastructure (Mid-scale RI) program. The Astro-Innovations program provides additional opportunities beyond the NSF-wide programs and emphasizes the categories of support that others do not address. Astro-Innovations differs from other programs in allowing science use and operations and is not limited to infrastructure development. Astro-Innovations will support proposals in the following four categories: Science Projects: Self-contained, limited-term projects with well-defined construction and science utilization phases. Facilities: Construction or operation of stand-alone, long-term, mid-scale facilities. Development Investments: Design and development for future mid-scale and large-scale facilities. Open Access Capabilities: New instruments for existing telescopes, both national and private, in return for U.S. community access. Provision of observing time for U.S. community access on existing telescopes (e.g., providing open access nights in return for partial support of operational costs of a facility). Data archiving, management, and analysis projects that permit or increase public access to data resources. All proposers to the Astro-Innovations program are urged to indicate which of the four categories best fits their projects. The budgets for each of the four categories will be flexible, and distribution across categories will depend on proposal pressure and programmatic considerations. Astro-Innovations awards may not be issued in all or any category in a given year pending availability of funds. Some projects may undergo a cost, schedule, and management review, generally involving a reverse site visit with specialist reviewers, before funds are awarded. Program elements: This program encourages investigators to solve the most pressing problems, such as those called out in the decadal surveys, using new technologies, techniques, and concepts. Strong proposals will show the project's value and benefit to the U.S. community. Examples of benefit include, but are not limited to, open-access observing time on the facility, access to data products and software, and cooperation and sharing of technology with other projects. As such, strong proposals in categories 1-3 will focus on innovative, potentially transformative, research programs that include a strong component of student training in instrumentation and facility development. For strong proposals in category 4, the science justification will demonstrate the demand for the proposed capability relative to what is currently available to the general U.S. astronomical community. Strong category 4 proposals typically include a plan to adequately support outside users in obtaining and using data from the facility. Project Execution Plan (PEP): Strong proposals will also emphasize good project management, particularly for more costly or complex programs. As noted in the MPS Astro funding opportunity, proposals in categories 2 and 3 must include a detailed PEP outline as a supplementary document, consistent with the project’s scope and complexity. Some projects in categories 1 and 4, such as open access to telescopes, may benefit from an optional, minimal PEP outline, whereas construction projects will benefit from a clear description of the project management methods and resources to be applied. Some projects may be asked to submit a fully developed PEP prior to award at the Program Officer’s request. Guidelines for writing a PEP (including project and design execution plans) are provided in NSF’s Research Infrastructure Guide (RIG). Applicants are strongly encouraged to account for all foreseeable costs in the project budget, including adequate plans for risk mitigation, the cost needed for budget management and project control, and any plans for budget contingency. If the budget requires contingency, it should be risk-based and tied to a risk register covering identified cost or schedule risks. For details, consult the RIG, and then contact the Program Officer. The above elements should also be included in the PEP outline. Facilities, Equipment and Other Resources: PIs are encouraged to include an aggregated, narrative description of the internal and external resources that the organization and its collaborators will provide, should the project be funded, in the Facilities, Equipment and Other Resources section of the proposal. The description should not include any quantifiable financial information. Other supporting materials: The following supporting materials, included as supplementary documents, are strongly encouraged: a list of the major team members, their affiliations, and their role in the project; a list of partner organizations and their role in the project; letters of collaboration from unfunded collaborators; and environmental impact studies and decommissioning plans, if relevant. The Astro-Innovations program will select proposals according to the standard merit review defined in the MPS Astro funding opportunity. Competitive proposals typically give special attention to scientific merit, student training, relevance to community-established strategic goals and roadmaps, project management, and planning for both operations and data archive funding.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996439"
+      "scraped_at": "2026-10-19T12:37:42.118891"
     },
     {
-      "name": "Accelerating Research Translation (ART)",
+      "name": "Astronomical Sciences Core Research (Astro-Core)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/art-accelerating-research-translation",
-      "description": "Supports institutions of higher education in building capacity, infrastructure and training to accelerate research translation, strengthen technology transfer and create sustained economic and societal impacts across the U.S.Supports institutions of higher education in building capacity, infrastructure and training to accelerate research translation, strengthen technology transfer and create sustained economic and societal impacts across the U.S.",
+      "url": "https://www.nsf.gov/funding/opportunities/astro-core-astronomical-sciences-core-research",
+      "description": "The MPS Astronomical Sciences Core Research program (Astro-Core) supports foundational research in the astronomical sciences. The program provides individual investigator and collaborative research grants for observational, theoretical, computational, artificial intelligence/machine learning (AI/ML), laboratory, and archival data studies in astronomy and astrophysics. The program also considers proposals for projects and tools that enable or enhance astronomical research. Proposals may span multiple disciplines and/or areas of study and may utilize multiple techniques. This program was formerly known as Astronomy and Astrophysics Research Grants (AAG). Important Considerations: The Astro-Core program is anticipated to be especially competitive in Fiscal Year 2027. For this reason, please note the following:Multiple submissions by the same lead principal investigator (PI), whether as part of a collaborative project or not, are strongly discouraged. PIs who already have an active MPS Astronomical Sciences award that is not set to expire in the upcoming fiscal year should contact their cognizant Program Officer before considering submitting a proposal for another concurrent award. As stated in the Proposal & Award Policies & Procedures Guide (Chapter IV.E), previously declined proposals may be resubmitted only after substantial revisions to take into account major comments or concerns from the prior review. Resubmissions that have not been sufficiently revised may be returned without review. NSF recognizes that some research projects within this program may require more than three years to realize transformative research outcomes. Such proposals should include strong justification for the longer duration and the associated resources needed to undertake the project. Collaborative proposals that leverage the unique contributions of different groups are welcome but must be well justified. Collaborations that establish partnerships between the broad range of eligible institutions and build or strengthen research capacity are especially encouraged. Program Design: Proposals submitted to the Astro-Core program will be evaluated by experts in the appropriate disciplinary areas. Proposers should ensure that both their Project Summary and Project Description clearly place their work within the appropriate field of study. Review panels are organized within four broad research areas: Extragalactic Astronomy and Cosmology (EXC), Galactic Astronomy (GAL), Stellar Astronomy and Astrophysics (SAA) and Planetary, Exoplanetary and Solar Astronomy (PLA). Proposals that span multiple of these areas are accepted. In all cases, proposals must demonstrate the astronomical context of the work. Proposals that do not adequately demonstrate the astronomical context may be returned without review. NSF strives to allocate federal funding to maximize scientific discovery in coordination with other funding agencies. Proposals that predominantly exploit NASA data or resources should be submitted to NASA. Proposals submitted to NSF with an extensive work effort to model or analyze data from NASA missions or archives must include a labeled section in the project description explaining why NASA data are required to advance the scientific goals of an NSF proposal. Please contact a cognizant NSF program officer if you have any questions about the suitability of your proposal for the Astro-Core program. The community is encouraged to submit proposals that lay the foundation for capitalizing on NSF-DOE Vera C. Rubin Observatory, including but not limited to use of Data Preview and Data Release 1 catalogs. Such proposals may include science-focused research and/or activities that generate knowledge, methods, or high-level data products that will maximize the U.S. community’s access to, and enhance the scientific impact of, the Rubin Legacy Survey of Space and Time.The Astro-Core program accepts proposals in solar astronomy, especially those leveraging data from NSF’s ground-based solar observatories. The program also accepts proposals that consider the Sun's impact on the broader solar system, beyond Earth and its vicinity. However, proposals that study the effects of the Sun on the Earth’s atmosphere and near-Earth space environment, including the impact on telecommunications and other human activity, may be more suitable for the Atmospheric and Geospace Sciences Program (AGS)Additional Funding Opportunities Inside the Astro-Core program: The Astro-Core program will accept Research in Undergraduate Institutions (RUI) proposals. Information on the scope of RUI projects and the format of these proposals can be found at Facilitating Research at Primarily Undergraduate Institutions. The Astro-Core Program will accept proposals for the Computational and Data Enabled Science and Engineering (CDS&E) funding opportunity. Proposals must explicitly address the CDS&E program goals within the 15-page Project Description. Please see the CDS&E program description at Computational and Data Enabled Science. All RUI, CDS&E, or other proposals submitted to the Astro-Core program must meet the Astro-Core requirements. Supplemental Funding Requests: Requests for Research Experiences for Undergraduates (REU), Research Experiences for Teachers (RET), Research Opportunity Awards (ROA), and some other supplemental funding requests can be made in two ways: either as a component of a new research proposal or as a supplemental funding request to an existing award. Other programs, such as the Veterans Research Supplement (VRS) Program, accept supplemental funding requests only for existing awards. Guidance on preparing supplemental funding requests is contained in the NSF Proposal & Award Policies & Procedures Guide. Additional Funding Opportunities Outside the Astro-Core program: The guidelines in the MPS Astro solicitation do not apply to proposals submitted in response to other solicitations, such as CAREER. Requests for supplemental funding, conference proposals, Grants for Rapid Response Research (RAPID) or EArly-concept Grants for Exploratory Research (EAGER) proposals must follow the proposal preparation instructions contained in the PAPPG Chapter II.F. MPS Astronomical Sciences (MPS-Astro) supports conferences, symposia and workshops (meetings) in associated areas of science to bring experts together to discuss current research, to expose other researchers or students to new research methods, and to discuss future directions. Conferences may be supported only if equivalent results cannot be obtained at regular meetings of professional societies or other established conference series. Such proposals should be submitted at least 12 months before the anticipated conference or meeting date. Proposers are encouraged to contact a Program Director before submission to discuss the suitability of the proposed activity for support.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996470"
+      "scraped_at": "2026-10-19T12:37:42.119163"
     },
     {
-      "name": "NSF-UKRI/EPSRC Lead Agency Opportunity on Understanding and Exploiting Quantum Information in Chemical Systems",
+      "name": "Astronomical Sciences Technology and Instrumentation (ATI)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/dcl-nsf-ukriepsrc-lead-agency-opportunity-understanding-0",
-      "description": "Invites collaborative U.S.-U.K. research proposals focused on advancing quantum information science in chemical systems, promoting transatlantic partnerships by allowing a single submission and merit review through a lead agency opportunity.Invites collaborative U.S.-U.K. research proposals focused on advancing quantum information science in chemical systems, promoting transatlantic partnerships by allowing a single submission and merit review through a lead agency opportunity.",
+      "url": "https://www.nsf.gov/funding/opportunities/ati-astronomical-sciences-technology-instrumentation",
+      "description": "The Astronomical Sciences Technologies and Instrumentation (ATI) program provides individual investigator and collaborative research grants to develop new technologies and instrumentation for use in ground-based astronomy and astrophysics. The program seeks the development of innovative, potentially transformative technologies and instruments, even at high technical risk. Supported categories include (but are not limited to): advanced technology development, concept feasibility studies, and specialized instrumentation to enable new observations that are difficult or impossible to obtain with existing means. Proposals may include hardware and/or software development and/or analysis to enable new types of astronomical observations. Access to the ATI-supported technology and instrumentation development efforts by the U.S. astronomical community is viewed as an important metric of success. An annual Principal Investigators (PI) meeting is planned to disseminate information between the funded research efforts. Important Considerations: The ATI program is anticipated to be especially competitive in Fiscal Year 2027. For this reason, please note the following guidance. Multiple submissions by the same lead PI, whether as part of a collaborative project or not, are strongly discouraged. PIs who already have an active MPS Astronomical Sciences award that is not set to expire in the upcoming fiscal year should contact their cognizant Program Officer before considering submitting a proposal for another concurrent award. As stated in the Proposal & Award Policies & Procedures Guide (Chapter IV.E), previously declined proposals may be resubmitted only after substantial revisions to take into account major comments or concerns from the prior review. Resubmissions that have not been sufficiently revised may be returned without review. NSF recognizes that some research projects within this program may require more than three years to realize transformative research outcomes. Such proposals should include strong justification for the longer duration and the associated resources needed to undertake the project. Collaborative proposals that leverage the unique contributions of different groups are welcome but must be well justified. Program Design: The ATI program provides both individual investigator and collaborative research grants to develop new technologies and instrumentation for use in ground-based astronomy and astrophysics research. Proposals may request support for advanced technology development, concept feasibility studies, and instrumentation to enable new observations that are difficult to obtain with existing means. Proposals that principally deploy existing or off-the-shelf instrumentation should demonstrate an innovative use of such instrumentation. The ATI program funds technology and instrument development projects that support the study of astronomical sources from ground-based observatories operating from optical through radio wavebands of the electromagnetic spectrum. A broad range of technologies are of relevance, including (but not limited to): high contrast adaptive optics systems, extreme-precision radial velocity techniques, high resolution spectrometers, interferometers, massively multiplexed spectroscopy techniques, astrophotonics, imaging detectors, telescopes and antennae, optics and optical devices, and correlators and elements of radio cameras. Suitable proposal topics include innovative hardware, software and/or analysis methods applicable to research supported by MPS Astronomical Sciences. Proposed developments may only have ancillary relevance to space-based projects. Proposals focused on studying the effects of the Sun on Earth’s atmosphere and near-Earth space environment, including the impact on telecommunications and other human activity, may be more suitable for the Atmospheric and Geospace Sciences Program (AGS). In all cases, proposals must adequately demonstrate the astronomical context of the work, or they may be returned without review. Submissions should demonstrate that the proposed technology, instrumentation, and/or software will significantly advance and improve ground-based astronomy observations. Concept feasibility studies that address technology innovation, retire risk related to new technology, and/or demonstrate a new technology are well suited to the ATI program. Routine design development will be given lower priority. Routine upgrades to existing instruments and facilities will also be given lower priority. This program generally supports projects that are more exploratory, smaller in scope, and may have higher risk than those suitable for the Astronomical Sciences Innovations program or the Major Research Instrumentation program. Please contact a cognizant NSF Program Officer if you have any questions about the suitability of your proposal for submission to the ATI program. The ATI program supports making enhanced capabilities available to the wider astronomical community. Although technology and instrumentation intended for private observatories are permitted, such submissions are expected to describe the specific benefits to the entire U.S. astronomical community. The ATI program supports community coordination and sharing of experience in technology development. Investigators are expected to participate in an annual Principal Investigators (PI) meeting. These meetings may be held in person, virtually, or in a hybrid format and are scheduled for the September-October period. Including travel funds to attend this meeting in the project budget is recommended.Proposed budgets may include contingency when appropriate. These costs must be identified and the level justified. ATI proposals to this program are selected according to review criteria specified in Section VI of the MPS Astro solicitation. Strong ATI proposals typically exhibit the following characteristic elements: Motivation: Describing the impact of the project’s technology development on new ground-based observing capabilities will strengthen the proposal. This impact may range from significant improvements over existing facilities to providing a totally new observing capability. Innovation: Describing a project’s potential to significantly advance the state-of-the-art and/or open new frontiers to science will strengthen the proposal. Proposals for routine upgrades to existing facilities are discouraged. Commitment to the Public: Describing the benefit of the development to the larger U.S. astronomy community will strengthen the proposal. An example of such a benefit may include providing public access to the instrumentation developed via a specified amount of observing time open to the entire US community. Another example of a benefit would be community access to raw data, science-ready data and/or analysis software that can be used by the U.S. community. Data accessibility: A data access description that discusses any planned proprietary data periods and the interface that enables community members to readily obtain such data will strengthen the proposal. Technology Development: Projects that provide technology development will be strengthened by plans to make results publicly available through publications and presentations during the course of the project. Technology Outreach: If appropriate and relevant, proposers are encouraged to include a technology outreach description that details any planned interaction with U.S.-based industry in either the development of the technology or in the potential use of the technology to be developed. Such activity may provide opportunities for additional funding avenues within the NSF. Project Management: ATI projects are generally difficult to transfer between institutions while in progress. Proposals that have co-PIs who are post-doctoral fellows or soft-money scientists will be strengthened by discussing plans for managing the project in the event that such a co-PI leaves the institution. Other Funding Opportunities: Funding for technology and instrumentation may be awarded within other programs, such as the NSF-wide Faculty Early Career Development (CAREER) program or the Major Research Instrumentation (MRI) program. In particular, the MRI program serves to increase access to multi-user scientific and engineering instrumentation for research and research training in our nation's institutions of higher education and not-for-profit scientific/engineering research organizations. Within MPS Astronomical Sciences, funding for technology and instrumentation may be awarded through the Astronomical Sciences Innovations program, which supports a variety of astronomical activities. The Astronomical Sciences Core Research program may also award some support for technology and instrumentation. Proposers may contact the NSF Program Officer for guidance if they have questions about which solicitation is most appropriate for submission. Requests for supplemental funding, conference proposals, Grants for Rapid Response Research (RAPID) or EArly-concept Grants for Exploratory Research (EAGER) proposals must follow the proposal preparation instructions contained in the PAPPG Chapter II.F.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996491"
-    },
-    {
-      "name": "U.S.-UK Center-to-Centre Collaboration Opportunities for Artificial Intelligence and Quantum Information Science and Technology",
-      "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/dcl-us-uk-center-centre-collaboration-opportunities-artificial",
-      "description": "Encourages supplemental funding requests from current awardees of large-scale NSF investments in the areas of AI and quantum information science and technology (QIST) to facilitate collaboration with UKRI AI Hubs and UKRI Quantum Technology Research Hubs.Encourages supplemental funding requests from current awardees of large-scale NSF investments in the areas of AI and quantum information science and technology (QIST) to facilitate collaboration with UKRI AI Hubs and UKRI Quantum Technology Research Hubs.",
-      "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996516"
+      "scraped_at": "2026-10-19T12:37:42.119535"
     },
     {
       "name": "NSF Graduate Research Fellowship Program (GRFP)",
       "organization": "National Science Foundation",
       "url": "https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program",
-      "description": "Supports fellowships for outstanding graduate students who are pursuing full-time, research-based masters and doctoral degrees in science, technology, engineering or math (STEM), including education.Supports fellowships for outstanding graduate students who are pursuing full-time, research-based masters and doctoral degrees in science, technology, engineering or math (STEM), including education.",
+      "description": "Supports outstanding graduate students in NSF-supported science, technology, engineering, and mathematics (STEM) disciplines who are pursuing research-based master's and doctoral degrees at accredited, nonprofit U.S. institutions of higher education.Supports outstanding graduate students in NSF-supported science, technology, engineering, and mathematics (STEM) disciplines who are pursuing research-based master's and doctoral degrees at accredited, nonprofit U.S. institutions of higher education.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996534"
+      "scraped_at": "2026-10-19T12:37:42.119568"
     },
     {
-      "name": "Foundations for Operating the National Artificial Intelligence Research Resource: the NAIRR Operations Center (NAIRR-OC)",
+      "name": "Condensed Matter and Materials Theory (CMMT)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/nairr-oc-foundations-operating-national-artificial-intelligence",
-      "description": "Supports the creation of an operations center to manage and expand the National AI Research Resource, providing U.S. researchers and educators sustained access to advanced AI tools, data and expertise for innovation, workforce development and competitiveness.Supports the creation of an operations center to manage and expand the National AI Research Resource, providing U.S. researchers and educators sustained access to advanced AI tools, data and expertise for innovation, workforce development and competitiveness.",
+      "url": "https://www.nsf.gov/funding/opportunities/cmmt-condensed-matter-materials-theory",
+      "description": "The Condensed Matter and Materials Theory Program supports theoretical and computational materials research in the topical areas represented by other Materials Research Programs, which include:Condensed Matter PhysicsBiomaterialsCeramicsElectronic and Photonic MaterialsMetals and Metallic NanostructuresPolymersSolid State and Materials Chemistry.The program supports foundational research that includes but is not limited to:Advancements to our conceptual understanding of hard and soft materials along with materials-related phenomena.The development of associated analytical, computational, and data-centric techniques.Predictive materials-specific theory, simulation, and modeling for materials research.First-principles electronic structure.Quantum many-body and field theories.Statistical mechanics.Classical and quantum Monte Carlo and molecular dynamics are among the methods used in the broad spectrum of research supported in the program. Research may encompass advancing new paradigms in materials research, including emerging data-centric approaches using data analytics or machine learning. Computational efforts may span from the workstation level to advanced and high-performance scientific computing.The program emphasizes approaches that begin at the smallest appropriate length scale, such as electronic, atomic, molecular, nano-, micro-, and mesoscale, required to yield foundational insight into material properties, processes, and behavior, to predict new materials and states of matter, and to reveal new materials phenomena. Advancing fundamental understanding of materials properties and phenomena, particularly for polymeric materials and soft matter, may require approaches that span multiple length and time scales.Areas of recent interest include, but are not limited to: strongly correlated electron systems; topological phases; low-dimensional materials and systems; quantum and classical nonequilibrium phenomena, the latter including pattern formation, materials growth, microstructure evolution, fracture, and the jamming transition; gels; glasses; disordered materials, hard and soft; defects; high-temperature superconductivity; creation and manipulation of coherent quantum states; nanostructured materials and mesoscale phenomena; sustainable materials; polymeric materials and soft condensed matter; active matter and related collective behavior; biologically inspired materials; and foundational research at the interfaces of materials with biological systems.The program encourages potentially transformative proposals at the frontiers of theoretical, computational, and data-intensive materials research, which include but are not limited to:Advancing the understanding of emergent properties and phenomena of materials and condensed matter systems.Developing materials-specific prediction and advancing understanding of properties, phenomena, and emergent states of matter associated with either hard or soft materials.Developing and exploring new paradigms including computational and data-enabled approaches to advance foundational understanding of materials and materials-related phenomena.Fostering research at interfaces among subdisciplines in materials research.Harnessing machine learning or developing explainable machine learning to advance understanding of materials and materials-related phenomena.Developing new theoretical frameworks in areas of materials research, such as active matter, nonequilibrium materials or matter, the synthesis of solid-state materials, or reformulating quantum many-body theory for conceptual insight or greater tractability.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996555"
+      "scraped_at": "2026-10-19T12:37:42.119671"
     },
     {
-      "name": "Supplemental Funding Requests to Support K-12 Artificial Intelligence Teams for the Presidential AI Challenge through Community-based Partnerships",
+      "name": "Mathematical Sciences Focused Research Groups (MS-FRG)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/dcl-supplemental-funding-requests-support-k-12-artificial",
-      "description": "Invites supplemental funding requests from current awardees in the Directorate for STEM Education to support the Presidential Initiative on Advancing Artificial Intelligence Education for American Youth.Invites supplemental funding requests from current awardees in the Directorate for STEM Education to support the Presidential Initiative on Advancing Artificial Intelligence Education for American Youth.",
+      "url": "https://www.nsf.gov/funding/opportunities/ms-frg-mathematical-sciences-focused-research-groups",
+      "description": "Program Information:NSF MPS supports projects submitted by collaborative groups proposing to employ innovative methods to solve specific, major challenges in mathematics and statistics. Proposals should target outstanding problems of significant importance, scope, and complexity that require focused and synergistic group efforts. Proposed collaborations can involve a significant effort within a single area or involve a synergistic effort across multiple areas. The solution of the proposed problems should have wide impacts in the mathematical and statistical sciences and potentially in other areas. Proposals addressing research challenges relevant to national priorities, such as critical and emerging technologies, are especially welcome. Each proposal should:- Provide a focused plan for making significant progress on a research challenge of recognized importance to the mathematical and statistical sciences.- Describe how substantial progress on the problems would have wide consequences for the mathematical and statistical sciences.- Describe the novel, innovative, and creative aspects of the planned research.- Explain why the success of the proposed research project depends in a crucial way upon a group effort by the collaborators. Below is a list of indicators suggesting that a focused research group proposal might be appropriate. This list is not exhaustive.Accumulated scientific results point to the possibility of a major, innovative breakthrough.A major recent breakthrough has created new possibilities for significant progress.New, interdisciplinary collaboration has revealed means to achieve accelerated progress through such cooperation, with corresponding advances and impacts in the mathematical and statistical sciences.In all cases, anticipated advances in other disciplines must be accompanied by significant anticipated advances and innovations in mathematical and statistical sciences.High-risk, high-reward projects are welcome. Proposed projects should be timely, limited in duration to up to three years and substantial in their scope and impact on the mathematical and statistical sciences.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996574"
+      "scraped_at": "2026-10-19T12:37:42.119776"
     },
     {
-      "name": "Expanding K-12 Resources For AI Education",
+      "name": "Mathematical Sciences Research Training Groups (MS-RTG)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/dcl-expanding-k-12-resources-ai-education",
-      "description": "Invites supplemental funding requests to current NSF awardees in certain NSF directorates to support the expansion of K-12 resources for AI education.Invites supplemental funding requests to current NSF awardees in certain NSF directorates to support the expansion of K-12 resources for AI education.",
+      "url": "https://www.nsf.gov/funding/opportunities/ms-rtg-mathematical-sciences-research-training-groups",
+      "description": "Program Information:The long-range goal of the Research Training Groups in the Mathematical Sciences program is to strengthen the nation's scientific competitiveness by increasing the number of people in the U.S. who pursue careers in the mathematical and statistical sciences. This includes careers in academia, government and industry. The program supports efforts to improve graduate student research training and professional development through structured groups pursuing collaborative research. Research teams supported by the program may include undergraduate or postdoctoral trainees in addition to graduate student trainees working with faculty members. The program invites submissions across all fields of mathematical and statistical sciences, particularly those aligned with national priorities and integrating emerging technologies. The award duration is expected to be 3-5 years, and the award size is expected to be $400,000-600,000 per year, with the support of all trainees budgeted as participant support costs. The RTG program is intended to create sustainable programmatic capacity at institutions as well as help stimulate and implement permanent positive changes in research training within the mathematical and statistical sciences in the U.S. Thus, it is critical that an RTG site adequately plan how to continue the pursuit of RTG goals when NSF funding terminates. Proposals should provide appropriate documentation of institutional support for such efforts in the Facilities, Equipment, and Other Resources document. Key Features of an RTG ProjectProject team consisting of collaborating faculty with a history of research accomplishments and mentoring.Research program anchored in a coherent theme in the mathematical and statistical sciences aligned with the project team's research interests.Plans for recruitment, selection, mentoring, and retention of participants (trainees) so as to increase the number of trainees enrolled in the graduate and postdoctoral programs.Development of professional and personal skills of the trainees, such as communication, teamwork, teaching, mentoring, and leadership.Institutional commitment to a supportive environment for research and education.Post-RTG sustainability plan to continue the pursuit of RTG goals when funding discontinues.Overall administrative and organizational structure that ensures effective management of the project resources. TraineesTo maximize the number of individuals benefiting from RTG activities, project teams are expected to make available (within the capacity and budget limitations of the award) RTG program elements to students and postdocs who are not funded by the program. Graduate students. Graduate trainees form an essential component of the RTG teams. Their participation should result in broad and deep graduate education, enhanced research training, and comprehensive professional development. They are expected to have substantial mentored professional experiences to prepare them for successful careers in the mathematical and statistical sciences and in other professions in which such expertise plays an important role. Examples of this professional experience may include supervised teaching or industry/laboratory internship. RTG stipends cannot be used to pay students to fulfill teaching duties or for internships. Undergraduate Experience. If an RTG team includes undergraduate trainees, the term \"research experiences\" for undergraduates should encompass all activities that involve undergraduates in discovery and generate appreciation of and excitement about research in the mathematical and statistical sciences. Examples of research experiences include faculty-directed projects, either during the academic year or the summer, or participation in research teams with graduate students and/or postdoctoral associates. Participating undergraduates are expected to receive mentoring to stimulate further interest in the mathematical and statistical sciences. Postdoctoral Training. If an RTG team includes postdoctoral associates as trainees, their training is expected to better prepare them for future careers, including a well-defined independent research program, communication skills, a broad perspective of the field, and the ability to mentor. An RTG postdoctoral trainee is expected to be a recent recipient of a doctoral degree, typically held not more than three years as of January 1 of the year in which the appointment begins. Any exceptions made to this restriction should be well justified in the annual reports.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996591"
+      "scraped_at": "2026-10-19T12:37:42.119932"
     },
     {
-      "name": "ExLENT and ATE Supplement Opportunity “Expanding AI Career and Skilled Technical Workforce Opportunities in Support of High School Students”",
+      "name": "Bioinnovation and Infrastructure (BI)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/dcl-exlent-ate-supplement-opportunity-expanding-ai-career",
-      "description": "Invites supplemental funding requests from current ExLENT and ATE awardees for education-industry collaboration supporting AI-focused career and skill building learning opportunities for high school students. Invites supplemental funding requests from current ExLENT and ATE awardees for education-industry collaboration supporting AI-focused career and skill building learning opportunities for high school students.",
+      "url": "https://www.nsf.gov/funding/opportunities/bi-bioinnovation-infrastructure",
+      "description": "Supports investigations into the functional genomic complexity of life and the development of tools, data and technologies to drive biological discovery.Supports investigations into the functional genomic complexity of life and the development of tools, data and technologies to drive biological discovery.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996615"
+      "scraped_at": "2026-10-19T12:37:42.119949"
     },
     {
-      "name": "NSF STEM K-12 (STEM K-12)",
+      "name": "Foundations of Life (FL)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/stem-k-12-nsf-stem-k-12",
-      "description": "Supports research and development to advance STEM teaching and learning in K-12 formal and informal settings, leveraging AI and emerging technologies to build knowledge, create tools and strengthen the U.S. STEM education and workforce.Supports research and development to advance STEM teaching and learning in K-12 formal and informal settings, leveraging AI and emerging technologies to build knowledge, create tools and strengthen the U.S. STEM education and workforce.",
+      "url": "https://www.nsf.gov/funding/opportunities/fl-foundations-life",
+      "description": "Supports fundamental research to understand the natural and synthetic molecules, cells and physiology that build living things.Supports fundamental research to understand the natural and synthetic molecules, cells and physiology that build living things.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996635"
+      "scraped_at": "2026-10-19T12:37:42.119961"
     },
     {
-      "name": "Integrated Data Systems & Services (IDSS)",
+      "name": "Living Systems (LS)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/idss-integrated-data-systems-services",
-      "description": "Supports national-scale data infrastructure that powers open, data-intensive and AI-driven research and education by funding the development, expansion and planning of integrated systems and services for the scientific community.Supports national-scale data infrastructure that powers open, data-intensive and AI-driven research and education by funding the development, expansion and planning of integrated systems and services for the scientific community.",
+      "url": "https://www.nsf.gov/funding/opportunities/ls-living-systems",
+      "description": "Supports investigation of how species evolve, interact and shape Earth's biodiverse ecosystems.Supports investigation of how species evolve, interact and shape Earth's biodiverse ecosystems.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996652"
+      "scraped_at": "2026-10-19T12:37:42.119975"
     },
     {
-      "name": "Cyber-Physical System Foundations and Connected Communities (CPS)",
+      "name": "Expeditions in Computing (Expeditions)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/cps-cyber-physical-system-foundations-connected-communities",
-      "description": "Supports foundational and community-driven research that integrates computation, physical systems and human interaction to create reliable, resilient cyber-physical systems that enhance quality of life and community well-being.Supports foundational and community-driven research that integrates computation, physical systems and human interaction to create reliable, resilient cyber-physical systems that enhance quality of life and community well-being.",
+      "url": "https://www.nsf.gov/funding/opportunities/expeditions-expeditions-computing",
+      "description": "Supports large, multidisciplinary teams pursuing ambitious, long-term foundational research to drive transformative advances in computing, information science and engineering.Supports large, multidisciplinary teams pursuing ambitious, long-term foundational research to drive transformative advances in computing, information science and engineering.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996670"
+      "scraped_at": "2026-10-19T12:37:42.119988"
     },
     {
-      "name": "Computing Education Research",
+      "name": "EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI): Wave-Based Computing (WBC) ( EFRI-WBC)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/computing-education-research",
-      "description": "Supports innovative research and community efforts to improve computing and AI education at all levels, strengthen pathways to the future workforce and build sustainable research communities.Supports innovative research and community efforts to improve computing and AI education at all levels, strengthen pathways to the future workforce and build sustainable research communities.",
+      "url": "https://www.nsf.gov/funding/opportunities/efri-wbc-emerging-frontiers-research-innovation-efri-wave-based",
+      "description": "Supports foundational and transformative research to develop new computing approaches that harness wave dynamics, from exploratory concepts to larger multidisciplinary projects.Supports foundational and transformative research to develop new computing approaches that harness wave dynamics, from exploratory concepts to larger multidisciplinary projects.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996826"
+      "scraped_at": "2026-10-19T12:37:42.120003"
     },
     {
-      "name": "Computer and Information Science and Engineering : Future Computing Research (Future CoRe)",
+      "name": "MPS Physics Research Programs (MPS Physics)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing",
-      "description": "Supports foundational and interdisciplinary research across all aspects of computing, communication and information science and engineering to advance the future of technology, systems and human-centered innovation.Supports foundational and interdisciplinary research across all aspects of computing, communication and information science and engineering to advance the future of technology, systems and human-centered innovation.",
+      "url": "https://www.nsf.gov/funding/opportunities/mps-physics-mps-physics-research-programs",
+      "description": "The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs at the frontiers of discovery in physics. Physics research supported by NSF MPS enables understanding of the fundamental aspects of nature at all scales, from the quantum effects inside atoms to the mysterious dark energy spanning the entire universe. The core research programs covered by this funding opportunity are: Atomic, Molecular, and Optical Physics - Experiment (AMO-Experiment)Atomic, Molecular, and Optical Physics - Theory (AMO-Theory)Elementary Particle Physics - Experiment (EPP-Experiment)Elementary Particle Physics, Astrophysics and Cosmology - Theory (EPP/Cosmology-Theory)Gravitational Physics Integrative Activities in Physics (IAP)Nuclear Physics - Experiment (NP-Experiment)Nuclear Physics - Theory (NP-Theory)Particle Astrophysics - Experiment (PA-Experiment)Physics of Living Systems (PoLS)Plasma Physics Quantum Information Science (QIS) The cross-cutting research programs covered by this funding opportunity are: Advanced Physics Instrumentation (API)Focused Research Hubs in Theoretical Physics (FRHTP)Physics at the Information Frontier (PIF) NSF MPS is particularly interested in intellectually ambitious and potentially transformative foundational research. Proposals need not promise a near-term product, deployment, or commercial outcome, nor need they address later-stage development to be competitive.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996844"
+      "scraped_at": "2026-10-19T12:37:42.120068"
     },
     {
-      "name": "Smart Health and Biomedical Research in the Era of Artificial Intelligence and Advanced Data Science (SCH)",
+      "name": "MPS Astronomical Sciences Research Programs (MPS Astro)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/sch-smart-health-biomedical-research-era-artificial-intelligence",
-      "description": "Supports high-risk, high-reward interdisciplinary research that combines computing, engineering, data science and behavioral and cognitive sciences to tackle biomedical and public health challenges and drive transformative health innovations.Supports high-risk, high-reward interdisciplinary research that combines computing, engineering, data science and behavioral and cognitive sciences to tackle biomedical and public health challenges and drive transformative health innovations.",
+      "url": "https://www.nsf.gov/funding/opportunities/mps-astro-mps-astronomical-sciences-research-programs",
+      "description": "The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs in the astronomical sciences. NSF MPS funds foundational astronomical sciences research and instrumentation focused on exploring space and advancing fundamental understanding of the universe.The programs covered by this funding opportunity are:Astronomical Sciences Core ResearchAstronomical Sciences Technology & InstrumentationAstronomical Sciences InnovationsResearch supported by these programs is essential for ongoing discovery in a range of fields. The programs provide a strong scientific foundation for America's capabilities in multiple areas: predicting solar storms, discovering potentially habitable planets in other solar systems, understanding the physical workings of extreme astrophysical objects like black holes, and more.NSF MPS is particularly interested in intellectually ambitious and potentially transformative foundational research. Proposals need not promise a near-term product, deployment, or commercial outcome, nor need they address later-stage development to be competitive.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996867"
+      "scraped_at": "2026-10-19T12:37:42.120112"
     },
     {
-      "name": "Test Bed: Toward a Network of Programmable Cloud Laboratories (PCL Test Bed)",
+      "name": "MPS Materials Research Programs (MPS Materials)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/pcl-test-bed-test-bed-toward-network-programmable-cloud-laboratories",
-      "description": "Supports the development and operation of a national network of AI-powered, remotely accessible laboratories to accelerate scientific discovery, enhance reproducibility and improve access to advanced research tools in science and engineering.Supports the development and operation of a national network of AI-powered, remotely accessible laboratories to accelerate scientific discovery, enhance reproducibility and improve access to advanced research tools in science and engineering.",
+      "url": "https://www.nsf.gov/funding/opportunities/mps-materials-mps-materials-research-programs",
+      "description": "The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple materials research programs that advance fundamental understanding of materials, their properties, and their potential applications.The programs covered by this solicitation are:BiomaterialsCeramicsCondensed Matter and Materials TheoryCondensed Matter PhysicsElectronic and Photonic MaterialsMetals and Metallic NanostructuresPolymersSolid State and Materials ChemistryOther materials research funding opportunities are covered by separate NSF solicitations, such as the NSF Materials Research Science and Engineering Centers and Designing Materials to Revolutionize and Engineer our Future.NSF MPS is particularly interested in intellectually ambitious and potentially transformative foundational research. Proposals need not promise a near-term product, deployment, or commercial outcome, nor need they address later-stage development to be competitive.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996899"
+      "scraped_at": "2026-10-19T12:37:42.120142"
     },
     {
-      "name": "National Science Foundation Translation to Practice (NSF TTP)",
+      "name": "MPS Mathematical Sciences Research Programs (MPS MathSci)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/nsf-ttp-national-science-foundation-translation-practice",
-      "description": "Supports use-inspired research, translational activities and partnerships that turn scientific discoveries into real-world solutions. Researchers can gain market insights, launch commercial applications and/or facilitate industry adoption.Supports use-inspired research, translational activities and partnerships that turn scientific discoveries into real-world solutions. Researchers can gain market insights, launch commercial applications and/or facilitate industry adoption.",
+      "url": "https://www.nsf.gov/funding/opportunities/mps-mathsci-mps-mathematical-sciences-research-programs",
+      "description": "The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs at the frontiers of discovery in theoretical and applied mathematical sciences.Programs include:Algebra and Number TheoryAnalysisApplied MathematicsCombinatoricsComputational MathematicsFoundationsGeometric AnalysisMathematical BiologyProbabilityStatisticsTopologyMathematical Sciences Focused Research GroupsMathematical Sciences Infrastructure ProgramMathematical Sciences Research Training Groups NSF anticipates a portfolio of awards for these programs with a range of budgets, durations and scopes. Program budgets, number of awards, award sizes and durations are subject to the availability of funds.NSF MPS is particularly interested in intellectually ambitious and potentially transformative foundational research. Proposals need not promise a near-term product, deployment, or commercial outcome, nor need they address later-stage development to be competitive.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996918"
+      "scraped_at": "2026-10-19T12:37:42.120180"
     },
     {
-      "name": "Verticals-enabling Intelligent Network Systems (VINES)",
+      "name": "MPS Chemistry Research Programs (MPS Chem)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/vines-verticals-enabling-intelligent-network-systems",
-      "description": "Supports research and innovation to enhance wireless communications and intelligent network systems for faster, more reliable user-to-cloud connections, while promoting U.S. leadership in telecommunications and emerging potential NextG vertical industries.Supports research and innovation to enhance wireless communications and intelligent network systems for faster, more reliable user-to-cloud connections, while promoting U.S. leadership in telecommunications and emerging potential NextG vertical industries.",
+      "url": "https://www.nsf.gov/funding/opportunities/mps-chem-mps-chemistry-research-programs",
+      "description": "The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports foundational research through multiple programs in the chemical sciences.Programs include:Chemical CatalysisChemical Measurement and ImagingChemical Mechanism, Function, and PropertiesChemical Structure and DynamicsChemical SynthesisChemical Systems and SolutionsChemical Theory, Models and Computational MethodsChemistry of Life ProcessesMacromolecular, Supramolecular, and Nanochemistry NSF MPS is particularly interested in intellectually ambitious and potentially transformative foundational research. Proposals need not promise a near-term product, deployment, or commercial outcome, nor need they address later-stage development to be competitive.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996936"
+      "scraped_at": "2026-10-19T12:37:42.120206"
     },
     {
-      "name": "The Research on Research Security Program (RoRS)",
+      "name": "Engineering (ENG): Chemical, Bioengineering, Energy, and Transport Systems (CBET)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/rors-research-research-security-program",
-      "description": "Supports interdisciplinary, evidence-based research to enhance understanding of security risks, practices and policies to safeguard the U.S. research enterprise and foster a strong academic field in research security.Supports interdisciplinary, evidence-based research to enhance understanding of security risks, practices and policies to safeguard the U.S. research enterprise and foster a strong academic field in research security.",
+      "url": "https://www.nsf.gov/funding/opportunities/engineering-eng-chemical-bioengineering-energy-transport",
+      "description": "Supports foundational engineering research on chemical processes and biological systems, energy and resource management, and the transport of materials and energy across multiple scales.Supports foundational engineering research on chemical processes and biological systems, energy and resource management, and the transport of materials and energy across multiple scales.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996959"
+      "scraped_at": "2026-10-19T12:37:42.120223"
     },
     {
-      "name": "Incorporating Human Behavior in Epidemiological Models (IHBEM)",
+      "name": "Core Research in Biological Sciences (BIO Core)",
       "organization": "National Science Foundation",
-      "url": "https://www.nsf.gov/funding/opportunities/ihbem-incorporating-human-behavior-epidemiological-models",
-      "description": "Supports interdisciplinary research that integrates human behavior and social processes into mathematical epidemiological models to improve the accuracy and usefulness of public health interventions and policymaking during pandemics and other health crises.Supports interdisciplinary research that integrates human behavior and social processes into mathematical epidemiological models to improve the accuracy and usefulness of public health interventions and policymaking during pandemics and other health crises.",
+      "url": "https://www.nsf.gov/funding/opportunities/bio-core-core-research-biological-sciences",
+      "description": "Supports foundational and interdisciplinary research that advances understanding of biology across all levels of organization, from molecules and cells to organisms, ecosystems and biomes.Supports foundational and interdisciplinary research that advances understanding of biology across all levels of organization, from molecules and cells to organisms, ecosystems and biomes.",
       "source": "NSF (RSS)",
-      "scraped_at": "2025-11-16T07:18:30.996977"
+      "scraped_at": "2026-10-19T12:37:42.120238"
     },
     {
-      "name": "Infrastructure Investment and Jobs Act (IIJA): Mine of the Future - Proving Ground Initiative",
-      "organization": "National Energy Technology Laboratory",
-      "url": "https://www.grants.gov/search-results-detail/DE-FOA-0003390",
-      "opportunity_number": "DE-FOA-0003390",
-      "amount": "Variable",
-      "deadline": "12/15/2025",
-      "description": "",
+      "name": "Geosciences Core Research: Atmospheric, Geospace, Earth and Ocean Sciences (GEO Core)",
+      "organization": "National Science Foundation",
+      "url": "https://www.nsf.gov/funding/opportunities/geo-core-geosciences-core-research-atmospheric-geospace-earth-ocean",
+      "description": "Supports foundational research across the geosciences, including Earth's atmosphere and near-Earth space environment, solid Earth and surface processes, and the oceans.Supports foundational research across the geosciences, including Earth's atmosphere and near-Earth space environment, solid Earth and surface processes, and the oceans.",
+      "source": "NSF (RSS)",
+      "scraped_at": "2026-10-19T12:37:42.120257"
+    },
+    {
+      "name": "OVC FY2027 Invited to Apply Antiterrorism and Emergency Assistance Program for Crime Victim Compensation and/or Assistance – Highland Park, Illinois",
+      "organization": "Office for Victims of Crime",
+      "url": "https://www.grants.gov/search-results-detail/364110",
+      "opportunity_number": "O-OVC-2027-172803",
+      "amount": "See grant page",
+      "deadline": "10/22/2026",
+      "description": "See grant page",
       "category": [
-        "81.089"
+        "16.321"
       ],
-      "eligibility": [],
-      "agency_code": "DOE-NETL",
-      "posted_date": "11/14/2025",
+      "agency_code": "USDOJ-OJP-OVC",
+      "posted_date": "10/19/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391686"
+      "scraped_at": "2026-10-19T12:37:44.280826"
     },
     {
-      "name": "Infrastructure Investment and Jobs Act (IIJA) &ndash; Mines &amp; Metals Capacity Expansion &ndash; Piloting Byproduct Critical Minerals and Materials Recovery at Domestic Industrial Facilities",
-      "organization": "National Energy Technology Laboratory",
-      "url": "https://www.grants.gov/search-results-detail/DE-FOA-0003583",
-      "opportunity_number": "DE-FOA-0003583",
-      "amount": "Variable",
-      "deadline": "12/15/2025",
-      "description": "",
+      "name": "BJS FY 2026 Invited To Apply Census of Tribal Law Enforcement Agencies and Census of Tribal Court Systems",
+      "organization": "Bureau of Justice Statistics",
+      "url": "https://www.grants.gov/search-results-detail/364111",
+      "opportunity_number": "O-BJS-2026-172789",
+      "amount": "See grant page",
+      "deadline": "10/20/2026",
+      "description": "See grant page",
       "category": [
-        "81.089"
+        "16.734"
       ],
-      "eligibility": [],
-      "agency_code": "DOE-NETL",
-      "posted_date": "11/14/2025",
+      "agency_code": "USDOJ-OJP-BJS",
+      "posted_date": "10/19/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391700"
+      "scraped_at": "2026-10-19T12:37:44.280844"
     },
     {
-      "name": "FY 2025 Continuum of Care Competition and Youth Homeless Demonstration Program Grants NOFO",
-      "organization": "Department of Housing and Urban Development",
-      "url": "https://www.grants.gov/search-results-detail/FR-6900-N-25",
-      "opportunity_number": "FR-6900-N-25",
-      "amount": "Variable",
-      "deadline": "01/14/2026",
-      "description": "",
+      "name": "Pilot and Feasibility Studies in Preparation for Substance Use and HIV Prevention Intervention and Services Research Trials (R34 Clinical Trial Optional)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/361204",
+      "opportunity_number": "PAR-28-093",
+      "amount": "See grant page",
+      "deadline": "07/16/2029",
+      "description": "See grant page",
       "category": [
-        "14.267"
+        "93.681",
+        "93.279",
+        "93.310"
       ],
-      "eligibility": [],
-      "agency_code": "HUD",
-      "posted_date": "11/13/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/19/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391703"
+      "scraped_at": "2026-10-19T12:37:44.280857"
     },
     {
-      "name": "Office of Postsecondary Education (OPE): Fund for the Improvement of Postsecondary Education (FIPSE): Special Projects;  Assistance Listing Number (ALN) 84.116J",
+      "name": "IVV-FT-OPP-10172026141319",
+      "organization": "IV&V Test Agency",
+      "url": "https://www.grants.gov/search-results-detail/364105",
+      "opportunity_number": "IVV-FT-OPP-10172026141319",
+      "amount": "See grant page",
+      "deadline": "10/17/2027",
+      "description": "See grant page",
+      "category": [
+        "00.ABC",
+        "11.63B",
+        "00.000"
+      ],
+      "agency_code": "IVV",
+      "posted_date": "10/17/2026",
+      "source": "Grants.gov (API)",
+      "scraped_at": "2026-10-19T12:37:44.280871"
+    },
+    {
+      "name": "FY 2027 – 2029 Broad Agency Announcement (BAA), National Marine Fisheries Service",
+      "organization": "DOC NOAA - ERA Production",
+      "url": "https://www.grants.gov/search-results-detail/364099",
+      "opportunity_number": "NOAA-NMFS-FHQ-2027-33600",
+      "amount": "See grant page",
+      "deadline": "09/30/2028",
+      "description": "See grant page",
+      "category": [
+        "11.015"
+      ],
+      "agency_code": "DOC-DOCNOAAERA",
+      "posted_date": "10/16/2026",
+      "source": "Grants.gov (API)",
+      "scraped_at": "2026-10-19T12:37:44.280887"
+    },
+    {
+      "name": "Institute of Education Sciences (IES): National Center for Special Education Research (NCSER): Transformative Research in Special Education, Assistance Listing Number (ALN) 84.324T",
       "organization": "Department of Education",
-      "url": "https://www.grants.gov/search-results-detail/ED-GRANTS-111225-001",
-      "opportunity_number": "ED-GRANTS-111225-001",
-      "amount": "Variable",
-      "deadline": "12/03/2025",
-      "description": "",
+      "url": "https://www.grants.gov/search-results-detail/364087",
+      "opportunity_number": "ED-GRANTS-101526-002",
+      "amount": "See grant page",
+      "deadline": "12/11/2026",
+      "description": "See grant page",
       "category": [
-        "84.116"
+        "84.324"
       ],
-      "eligibility": [],
       "agency_code": "ED",
-      "posted_date": "11/12/2025",
+      "posted_date": "10/16/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391706"
+      "scraped_at": "2026-10-19T12:37:44.280900"
     },
     {
-      "name": "2026 Tribal Transportation Program Safety Fund",
-      "organization": "DOT Federal Highway Administration ",
-      "url": "https://www.grants.gov/search-results-detail/2026TTPSF",
-      "opportunity_number": "2026TTPSF",
-      "amount": "Variable",
-      "deadline": "01/15/2026",
-      "description": "",
+      "name": "Institute of Education Sciences (IES): National Center on Education Research (NCER): From Seedlings to Scale, Assistance Listing Number (ALN) 84.305J",
+      "organization": "Department of Education",
+      "url": "https://www.grants.gov/search-results-detail/364086",
+      "opportunity_number": "ED-GRANTS-101526-001",
+      "amount": "See grant page",
+      "deadline": "12/11/2026",
+      "description": "See grant page",
       "category": [
-        "20.205"
+        "84.305"
       ],
-      "eligibility": [],
-      "agency_code": "DOT-FHWA",
-      "posted_date": "11/07/2025",
+      "agency_code": "ED",
+      "posted_date": "10/16/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391708"
+      "scraped_at": "2026-10-19T12:37:44.280911"
     },
     {
-      "name": "Counter-Unmanned Aircraft Systems (C-UAS) Grant Program",
+      "name": "Centers for AIDS Research (CFAR) and Developmental Centers for AIDS Research (D-CFAR) (P30 Clinical Trial Not Allowed)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/360869",
+      "opportunity_number": "PAR-28-090",
+      "amount": "See grant page",
+      "deadline": "05/25/2029",
+      "description": "See grant page",
+      "category": [
+        "93.847",
+        "93.242",
+        "93.396",
+        "93.838",
+        "93.866",
+        "93.310",
+        "93.837",
+        "93.989",
+        "93.307",
+        "93.393",
+        "93.840",
+        "93.361",
+        "93.121",
+        "93.394",
+        "93.839",
+        "93.855",
+        "93.279",
+        "93.865",
+        "93.233",
+        "93.395"
+      ],
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/16/2026",
+      "source": "Grants.gov (API)",
+      "scraped_at": "2026-10-19T12:37:44.280927"
+    },
+    {
+      "name": "NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI (T15 Independent Clinical Trial Not Allowed)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/361318",
+      "opportunity_number": "RFA-LM-28-001",
+      "amount": "See grant page",
+      "deadline": "02/11/2027",
+      "description": "See grant page",
+      "category": [
+        "93.242",
+        "93.121",
+        "93.398",
+        "93.867",
+        "93.279",
+        "93.310",
+        "93.855",
+        "93.853",
+        "93.173",
+        "93.879"
+      ],
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/16/2026",
+      "source": "Grants.gov (API)",
+      "scraped_at": "2026-10-19T12:37:44.280940"
+    },
+    {
+      "name": "Public Humanities Projects",
+      "organization": "National Endowment for the Humanities",
+      "url": "https://www.grants.gov/search-results-detail/364098",
+      "opportunity_number": "20261209-GE-GI-BP-BR-GGX",
+      "amount": "See grant page",
+      "deadline": "12/16/2026",
+      "description": "See grant page",
+      "category": [
+        "45.041"
+      ],
+      "agency_code": "NEH",
+      "posted_date": "10/16/2026",
+      "source": "Grants.gov (API)",
+      "scraped_at": "2026-10-19T12:37:44.280947"
+    },
+    {
+      "name": "Fiscal Year 2027 Counter Unmanned Aircraft Systems (C-UAS) Grant Program",
       "organization": "Department of Homeland Security - FEMA",
-      "url": "https://www.grants.gov/search-results-detail/DHS-FEMA-C-UAS-161",
-      "opportunity_number": "DHS-FEMA-C-UAS-161",
-      "amount": "Variable",
-      "deadline": "12/05/2025",
-      "description": "",
+      "url": "https://www.grants.gov/search-results-detail/364067",
+      "opportunity_number": "DHS-27-GPD-161-00-99",
+      "amount": "See grant page",
+      "deadline": "11/16/2026",
+      "description": "See grant page",
       "category": [
         "97.161"
       ],
-      "eligibility": [],
       "agency_code": "DHS-DHS",
-      "posted_date": "11/07/2025",
+      "posted_date": "10/16/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391710"
+      "scraped_at": "2026-10-19T12:37:44.280956"
     },
     {
-      "name": "FIFA World Cup Grant Program (FWCGP)",
-      "organization": "Department of Homeland Security - FEMA",
-      "url": "https://www.grants.gov/search-results-detail/DHS-FEMA-FWCGP-160",
-      "opportunity_number": "DHS-FEMA-FWCGP-160",
-      "amount": "Variable",
-      "deadline": "12/05/2025",
-      "description": "",
+      "name": "Specialized Alcohol Research Centers (P50 Clinical trial Optional)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/361216",
+      "opportunity_number": "RFA-AA-28-001",
+      "amount": "See grant page",
+      "deadline": "01/27/2027",
+      "description": "See grant page",
       "category": [
-        "97.160"
+        "93.273"
       ],
-      "eligibility": [],
-      "agency_code": "DHS-DHS",
-      "posted_date": "11/07/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/15/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391712"
+      "scraped_at": "2026-10-19T12:37:44.280964"
     },
     {
-      "name": "Strengthening and modernizing sustainable public health systems and workforce in Uganda for data science, informatics, implementation science and surveys, and surveillance for timely, accurate, and integrated data for action under PEPFAR",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0156",
-      "opportunity_number": "CDC-RFA-JG-26-0156",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Limited Competition: Biospecimen Banks to support NCI National Clinical Trials Network Biospecimen Banks (NCTN Biobanks) and the NCI Early-Phase and Experimental Clinical Trials Biospecimen Bank (EET Biobank) (U24 Clinical Trial Not Allowed)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/361134",
+      "opportunity_number": "RFA-CA-28-004",
+      "amount": "See grant page",
+      "deadline": "02/11/2027",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "93.394"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "11/06/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/15/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391720"
+      "scraped_at": "2026-10-19T12:37:44.280981"
     },
     {
-      "name": "Improving Efficiency, Reliability, and Flexibility of Coal-Based Power Plants",
-      "organization": "National Energy Technology Laboratory",
-      "url": "https://www.grants.gov/search-results-detail/DE-FOA-0003606",
-      "opportunity_number": "DE-FOA-0003606",
-      "amount": "Variable",
-      "deadline": "01/07/2026",
-      "description": "",
+      "name": "Single Source for the Continuation of the Physiology of the Weight Reduced State (POWERS) Study (U01- Clinical Trials Required)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/360627",
+      "opportunity_number": "RFA-DK-27-122",
+      "amount": "See grant page",
+      "deadline": "11/17/2026",
+      "description": "See grant page",
       "category": [
-        "81.089"
+        "93.847"
       ],
-      "eligibility": [],
-      "agency_code": "DOE-NETL",
-      "posted_date": "10/31/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/15/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391728"
+      "scraped_at": "2026-10-19T12:37:44.280992"
     },
     {
-      "name": "FY24 Port of Rosedale Multimodal Expansion: Great River Railroad Restoration Project",
-      "organization": "DOT - Federal Railroad Administration",
-      "url": "https://www.grants.gov/search-results-detail/FR-CCD-24-010",
-      "opportunity_number": "FR-CCD-24-010",
-      "amount": "Variable",
-      "deadline": "11/21/2025",
-      "description": "",
+      "name": "Assessing the Feasibility of Incorporating Mechanisms in Multi-site Clinical Trials of Mind and Body Interventions on Whole Person Health Restoration (R33 Clinical Trial Required)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/359941",
+      "opportunity_number": "PAR-28-091",
+      "amount": "See grant page",
+      "deadline": "11/16/2029",
+      "description": "See grant page",
       "category": [
-        "20.337"
+        "93.213",
+        "93.473"
       ],
-      "eligibility": [],
-      "agency_code": "DOT-FRA",
-      "posted_date": "10/31/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/15/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391731"
+      "scraped_at": "2026-10-19T12:37:44.281007"
     },
     {
-      "name": "FY26-Northeast Corridor IIJA Supplemental Cooperative Agreement to the National Railroad Passenger Corporation",
-      "organization": "DOT - Federal Railroad Administration",
-      "url": "https://www.grants.gov/search-results-detail/FR-AMT-26-001",
-      "opportunity_number": "FR-AMT-26-001",
-      "amount": "Variable",
-      "deadline": "11/18/2025",
-      "description": "",
+      "name": "OJP FY 2026 Integrity in American Elections Grant Program",
+      "organization": "Bureau of Justice Assistance",
+      "url": "https://www.grants.gov/search-results-detail/364097",
+      "opportunity_number": "O-BJA-2026-172793",
+      "amount": "See grant page",
+      "deadline": "12/01/2026",
+      "description": "See grant page",
       "category": [
-        "20.315"
+        "16.738"
       ],
-      "eligibility": [],
-      "agency_code": "DOT-FRA",
-      "posted_date": "10/29/2025",
+      "agency_code": "USDOJ-OJP-BJA",
+      "posted_date": "10/15/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391733"
+      "scraped_at": "2026-10-19T12:37:44.281014"
     },
     {
-      "name": "FY26-National Network IIJA Supplemental Cooperative Agreement to the National Railroad Passenger Corporation",
-      "organization": "DOT - Federal Railroad Administration",
-      "url": "https://www.grants.gov/search-results-detail/FR-AMT-26-002",
-      "opportunity_number": "FR-AMT-26-002",
-      "amount": "Variable",
-      "deadline": "11/18/2025",
-      "description": "",
+      "name": "Early-Onset Cancers: Investigating Etiology, Mechanisms, and Early Detection Strategies (RP1 Clinical Trials Optional)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/361438",
+      "opportunity_number": "PAR-28-014",
+      "amount": "See grant page",
+      "deadline": "10/11/2029",
+      "description": "See grant page",
       "category": [
-        "20.315"
+        "93.113",
+        "93.393"
       ],
-      "eligibility": [],
-      "agency_code": "DOT-FRA",
-      "posted_date": "10/29/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391734"
+      "scraped_at": "2026-10-19T12:37:44.281023"
     },
     {
-      "name": "Improving HIV treatment in the Dominican Republic (DR) under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0185",
-      "opportunity_number": "CDC-RFA-JG-26-0185",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "OJP FY 2026 Special Attorneys Program Round 10",
+      "organization": "Bureau of Justice Assistance",
+      "url": "https://www.grants.gov/search-results-detail/364072",
+      "opportunity_number": "O-BJA-2026-172792",
+      "amount": "See grant page",
+      "deadline": "10/28/2026",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "16.076"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/23/2025",
+      "agency_code": "USDOJ-OJP-BJA",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391736"
+      "scraped_at": "2026-10-19T12:37:44.281031"
     },
     {
-      "name": "Request for Information (RFI): Accelerating Speed to Power/Winning the Artificial Intelligence Race: Federal Action to Rapidly Expand Grid Capacity and Enable Electricity Demand Growth",
-      "organization": "National Energy Technology Laboratory",
-      "url": "https://www.grants.gov/search-results-detail/DE-FOA-0003574",
-      "opportunity_number": "DE-FOA-0003574",
-      "amount": "Variable",
-      "deadline": "11/21/2025",
-      "description": "",
+      "name": "Cooperative Agreement for Affiliated Partner with the Great Lakes-Northern Forest Cooperative Ecosystem Studies Unit (CESU)",
+      "organization": "Geological Survey",
+      "url": "https://www.grants.gov/search-results-detail/364075",
+      "opportunity_number": "G27AS00079",
+      "amount": "See grant page",
+      "deadline": "11/14/2026",
+      "description": "See grant page",
       "category": [
-        "81.254"
+        "15.808"
       ],
-      "eligibility": [],
-      "agency_code": "DOE-NETL",
-      "posted_date": "10/21/2025",
+      "agency_code": "DOI-USGS1",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391738"
+      "scraped_at": "2026-10-19T12:37:44.281040"
     },
     {
-      "name": "State Recreational Boating Safety (RBS) Grant Program",
-      "organization": "United States Coast Guard ",
-      "url": "https://www.grants.gov/search-results-detail/DHS-USCG-STATE-2026",
-      "opportunity_number": "DHS-USCG-STATE-2026",
-      "amount": "Variable",
-      "deadline": "12/17/2025",
-      "description": "",
+      "name": "Cooperative Agreement for affiliated Partner with Chesapeake Watershed Cooperative Ecosystem Studies Unit",
+      "organization": "Geological Survey",
+      "url": "https://www.grants.gov/search-results-detail/364076",
+      "opportunity_number": "G27AS00048",
+      "amount": "See grant page",
+      "deadline": "11/14/2026",
+      "description": "See grant page",
       "category": [
-        "97.012"
+        "15.808"
       ],
-      "eligibility": [],
-      "agency_code": "DHS-USCG",
-      "posted_date": "10/17/2025",
+      "agency_code": "DOI-USGS1",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391740"
+      "scraped_at": "2026-10-19T12:37:44.281048"
     },
     {
-      "name": "Innovation in Behavioral Health (IBH)",
-      "organization": "Centers for Medicare & Medicaid Services",
-      "url": "https://www.grants.gov/search-results-detail/CMS-2Q2-26-001",
-      "opportunity_number": "CMS-2Q2-26-001",
-      "amount": "Variable",
-      "deadline": "06/03/2026",
-      "description": "",
+      "name": "Cooperative Agreement for affiliated Partner with Californian Cooperative Ecosystem Studies Unit",
+      "organization": "Geological Survey",
+      "url": "https://www.grants.gov/search-results-detail/364074",
+      "opportunity_number": "G27AS00037",
+      "amount": "See grant page",
+      "deadline": "11/14/2026",
+      "description": "See grant page",
       "category": [
-        "93.610"
+        "15.808"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CMS",
-      "posted_date": "10/16/2025",
+      "agency_code": "DOI-USGS1",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391741"
+      "scraped_at": "2026-10-19T12:37:44.281056"
     },
     {
-      "name": "Strengthening the HIV treatment and care program in Sierra Leone to accelerate progress to achieve epidemic control under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0176",
-      "opportunity_number": "CDC-RFA-JG-26-0176",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Specialized Programs of Research Excellence (SPOREs) in Human Cancers for Years 2027, 2028, and 2029 (P50 Clinical Trial Required)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/360541",
+      "opportunity_number": "PAR-28-022",
+      "amount": "See grant page",
+      "deadline": "09/25/2029",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "93.121",
+        "93.395"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/16/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391743"
+      "scraped_at": "2026-10-19T12:37:44.281066"
     },
     {
-      "name": "Strengthening community engagement and quality improvement of HIV/AIDS services in Sierra Leone under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0177",
-      "opportunity_number": "CDC-RFA-JG-26-0177",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "NIH Research Program Projects (Parent P01 Clinical Trial Optional)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/361279",
+      "opportunity_number": "PA-27-061",
+      "amount": "See grant page",
+      "deadline": "05/25/2029",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "93.866",
+        "93.279",
+        "93.837",
+        "93.839",
+        "93.393",
+        "93.838",
+        "93.313",
+        "93.395",
+        "93.855",
+        "93.394",
+        "93.113",
+        "93.233",
+        "93.396",
+        "93.840",
+        "93.879",
+        "93.307",
+        "93.172",
+        "93.273",
+        "93.399"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/16/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391745"
+      "scraped_at": "2026-10-19T12:37:44.281074"
     },
     {
-      "name": "Enhancing sustainable and integrated health, strategic information, and laboratory systems for quality comprehensive HIV services through technical assistance to the Republic of Rwanda under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0170",
-      "opportunity_number": "CDC-RFA-JG-26-0170",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Palliative Care Research Across the Lifespan: Leveraging the Palliative Care Consortium (R01 Clinical Trial Optional)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/360675",
+      "opportunity_number": "PAR-27-090",
+      "amount": "See grant page",
+      "deadline": "11/05/2029",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "93.361",
+        "93.242",
+        "93.865",
+        "93.393",
+        "93.853",
+        "93.866",
+        "93.307"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/16/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391749"
+      "scraped_at": "2026-10-19T12:37:44.281090"
     },
     {
-      "name": "Strengthening Ghana Health Service laboratory systems activities under the President&rsquo;s Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0178",
-      "opportunity_number": "CDC-RFA-JG-26-0178",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Collaborative Program Grant for Interdisciplinary Teams (RM1 Clinical Trial Optional)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/361322",
+      "opportunity_number": "PAR-27-003",
+      "amount": "See grant page",
+      "deadline": "09/26/2029",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "93.173",
+        "93.866",
+        "93.879",
+        "93.473",
+        "93.867",
+        "93.279",
+        "93.853",
+        "93.846",
+        "93.121",
+        "93.855",
+        "93.273",
+        "93.172",
+        "93.859"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/16/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391751"
+      "scraped_at": "2026-10-19T12:37:44.281098"
     },
     {
-      "name": "Implement and sustain a comprehensive response to HIV and technical assistance to strengthen the capacity of regional authorities in the United Republic of Tanzania under PEPFAR",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0174",
-      "opportunity_number": "CDC-RFA-JG-26-0174",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Cooperative Agreement for affiliated Partner with Northern Great Plains Cooperative Ecosystem Studies Unit",
+      "organization": "Geological Survey",
+      "url": "https://www.grants.gov/search-results-detail/364078",
+      "opportunity_number": "G27AS00052",
+      "amount": "See grant page",
+      "deadline": "11/14/2026",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "15.808"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/16/2025",
+      "agency_code": "DOI-USGS1",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391755"
+      "scraped_at": "2026-10-19T12:37:44.281107"
     },
     {
-      "name": "Strengthening national laboratory and HIV epidemiologic monitoring capacities and systems to enhance an efficient, resilient and self-reliant response to HIV, TB and related public health threats in the Kingdom of Eswatini under PEPFAR",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0188",
-      "opportunity_number": "CDC-RFA-JG-26-0188",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Cooperative Agreement for Affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit (CESU)",
+      "organization": "Geological Survey",
+      "url": "https://www.grants.gov/search-results-detail/364081",
+      "opportunity_number": "G27AS00078",
+      "amount": "See grant page",
+      "deadline": "11/14/2026",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "15.808"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/16/2025",
+      "agency_code": "DOI-USGS1",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391756"
+      "scraped_at": "2026-10-19T12:37:44.281116"
     },
     {
-      "name": "Sustaining HIV services in Ukraine through targeted testing, treatment, prevention, and differentiated services under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0172",
-      "opportunity_number": "CDC-RFA-JG-26-0172",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Cooperative Agreement for Affiliated Partner with the Colorado Plateau Cooperative Ecosystem Studies Unit (CESU)",
+      "organization": "Geological Survey",
+      "url": "https://www.grants.gov/search-results-detail/364080",
+      "opportunity_number": "G27AS00080",
+      "amount": "See grant page",
+      "deadline": "11/14/2026",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "15.808"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/16/2025",
+      "agency_code": "DOI-USGS1",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391758"
+      "scraped_at": "2026-10-19T12:37:44.281124"
     },
     {
-      "name": "Supporting life-saving HIV services and related health systems in Zambia on a pathway to self-reliance under the President&rsquo;s Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0179",
-      "opportunity_number": "CDC-RFA-JG-26-0179",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Cooperative Agreement for affiliated Partner with Great Lakes-Northern Forest Cooperative Ecosystem Studies Unit",
+      "organization": "Geological Survey",
+      "url": "https://www.grants.gov/search-results-detail/364077",
+      "opportunity_number": "G27AS00049",
+      "amount": "See grant page",
+      "deadline": "11/14/2026",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "15.808"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/16/2025",
+      "agency_code": "DOI-USGS1",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391760"
+      "scraped_at": "2026-10-19T12:37:44.281133"
     },
     {
-      "name": "Promoting World Trade Center Health Program Youth Research Cohort Recruitment and Retention Using Principles of Community Engaged Research (CEnR) to Build Community Participation (U01)",
-      "organization": "Centers for Disease Control and Prevention - ERA",
-      "url": "https://www.grants.gov/search-results-detail/RFA-OH-26-010",
-      "opportunity_number": "RFA-OH-26-010",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Cooperative Agreement for Affiliated Partner with the Rocky Mountains Cooperative Ecosystem Studies Unit (CESU)",
+      "organization": "Geological Survey",
+      "url": "https://www.grants.gov/search-results-detail/364082",
+      "opportunity_number": "G27AS00072",
+      "amount": "See grant page",
+      "deadline": "11/14/2026",
+      "description": "See grant page",
       "category": [
-        "93.262"
+        "15.808"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-HHSCDCERA",
-      "posted_date": "10/15/2025",
+      "agency_code": "DOI-USGS1",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391761"
+      "scraped_at": "2026-10-19T12:37:44.281141"
     },
     {
-      "name": "Exploratory/Developmental Grants Related to the World Trade Center Health Program (R21)",
-      "organization": "Centers for Disease Control and Prevention - ERA",
-      "url": "https://www.grants.gov/search-results-detail/RFA-OH-26-015",
-      "opportunity_number": "RFA-OH-26-015",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Cooperative Agreement for Affiliated Partner with the North Atlantic Coast Cooperative Ecosystem Studies Unit (CESU)",
+      "organization": "Geological Survey",
+      "url": "https://www.grants.gov/search-results-detail/364085",
+      "opportunity_number": "G27AS00077",
+      "amount": "See grant page",
+      "deadline": "11/14/2026",
+      "description": "See grant page",
       "category": [
-        "93.262"
+        "15.808"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-HHSCDCERA",
-      "posted_date": "10/15/2025",
+      "agency_code": "DOI-USGS1",
+      "posted_date": "10/14/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391763"
+      "scraped_at": "2026-10-19T12:37:44.281150"
     },
     {
-      "name": "Restoring Reliability: Coal Recommissioning and Modernization",
+      "name": "Cooperative Agreement for affiliated Partner with Rocky Mountain Cooperative Ecosystem Studies Unit",
+      "organization": "Geological Survey",
+      "url": "https://www.grants.gov/search-results-detail/364079",
+      "opportunity_number": "G27AS00042",
+      "amount": "See grant page",
+      "deadline": "11/14/2026",
+      "description": "See grant page",
+      "category": [
+        "15.808"
+      ],
+      "agency_code": "DOI-USGS1",
+      "posted_date": "10/14/2026",
+      "source": "Grants.gov (API)",
+      "scraped_at": "2026-10-19T12:37:44.281158"
+    },
+    {
+      "name": "Cooperative Agreement for Affiliated Partner with the Hawaiʻi-Pacific Islands Cooperative Ecosystem Studies Unit (CESU)",
+      "organization": "Geological Survey",
+      "url": "https://www.grants.gov/search-results-detail/364083",
+      "opportunity_number": "G27AS00073",
+      "amount": "See grant page",
+      "deadline": "11/14/2026",
+      "description": "See grant page",
+      "category": [
+        "15.808"
+      ],
+      "agency_code": "DOI-USGS1",
+      "posted_date": "10/14/2026",
+      "source": "Grants.gov (API)",
+      "scraped_at": "2026-10-19T12:37:44.281175"
+    },
+    {
+      "name": "Cooperative Agreement for Affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit (CESU)",
+      "organization": "Geological Survey",
+      "url": "https://www.grants.gov/search-results-detail/364084",
+      "opportunity_number": "G27AS00074",
+      "amount": "See grant page",
+      "deadline": "11/14/2026",
+      "description": "See grant page",
+      "category": [
+        "15.808"
+      ],
+      "agency_code": "DOI-USGS1",
+      "posted_date": "10/14/2026",
+      "source": "Grants.gov (API)",
+      "scraped_at": "2026-10-19T12:37:44.281187"
+    },
+    {
+      "name": "Notice of Intent to Issue NOFO DE-FOA-0003649: Leveraging Domestic Infrastructure and Resources to Unleash Alternative Chemicals, Fuels and Feedstocks",
       "organization": "Golden Field Office",
-      "url": "https://www.grants.gov/search-results-detail/DE-FOA-0003605",
-      "opportunity_number": "DE-FOA-0003605",
-      "amount": "Variable",
-      "deadline": "12/08/2025",
-      "description": "",
+      "url": "https://www.grants.gov/search-results-detail/364070",
+      "opportunity_number": "DE-FOA-0003648",
+      "amount": "See grant page",
+      "deadline": "04/26/2027",
+      "description": "See grant page",
       "category": [
-        "81.255"
+        "81.117"
       ],
-      "eligibility": [],
       "agency_code": "DOE-GFO",
-      "posted_date": "10/03/2025",
+      "posted_date": "10/13/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391765"
+      "scraped_at": "2026-10-19T12:37:44.281198"
     },
     {
-      "name": "Strategic support for human resources for health for the Ministry of Health and Social Services (MOHSS) to sustain HIV epidemic control in Namibia under the U.S. President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0167",
-      "opportunity_number": "CDC-RFA-JG-26-0167",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "FY 2027-2028 NESDIS Broad Agency Announcement (BAA)",
+      "organization": "DOC NOAA - ERA Production",
+      "url": "https://www.grants.gov/search-results-detail/364069",
+      "opportunity_number": "NOAA-NESDIS-NESDISPO-2027-33921",
+      "amount": "See grant page",
+      "deadline": "09/30/2028",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "11.015"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/02/2025",
+      "agency_code": "DOC-DOCNOAAERA",
+      "posted_date": "10/13/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391767"
+      "scraped_at": "2026-10-19T12:37:44.281206"
     },
     {
-      "name": "Strengthening government capacity for implementation and management of public health systems for quality improvement, monitoring and evaluation, survey/surveillance and health information system for program sustainability in Nigeria under PEPFAR",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0169",
-      "opportunity_number": "CDC-RFA-JG-26-0169",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Testing Centers for Evaluation of Somatic Cell Genome Editing Approaches for Translational Applications (U42 Clinical Trial Not Allowed)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/364066",
+      "opportunity_number": "PAR-28-084",
+      "amount": "See grant page",
+      "deadline": "See website",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "93.351"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/02/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/13/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391771"
+      "scraped_at": "2026-10-19T12:37:44.281216"
     },
     {
-      "name": "Improving quality of care and health outcomes through innovative systems and technologies in Malawi under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0155",
-      "opportunity_number": "CDC-RFA-JG-26-0155",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Accelerating Research and Development of Next Generation Vaccines against Malaria - a Model for Mosquito-Borne Diseases (R61/R33 Clinical Trial Not Allowed)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/361832",
+      "opportunity_number": "RFA-AI-28-024",
+      "amount": "See grant page",
+      "deadline": "02/11/2027",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "93.855"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/02/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/13/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391773"
+      "scraped_at": "2026-10-19T12:37:44.281230"
     },
     {
-      "name": "Building capacity for sustainable and integrated HIV/AIDS prevention, care, and treatment programs in the Republic of Mozambique under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0161",
-      "opportunity_number": "CDC-RFA-JG-26-0161",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Coordinating Center for the Claude D. Pepper Older Americans Independence Centers (OAICs)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/364065",
+      "opportunity_number": "RFA-AG-28-002",
+      "amount": "See grant page",
+      "deadline": "See website",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "93.866"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/02/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/13/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391775"
+      "scraped_at": "2026-10-19T12:37:44.281240"
     },
     {
-      "name": "Strengthening comprehensive HIV and TB services and health systems in high-burden areas of Namibia under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0166",
-      "opportunity_number": "CDC-RFA-JG-26-0166",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Carcinogen Hazard Assessment Monographs Program (CHAMP) (R01 Clinical Trial Not Allowed)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/360905",
+      "opportunity_number": "RFA-CA-28-013",
+      "amount": "See grant page",
+      "deadline": "02/09/2027",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "93.399",
+        "93.393",
+        "93.396"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/02/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/09/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391776"
+      "scraped_at": "2026-10-19T12:37:44.281249"
     },
     {
-      "name": "Strengthening the technical and organizational capacity of the Ministry of Health to deliver an efficient, resilient and self-reliant HIV/TB response and mitigate related public health threats in the Kingdom of Eswatini under PEPFAR",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0189",
-      "opportunity_number": "CDC-RFA-JG-26-0189",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Improved quality of life of persons with disabilities in provinces heavily sprayed with agent orange in Ca Mau and Quang Ngai",
+      "organization": "U.S. Mission to Vietnam",
+      "url": "https://www.grants.gov/search-results-detail/364047",
+      "opportunity_number": "OFOP0003897",
+      "amount": "See grant page",
+      "deadline": "11/19/2026",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "19.124"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/02/2025",
+      "agency_code": "DOS-VNM",
+      "posted_date": "10/09/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391778"
+      "scraped_at": "2026-10-19T12:37:44.281260"
     },
     {
-      "name": "Empowering Laboratory systems Towards Sustainability (ELTOS): Best practices and innovations in Lesotho under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0152",
-      "opportunity_number": "CDC-RFA-JG-26-0152",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "NIJ FY 2026 Research and Evaluation on School Safety",
+      "organization": "National Institute of Justice",
+      "url": "https://www.grants.gov/search-results-detail/364048",
+      "opportunity_number": "O-NIJ-2026-172796",
+      "amount": "See grant page",
+      "deadline": "11/23/2026",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "16.560"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/02/2025",
+      "agency_code": "USDOJ-OJP-NIJ",
+      "posted_date": "10/09/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391780"
+      "scraped_at": "2026-10-19T12:37:44.281267"
     },
     {
-      "name": "Supporting sustainable HIV patient and program monitoring systems in Zambia under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0180",
-      "opportunity_number": "CDC-RFA-JG-26-0180",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Cellular Senescence Network (SenNet): SenNet Technology Projects (SenTecs) (UG3/UH3 Clinical Trial Not Allowed)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/359168",
+      "opportunity_number": "RFA-RM-27-007",
+      "amount": "See grant page",
+      "deadline": "11/23/2026",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "93.310"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/02/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/09/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391782"
+      "scraped_at": "2026-10-19T12:37:44.281275"
     },
     {
-      "name": "Supporting technical assistance and capacity building for public health care services in the Republic of Mozambique under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0162",
-      "opportunity_number": "CDC-RFA-JG-26-0162",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "NIAMS P30 Centers Program (P30 - Clinical Trial Not Allowed)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/359152",
+      "opportunity_number": "RFA-AR-28-001",
+      "amount": "See grant page",
+      "deadline": "03/01/2029",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "93.313",
+        "93.846"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/02/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/09/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391783"
+      "scraped_at": "2026-10-19T12:37:44.281284"
     },
     {
-      "name": "Technical Assistance and Training Grant Program",
-      "organization": "Rural Utilities Service",
-      "url": "https://www.grants.gov/search-results-detail/TAT-FY26",
-      "opportunity_number": "TAT-FY26",
-      "amount": "Variable",
-      "deadline": "12/31/2025",
-      "description": "",
+      "name": "Cellular Senescence Network (SenNet): Discovery, Validation Centers (UM1 Clinical Trials Not Allowed)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/359169",
+      "opportunity_number": "RFA-RM-27-016",
+      "amount": "See grant page",
+      "deadline": "11/23/2026",
+      "description": "See grant page",
       "category": [
-        "10.761"
+        "93.310"
       ],
-      "eligibility": [],
-      "agency_code": "USDA-RUS",
-      "posted_date": "10/01/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/09/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391785"
+      "scraped_at": "2026-10-19T12:37:44.281294"
     },
     {
-      "name": "Rural Decentralized Water System Grant Program",
-      "organization": "Rural Utilities Service",
-      "url": "https://www.grants.gov/search-results-detail/RDRUS-26-DWS",
-      "opportunity_number": "RDRUS-26-DWS",
-      "amount": "Variable",
-      "deadline": "12/01/2025",
-      "description": "",
+      "name": "Cellular Senescence Network (SenNet): SenNet Data Coordination and Integration Center (SenNet DCIC) (UM1 Clinical Trials Not Allowed)",
+      "organization": "National Institutes of Health",
+      "url": "https://www.grants.gov/search-results-detail/361817",
+      "opportunity_number": "RFA-RM-27-025",
+      "amount": "See grant page",
+      "deadline": "11/23/2026",
+      "description": "See grant page",
       "category": [
-        "10.862"
+        "93.310"
       ],
-      "eligibility": [],
-      "agency_code": "USDA-RUS",
-      "posted_date": "10/01/2025",
+      "agency_code": "HHS-NIH11",
+      "posted_date": "10/09/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391787"
+      "scraped_at": "2026-10-19T12:37:44.281304"
     },
     {
-      "name": "Biological Technologies",
-      "organization": "DARPA - Biological Technologies Office",
-      "url": "https://www.grants.gov/search-results-detail/HR001126S0003",
-      "opportunity_number": "HR001126S0003",
-      "amount": "Variable",
-      "deadline": "09/30/2026",
-      "description": "",
+      "name": "NIJ FY 2026 Evaluation of the Effectiveness of the Bureau of Justice Assistance (BJA) Byrne State Crisis Intervention Program (SCIP)",
+      "organization": "National Institute of Justice",
+      "url": "https://www.grants.gov/search-results-detail/364049",
+      "opportunity_number": "O-NIJ-2026-172798",
+      "amount": "See grant page",
+      "deadline": "11/16/2026",
+      "description": "See grant page",
       "category": [
-        "12.910"
+        "16.560"
       ],
-      "eligibility": [],
-      "agency_code": "DOD-DARPA-BTO",
-      "posted_date": "10/01/2025",
+      "agency_code": "USDOJ-OJP-NIJ",
+      "posted_date": "10/09/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391808"
+      "scraped_at": "2026-10-19T12:37:44.281314"
     },
     {
-      "name": "Supporting sustainable health systems and laboratory services in Cote d'Ivoire under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0123",
-      "opportunity_number": "CDC-RFA-JG-26-0123",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "Chronic Disease Education and Awareness",
+      "organization": "Centers for Disease Control - NCCDPHP",
+      "url": "https://www.grants.gov/search-results-detail/364055",
+      "opportunity_number": "CDC-RFA-DP-27-0068",
+      "amount": "See grant page",
+      "deadline": "See website",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "93.945"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/01/2025",
+      "agency_code": "HHS-CDC-NCCDPHP",
+      "posted_date": "10/09/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391810"
+      "scraped_at": "2026-10-19T12:37:44.281321"
     },
     {
-      "name": "Strengthening tuberculosis (TB) prevention, diagnosis, and treatment in Southeast Asia to end TB",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0125",
-      "opportunity_number": "CDC-RFA-JG-26-0125",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "SMART FY26 Support for Adam Walsh Act Implementation Grant Program",
+      "organization": "SMART",
+      "url": "https://www.grants.gov/search-results-detail/364063",
+      "opportunity_number": "O-SMART-2026-172794",
+      "amount": "See grant page",
+      "deadline": "11/25/2026",
+      "description": "See grant page",
       "category": [
-        "93.494"
+        "16.750"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/01/2025",
+      "agency_code": "USDOJ-OJP-SMART",
+      "posted_date": "10/09/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391814"
+      "scraped_at": "2026-10-19T12:37:44.281328"
     },
     {
-      "name": "Targeted strengthening of Botswana's national data, performance management and health security systems for a sustainable and government-led HIV/TB and related public health threat response under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0126",
-      "opportunity_number": "CDC-RFA-JG-26-0126",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
+      "name": "OJJDP FY 2026 Strategies to Support Children Exposed to Violence",
+      "organization": "Office of Juvenile Justice Delinquency Prevention",
+      "url": "https://www.grants.gov/search-results-detail/364056",
+      "opportunity_number": "O-OJJDP-2026-172752",
+      "amount": "See grant page",
+      "deadline": "11/16/2026",
+      "description": "See grant page",
       "category": [
-        "93.067"
+        "16.818"
       ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/01/2025",
+      "agency_code": "USDOJ-OJP-OJJDP",
+      "posted_date": "10/09/2026",
       "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391816"
+      "scraped_at": "2026-10-19T12:37:44.281336"
     },
     {
-      "name": "Solid Waste Management Grant Program",
-      "organization": "Rural Utilities Service",
-      "url": "https://www.grants.gov/search-results-detail/SWMFY26",
-      "opportunity_number": "SWMFY26",
-      "amount": "Variable",
-      "deadline": "12/31/2025",
-      "description": "",
-      "category": [
-        "10.762"
-      ],
-      "eligibility": [],
-      "agency_code": "USDA-RUS",
-      "posted_date": "10/01/2025",
-      "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391817"
-    },
-    {
-      "name": "Enhancing sustainable HIV health systems and networks for quality detection, management, and monitoring to end HIV as a public health threat in India under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0143",
-      "opportunity_number": "CDC-RFA-JG-26-0143",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
-      "category": [
-        "93.067"
-      ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/01/2025",
-      "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391819"
-    },
-    {
-      "name": "Support Government of Kenya in accelerated transition of oversight and implementation of comprehensive HIV prevention and treatment programs for sustained epidemic control in the Republic of Kenya under PEPFAR",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0144",
-      "opportunity_number": "CDC-RFA-JG-26-0144",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
-      "category": [
-        "93.067"
-      ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/01/2025",
-      "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391821"
-    },
-    {
-      "name": "Sustaining HIV and TB epidemic control in Lesotho through health system strengthening and technical assistance under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0151",
-      "opportunity_number": "CDC-RFA-JG-26-0151",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
-      "category": [
-        "93.067"
-      ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/01/2025",
-      "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391825"
-    },
-    {
-      "name": "Support Government of Kenya to sustain integrated digital health and surveillance systems for disease monitoring in the Republic of Kenya under the US President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0145",
-      "opportunity_number": "CDC-RFA-JG-26-0145",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
-      "category": [
-        "93.067"
-      ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/01/2025",
-      "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391827"
-    },
-    {
-      "name": "Strengthen integrated, resilient, and sustainable health, laboratory, and information systems for HIV and tuberculosis (TB) epidemic control in Kenya under the US President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0146",
-      "opportunity_number": "CDC-RFA-JG-26-0146",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
-      "category": [
-        "93.067"
-      ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/01/2025",
-      "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391828"
-    },
-    {
-      "name": "Ending HIV as a public health threat through an accelerated and sustained comprehensive response in India under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0142",
-      "opportunity_number": "CDC-RFA-JG-26-0142",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
-      "category": [
-        "93.067"
-      ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/01/2025",
-      "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391832"
-    },
-    {
-      "name": "Health information systems strengthening for improved public health care and program management in Haiti under the President's Emergency Plan for AIDS Relief (PEPFAR)",
-      "organization": "Centers for Disease Control-GHC",
-      "url": "https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0140",
-      "opportunity_number": "CDC-RFA-JG-26-0140",
-      "amount": "Variable",
-      "deadline": "",
-      "description": "",
-      "category": [
-        "93.067"
-      ],
-      "eligibility": [],
-      "agency_code": "HHS-CDC-GHC",
-      "posted_date": "10/01/2025",
-      "source": "Grants.gov (API)",
-      "scraped_at": "2025-11-16T07:18:33.391834"
+      "name": "Request for Information (RFI): Opportunities to Reduce Administrative Burden in NIH Extramural Research",
+      "organization": "National Institutes of Health",
+      "url": "http://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-130.html",
+      "description": "Notice NOT-OD-26-130 from the NIH Guide for Grants and Contracts",
+      "source": "NIH (XML)",
+      "scraped_at": "2026-10-19T12:37:46.380791"
     }
   ]
 }

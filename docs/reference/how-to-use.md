@@ -6,7 +6,7 @@ parent: Resources
 permalink: /docs/how-to-use
 ---
 
-# 📖 How to Use This Wiki
+# How to Use This Wiki
 
 Welcome! This guide will help you make the most of the Awesome Grants wiki.
 
@@ -14,29 +14,23 @@ Welcome! This guide will help you make the most of the Awesome Grants wiki.
 
 ### 1. Find Grants for Your Profile
 
-**Choose your path:**
-
-- **Student/PhD?** → [Students & PhD Guide](../audience/students/README.md)
-- **Postdoc?** → [Postdocs & ECRs Guide](../audience/postdocs/README.md)
-- **Faculty/PI?** → [Faculty & PI Guide](../audience/faculty/README.md)
-- **OSS Developer?** → [OSS Maintainers Guide](../audience/oss/README.md)
-- **Indie Builder?** → [Indie Builders Guide](../audience/indie/README.md)
+The listings cover every career stage — students and PhD candidates, postdocs
+and early-career researchers, faculty and PIs, open source maintainers, and
+indie builders. Use your browser's search (Ctrl+F / Cmd+F) on the listing
+pages to find grants matching your stage.
 
 ### 2. Filter by Location
 
-If you have geographic restrictions:
-
-- [US Only](../regions/us/README.md)
-- [Europe](../regions/eu/README.md)
-- [UK](../regions/uk/README.md)
-- [Global/International](../regions/global/README.md)
+If you have geographic restrictions, check each grant's eligibility details —
+the collection includes US federal, European, UK, and global/international
+opportunities.
 
 ### 3. Browse by Organization
 
 Know which agency you want to apply to?
 
 - [National Science Foundation](../organizations/README.md#national-science-foundation)
-- [National Institutes of Health](../regions/us/README.md)
+- [National Institutes of Health](../organizations/README.md)
 - [All Organizations](../organizations/README.md)
 
 ## Understanding Grant Entries
@@ -81,9 +75,9 @@ python3 src/enhanced_wiki_generator.py
 ### 1. Check Multiple Categories
 
 Don't limit yourself to one category! A grant might appear in:
-- By audience (e.g., "Faculty")
 - By organization (e.g., "NSF")
-- By region (e.g., "US")
+- By data source (e.g., "Grants.gov")
+- The live dashboard
 
 ### 2. Look at Similar Grants
 
@@ -128,7 +122,7 @@ A: Whenever the scraper runs. Check [Live Dashboard](./live-dashboard.md) for la
 A: We show what's scraped from live sources. Always verify deadlines on official sites.
 
 **Q: Can I add a grant?**
-A: Yes! See the [Contributing Guide](../README.md#contributing) in the main README.
+A: Yes! See the [Contributing Guide](../../README.md#contributing) in the main README.
 
 **Q: What if a link is broken?**
 A: Report it as an issue on GitHub or run the scraper to get fresh data.
