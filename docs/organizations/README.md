@@ -1,123 +1,332 @@
 ---
 layout: default
 title: Grants by Organization
-nav_order: 10
+nav_order: 9
 permalink: /docs/by-organization
 ---
 
-# 🏛️ Browse by Organization
+# Browse by Organization
 
 Find grants from specific funding agencies and foundations.
 
-<div class="info-box">
-  <strong>📚 Quick Navigation:</strong><br>
-  • <a href="#federal-agencies">Federal Agencies</a> (29 grants)<br>
-  • <a href="#foundations">Foundations</a><br>
-  • <a href="#all-organizations">All Organizations</a>
-</div>
+## Table of Contents
+
+- [Federal Agencies](#federal-agencies)
+- [Foundations](#foundations)
+- [All Organizations](#all-organizations)
 
 ---
 
 ## Federal Agencies
 
-<span class="badge badge-blue">29 grants</span> <span class="badge badge-purple">5 agencies</span>
+**54 grants from 5 federal agencies**
 
-### DARPA - Biological Technologies Office
+### DARPA - Defense Sciences Office
 
 **1 opportunities**
 
-#### [Biological Technologies](https://www.grants.gov/search-results-detail/HR001126S0003)
+#### [Young Faculty Award (YFA) 2027](https://www.grants.gov/search-results-detail/364129)
 
-- **Organization**: DARPA - Biological Technologies Office
-- **Amount**: Variable
-- **Deadline**: 09/30/2026
+- **Organization**: DARPA - Defense Sciences Office
+- **Amount**: See grant page
+- **Deadline**: 01/13/2027
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
 ---
 
-### DOT - Federal Railroad Administration
+### National Endowment for the Humanities
+
+**1 opportunities**
+
+#### [Public Humanities Projects](https://www.grants.gov/search-results-detail/364098)
+
+- **Organization**: National Endowment for the Humanities
+- **Amount**: See grant page
+- **Deadline**: 12/16/2026
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+
+---
+
+### National Institute of Justice
 
 **3 opportunities**
 
-#### [FY24 Port of Rosedale Multimodal Expansion: Great River Railroad Restoration Project](https://www.grants.gov/search-results-detail/FR-CCD-24-010)
+#### [NIJ FY 2026 Research and Evaluation on Drones as First Responders](https://www.grants.gov/search-results-detail/364139)
 
-- **Organization**: DOT - Federal Railroad Administration
-- **Amount**: Variable
-- **Deadline**: 11/21/2025
+- **Organization**: National Institute of Justice
+- **Amount**: See grant page
+- **Deadline**: 11/30/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [FY26-National Network IIJA Supplemental Cooperative Agreement to the National Railroad Passenger Corporation](https://www.grants.gov/search-results-detail/FR-AMT-26-002)
+#### [NIJ FY 2026 Research and Evaluation on Violent Crime: Gangs and Organized Criminal Groups (Domestic and Transnational)](https://www.grants.gov/search-results-detail/364140)
 
-- **Organization**: DOT - Federal Railroad Administration
-- **Amount**: Variable
-- **Deadline**: 11/18/2025
+- **Organization**: National Institute of Justice
+- **Amount**: See grant page
+- **Deadline**: 11/30/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [FY26-Northeast Corridor IIJA Supplemental Cooperative Agreement to the National Railroad Passenger Corporation](https://www.grants.gov/search-results-detail/FR-AMT-26-001)
+#### [NIJ FY 2026 Research on the Abuse, Neglect, and Exploitation of Elderly Individuals](https://www.grants.gov/search-results-detail/364138)
 
-- **Organization**: DOT - Federal Railroad Administration
-- **Amount**: Variable
-- **Deadline**: 11/18/2025
+- **Organization**: National Institute of Justice
+- **Amount**: See grant page
+- **Deadline**: 11/30/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
 ---
 
-### DOT Federal Highway Administration 
+### National Institutes of Health
 
-**1 opportunities**
+**29 opportunities**
 
-#### [2026 Tribal Transportation Program Safety Fund](https://www.grants.gov/search-results-detail/2026TTPSF)
+#### [Assessing the Feasibility of Incorporating Mechanisms in Multi-site Clinical Trials of Mind and Body Interventions on Whole Person Health Restoration (R33 Clinical Trial Required)](https://www.grants.gov/search-results-detail/359941)
 
-- **Organization**: DOT Federal Highway Administration 
-- **Amount**: Variable
-- **Deadline**: 01/15/2026
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 11/16/2029
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
+#### [CAPSTONE Centers for Multidisciplinary Research in Child Abuse and Neglect](https://www.grants.gov/search-results-detail/364128)
 
----
-
-### National Energy Technology Laboratory
-
-**4 opportunities**
-
-#### [Improving Efficiency, Reliability, and Flexibility of Coal-Based Power Plants](https://www.grants.gov/search-results-detail/DE-FOA-0003606)
-
-- **Organization**: National Energy Technology Laboratory
-- **Amount**: Variable
-- **Deadline**: 01/07/2026
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Infrastructure Investment and Jobs Act (IIJA) &ndash; Mines &amp; Metals Capacity Expansion &ndash; Piloting Byproduct Critical Minerals and Materials Recovery at Domestic Industrial Facilities](https://www.grants.gov/search-results-detail/DE-FOA-0003583)
+#### [Centers for AIDS Research (CFAR) and Developmental Centers for AIDS Research (D-CFAR) (P30 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/360869)
 
-- **Organization**: National Energy Technology Laboratory
-- **Amount**: Variable
-- **Deadline**: 12/15/2025
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 05/25/2029
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Infrastructure Investment and Jobs Act (IIJA): Mine of the Future - Proving Ground Initiative](https://www.grants.gov/search-results-detail/DE-FOA-0003390)
+#### [Coordinating Center for National Resource Network for the Study of Human Auditory and Vestibular Disorders (U24 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/361208)
 
-- **Organization**: National Energy Technology Laboratory
-- **Amount**: Variable
-- **Deadline**: 12/15/2025
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 03/05/2027
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Request for Information (RFI): Accelerating Speed to Power/Winning the Artificial Intelligence Race: Federal Action to Rapidly Expand Grid Capacity and Enable Electricity Demand Growth](https://www.grants.gov/search-results-detail/DE-FOA-0003574)
+#### [Discovery Gateway to Reproductive Health Innovation](https://www.grants.gov/search-results-detail/364126)
 
-- **Organization**: National Energy Technology Laboratory
-- **Amount**: Variable
-- **Deadline**: 11/21/2025
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Early-Onset Cancers: Investigating Etiology, Mechanisms, and Early Detection Strategies (RP1 Clinical Trials Optional)](https://www.grants.gov/search-results-detail/361438)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 10/11/2029
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Immune Tolerance Network (UM1 Clinical Trial Required)](https://www.grants.gov/search-results-detail/362946)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 01/29/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Learning Disabilities Research Centers](https://www.grants.gov/search-results-detail/364123)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Limited Competition: Biospecimen Banks to support NCI National Clinical Trials Network Biospecimen Banks (NCTN Biobanks) and the NCI Early-Phase and Experimental Clinical Trials Biospecimen Bank (EET Biobank) (U24 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/361134)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 02/11/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI (T15 Independent Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/361318)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 02/11/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [National Resource Network for the Study of Human Auditory and Vestibular Disorders (U24 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/361207)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 11/01/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [NextTech: Translational Development of Next-Generation Diagnostic and Therapeutic Devices (R18 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/361380)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 12/01/2030
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of Change in Application Due Date for NHLBI NOFOs PAR-25-025 and PAR-25-026](http://grants.nih.gov/grants/guide/notice-files/NOT-HL-27-002.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-HL-27-002 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of Change in Application Due Date for PAR-25-032 "NHLBI Clinical Trial Pilot Studies (R34 Clinical Trial Optional)"](http://grants.nih.gov/grants/guide/notice-files/NOT-HL-27-003.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-HL-27-003 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of Change to Funding Opportunity: BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)](http://grants.nih.gov/grants/guide/notice-files/NOT-NS-27-002.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-NS-27-002 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of Change: Grants Administration Information added for NCI's Participation on PA-27-036, NIH Research Education Program - Research Experiences (Parent R25 - Clinical Trial Not Allowed)](http://grants.nih.gov/grants/guide/notice-files/NOT-CA-26-019.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-CA-26-019 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of Correction to Award Information and Application and Submission Information for PA-27-037 "Predoctoral to Postdoctoral Transition Award (Parent F99/K00 - Clinical Trial Not Allowed)"](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-091.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-OD-26-091 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of FIC Participation in PA-26-002 "NIH Collaborative International Research Project (Parent PF5 Clinical Trial Optional)"](http://grants.nih.gov/grants/guide/notice-files/NOT-TW-26-002.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-TW-26-002 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of NEI Participation in PAR-27-077 NIH Science Education Partnership Award (SEPA) (R25 - Clinical Trial Not Allowed)](http://grants.nih.gov/grants/guide/notice-files/NOT-EY-27-004.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-EY-27-004 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of NHLBI Withdrawal from Participation in PA-25-305 "NIH Research Project Grant (Parent R01 Clinical Trial Required)"](http://grants.nih.gov/grants/guide/notice-files/NOT-HL-27-001.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-HL-27-001 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of NIBIB Participation in PA-27-037: Predoctoral to Postdoctoral Transition Award (Parent F99/K00 - Clinical Trial Not Allowed)](http://grants.nih.gov/grants/guide/notice-files/NOT-EB-26-005.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-EB-26-005 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of NIDCR Participation in PA-25-302, NIH Small Research Grant Program (Parent R03 Clinical Trial Not Allowed)](http://grants.nih.gov/grants/guide/notice-files/NOT-DE-27-001.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-DE-27-001 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of Participation of the National Institute of Nursing Research (NINR) in PAR-27-077, "NIH Science Education Partnership Award (SEPA) (R25 - Clinical Trial Not Allowed)"](http://grants.nih.gov/grants/guide/notice-files/NOT-NR-27-001.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-NR-27-001 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Pilot and Feasibility Studies in Preparation for Substance Use and HIV Prevention Intervention and Services Research Trials (R34 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/361204)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 07/16/2029
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Prevention and Treatment through a Comprehensive Care Continuum for HIV-affected Adolescents in Resource-Constrained Settings--Implementation Science Network (PATC3H-IN)](https://www.grants.gov/search-results-detail/364127)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Single Source for the Continuation of the Physiology of the Weight Reduced State (POWERS) Study (U01- Clinical Trials Required)](https://www.grants.gov/search-results-detail/360627)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 11/17/2026
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Specialized Alcohol Research Centers (P50 Clinical trial Optional)](https://www.grants.gov/search-results-detail/361216)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 01/27/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Translational Centers Using Microphysiological Systems for Infectious Diseases (U54 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/362954)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 01/29/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [USG Policy for the use of Super Intelligence](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-27-011.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-OD-27-011 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
 ---
@@ -126,210 +335,146 @@ Find grants from specific funding agencies and foundations.
 
 **20 opportunities**
 
-#### [Accelerating Research Translation (ART)](https://www.nsf.gov/funding/opportunities/art-accelerating-research-translation)
+#### [Astronomical Sciences Core Research (Astro-Core)](https://www.nsf.gov/funding/opportunities/astro-core-astronomical-sciences-core-research)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports institutions of higher education in building capacity, infrastructure and training to accelerate research translation, strengthen technology transfer and create sustained economic and societa...
+- **Description**: The MPS Astronomical Sciences Core Research program (Astro-Core) supports foundational research in the astronomical sciences. The program provides individual investigator and collaborative research gr...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Computer and Information Science and Engineering : Future Computing Research (Future CoRe)](https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing)
+#### [Astronomical Sciences Innovations (Astro-Innovations)](https://www.nsf.gov/funding/opportunities/astro-innovations-astronomical-sciences-innovations)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports foundational and interdisciplinary research across all aspects of computing, communication and information science and engineering to advance the future of technology, systems and human-cente...
+- **Description**: The Astronomical Sciences Innovations program (Astro-Innovations) supports a small number of larger astronomical activities. This program is formally divided into four subcategories: 1) limited-term, ...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Computing Education Research](https://www.nsf.gov/funding/opportunities/computing-education-research)
+#### [Astronomical Sciences Technology and Instrumentation (ATI)](https://www.nsf.gov/funding/opportunities/ati-astronomical-sciences-technology-instrumentation)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports innovative research and community efforts to improve computing and AI education at all levels, strengthen pathways to the future workforce and build sustainable research communities.Supports ...
+- **Description**: The Astronomical Sciences Technologies and Instrumentation (ATI) program provides individual investigator and collaborative research grants to develop new technologies and instrumentation for use in g...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Cyber-Physical System Foundations and Connected Communities (CPS)](https://www.nsf.gov/funding/opportunities/cps-cyber-physical-system-foundations-connected-communities)
+#### [Bioinnovation and Infrastructure (BI)](https://www.nsf.gov/funding/opportunities/bi-bioinnovation-infrastructure)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports foundational and community-driven research that integrates computation, physical systems and human interaction to create reliable, resilient cyber-physical systems that enhance quality of lif...
+- **Description**: Supports investigations into the functional genomic complexity of life and the development of tools, data and technologies to drive biological discovery.Supports investigations into the functional gen...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [ExLENT and ATE Supplement Opportunity “Expanding AI Career and Skilled Technical Workforce Opportunities in Support of High School Students”](https://www.nsf.gov/funding/opportunities/dcl-exlent-ate-supplement-opportunity-expanding-ai-career)
+#### [Condensed Matter and Materials Theory (CMMT)](https://www.nsf.gov/funding/opportunities/cmmt-condensed-matter-materials-theory)
 
 - **Organization**: National Science Foundation
-- **Description**: Invites supplemental funding requests from current ExLENT and ATE awardees for education-industry collaboration supporting AI-focused career and skill building learning opportunities for high school s...
+- **Description**: The Condensed Matter and Materials Theory Program supports theoretical and computational materials research in the topical areas represented by other Materials Research Programs, which include:Condens...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Expanding K-12 Resources For AI Education](https://www.nsf.gov/funding/opportunities/dcl-expanding-k-12-resources-ai-education)
+#### [Core Research in Biological Sciences (BIO Core)](https://www.nsf.gov/funding/opportunities/bio-core-core-research-biological-sciences)
 
 - **Organization**: National Science Foundation
-- **Description**: Invites supplemental funding requests to current NSF awardees in certain NSF directorates to support the expansion of K-12 resources for AI education.Invites supplemental funding requests to current N...
+- **Description**: Supports foundational and interdisciplinary research that advances understanding of biology across all levels of organization, from molecules and cells to organisms, ecosystems and biomes.Supports fou...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Foundations for Operating the National Artificial Intelligence Research Resource: the NAIRR Operations Center (NAIRR-OC)](https://www.nsf.gov/funding/opportunities/nairr-oc-foundations-operating-national-artificial-intelligence)
+#### [EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI): Wave-Based Computing (WBC) ( EFRI-WBC)](https://www.nsf.gov/funding/opportunities/efri-wbc-emerging-frontiers-research-innovation-efri-wave-based)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports the creation of an operations center to manage and expand the National AI Research Resource, providing U.S. researchers and educators sustained access to advanced AI tools, data and expertise...
+- **Description**: Supports foundational and transformative research to develop new computing approaches that harness wave dynamics, from exploratory concepts to larger multidisciplinary projects.Supports foundational a...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Incorporating Human Behavior in Epidemiological Models (IHBEM)](https://www.nsf.gov/funding/opportunities/ihbem-incorporating-human-behavior-epidemiological-models)
+#### [Engineering (ENG): Chemical, Bioengineering, Energy, and Transport Systems (CBET)](https://www.nsf.gov/funding/opportunities/engineering-eng-chemical-bioengineering-energy-transport)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports interdisciplinary research that integrates human behavior and social processes into mathematical epidemiological models to improve the accuracy and usefulness of public health interventions a...
+- **Description**: Supports foundational engineering research on chemical processes and biological systems, energy and resource management, and the transport of materials and energy across multiple scales.Supports found...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Integrated Data Systems & Services (IDSS)](https://www.nsf.gov/funding/opportunities/idss-integrated-data-systems-services)
+#### [Expeditions in Computing (Expeditions)](https://www.nsf.gov/funding/opportunities/expeditions-expeditions-computing)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports national-scale data infrastructure that powers open, data-intensive and AI-driven research and education by funding the development, expansion and planning of integrated systems and services ...
+- **Description**: Supports large, multidisciplinary teams pursuing ambitious, long-term foundational research to drive transformative advances in computing, information science and engineering.Supports large, multidisc...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Foundations of Life (FL)](https://www.nsf.gov/funding/opportunities/fl-foundations-life)
+
+- **Organization**: National Science Foundation
+- **Description**: Supports fundamental research to understand the natural and synthetic molecules, cells and physiology that build living things.Supports fundamental research to understand the natural and synthetic mol...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Geosciences Core Research: Atmospheric, Geospace, Earth and Ocean Sciences (GEO Core)](https://www.nsf.gov/funding/opportunities/geo-core-geosciences-core-research-atmospheric-geospace-earth-ocean)
+
+- **Organization**: National Science Foundation
+- **Description**: Supports foundational research across the geosciences, including Earth's atmosphere and near-Earth space environment, solid Earth and surface processes, and the oceans.Supports foundational research a...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Living Systems (LS)](https://www.nsf.gov/funding/opportunities/ls-living-systems)
+
+- **Organization**: National Science Foundation
+- **Description**: Supports investigation of how species evolve, interact and shape Earth's biodiverse ecosystems.Supports investigation of how species evolve, interact and shape Earth's biodiverse ecosystems.
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [MPS Astronomical Sciences Research Programs (MPS Astro)](https://www.nsf.gov/funding/opportunities/mps-astro-mps-astronomical-sciences-research-programs)
+
+- **Organization**: National Science Foundation
+- **Description**: The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs in the astronomical sciences. NSF MPS funds foundational astronomi...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [MPS Chemistry Research Programs (MPS Chem)](https://www.nsf.gov/funding/opportunities/mps-chem-mps-chemistry-research-programs)
+
+- **Organization**: National Science Foundation
+- **Description**: The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports foundational research through multiple programs in the chemical sciences.Programs include:Che...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [MPS Materials Research Programs (MPS Materials)](https://www.nsf.gov/funding/opportunities/mps-materials-mps-materials-research-programs)
+
+- **Organization**: National Science Foundation
+- **Description**: The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple materials research programs that advance fundamental understanding of materials, the...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [MPS Mathematical Sciences Research Programs (MPS MathSci)](https://www.nsf.gov/funding/opportunities/mps-mathsci-mps-mathematical-sciences-research-programs)
+
+- **Organization**: National Science Foundation
+- **Description**: The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs at the frontiers of discovery in theoretical and applied mathemati...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [MPS Physics Research Programs (MPS Physics)](https://www.nsf.gov/funding/opportunities/mps-physics-mps-physics-research-programs)
+
+- **Organization**: National Science Foundation
+- **Description**: The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs at the frontiers of discovery in physics. Physics research support...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Mathematical Sciences Focused Research Groups (MS-FRG)](https://www.nsf.gov/funding/opportunities/ms-frg-mathematical-sciences-focused-research-groups)
+
+- **Organization**: National Science Foundation
+- **Description**: Program Information:NSF MPS supports projects submitted by collaborative groups proposing to employ innovative methods to solve specific, major challenges in mathematics and statistics. Proposals shou...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Mathematical Sciences Research Training Groups (MS-RTG)](https://www.nsf.gov/funding/opportunities/ms-rtg-mathematical-sciences-research-training-groups)
+
+- **Organization**: National Science Foundation
+- **Description**: Program Information:The long-range goal of the Research Training Groups in the Mathematical Sciences program is to strengthen the nation's scientific competitiveness by increasing the number of people...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 #### [NSF Graduate Research Fellowship Program (GRFP)](https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports fellowships for outstanding graduate students who are pursuing full-time, research-based masters and doctoral degrees in science, technology, engineering or math (STEM), including education.S...
+- **Description**: Supports outstanding graduate students in NSF-supported science, technology, engineering, and mathematics (STEM) disciplines who are pursuing research-based master's and doctoral degrees at accredited...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [NSF National Innovation Corps Teams (NSF National I-Corps (TM) Teams) program](https://www.nsf.gov/funding/opportunities/nsf-national-innovation-corps-teams-nsf-national-i-corps-tm)
-
-- **Organization**: National Science Foundation
-- **Description**: Supports NSF-funded researchers with entrepreneurial training, mentoring and funding to accelerate the translation of technologies from foundational research into emerging products, processes and serv...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [NSF STEM K-12 (STEM K-12)](https://www.nsf.gov/funding/opportunities/stem-k-12-nsf-stem-k-12)
-
-- **Organization**: National Science Foundation
-- **Description**: Supports research and development to advance STEM teaching and learning in K-12 formal and informal settings, leveraging AI and emerging technologies to build knowledge, create tools and strengthen th...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [NSF-UKRI/EPSRC Lead Agency Opportunity on Understanding and Exploiting Quantum Information in Chemical Systems](https://www.nsf.gov/funding/opportunities/dcl-nsf-ukriepsrc-lead-agency-opportunity-understanding-0)
-
-- **Organization**: National Science Foundation
-- **Description**: Invites collaborative U.S.-U.K. research proposals focused on advancing quantum information science in chemical systems, promoting transatlantic partnerships by allowing a single submission and merit ...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [National Science Foundation Translation to Practice (NSF TTP)](https://www.nsf.gov/funding/opportunities/nsf-ttp-national-science-foundation-translation-practice)
-
-- **Organization**: National Science Foundation
-- **Description**: Supports use-inspired research, translational activities and partnerships that turn scientific discoveries into real-world solutions. Researchers can gain market insights, launch commercial applicatio...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Smart Health and Biomedical Research in the Era of Artificial Intelligence and Advanced Data Science (SCH)](https://www.nsf.gov/funding/opportunities/sch-smart-health-biomedical-research-era-artificial-intelligence)
-
-- **Organization**: National Science Foundation
-- **Description**: Supports high-risk, high-reward interdisciplinary research that combines computing, engineering, data science and behavioral and cognitive sciences to tackle biomedical and public health challenges an...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Supplemental Funding Requests to Support K-12 Artificial Intelligence Teams for the Presidential AI Challenge through Community-based Partnerships](https://www.nsf.gov/funding/opportunities/dcl-supplemental-funding-requests-support-k-12-artificial)
-
-- **Organization**: National Science Foundation
-- **Description**: Invites supplemental funding requests from current awardees in the Directorate for STEM Education to support the Presidential Initiative on Advancing Artificial Intelligence Education for American You...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Test Bed: Toward a Network of Programmable Cloud Laboratories (PCL Test Bed)](https://www.nsf.gov/funding/opportunities/pcl-test-bed-test-bed-toward-network-programmable-cloud-laboratories)
-
-- **Organization**: National Science Foundation
-- **Description**: Supports the development and operation of a national network of AI-powered, remotely accessible laboratories to accelerate scientific discovery, enhance reproducibility and improve access to advanced ...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [The Research on Research Security Program (RoRS)](https://www.nsf.gov/funding/opportunities/rors-research-research-security-program)
-
-- **Organization**: National Science Foundation
-- **Description**: Supports interdisciplinary, evidence-based research to enhance understanding of security risks, practices and policies to safeguard the U.S. research enterprise and foster a strong academic field in r...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [U.S.-UK Center-to-Centre Collaboration Opportunities for Artificial Intelligence and Quantum Information Science and Technology](https://www.nsf.gov/funding/opportunities/dcl-us-uk-center-centre-collaboration-opportunities-artificial)
-
-- **Organization**: National Science Foundation
-- **Description**: Encourages supplemental funding requests from current awardees of large-scale NSF investments in the areas of AI and quantum information science and technology (QIST) to facilitate collaboration with ...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Verticals-enabling Intelligent Network Systems (VINES)](https://www.nsf.gov/funding/opportunities/vines-verticals-enabling-intelligent-network-systems)
-
-- **Organization**: National Science Foundation
-- **Description**: Supports research and innovation to enhance wireless communications and intelligent network systems for faster, more reliable user-to-cloud connections, while promoting U.S. leadership in telecommunic...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-
----
-
-## Foundations
-
-<span class="badge badge-purple">Major Foundations</span> <span class="badge badge-green">Curated Collection</span>
-
-Below are key private foundations and philanthropic organizations offering grants from our curated collection.
-
-### Alfred P. Sloan Foundation
-
-**Sloan Research Fellowships**
-- **Amount**: $75,000 over 2 years
-- **Eligibility**: Early-career scholars, within 6 years of PhD
-- **Fields**: Physics, Chemistry, Computer Science, Economics, Mathematics, Neuroscience
-- **Website**: [https://sloan.org/fellowships](https://sloan.org/fellowships)
-- **Deadline**: September annually
-
-### Chan Zuckerberg Initiative
-
-**CZI Science Grants**
-- **Amount**: Variable ($50,000-$5M+)
-- **Focus**: Biomedical science, open science, scientific software
-- **Website**: [https://chanzuckerberg.com/science/](https://chanzuckerberg.com/science/)
-- **Deadline**: Rolling/RFP-based
-
-### Mozilla Foundation
-
-**Mozilla Grants**
-- **Amount**: $10,000-$50,000 (typical awards)
-- **Focus**: Open internet, privacy, digital rights, trustworthy AI
-- **Website**: [https://foundation.mozilla.org/en/what-we-fund/](https://foundation.mozilla.org/en/what-we-fund/)
-- **Deadline**: Rolling
-
-### NLnet Foundation
-
-**NLnet Foundation Grants**
-- **Amount**: €5,000-€50,000
-- **Focus**: Open source internet technologies, privacy, security
-- **Website**: [https://nlnet.nl/propose/](https://nlnet.nl/propose/)
-- **Deadline**: Continuous (multiple rounds annually)
-
-### Wellcome Trust (UK)
-
-**Wellcome Career Development Awards**
-- **Amount**: £250,000-£1,500,000 over 5-8 years
-- **Eligibility**: Postdocs and early-career researchers
-- **Fields**: Biomedical sciences, health research
-- **Website**: [https://wellcome.org/grant-funding](https://wellcome.org/grant-funding)
-- **Deadline**: Multiple rounds annually
-
-### Prototype Fund (Germany)
-
-**Prototype Fund**
-- **Amount**: Up to €47,500
-- **Duration**: 6 months
-- **Focus**: Open source software for civic tech and public interest
-- **Website**: [https://prototypefund.de/en/](https://prototypefund.de/en/)
-- **Deadline**: Multiple rounds annually
-
-<div class="info-box">
-  <strong>💡 Looking for more foundations?</strong><br>
-  The live-scraped grants above focus on government sources. The foundations section shows our curated collection of major private funders.
-</div>
 
 ---
 
@@ -337,582 +482,767 @@ Below are key private foundations and philanthropic organizations offering grant
 
 Complete alphabetical listing:
 
-### Centers for Disease Control and Prevention - ERA
+### Administration for Children and Families - ORR
+
+**1 opportunities**
+
+#### [Residential Services for Unaccompanied Alien Children](https://www.grants.gov/search-results-detail/364134)
+
+- **Organization**: Administration for Children and Families - ORR
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+
+### Administration for Community Living
+
+**10 opportunities**
+
+#### [Advancing State Implementation of the National Strategy to Support Family Caregivers](https://www.grants.gov/search-results-detail/364116)
+
+- **Organization**: Administration for Community Living
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Alheimer's Disease Programs Initiative (ADPI) - State Programs for Dementia Specific Respite](https://www.grants.gov/search-results-detail/364114)
+
+- **Organization**: Administration for Community Living
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Alzheimer's Disease Programs Initiative (ADPI) - Dementia Capability in Indian Country](https://www.grants.gov/search-results-detail/364115)
+
+- **Organization**: Administration for Community Living
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Alzheimer's Disease Programs Initiative (ADPI) - States and Community Grants](https://www.grants.gov/search-results-detail/364113)
+
+- **Organization**: Administration for Community Living
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Elder Justice Innovation Grants FY2027](https://www.grants.gov/search-results-detail/364118)
+
+- **Organization**: Administration for Community Living
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Evaluating Innovative Community Based Nutrition Models that Improve Health Outcomes for Older Adults in Senior Nutrition Programs](https://www.grants.gov/search-results-detail/364120)
+
+- **Organization**: Administration for Community Living
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [FY2027 Grants to Highest State Courts to Improve Guardianship](https://www.grants.gov/search-results-detail/364117)
+
+- **Organization**: Administration for Community Living
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [National Adult Protective Services Training Center](https://www.grants.gov/search-results-detail/364119)
+
+- **Organization**: Administration for Community Living
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [National Center on Elder Abuse Resource Center](https://www.grants.gov/search-results-detail/364112)
+
+- **Organization**: Administration for Community Living
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [No Wrong Door System Modernization: Connecting People to Services](https://www.grants.gov/search-results-detail/364121)
+
+- **Organization**: Administration for Community Living
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+
+### Advanced Research Projects Agency Energy
 
 **2 opportunities**
 
-#### [Exploratory/Developmental Grants Related to the World Trade Center Health Program (R21)](https://www.grants.gov/search-results-detail/RFA-OH-26-015)
+#### [Unlocking New Levels of Output and Capacity for Key Subsurface Resources (UNLOCK)](https://www.grants.gov/search-results-detail/364136)
 
-- **Organization**: Centers for Disease Control and Prevention - ERA
-- **Amount**: Variable
+- **Organization**: Advanced Research Projects Agency Energy
+- **Amount**: See grant page
+- **Deadline**: 11/20/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Promoting World Trade Center Health Program Youth Research Cohort Recruitment and Retention Using Principles of Community Engaged Research (CEnR) to Build Community Participation (U01)](https://www.grants.gov/search-results-detail/RFA-OH-26-010)
+#### [Unlocking New Levels of Output and Capacity for Key Subsurface Resources SBIR/STTR (UNLOCK SBIR/STTR)](https://www.grants.gov/search-results-detail/364135)
 
-- **Organization**: Centers for Disease Control and Prevention - ERA
-- **Amount**: Variable
+- **Organization**: Advanced Research Projects Agency Energy
+- **Amount**: See grant page
+- **Deadline**: 11/20/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
-### Centers for Disease Control-GHC
-
-**29 opportunities**
-
-#### [Building capacity for sustainable and integrated HIV/AIDS prevention, care, and treatment programs in the Republic of Mozambique under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0161)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Empowering Laboratory systems Towards Sustainability (ELTOS): Best practices and innovations in Lesotho under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0152)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Ending HIV as a public health threat through an accelerated and sustained comprehensive response in India under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0142)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Enhancing sustainable HIV health systems and networks for quality detection, management, and monitoring to end HIV as a public health threat in India under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0143)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Enhancing sustainable and integrated health, strategic information, and laboratory systems for quality comprehensive HIV services through technical assistance to the Republic of Rwanda under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0170)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Health information systems strengthening for improved public health care and program management in Haiti under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0140)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Implement and sustain a comprehensive response to HIV and technical assistance to strengthen the capacity of regional authorities in the United Republic of Tanzania under PEPFAR](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0174)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Improving HIV treatment in the Dominican Republic (DR) under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0185)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Improving quality of care and health outcomes through innovative systems and technologies in Malawi under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0155)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Strategic support for human resources for health for the Ministry of Health and Social Services (MOHSS) to sustain HIV epidemic control in Namibia under the U.S. President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0167)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Strengthen integrated, resilient, and sustainable health, laboratory, and information systems for HIV and tuberculosis (TB) epidemic control in Kenya under the US President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0146)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Strengthening Ghana Health Service laboratory systems activities under the President&rsquo;s Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0178)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Strengthening and modernizing sustainable public health systems and workforce in Uganda for data science, informatics, implementation science and surveys, and surveillance for timely, accurate, and integrated data for action under PEPFAR](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0156)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Strengthening community engagement and quality improvement of HIV/AIDS services in Sierra Leone under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0177)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Strengthening comprehensive HIV and TB services and health systems in high-burden areas of Namibia under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0166)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Strengthening government capacity for implementation and management of public health systems for quality improvement, monitoring and evaluation, survey/surveillance and health information system for program sustainability in Nigeria under PEPFAR](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0169)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Strengthening national laboratory and HIV epidemiologic monitoring capacities and systems to enhance an efficient, resilient and self-reliant response to HIV, TB and related public health threats in the Kingdom of Eswatini under PEPFAR](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0188)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Strengthening the HIV treatment and care program in Sierra Leone to accelerate progress to achieve epidemic control under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0176)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Strengthening the technical and organizational capacity of the Ministry of Health to deliver an efficient, resilient and self-reliant HIV/TB response and mitigate related public health threats in the Kingdom of Eswatini under PEPFAR](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0189)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Strengthening tuberculosis (TB) prevention, diagnosis, and treatment in Southeast Asia to end TB](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0125)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Support Government of Kenya in accelerated transition of oversight and implementation of comprehensive HIV prevention and treatment programs for sustained epidemic control in the Republic of Kenya under PEPFAR](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0144)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Support Government of Kenya to sustain integrated digital health and surveillance systems for disease monitoring in the Republic of Kenya under the US President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0145)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Supporting life-saving HIV services and related health systems in Zambia on a pathway to self-reliance under the President&rsquo;s Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0179)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Supporting sustainable HIV patient and program monitoring systems in Zambia under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0180)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Supporting sustainable health systems and laboratory services in Cote d'Ivoire under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0123)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Supporting technical assistance and capacity building for public health care services in the Republic of Mozambique under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0162)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Sustaining HIV and TB epidemic control in Lesotho through health system strengthening and technical assistance under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0151)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Sustaining HIV services in Ukraine through targeted testing, treatment, prevention, and differentiated services under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0172)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Targeted strengthening of Botswana's national data, performance management and health security systems for a sustainable and government-led HIV/TB and related public health threat response under the President's Emergency Plan for AIDS Relief (PEPFAR)](https://www.grants.gov/search-results-detail/CDC-RFA-JG-26-0126)
-
-- **Organization**: Centers for Disease Control-GHC
-- **Amount**: Variable
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-
-### Centers for Medicare & Medicaid Services
-
-**1 opportunities**
-
-#### [Innovation in Behavioral Health (IBH)](https://www.grants.gov/search-results-detail/CMS-2Q2-26-001)
-
-- **Organization**: Centers for Medicare & Medicaid Services
-- **Amount**: Variable
-- **Deadline**: 06/03/2026
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-
-### DARPA - Biological Technologies Office
-
-**1 opportunities**
-
-#### [Biological Technologies](https://www.grants.gov/search-results-detail/HR001126S0003)
-
-- **Organization**: DARPA - Biological Technologies Office
-- **Amount**: Variable
-- **Deadline**: 09/30/2026
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-
-### DOT - Federal Railroad Administration
+### Bureau of Justice Assistance
 
 **3 opportunities**
 
-#### [FY24 Port of Rosedale Multimodal Expansion: Great River Railroad Restoration Project](https://www.grants.gov/search-results-detail/FR-CCD-24-010)
+#### [BJA FY 2026 Missing and Unidentified Human Remains (MUHR) Program](https://www.grants.gov/search-results-detail/364122)
 
-- **Organization**: DOT - Federal Railroad Administration
-- **Amount**: Variable
-- **Deadline**: 11/21/2025
+- **Organization**: Bureau of Justice Assistance
+- **Amount**: See grant page
+- **Deadline**: 12/02/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [FY26-National Network IIJA Supplemental Cooperative Agreement to the National Railroad Passenger Corporation](https://www.grants.gov/search-results-detail/FR-AMT-26-002)
+#### [OJP FY 2026 Integrity in American Elections Grant Program](https://www.grants.gov/search-results-detail/364097)
 
-- **Organization**: DOT - Federal Railroad Administration
-- **Amount**: Variable
-- **Deadline**: 11/18/2025
+- **Organization**: Bureau of Justice Assistance
+- **Amount**: See grant page
+- **Deadline**: 12/01/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [FY26-Northeast Corridor IIJA Supplemental Cooperative Agreement to the National Railroad Passenger Corporation](https://www.grants.gov/search-results-detail/FR-AMT-26-001)
+#### [OJP FY 2026 Special Attorneys Program Round 10](https://www.grants.gov/search-results-detail/364072)
 
-- **Organization**: DOT - Federal Railroad Administration
-- **Amount**: Variable
-- **Deadline**: 11/18/2025
+- **Organization**: Bureau of Justice Assistance
+- **Amount**: See grant page
+- **Deadline**: 10/28/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
-### DOT Federal Highway Administration 
+### DARPA - Defense Sciences Office
 
 **1 opportunities**
 
-#### [2026 Tribal Transportation Program Safety Fund](https://www.grants.gov/search-results-detail/2026TTPSF)
+#### [Young Faculty Award (YFA) 2027](https://www.grants.gov/search-results-detail/364129)
 
-- **Organization**: DOT Federal Highway Administration 
-- **Amount**: Variable
-- **Deadline**: 01/15/2026
+- **Organization**: DARPA - Defense Sciences Office
+- **Amount**: See grant page
+- **Deadline**: 01/13/2027
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+
+### DOC NOAA - ERA Production
+
+**2 opportunities**
+
+#### [FY 2027 - 2029 Broad Agency Announcement (BAA), Oceanic and Atmospheric Research (OAR)](https://www.grants.gov/search-results-detail/364130)
+
+- **Organization**: DOC NOAA - ERA Production
+- **Amount**: See grant page
+- **Deadline**: 09/30/2029
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [FY 2027 – 2029 Broad Agency Announcement (BAA), National Marine Fisheries Service](https://www.grants.gov/search-results-detail/364099)
+
+- **Organization**: DOC NOAA - ERA Production
+- **Amount**: See grant page
+- **Deadline**: 09/30/2028
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
 ### Department of Education
 
-**1 opportunities**
+**2 opportunities**
 
-#### [Office of Postsecondary Education (OPE): Fund for the Improvement of Postsecondary Education (FIPSE): Special Projects;  Assistance Listing Number (ALN) 84.116J](https://www.grants.gov/search-results-detail/ED-GRANTS-111225-001)
+#### [Institute of Education Sciences (IES): National Center for Special Education Research (NCSER): Transformative Research in Special Education, Assistance Listing Number (ALN) 84.324T](https://www.grants.gov/search-results-detail/364087)
 
 - **Organization**: Department of Education
-- **Amount**: Variable
-- **Deadline**: 12/03/2025
+- **Amount**: See grant page
+- **Deadline**: 12/11/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Institute of Education Sciences (IES): National Center on Education Research (NCER): From Seedlings to Scale, Assistance Listing Number (ALN) 84.305J](https://www.grants.gov/search-results-detail/364086)
+
+- **Organization**: Department of Education
+- **Amount**: See grant page
+- **Deadline**: 12/11/2026
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
 ### Department of Homeland Security - FEMA
 
 **2 opportunities**
 
-#### [Counter-Unmanned Aircraft Systems (C-UAS) Grant Program](https://www.grants.gov/search-results-detail/DHS-FEMA-C-UAS-161)
+#### [Fiscal Year 2026 Flood Mitigation Assistance](https://www.grants.gov/search-results-detail/364124)
 
 - **Organization**: Department of Homeland Security - FEMA
-- **Amount**: Variable
-- **Deadline**: 12/05/2025
+- **Amount**: See grant page
+- **Deadline**: 02/26/2027
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [FIFA World Cup Grant Program (FWCGP)](https://www.grants.gov/search-results-detail/DHS-FEMA-FWCGP-160)
+#### [Fiscal Year 2027 Counter Unmanned Aircraft Systems (C-UAS) Grant Program](https://www.grants.gov/search-results-detail/364067)
 
 - **Organization**: Department of Homeland Security - FEMA
-- **Amount**: Variable
-- **Deadline**: 12/05/2025
+- **Amount**: See grant page
+- **Deadline**: 11/16/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
-### Department of Housing and Urban Development
+### Environmental Protection Agency
 
 **1 opportunities**
 
-#### [FY 2025 Continuum of Care Competition and Youth Homeless Demonstration Program Grants NOFO](https://www.grants.gov/search-results-detail/FR-6900-N-25)
+#### [Southeast New England Program (SNEP) Innovative Restoration Grants](https://www.grants.gov/search-results-detail/364125)
 
-- **Organization**: Department of Housing and Urban Development
-- **Amount**: Variable
-- **Deadline**: 01/14/2026
+- **Organization**: Environmental Protection Agency
+- **Amount**: See grant page
+- **Deadline**: 12/11/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
-### Golden Field Office
+### Fish and Wildlife Service
 
 **1 opportunities**
 
-#### [Restoring Reliability: Coal Recommissioning and Modernization](https://www.grants.gov/search-results-detail/DE-FOA-0003605)
+#### [F26AS00088 Endangered Species Conservation – Wolf Livestock Loss Compensation and Prevention](https://www.grants.gov/search-results-detail/364133)
 
-- **Organization**: Golden Field Office
-- **Amount**: Variable
-- **Deadline**: 12/08/2025
+- **Organization**: Fish and Wildlife Service
+- **Amount**: See grant page
+- **Deadline**: 01/15/2027
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
-### National Energy Technology Laboratory
+### IV&V Test Agency
 
-**4 opportunities**
+**1 opportunities**
 
-#### [Improving Efficiency, Reliability, and Flexibility of Coal-Based Power Plants](https://www.grants.gov/search-results-detail/DE-FOA-0003606)
+#### [IVV-FT-OPP-10172026141319](https://www.grants.gov/search-results-detail/364105)
 
-- **Organization**: National Energy Technology Laboratory
-- **Amount**: Variable
-- **Deadline**: 01/07/2026
+- **Organization**: IV&V Test Agency
+- **Amount**: See grant page
+- **Deadline**: 10/17/2027
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Infrastructure Investment and Jobs Act (IIJA) &ndash; Mines &amp; Metals Capacity Expansion &ndash; Piloting Byproduct Critical Minerals and Materials Recovery at Domestic Industrial Facilities](https://www.grants.gov/search-results-detail/DE-FOA-0003583)
 
-- **Organization**: National Energy Technology Laboratory
-- **Amount**: Variable
-- **Deadline**: 12/15/2025
+### National Endowment for the Humanities
+
+**1 opportunities**
+
+#### [Public Humanities Projects](https://www.grants.gov/search-results-detail/364098)
+
+- **Organization**: National Endowment for the Humanities
+- **Amount**: See grant page
+- **Deadline**: 12/16/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Infrastructure Investment and Jobs Act (IIJA): Mine of the Future - Proving Ground Initiative](https://www.grants.gov/search-results-detail/DE-FOA-0003390)
 
-- **Organization**: National Energy Technology Laboratory
-- **Amount**: Variable
-- **Deadline**: 12/15/2025
+### National Institute of Justice
+
+**3 opportunities**
+
+#### [NIJ FY 2026 Research and Evaluation on Drones as First Responders](https://www.grants.gov/search-results-detail/364139)
+
+- **Organization**: National Institute of Justice
+- **Amount**: See grant page
+- **Deadline**: 11/30/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Request for Information (RFI): Accelerating Speed to Power/Winning the Artificial Intelligence Race: Federal Action to Rapidly Expand Grid Capacity and Enable Electricity Demand Growth](https://www.grants.gov/search-results-detail/DE-FOA-0003574)
+#### [NIJ FY 2026 Research and Evaluation on Violent Crime: Gangs and Organized Criminal Groups (Domestic and Transnational)](https://www.grants.gov/search-results-detail/364140)
 
-- **Organization**: National Energy Technology Laboratory
-- **Amount**: Variable
-- **Deadline**: 11/21/2025
+- **Organization**: National Institute of Justice
+- **Amount**: See grant page
+- **Deadline**: 11/30/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [NIJ FY 2026 Research on the Abuse, Neglect, and Exploitation of Elderly Individuals](https://www.grants.gov/search-results-detail/364138)
+
+- **Organization**: National Institute of Justice
+- **Amount**: See grant page
+- **Deadline**: 11/30/2026
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+
+### National Institutes of Health
+
+**29 opportunities**
+
+#### [Assessing the Feasibility of Incorporating Mechanisms in Multi-site Clinical Trials of Mind and Body Interventions on Whole Person Health Restoration (R33 Clinical Trial Required)](https://www.grants.gov/search-results-detail/359941)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 11/16/2029
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [CAPSTONE Centers for Multidisciplinary Research in Child Abuse and Neglect](https://www.grants.gov/search-results-detail/364128)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Centers for AIDS Research (CFAR) and Developmental Centers for AIDS Research (D-CFAR) (P30 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/360869)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 05/25/2029
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Coordinating Center for National Resource Network for the Study of Human Auditory and Vestibular Disorders (U24 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/361208)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 03/05/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Discovery Gateway to Reproductive Health Innovation](https://www.grants.gov/search-results-detail/364126)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Early-Onset Cancers: Investigating Etiology, Mechanisms, and Early Detection Strategies (RP1 Clinical Trials Optional)](https://www.grants.gov/search-results-detail/361438)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 10/11/2029
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Immune Tolerance Network (UM1 Clinical Trial Required)](https://www.grants.gov/search-results-detail/362946)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 01/29/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Learning Disabilities Research Centers](https://www.grants.gov/search-results-detail/364123)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Limited Competition: Biospecimen Banks to support NCI National Clinical Trials Network Biospecimen Banks (NCTN Biobanks) and the NCI Early-Phase and Experimental Clinical Trials Biospecimen Bank (EET Biobank) (U24 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/361134)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 02/11/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [NLM Institutional Grants for Research Training in Biomedical Informatics, Data Science, and AI (T15 Independent Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/361318)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 02/11/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [National Resource Network for the Study of Human Auditory and Vestibular Disorders (U24 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/361207)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 11/01/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [NextTech: Translational Development of Next-Generation Diagnostic and Therapeutic Devices (R18 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/361380)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 12/01/2030
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of Change in Application Due Date for NHLBI NOFOs PAR-25-025 and PAR-25-026](http://grants.nih.gov/grants/guide/notice-files/NOT-HL-27-002.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-HL-27-002 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of Change in Application Due Date for PAR-25-032 "NHLBI Clinical Trial Pilot Studies (R34 Clinical Trial Optional)"](http://grants.nih.gov/grants/guide/notice-files/NOT-HL-27-003.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-HL-27-003 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of Change to Funding Opportunity: BRAIN Initiative Connectivity across Scales (BRAIN CONNECTS): Specialized Projects for Scalable Technologies (U01 Clinical Trial Not Allowed)](http://grants.nih.gov/grants/guide/notice-files/NOT-NS-27-002.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-NS-27-002 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of Change: Grants Administration Information added for NCI's Participation on PA-27-036, NIH Research Education Program - Research Experiences (Parent R25 - Clinical Trial Not Allowed)](http://grants.nih.gov/grants/guide/notice-files/NOT-CA-26-019.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-CA-26-019 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of Correction to Award Information and Application and Submission Information for PA-27-037 "Predoctoral to Postdoctoral Transition Award (Parent F99/K00 - Clinical Trial Not Allowed)"](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-091.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-OD-26-091 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of FIC Participation in PA-26-002 "NIH Collaborative International Research Project (Parent PF5 Clinical Trial Optional)"](http://grants.nih.gov/grants/guide/notice-files/NOT-TW-26-002.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-TW-26-002 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of NEI Participation in PAR-27-077 NIH Science Education Partnership Award (SEPA) (R25 - Clinical Trial Not Allowed)](http://grants.nih.gov/grants/guide/notice-files/NOT-EY-27-004.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-EY-27-004 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of NHLBI Withdrawal from Participation in PA-25-305 "NIH Research Project Grant (Parent R01 Clinical Trial Required)"](http://grants.nih.gov/grants/guide/notice-files/NOT-HL-27-001.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-HL-27-001 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of NIBIB Participation in PA-27-037: Predoctoral to Postdoctoral Transition Award (Parent F99/K00 - Clinical Trial Not Allowed)](http://grants.nih.gov/grants/guide/notice-files/NOT-EB-26-005.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-EB-26-005 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of NIDCR Participation in PA-25-302, NIH Small Research Grant Program (Parent R03 Clinical Trial Not Allowed)](http://grants.nih.gov/grants/guide/notice-files/NOT-DE-27-001.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-DE-27-001 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Notice of Participation of the National Institute of Nursing Research (NINR) in PAR-27-077, "NIH Science Education Partnership Award (SEPA) (R25 - Clinical Trial Not Allowed)"](http://grants.nih.gov/grants/guide/notice-files/NOT-NR-27-001.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-NR-27-001 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Pilot and Feasibility Studies in Preparation for Substance Use and HIV Prevention Intervention and Services Research Trials (R34 Clinical Trial Optional)](https://www.grants.gov/search-results-detail/361204)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 07/16/2029
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Prevention and Treatment through a Comprehensive Care Continuum for HIV-affected Adolescents in Resource-Constrained Settings--Implementation Science Network (PATC3H-IN)](https://www.grants.gov/search-results-detail/364127)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: See website
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Single Source for the Continuation of the Physiology of the Weight Reduced State (POWERS) Study (U01- Clinical Trials Required)](https://www.grants.gov/search-results-detail/360627)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 11/17/2026
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Specialized Alcohol Research Centers (P50 Clinical trial Optional)](https://www.grants.gov/search-results-detail/361216)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 01/27/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Translational Centers Using Microphysiological Systems for Infectious Diseases (U54 Clinical Trial Not Allowed)](https://www.grants.gov/search-results-detail/362954)
+
+- **Organization**: National Institutes of Health
+- **Amount**: See grant page
+- **Deadline**: 01/29/2027
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [USG Policy for the use of Super Intelligence](http://grants.nih.gov/grants/guide/notice-files/NOT-OD-27-011.html)
+
+- **Organization**: National Institutes of Health
+- **Description**: Notice NOT-OD-27-011 from the NIH Guide for Grants and Contracts
+- **Source**: NIH (XML)
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
 ### National Science Foundation
 
 **20 opportunities**
 
-#### [Accelerating Research Translation (ART)](https://www.nsf.gov/funding/opportunities/art-accelerating-research-translation)
+#### [Astronomical Sciences Core Research (Astro-Core)](https://www.nsf.gov/funding/opportunities/astro-core-astronomical-sciences-core-research)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports institutions of higher education in building capacity, infrastructure and training to accelerate research translation, strengthen technology transfer and create sustained economic and societa...
+- **Description**: The MPS Astronomical Sciences Core Research program (Astro-Core) supports foundational research in the astronomical sciences. The program provides individual investigator and collaborative research gr...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Computer and Information Science and Engineering : Future Computing Research (Future CoRe)](https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing)
+#### [Astronomical Sciences Innovations (Astro-Innovations)](https://www.nsf.gov/funding/opportunities/astro-innovations-astronomical-sciences-innovations)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports foundational and interdisciplinary research across all aspects of computing, communication and information science and engineering to advance the future of technology, systems and human-cente...
+- **Description**: The Astronomical Sciences Innovations program (Astro-Innovations) supports a small number of larger astronomical activities. This program is formally divided into four subcategories: 1) limited-term, ...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Computing Education Research](https://www.nsf.gov/funding/opportunities/computing-education-research)
+#### [Astronomical Sciences Technology and Instrumentation (ATI)](https://www.nsf.gov/funding/opportunities/ati-astronomical-sciences-technology-instrumentation)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports innovative research and community efforts to improve computing and AI education at all levels, strengthen pathways to the future workforce and build sustainable research communities.Supports ...
+- **Description**: The Astronomical Sciences Technologies and Instrumentation (ATI) program provides individual investigator and collaborative research grants to develop new technologies and instrumentation for use in g...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Cyber-Physical System Foundations and Connected Communities (CPS)](https://www.nsf.gov/funding/opportunities/cps-cyber-physical-system-foundations-connected-communities)
+#### [Bioinnovation and Infrastructure (BI)](https://www.nsf.gov/funding/opportunities/bi-bioinnovation-infrastructure)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports foundational and community-driven research that integrates computation, physical systems and human interaction to create reliable, resilient cyber-physical systems that enhance quality of lif...
+- **Description**: Supports investigations into the functional genomic complexity of life and the development of tools, data and technologies to drive biological discovery.Supports investigations into the functional gen...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [ExLENT and ATE Supplement Opportunity “Expanding AI Career and Skilled Technical Workforce Opportunities in Support of High School Students”](https://www.nsf.gov/funding/opportunities/dcl-exlent-ate-supplement-opportunity-expanding-ai-career)
+#### [Condensed Matter and Materials Theory (CMMT)](https://www.nsf.gov/funding/opportunities/cmmt-condensed-matter-materials-theory)
 
 - **Organization**: National Science Foundation
-- **Description**: Invites supplemental funding requests from current ExLENT and ATE awardees for education-industry collaboration supporting AI-focused career and skill building learning opportunities for high school s...
+- **Description**: The Condensed Matter and Materials Theory Program supports theoretical and computational materials research in the topical areas represented by other Materials Research Programs, which include:Condens...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Expanding K-12 Resources For AI Education](https://www.nsf.gov/funding/opportunities/dcl-expanding-k-12-resources-ai-education)
+#### [Core Research in Biological Sciences (BIO Core)](https://www.nsf.gov/funding/opportunities/bio-core-core-research-biological-sciences)
 
 - **Organization**: National Science Foundation
-- **Description**: Invites supplemental funding requests to current NSF awardees in certain NSF directorates to support the expansion of K-12 resources for AI education.Invites supplemental funding requests to current N...
+- **Description**: Supports foundational and interdisciplinary research that advances understanding of biology across all levels of organization, from molecules and cells to organisms, ecosystems and biomes.Supports fou...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Foundations for Operating the National Artificial Intelligence Research Resource: the NAIRR Operations Center (NAIRR-OC)](https://www.nsf.gov/funding/opportunities/nairr-oc-foundations-operating-national-artificial-intelligence)
+#### [EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI): Wave-Based Computing (WBC) ( EFRI-WBC)](https://www.nsf.gov/funding/opportunities/efri-wbc-emerging-frontiers-research-innovation-efri-wave-based)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports the creation of an operations center to manage and expand the National AI Research Resource, providing U.S. researchers and educators sustained access to advanced AI tools, data and expertise...
+- **Description**: Supports foundational and transformative research to develop new computing approaches that harness wave dynamics, from exploratory concepts to larger multidisciplinary projects.Supports foundational a...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Incorporating Human Behavior in Epidemiological Models (IHBEM)](https://www.nsf.gov/funding/opportunities/ihbem-incorporating-human-behavior-epidemiological-models)
+#### [Engineering (ENG): Chemical, Bioengineering, Energy, and Transport Systems (CBET)](https://www.nsf.gov/funding/opportunities/engineering-eng-chemical-bioengineering-energy-transport)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports interdisciplinary research that integrates human behavior and social processes into mathematical epidemiological models to improve the accuracy and usefulness of public health interventions a...
+- **Description**: Supports foundational engineering research on chemical processes and biological systems, energy and resource management, and the transport of materials and energy across multiple scales.Supports found...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [Integrated Data Systems & Services (IDSS)](https://www.nsf.gov/funding/opportunities/idss-integrated-data-systems-services)
+#### [Expeditions in Computing (Expeditions)](https://www.nsf.gov/funding/opportunities/expeditions-expeditions-computing)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports national-scale data infrastructure that powers open, data-intensive and AI-driven research and education by funding the development, expansion and planning of integrated systems and services ...
+- **Description**: Supports large, multidisciplinary teams pursuing ambitious, long-term foundational research to drive transformative advances in computing, information science and engineering.Supports large, multidisc...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Foundations of Life (FL)](https://www.nsf.gov/funding/opportunities/fl-foundations-life)
+
+- **Organization**: National Science Foundation
+- **Description**: Supports fundamental research to understand the natural and synthetic molecules, cells and physiology that build living things.Supports fundamental research to understand the natural and synthetic mol...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Geosciences Core Research: Atmospheric, Geospace, Earth and Ocean Sciences (GEO Core)](https://www.nsf.gov/funding/opportunities/geo-core-geosciences-core-research-atmospheric-geospace-earth-ocean)
+
+- **Organization**: National Science Foundation
+- **Description**: Supports foundational research across the geosciences, including Earth's atmosphere and near-Earth space environment, solid Earth and surface processes, and the oceans.Supports foundational research a...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Living Systems (LS)](https://www.nsf.gov/funding/opportunities/ls-living-systems)
+
+- **Organization**: National Science Foundation
+- **Description**: Supports investigation of how species evolve, interact and shape Earth's biodiverse ecosystems.Supports investigation of how species evolve, interact and shape Earth's biodiverse ecosystems.
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [MPS Astronomical Sciences Research Programs (MPS Astro)](https://www.nsf.gov/funding/opportunities/mps-astro-mps-astronomical-sciences-research-programs)
+
+- **Organization**: National Science Foundation
+- **Description**: The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs in the astronomical sciences. NSF MPS funds foundational astronomi...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [MPS Chemistry Research Programs (MPS Chem)](https://www.nsf.gov/funding/opportunities/mps-chem-mps-chemistry-research-programs)
+
+- **Organization**: National Science Foundation
+- **Description**: The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports foundational research through multiple programs in the chemical sciences.Programs include:Che...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [MPS Materials Research Programs (MPS Materials)](https://www.nsf.gov/funding/opportunities/mps-materials-mps-materials-research-programs)
+
+- **Organization**: National Science Foundation
+- **Description**: The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple materials research programs that advance fundamental understanding of materials, the...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [MPS Mathematical Sciences Research Programs (MPS MathSci)](https://www.nsf.gov/funding/opportunities/mps-mathsci-mps-mathematical-sciences-research-programs)
+
+- **Organization**: National Science Foundation
+- **Description**: The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs at the frontiers of discovery in theoretical and applied mathemati...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [MPS Physics Research Programs (MPS Physics)](https://www.nsf.gov/funding/opportunities/mps-physics-mps-physics-research-programs)
+
+- **Organization**: National Science Foundation
+- **Description**: The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs at the frontiers of discovery in physics. Physics research support...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Mathematical Sciences Focused Research Groups (MS-FRG)](https://www.nsf.gov/funding/opportunities/ms-frg-mathematical-sciences-focused-research-groups)
+
+- **Organization**: National Science Foundation
+- **Description**: Program Information:NSF MPS supports projects submitted by collaborative groups proposing to employ innovative methods to solve specific, major challenges in mathematics and statistics. Proposals shou...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
+
+#### [Mathematical Sciences Research Training Groups (MS-RTG)](https://www.nsf.gov/funding/opportunities/ms-rtg-mathematical-sciences-research-training-groups)
+
+- **Organization**: National Science Foundation
+- **Description**: Program Information:The long-range goal of the Research Training Groups in the Mathematical Sciences program is to strengthen the nation's scientific competitiveness by increasing the number of people...
+- **Source**: NSF (RSS)
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 #### [NSF Graduate Research Fellowship Program (GRFP)](https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program)
 
 - **Organization**: National Science Foundation
-- **Description**: Supports fellowships for outstanding graduate students who are pursuing full-time, research-based masters and doctoral degrees in science, technology, engineering or math (STEM), including education.S...
+- **Description**: Supports outstanding graduate students in NSF-supported science, technology, engineering, and mathematics (STEM) disciplines who are pursuing research-based master's and doctoral degrees at accredited...
 - **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
-#### [NSF National Innovation Corps Teams (NSF National I-Corps (TM) Teams) program](https://www.nsf.gov/funding/opportunities/nsf-national-innovation-corps-teams-nsf-national-i-corps-tm)
 
-- **Organization**: National Science Foundation
-- **Description**: Supports NSF-funded researchers with entrepreneurial training, mentoring and funding to accelerate the translation of technologies from foundational research into emerging products, processes and serv...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+### Office for Victims of Crime
 
-#### [NSF STEM K-12 (STEM K-12)](https://www.nsf.gov/funding/opportunities/stem-k-12-nsf-stem-k-12)
+**1 opportunities**
 
-- **Organization**: National Science Foundation
-- **Description**: Supports research and development to advance STEM teaching and learning in K-12 formal and informal settings, leveraging AI and emerging technologies to build knowledge, create tools and strengthen th...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+#### [OVC and OVW FY 2026 Victim Services for Angel Families Program – Invited Notice of Funding Opportunity](https://www.grants.gov/search-results-detail/364143)
 
-#### [NSF-UKRI/EPSRC Lead Agency Opportunity on Understanding and Exploiting Quantum Information in Chemical Systems](https://www.nsf.gov/funding/opportunities/dcl-nsf-ukriepsrc-lead-agency-opportunity-understanding-0)
-
-- **Organization**: National Science Foundation
-- **Description**: Invites collaborative U.S.-U.K. research proposals focused on advancing quantum information science in chemical systems, promoting transatlantic partnerships by allowing a single submission and merit ...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [National Science Foundation Translation to Practice (NSF TTP)](https://www.nsf.gov/funding/opportunities/nsf-ttp-national-science-foundation-translation-practice)
-
-- **Organization**: National Science Foundation
-- **Description**: Supports use-inspired research, translational activities and partnerships that turn scientific discoveries into real-world solutions. Researchers can gain market insights, launch commercial applicatio...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Smart Health and Biomedical Research in the Era of Artificial Intelligence and Advanced Data Science (SCH)](https://www.nsf.gov/funding/opportunities/sch-smart-health-biomedical-research-era-artificial-intelligence)
-
-- **Organization**: National Science Foundation
-- **Description**: Supports high-risk, high-reward interdisciplinary research that combines computing, engineering, data science and behavioral and cognitive sciences to tackle biomedical and public health challenges an...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Supplemental Funding Requests to Support K-12 Artificial Intelligence Teams for the Presidential AI Challenge through Community-based Partnerships](https://www.nsf.gov/funding/opportunities/dcl-supplemental-funding-requests-support-k-12-artificial)
-
-- **Organization**: National Science Foundation
-- **Description**: Invites supplemental funding requests from current awardees in the Directorate for STEM Education to support the Presidential Initiative on Advancing Artificial Intelligence Education for American You...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Test Bed: Toward a Network of Programmable Cloud Laboratories (PCL Test Bed)](https://www.nsf.gov/funding/opportunities/pcl-test-bed-test-bed-toward-network-programmable-cloud-laboratories)
-
-- **Organization**: National Science Foundation
-- **Description**: Supports the development and operation of a national network of AI-powered, remotely accessible laboratories to accelerate scientific discovery, enhance reproducibility and improve access to advanced ...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [The Research on Research Security Program (RoRS)](https://www.nsf.gov/funding/opportunities/rors-research-research-security-program)
-
-- **Organization**: National Science Foundation
-- **Description**: Supports interdisciplinary, evidence-based research to enhance understanding of security risks, practices and policies to safeguard the U.S. research enterprise and foster a strong academic field in r...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [U.S.-UK Center-to-Centre Collaboration Opportunities for Artificial Intelligence and Quantum Information Science and Technology](https://www.nsf.gov/funding/opportunities/dcl-us-uk-center-centre-collaboration-opportunities-artificial)
-
-- **Organization**: National Science Foundation
-- **Description**: Encourages supplemental funding requests from current awardees of large-scale NSF investments in the areas of AI and quantum information science and technology (QIST) to facilitate collaboration with ...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Verticals-enabling Intelligent Network Systems (VINES)](https://www.nsf.gov/funding/opportunities/vines-verticals-enabling-intelligent-network-systems)
-
-- **Organization**: National Science Foundation
-- **Description**: Supports research and innovation to enhance wireless communications and intelligent network systems for faster, more reliable user-to-cloud connections, while promoting U.S. leadership in telecommunic...
-- **Source**: NSF (RSS)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Organization**: Office for Victims of Crime
+- **Amount**: See grant page
+- **Deadline**: 11/16/2026
+- **Description**: See grant page
+- **Source**: Grants.gov (API)
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
 ### Rural Utilities Service
 
-**3 opportunities**
+**1 opportunities**
 
-#### [Rural Decentralized Water System Grant Program](https://www.grants.gov/search-results-detail/RDRUS-26-DWS)
-
-- **Organization**: Rural Utilities Service
-- **Amount**: Variable
-- **Deadline**: 12/01/2025
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Solid Waste Management Grant Program](https://www.grants.gov/search-results-detail/SWMFY26)
+#### [Affordable Rural Cooperative (ARC) Energy Program](https://www.grants.gov/search-results-detail/363779)
 
 - **Organization**: Rural Utilities Service
-- **Amount**: Variable
-- **Deadline**: 12/31/2025
+- **Amount**: See grant page
+- **Deadline**: 11/20/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
-
-#### [Technical Assistance and Training Grant Program](https://www.grants.gov/search-results-detail/TAT-FY26)
-
-- **Organization**: Rural Utilities Service
-- **Amount**: Variable
-- **Deadline**: 12/31/2025
-- **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 
-### United States Coast Guard 
+### Small Business Administration
 
 **1 opportunities**
 
-#### [State Recreational Boating Safety (RBS) Grant Program](https://www.grants.gov/search-results-detail/DHS-USCG-STATE-2026)
+#### [FY27 Small Business Development Center State of Kansas Network Rebid](https://www.grants.gov/search-results-detail/364132)
 
-- **Organization**: United States Coast Guard 
-- **Amount**: Variable
-- **Deadline**: 12/17/2025
+- **Organization**: Small Business Administration
+- **Amount**: See grant page
+- **Deadline**: 11/19/2026
+- **Description**: See grant page
 - **Source**: Grants.gov (API)
-- **Collected**: November 16, 2025 at 07:18 UTC
+- **Collected**: October 26, 2026 at 12:32 UTC
 
 

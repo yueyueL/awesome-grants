@@ -6,7 +6,7 @@ parent: Resources
 permalink: /docs/search-guide
 ---
 
-# 🔎 Search & Filter Guide
+# Search & Filter Guide
 
 Learn how to find exactly the grants you need.
 
@@ -14,14 +14,10 @@ Learn how to find exactly the grants you need.
 
 ### 1. By Career Stage
 
-**I'm a graduate student**
-→ Go to [Students & PhD](../audience/students/README.md)
-
-**I'm a postdoc**
-→ Go to [Postdocs & ECRs](../audience/postdocs/README.md)
-
-**I'm faculty**
-→ Go to [Faculty & PI](../audience/faculty/README.md)
+Grants for every career stage — graduate students, postdocs, faculty, OSS
+maintainers — appear throughout the listings. Use your browser's search
+(Ctrl+F / Cmd+F) with terms like "fellowship", "postdoc", or "CAREER" to
+narrow down.
 
 ### 2. By Organization
 
@@ -37,12 +33,12 @@ Learn how to find exactly the grants you need.
 ### 3. By Amount
 
 **Looking for small grants (<$10k)**
-- Browse [Microgrants](../types/README.md#microgrants)
+- Search the listings for "microgrant"
 - Check foundation grants
 
 **Looking for large grants (>$100k)**
-- Browse [Research Project Grants](../types/README.md#research-project-grants)
 - Check federal agencies (NSF, NIH)
+- Search for "research project"
 
 ### 4. By Keyword
 
@@ -55,21 +51,21 @@ Use your browser's search function (Ctrl+F / Cmd+F) and search for:
 
 ### Example 1: Postdoc + US + Biology
 
-1. Start at [Postdocs & ECRs](../audience/postdocs/README.md)
+1. Open [By Organization](../organizations/README.md)
 2. Use Ctrl+F to search for "biology" or "life sciences"
 3. Check grant location/eligibility
 
 ### Example 2: OSS + Small Grants + Open Internet
 
-1. Go to [OSS Maintainers](../audience/oss/README.md)
-2. Look in [Microgrants](../types/README.md#microgrants) section
-3. Search for "internet", "open source", "web"
+1. Open the [Live Dashboard](./live-dashboard.md)
+2. Search for "internet", "open source", "web"
+3. Check foundation sources for microgrants
 
 ### Example 3: Faculty + Europe + Engineering
 
-1. Start at [Faculty & PI](../audience/faculty/README.md)
-2. Filter by [EU / Horizon](../regions/eu/README.md)
-3. Search for "engineering" or specific field
+1. Open [By Organization](../organizations/README.md)
+2. Search for "engineering" or your specific field
+3. Check each grant's regional eligibility
 
 ## Advanced Tips
 
@@ -77,7 +73,7 @@ Use your browser's search function (Ctrl+F / Cmd+F) and search for:
 
 Open multiple views:
 1. Tab 1: [By Organization](../organizations/README.md) - Browse all NSF
-2. Tab 2: [By Audience](../audience/README.md) - Your career stage
+2. Tab 2: [Data Sources](./data-sources.md) - Browse by origin
 3. Tab 3: [Live Dashboard](./live-dashboard.md) - Latest opportunities
 
 Compare across tabs to find matches.
@@ -106,11 +102,8 @@ If viewing on GitHub or using a capable editor, use regex search:
 ### By Category
 | Category | Best For | Link |
 |----------|----------|------|
-| **Audience** | Career stage | [View](../audience/README.md) |
-| **Region** | Geographic location | [View](../regions/README.md) |
 | **Organization** | Specific funder | [View](../organizations/README.md) |
-| **Type** | Grant mechanism | [View](../types/README.md) |
-| **Domain** | Research area | [View](../domains/README.md) |
+| **Source** | Data origin | [View](./data-sources.md) |
 | **Live Dashboard** | Latest grants | [View](./live-dashboard.md) |
 
 ### By Grant Type
@@ -123,19 +116,19 @@ If viewing on GitHub or using a capable editor, use regex search:
 ## Common Searches
 
 **"I need money for my PhD"**
-→ [Students & PhD](../audience/students/README.md) → Fellowships
+→ Search the listings for "fellowship" and "graduate"
 
 **"I need postdoc funding"**
-→ [Postdocs & ECRs](../audience/postdocs/README.md) → Look for "fellowship"
+→ Search the listings for "postdoc" and "fellowship"
 
 **"I need project funding for my lab"**
-→ [Faculty & PI](../audience/faculty/README.md) → Research grants
+→ Browse [By Organization](../organizations/README.md) → federal agencies
 
 **"I need money for my open source project"**
-→ [OSS Maintainers](../audience/oss/README.md)
+→ Search the listings for "open source"
 
 **"I need travel money for a conference"**
-→ [By Type](../types/README.md#travel-grants--conference-grants)
+→ Search the listings for "travel"
 
 ## Still Can't Find It?
 

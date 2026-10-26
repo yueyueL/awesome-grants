@@ -1,0 +1,48 @@
+{
+  "scraped_at": "2026-10-26T12:32:41.972942",
+  "total_grants": 82,
+  "successful_sources": 3,
+  "failed_sources": 0,
+  "sources": {
+    "NSF RSS Feed": {
+      "status": "success",
+      "count": 20,
+      "error": null
+    },
+    "Grants.gov API": {
+      "status": "success",
+      "count": 50,
+      "error": null
+    },
+    "NIH": {
+      "status": "success",
+      "count": 12,
+      "error": null
+    },
+    "Sloan Foundation": {
+      "status": "empty",
+      "count": 0,
+      "error": null
+    },
+    "Mozilla Foundation": {
+      "status": "empty",
+      "count": 0,
+      "error": null
+    },
+    "NLnet": {
+      "status": "empty",
+      "count": 0,
+      "error": null
+    },
+    "Prototype Fund": {
+      "status": "empty",
+      "count": 0,
+      "error": null
+    },
+    "Wellcome Trust": {
+      "status": "empty",
+      "count": 0,
+      "error": null
+    }
+  }
+}
